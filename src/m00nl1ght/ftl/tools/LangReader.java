@@ -64,11 +64,13 @@ public class LangReader {
                 keys.put(entry.key, entry);
             } else {
                 if (this.lang_id.isEmpty()) {
-                    if (!entry.value.isEmpty() && entry.file.endsWith("append")) {
-                        return;
+                    if (entry.value.isEmpty() || entry.file.equals(this.file.getName()) || this.file.getName().contains("append")) {
+                        if (!entry.value.equals(text)) {
+                            System.out.println(entry+": "+entry.value+" -> "+text+" f:"+this.file.getName());
+                            entry.value = text;
+                        }
                     }
-                    entry.value = text;
-                    entry.file = this.file.getName();
+                    //entry.file += "|" + this.file.getName();
                 } else {
                     entry.translation = text;
                 }

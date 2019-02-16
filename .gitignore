@@ -1,0 +1,7 @@
+/.idea/*
+/ce_build/*
+/ce_relevant/*
+/dat_relevant/*
+/out/*
+/run/*
+*.iml

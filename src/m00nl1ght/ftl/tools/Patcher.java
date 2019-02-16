@@ -3,6 +3,7 @@ package m00nl1ght.ftl.tools;
 import java.io.*;
 import java.nio.file.Files;
 import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 
 public class Patcher {
@@ -10,26 +11,37 @@ public class Patcher {
     private final File source;
     private final File dest;
 
+    private final List<String> TAGS;
+    private final List<String> DATA_TAGS;
+    private final String TARGET_FILE;
     private String line = null;
     private String name = null;
     private int id = 0;
-    private TagState tag = TagState.NONE;
+    private String tagType = "";
     private BufferedWriter writer;
-    private Map<String, Editor.LangEntry> keys = new LinkedHashMap<>(); // text -> key
+    private Map<String, Editor.LangEntry> existing_keys = new LinkedHashMap<>(); // text -> key
+    private Map<String, Editor.LangEntry> MAP;
 
     public int duplicates = 0;
 
-    public Patcher(File source, File dest) {
+    public Patcher(File source, File dest, String target_file, List<String> tags, List<String> data_tags) {
         this.source = source;
         this.dest = dest;
+        this.TAGS = tags;
+        this.TARGET_FILE = target_file;
+        this.DATA_TAGS = data_tags;
     }
 
     public void patch(Map<String, Editor.LangEntry> MAP) throws IOException {
 
-        MAP.forEach((key, langEntry) -> keys.put(langEntry.value, langEntry));
+        this.MAP=MAP;
+        existing_keys.clear();
+        MAP.forEach((key, langEntry) -> {
+            if (langEntry.file.equals(TARGET_FILE)) existing_keys.put(langEntry.value, langEntry);
+        });
 
         for(File src : source.listFiles()) {
-            System.out.println("Patching file "+src.getName()+" ...");
+            System.out.println("Patching file ["+src.getName()+"] for target ["+TARGET_FILE+"] ...");
             File file = new File(dest, src.getName());
             file.delete();
             file.createNewFile();
@@ -38,40 +50,20 @@ public class Patcher {
             Files.lines(src.toPath()).forEachOrdered(this::processLine);
             writer.close();
             fos0.close();
-            line = null; name = null; id = 0; tag = TagState.NONE;
+            line = null; name = null; id = 0; tagType = "";
         }
 
-        keys.forEach((text, langEntry) -> MAP.put(langEntry.key, langEntry));
+        System.out.println("Files sucessfully patched for target ["+TARGET_FILE+"].");
 
-        System.out.println("Files sucessfully patched.");
-
-    }
-
-    private enum TagState {
-        NONE, EVENT_LIST, EVENT, TEXT_LIST
     }
 
     private void processLine(String in) {
         try {
             line = in;
-            switch (tag) {
-                case NONE:
-                    if (readTagIfPresent("<eventList ", TagState.EVENT_LIST)) break;
-                    if (readTagIfPresent("<event ", TagState.EVENT)) break;
-                    if (readTagIfPresent("<textList ", TagState.TEXT_LIST)) break;
-                    break;
-                case EVENT_LIST:
-                    if (readEndIfPresent("</eventList>")) break;
-                    readTextTagIfPresent();
-                    break;
-                case EVENT:
-                    if (readEndIfPresent("</event>")) break;
-                    readTextTagIfPresent();
-                    break;
-                case TEXT_LIST:
-                    if (readEndIfPresent("</textList>")) break;
-                    readTextTagIfPresent();
-                    break;
+            if (tagType.isEmpty()) {
+                readTagIfPresent();
+            } else if (!readEndIfPresent()) {
+                readTextTagIfPresent();
             }
             writer.write(line);
             writer.newLine();
@@ -80,23 +72,25 @@ public class Patcher {
         }
     }
 
-    private boolean readTagIfPresent(String prefix, TagState type) {
-        if (line.startsWith(prefix)) {
-            int i = prefix.length();
-            while (line.charAt(i) != '"') {i++;}
-            int j = i;
-            while (line.charAt(j + 1) != '"') {j++;}
-            tag = type;
-            name = line.substring(i + 1, j + 1);
-            id = 0;
-            return true;
+    private boolean readTagIfPresent() {
+        for (String prefix : TAGS) {
+            if (line.startsWith("<"+prefix+" ")) {
+                int i = prefix.length()+2;
+                while (line.charAt(i) != '"') {i++;}
+                int j = i;
+                while (line.charAt(j + 1) != '"') {j++;}
+                tagType = prefix;
+                name = line.substring(i + 1, j + 1);
+                id = 0;
+                return true;
+            }
         }
         return false;
     }
 
-    private boolean readEndIfPresent(String suffix) {
-        if (line.startsWith(suffix)) {
-            tag = TagState.NONE;
+    private boolean readEndIfPresent() {
+        if (line.startsWith("</"+tagType+">")) {
+            tagType = "";
             name = null;
             id = 0;
             return true;
@@ -105,9 +99,14 @@ public class Patcher {
     }
 
     private boolean readTextTagIfPresent() {
-        int tabs = line.indexOf("<text");
+        int tabs = -1;
+        String tag = "";
+        for(String t : DATA_TAGS) {
+            tabs = line.indexOf("<"+t);
+            if (tabs>=0) {tag=t; break;}
+        }
         if (tabs<0) return false;
-        int end = line.indexOf("</text>");
+        int end = line.indexOf("</"+tag+">");
         if (end>tabs) {
             for (int i = 0; i < tabs; i++) {
                 if (!Character.isWhitespace(line.charAt(i))) {
@@ -118,14 +117,25 @@ public class Patcher {
             int pre_idx = line.indexOf('>');
             String pre = line.substring(0, pre_idx);
             String text = line.substring(pre_idx + 1, end);
-            String post = line.length() > end + 7 ? line.substring(end + 7) : "";
-            Editor.LangEntry entry = keys.get(text);
+            if (text.length()<=5) {
+                try {
+                    Float.parseFloat(text);
+                    return false;
+                } catch (Exception ignored) {}
+            }
+            String post = line.length() > end + 3 +tag.length() ? line.substring(end + 3 + tag.length()) : "";
+            Editor.LangEntry entry = existing_keys.get(text);
             if (entry == null) {
                 entry = new Editor.LangEntry();
-                entry.key = generateKey();
+                entry.key = generateKey(tag);
                 entry.value = text;
-                entry.file = "text_events.xml.append";
-                keys.put(entry.value, entry);
+                entry.file = TARGET_FILE+".append";
+                while (MAP.get(entry.key)!=null) {
+                    System.out.println("["+TARGET_FILE+"] Existing key: "+entry.key);
+                    entry.key += "x";
+                }
+                existing_keys.put(entry.value, entry);
+                MAP.put(entry.key, entry);
                 id++;
             } else {
                 duplicates++;
@@ -136,23 +146,14 @@ public class Patcher {
         return false;
     }
 
-    private String generateKey() {
-        String key = "ce_event_";
-        switch (tag) {
-            case NONE:
-                throw new IllegalStateException();
-            case EVENT_LIST:
-                key += name;
-                key += "_" + (id + 1);
-                break;
-            case EVENT:
-                key += name;
-                key += "_" + (id + 1);
-                break;
-            case TEXT_LIST:
-                key += name;
-                key += "_" + (id + 1);
-                break;
+    private String generateKey(String tag) {
+        if (tagType.isEmpty()) throw new IllegalStateException();
+        String key = "ce_"+tagType+"_";
+        key += name;
+        if (tag.equals("text")) {
+            key += "_" + (id + 1);
+        } else {
+            key+="_"+tag;
         }
         return key;
     }

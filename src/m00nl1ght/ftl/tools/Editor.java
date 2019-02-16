@@ -12,14 +12,16 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Editor extends Application {
 
-    static final Patcher EVENT_PATCHER = new Patcher(new File("./patcher_in/"), new File("./patcher_out/"));
+    static final Patcher EVENT_PATCHER = new Patcher(new File("./patcher_in/"), new File("./patcher_out/"),"text_events.xml",
+            Arrays.asList("eventList", "event", "textList"),
+            Arrays.asList("text"));
+    static final Patcher BLUEPRINT_PATCHER = new Patcher(new File("./patcher_in/"), new File("./patcher_out/"),"text_blueprints.xml",
+            Arrays.asList("systemBlueprint", "weaponBlueprint", "crewBlueprint", "augBlueprint", "droneBlueprint", "shipBlueprint"),
+            Arrays.asList("desc", "tooltip", "unlock", "power", "title", "short"));
     static final List<LangReader> LANG_IN = new ArrayList<>();
     static final File LANG_IN_DIR = new File("./lang_in/");
     static final File LANG_OUT_DIR = new File("./lang_out/");
@@ -91,6 +93,7 @@ public class Editor extends Application {
                 reader.read(MAP);
             }
             EVENT_PATCHER.patch(MAP);
+            BLUEPRINT_PATCHER.patch(MAP);
             new LangReader(new File("text-de.xml"), "de").read(MAP);
             for (LangEntry e : MAP.values()) {
                 if ((e.key.startsWith("ship_") && e.key.endsWith("_class"))) {
@@ -121,6 +124,7 @@ public class Editor extends Application {
                 new LangWriter(new File(LANG_OUT_DIR, reader.file.getName()), reader.lang_id).write(MAP);
             }
             new LangWriter(new File("text_events.xml.append")).write(MAP);
+            new LangWriter(new File("text_blueprints.xml.append")).write(MAP);
             new LangWriter(new File("text-de.xml"), "de").write(MAP);
         } catch (IOException e) {
             throw new RuntimeException(e);
