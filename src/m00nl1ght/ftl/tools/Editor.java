@@ -53,7 +53,7 @@ public class Editor extends Application {
         box.setSpacing(10);
 
         Button btnSave = new Button("Save");
-        btnSave.setOnAction(event -> this.save());
+        btnSave.setOnAction(event -> this.save(btnSave));
 
         box.getChildren().addAll(btnSave);
 
@@ -95,11 +95,6 @@ public class Editor extends Application {
             EVENT_PATCHER.patch(MAP);
             BLUEPRINT_PATCHER.patch(MAP);
             new LangReader(new File("text-de.xml"), "de").read(MAP);
-            for (LangEntry e : MAP.values()) {
-                if ((e.key.startsWith("ship_") && e.key.endsWith("_class"))) {
-                    e.translation = e.value;
-                }
-            }
             this.info();
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -118,7 +113,9 @@ public class Editor extends Application {
         System.out.println("Results: "+MAP.size()+" entries, "+no_eng+" missing values and "+no_de+" missing translations.");
     }
 
-    public void save() {
+    public void save(Button btnSave) {
+        btnSave.textProperty().setValue("...");
+        btnSave.disableProperty().setValue(true);
         try {
             for (LangReader reader : LANG_IN) {
                 new LangWriter(new File(LANG_OUT_DIR, reader.file.getName()), reader.lang_id).write(MAP);
@@ -129,6 +126,8 @@ public class Editor extends Application {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+        btnSave.textProperty().setValue("Save");
+        btnSave.disableProperty().setValue(false);
     }
 
 }

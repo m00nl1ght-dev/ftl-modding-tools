@@ -131,7 +131,7 @@ public class Patcher {
                 entry.value = text;
                 entry.file = TARGET_FILE+".append";
                 while (MAP.get(entry.key)!=null) {
-                    System.out.println("["+TARGET_FILE+"] Existing key: "+entry.key);
+                    //System.out.println("["+TARGET_FILE+"] Existing key: "+entry.key);
                     entry.key += "x";
                 }
                 existing_keys.put(entry.value, entry);
