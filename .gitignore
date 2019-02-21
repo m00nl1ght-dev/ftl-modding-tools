@@ -4,4 +4,5 @@
 /dat_relevant/*
 /out/*
 /run/*
+!/run/text-de.xml
 *.iml
