@@ -3748,7 +3748,7 @@
 <text name="event_HELP_MINERS_1_3_text" language="de">Sie bedanken sich und bieten dir an, ihre Ingenieure deinen Reaktor verbessern zu lassen.</text>
 <text name="event_HELP_MINERS_2_1_text" language="de">"Wow. Das wird uns wirklich weiterhelfen. Ich schaue mal, was ich für Sie auftreiben kann." Sie überlassen dir etwas Schrott und reparieren einen Teil deiner Hülle.</text>
 <text name="event_HELP_MINERS_2_2_text" language="de">"Wow. Das wird uns wirklich weiterhelfen." Sie bieten an, dein Schiff zu reparieren und den Reaktor zu verbessern.</text>
-<text name="event_HELP_MINERS_2_3_text" language="de">"Wow. Das wird uns wirklich weiterhelfen. Was kann ich Ihnen nur dafür anbieten ...?" Nach einer Weile schicken sie dir einen Ausbau für dein Schiff.</text>
+<text name="event_HELP_MINERS_2_3_text" language="de">"Wow. Das wird uns wirklich weiterhelfen. Was kann ich Ihnen nur dafür anbieten..." Nach einer Weile schicken sie dir eine Erweiterung für dein Schiff.</text>
 <text name="event_HELP_MINERS_c1_c1_choice" language="de">Ihnen die 5 geforderten Raketen überlassen.</text>
 <text name="event_HELP_MINERS_c1_c2_choice" language="de">Ihnen 15 Raketen überlassen.</text>
 <text name="event_HELP_MINERS_c1_c3_choice" language="de">Ablehnen.</text>
@@ -3766,17 +3766,17 @@
 <text name="event_HIGH_SCAN_TERRAFORMING_3_c1_choice" language="de">Ihnen sagen, dass sie aufhören sollen. Alle Lebewesen sind wertvoll.</text>
 <text name="event_HIGH_SCAN_TERRAFORMING_3_c1_text" language="de">"Aber wir sind von diesem Job abhängig! Wen kümmert schon ein komischer Pilz? Wir zahlen Ihnen auch was, wenn Sie wegschauen!"</text>
 <text name="event_HIGH_SCAN_TERRAFORMING_3_c2_choice" language="de">Sie ihre Arbeit machen lassen.</text>
-<text name="event_HIGH_SCAN_TERRAFORMING_3_text" language="de">Ein kompletter Scan des Planeten ergibt, dass ein einfacher Pilz die einzige Lebensform ist. Die Terraformer erklären dir, dass intelligentes Leben sie nur bei ihrer Arbeit behindert. Hier können sie sofort loslegen.</text>
+<text name="event_HIGH_SCAN_TERRAFORMING_3_text" language="de">Ein kompletter Scan des Planeten ergibt, dass die einzige Lebensform hier ein einfacher Pilz ist. Die Terraformer erklären dir, dass nur intelligentes Leben sie bei ihrer Arbeit behindert. Hier können sie sofort loslegen.</text>
 <text name="event_NORMAL_SCAN_TERRAFORMING_1_text" language="de">Anscheinend sind deine Sensoren nicht stärker als die des Terraformers. Du entschuldigst dich und fliegst weiter.</text>
 <text name="event_NORMAL_SCAN_TERRAFORMING_2_text" language="de">Du findest heraus, dass du, wenn du das Rückkopplungssignal deiner Sensoren auf die richtige Frequenz einstellst, die Atmosphäre durchdringen und einen vollständigen Scan durchführen kannst.</text>
 <text name="event_PIRATE_SALESMAN_c1_choice" language="de">Das Schiff rufen.</text>
 <text name="event_PIRATE_SALESMAN_c2_choice" language="de">Das Schiff angreifen, bevor es dich angreift!</text>
-<text name="event_PIRATE_SALESMAN_c3_choice" language="de">Schnell alles auf den Sprung vorbereiten.</text>
+<text name="event_PIRATE_SALESMAN_c3_choice" language="de">Schnell alles für den Sprung vorbereiten.</text>
 <text name="event_PIRATE_SALESMAN_text" language="de">Ein Schiff mit auffälliger Piratenkennung umkreist einen Mond in der Nähe und sendet die einfache Nachricht, dass es Ausrüstung zum Verkauf bietet.</text>
 <text name="event_QUEST_CONSTRUCTIONYARD_LIST_1_c1_choice" language="de">Die Rebellen angreifen, damit das Frachtschiff fliehen kann.</text>
-<text name="event_QUEST_CONSTRUCTIONYARD_LIST_1_c1_text" language="de">Du näherst dich, um das Rebellenschiff anzugreifen, das den Frachter bedroht. Scanner erkennen Zielerfassungen von einem Schiffsabwehrgeschütz aus. Gleich wird es hektisch!</text>
+<text name="event_QUEST_CONSTRUCTIONYARD_LIST_1_c1_text" language="de">Du näherst dich, um das Rebellenschiff anzugreifen, das den Frachter bedroht. Die Scanner erkennen ASB-Zielerfassungen. Gleich wird es hektisch!</text>
 <text name="event_QUEST_CONSTRUCTIONYARD_LIST_1_c2_choice" language="de">Verschwinden.</text>
-<text name="event_QUEST_CONSTRUCTIONYARD_LIST_1_c2_text" language="de">Du entschuldigst dich, denn ein Angriff auf die Rebellenstation ist das Risiko nicht wert.</text>
+<text name="event_QUEST_CONSTRUCTIONYARD_LIST_1_c2_text" language="de">Du entschuldigst dich, ein Angriff auf die Rebellenstation ist das Risiko nicht wert.</text>
 <text name="event_QUEST_CONSTRUCTIONYARD_LIST_1_text" language="de">Du findest das Frachtschiff angedockt an einer Rebellenstation. Du schickst eine Kurznachricht und erfährst, dass es gegen seinen Willen festgehalten und gezwungen wird, "seine Waren für Kriegsanstrengungen zu spenden."</text>
 <text name="event_QUEST_CONSTRUCTIONYARD_LIST_2_c1_choice" language="de">Dich nähern, um die Station zu untersuchen.</text>
 <text name="event_QUEST_CONSTRUCTIONYARD_LIST_2_c2_choice" language="de">In der Nähe des Signalpunkts bleiben.</text>
@@ -3787,15 +3787,15 @@
 <text name="event_QUEST_CONSTRUCTIONYARD_LIST_3_c2_choice" language="de">Ihnen 1 Treibstoff geben.</text>
 <text name="event_QUEST_CONSTRUCTIONYARD_LIST_3_c2_text" language="de">"Nun, das ist besser als nichts. Vielen Dank. Hoffentlich finden wir am nächsten Signalpunkt eine Station.</text>
 <text name="event_QUEST_CONSTRUCTIONYARD_LIST_3_c3_choice" language="de">Ihnen nichts geben.</text>
-<text name="event_QUEST_CONSTRUCTIONYARD_LIST_3_c3_text" language="de">"Verstehe ..."</text>
-<text name="event_QUEST_CONSTRUCTIONYARD_LIST_3_text" language="de">Du findest das verlassene Frachtschiff in der Nähe des Signalpunkts. "Dem Himmel sei Dank! Wir sind hergetrieben, nachdem wir mit dem letzten Treibstoff vor einem Piratenüberfall geflohen sind."</text>
+<text name="event_QUEST_CONSTRUCTIONYARD_LIST_3_c3_text" language="de">"Ich verstehe..."</text>
+<text name="event_QUEST_CONSTRUCTIONYARD_LIST_3_text" language="de">Du findest das verlassene Frachtschiff in der Nähe des Signalpunkts. "Dem Himmel sei Dank! Wir sind hergetrieben, nachdem wir mit unserem letzten Treibstoff vor einem Piratenüberfall geflohen sind."</text>
 <text name="event_QUEST_CONSTRUCTIONYARD_c1_choice" language="de">Deine Hilfe anbieten.</text>
-<text name="event_QUEST_CONSTRUCTIONYARD_c1_text" language="de">"Großartig. Vielen Dank für Ihre Hilfe. Ich habe die letzten bekannten Koordinaten markiert und einige Vorräte zu Ihnen geschickt, damit Sie dort hingelangen."</text>
+<text name="event_QUEST_CONSTRUCTIONYARD_c1_text" language="de">"Großartig. Vielen Dank für Ihre Hilfe. Ich habe die letzten bekannten Koordinaten markiert und Ihnen einige Vorräte geschickt."</text>
 <text name="event_QUEST_CONSTRUCTIONYARD_c2_choice" language="de">Ablehnen.</text>
 <text name="event_QUEST_CONSTRUCTIONYARD_c2_text" language="de">"Verstanden." Die Übertragung wird beendet.</text>
 <text name="event_QUEST_CONSTRUCTIONYARD_c3_c1_c1_c0_clone" language="de">Deine Klonstation belebt dein Crewmitglied nicht wieder, da es nicht gestorben ist.</text>
 <text name="event_QUEST_CONSTRUCTIONYARD_c3_c1_c1_choice" language="de">Dein Crewmitglied fragen, ob es einverstanden ist.</text>
-<text name="event_QUEST_CONSTRUCTIONYARD_c3_c1_c1_text" language="de">Als unser Lanius-Crewmitglied die Situation versteht, scheint ihm die Idee zu gefallen, beim Bau im Weltall zu helfen. Das ist um einiges ungefährlicher. Im Gegenzug bietet man dir einige Waren an.</text>
+<text name="event_QUEST_CONSTRUCTIONYARD_c3_c1_c1_text" language="de">Als dein Lanius-Crewmitglied die Situation versteht, scheint ihm die Idee zu gefallen, beim Bau im Weltall zu helfen. Das ist um einiges ungefährlicher. Im Gegenzug bietet man dir einige Waren an.</text>
 <text name="event_QUEST_CONSTRUCTIONYARD_c3_c1_c2_choice" language="de">Deine Crew steht nicht zum Verkauf.</text>
 <text name="event_QUEST_CONSTRUCTIONYARD_c3_c1_c2_text" language="de">"Wie schade. Als Bezahlung haben wir hier ein wenig Schrott, den wir nicht mehr brauchen, da wir die notwendigen Teile jetzt haben."</text>
 <text name="event_QUEST_CONSTRUCTIONYARD_c3_c1_text" language="de">"Faszinierend! Dieses Roboterwesen könnte uns viel Zeit ersparen. Verkaufen Sie es?"</text>
@@ -3804,14 +3804,14 @@
 <text name="event_QUEST_CONSTRUCTIONYARD_text" language="de">Du stößt auf eine Raumstation, die sich im Bau befindet. Du erhältst eine Nachricht vom Kommandoturm: "Wir grüßen Sie. Vor Kurzem haben wir Kontakt zu einem Frachtschiff verloren, das neues Baumaterial liefern sollte. Könnten Sie uns helfen, herauszufinden, was mit dem Schiff passiert ist?"</text>
 <text name="event_REBEL_BRIBE_RESULT_1_text" language="de">Die Zivilisten sind dankbar. Doch keiner von ihnen möchte als Föderationsgetreuer gelten, deshalb springen sie schnell weg.</text>
 <text name="event_REBEL_BRIBE_RESULT_2_text" language="de">Einige der Zivilisten legen ihren übrigen Schrott zusammen, um dich für deine Hilfe zu bezahlen.</text>
-<text name="event_REBEL_BRIBE_RESULT_3_text" language="de">Eines der Zivilschiffe teleportiert still und leise eine Kiste mit Militärausrüstung der Föderation herüber.</text>
-<text name="event_REBEL_BRIBE_RESULT_4_text" language="de">Eines der Zivilschiffe ruft dich und gibt zu, zu den Föderationsgetreuen zu gehören. Ein lauschender Rebell greift ein, zerstört das Schiff und wendet sich dir zu, um anzugreifen.</text>
+<text name="event_REBEL_BRIBE_RESULT_3_text" language="de">Eines der Zivilschiffe teleportiert still und leise eine Kiste mit Föderations-Militärausrüstung herüber.</text>
+<text name="event_REBEL_BRIBE_RESULT_4_text" language="de">Eines der Zivilschiffe ruft dich und erklärt dir, dass sie der Föderation immer noch treu sind. Ein lauschender Rebell greift ein, zerstört das Schiff und wendet sich dir zu, um anzugreifen.</text>
 <text name="event_REBEL_CHECKPOINT_c1_choice" language="de">Dich alleine durchschlagen, angreifen und verschwinden.</text>
 <text name="event_REBEL_CHECKPOINT_c2_c1_choice" language="de">Die Zivilschiffe rufen.</text>
 <text name="event_REBEL_CHECKPOINT_c2_choice" language="de">Die Rebellen bestechen, damit sie die Zivilschiffe gehen lassen.</text>
-<text name="event_REBEL_HELPERS_SUPPLIES_1_text" language="de">Die Kolonisten geben dir die Vorräte. Der Großteil der Ausrüstung ist für die automatisierte Landwirtschaft gedacht, aber du kannst die Sachen gebrauchen. Als du wegfliegst, erhältst du eine Nachricht: "Genau deshalb werden die Rebellen immer Unterstützung finden!"</text>
-<text name="event_REBEL_HELPERS_SUPPLIES_2_text" language="de">Die Kolonisten überlassen dir die Vorräte und du lädst sie auf dein Schiff. Als du wegspringst, öffnest du sie und entdeckst nichts weiter als Impfungen für eine lokale Seuche.</text>
-<text name="event_REBEL_HELPERS_SUPPLIES_3_text" language="de">Du zwingst die Kolonisten, die Vorräte auf dein Schiff zu bringen. Es sind nur Baumaterialien. Aber Schrott ist Schrott.</text>
+<text name="event_REBEL_HELPERS_SUPPLIES_1_text" language="de">Die Kolonisten geben dir die Vorräte. Der Großteil der Ausrüstung ist für die automatisierte Landwirtschaft gedacht, aber du kannst einige Dinge gebrauchen. Als du wegfliegst, erhältst du eine Nachricht: "Genau deshalb werden die Rebellen immer Unterstützung finden!"</text>
+<text name="event_REBEL_HELPERS_SUPPLIES_2_text" language="de">Die Kolonisten geben dir die Vorräte und du lädst sie auf dein Schiff. Als du wegspringst, öffnest du sie und entdeckst nichts weiter als Impfungen für eine lokale Seuche.</text>
+<text name="event_REBEL_HELPERS_SUPPLIES_3_text" language="de">Du zwingst die Kolonisten, die Vorräte auf dein Schiff zu bringen. Es sind nur Baumaterialien. Aber Schrott ist immer nützlich.</text>
 <text name="event_REBEL_HELPERS_SUPPLIES_4_text" language="de">Die Kolonisten geben dir bereitwillig ihre Vorräte. Aber als du wegspringst, erschüttert eine Explosion dein Schiff. Die Ladung war mit einem Sprengsatz versehen!</text>
 <text name="event_REBEL_HELPERS_c1_choice" language="de">Die Rebellen angreifen.</text>
 <text name="event_REBEL_HELPERS_c2_choice" language="de">Warten und die Vorräte von den Zivilisten stehlen.</text>
@@ -3830,20 +3830,20 @@
 <text name="event_REFUGEE_DISTRESS_text" language="de">Du hast ein Flüchtlingsschiff gefunden, das im Weltraum treibt. Es scheint vor dem Vorstoß der Rebellen geflohen zu sein und nun ist der Treibstoff ausgegangen. Das Notsignal ist aktiv, aber du bist dir nicht sicher, ob jemand an Bord ist.</text>
 <text name="event_REFUGEE_GHOST_LIST_1_text" language="de">Das Schiff ist vollständig verlassen. Keine Spur von der Crew oder der Fracht. Verwirrt verlässt du das Geisterschiff und fliegst weiter.</text>
 <text name="event_REFUGEE_GHOST_LIST_2_text" language="de">Das Schiff ist vollständig verlassen. Scheinbar ist ihm der Treibstoff ausgegangen... und der Crew kurz darauf die Lebensmittel. Trotz der grausigen Entdeckung kannst du einige Dinge aus dem Frachtraum mitnehmen.</text>
-<text name="event_REFUGEE_GHOST_LIST_3_text" language="de">Dem Schiff scheint der Treibstoff ausgegangen zu sein... und der Crew kurz darauf die Lebensmittel. Trotz der grausigen Entdeckung kannst du einige Dinge aus dem Frachtraum mitnehmen. Du findest ein überlebendes Crewmitglied, das im Kühlraum eingesperrt, aber völlig unversehrt ist und von der hungrigen Crew übersehen wurde.</text>
+<text name="event_REFUGEE_GHOST_LIST_3_text" language="de">Dem Schiff scheint der Treibstoff ausgegangen zu sein... und der Crew kurz darauf die Lebensmittel. Trotz der grausigen Entdeckung kannst du einige Dinge aus dem Frachtraum mitnehmen. Du findest ein lebendes Crewmitglied im Kühlraum eingesperrt, das wohl von der hungrigen Crew übersehen wurde.</text>
 <text name="event_REFUGEE_GHOST_LIST_4_c0_clone" language="de">Das eben zurückgelassene Crewmitglied erwartete euch bei der Rückkehr auf das Schiff und versucht, nicht an das zu denken, was der vorherigen Inkarnation zugestoßen ist.</text>
-<text name="event_REFUGEE_GHOST_LIST_4_text" language="de">Als ihr das Schiff untersucht, werdet ihr von der inzwischen kannibalistischen Crew angegriffen! Verrückt vor Hunger fressen sie sich gegenseitig auf. Als ihr euch den Weg vom Schiff runter freikämpft, fällt ihnen ein Crewmitglied zum Opfer und ihr müsst es zurücklassen, um nicht das gesamte Schiff zu gefährden.</text>
-<text name="event_REFUGEE_GHOST_LIST_5_text" language="de">Als du dich dem Schiff näherst, werden die Transporter des anderen Schiffs plötzlich aktiviert und dein Deck von kannibalistischen Flüchtlingen überrannt! Verrückt vor Hunger fressen sie sich gegenseitig auf - und jetzt ist deine Crew dran!</text>
+<text name="event_REFUGEE_GHOST_LIST_4_text" language="de">Als deine Crew das Schiff untersucht, wird sie von der inzwischen kannibalistischen Crew angegriffen! Verrückt vor Hunger fressen sie sich gegenseitig auf. Als sich deine Crew den Weg freikämpft, fällt ihnen ein Crewmitglied zum Opfer und ihr müsst es zurücklassen, um nicht das gesamte Schiff zu gefährden.</text>
+<text name="event_REFUGEE_GHOST_LIST_5_text" language="de">Als du dich dem Schiff näherst, wird der Teleporter des anderen Schiffs plötzlich aktiviert und dein Deck wird von kannibalistischen Flüchtlingen überrannt! Verrückt vor Hunger haben sie angefangen, sich gegenseitig aufzufressen - und jetzt ist deine Crew dran!</text>
 <text name="event_REFUGEE_GHOST_c1_choice" language="de">Bereit machen, um an Bord zu gehen und nachzusehen.</text>
 <text name="event_REFUGEE_GHOST_c2_choice" language="de">Das Schiff ignorieren.</text>
 <text name="event_REFUGEE_GHOST_text" language="de">Du hast ein Flüchtlingsschiff gefunden, das im Weltraum treibt. Es scheint vor dem Vorstoß der Rebellen geflohen zu sein und nun ist der Treibstoff ausgegangen. Das Notsignal ist aktiv, aber du bist dir nicht sicher, ob jemand an Bord ist, und die Kommunikation ist deaktiviert.</text>
 <text name="event_REFUGEE_HAIL_LIST_1_text" language="de">Als du den Frachter rufst, kommt er mit geladenen Waffen näher! Das ist ein Piratenhinterhalt!</text>
-<text name="event_REFUGEE_HAIL_LIST_2_text" language="de">Als du das Flüchtlingsschiff rufst, springt plötzlich ein Zoltan-Schiff in das System... Es behauptet, dass die Flüchtlinge Kriminelle sind, und du Flüchtige eskortierst! Bevor du antworten kannst, unterbricht es die Kommunikation und fährt die Waffen hoch!</text>
+<text name="event_REFUGEE_HAIL_LIST_2_text" language="de">Als du das Flüchtlingsschiff rufst, springt plötzlich ein Zoltan-Schiff in das System... Es behauptet, dass die Flüchtlinge Kriminelle sind, und sie eskortierst! Bevor du antworten kannst, unterbricht es die Kommunikation und fährt die Waffen hoch!</text>
 <text name="event_REFUGEE_HAIL_LIST_3_text" language="de">Als du das Flüchtlingsschiff rufst, springt ein Piratenschiff ins System... Das Flüchtlingsschiff war ein Köder!</text>
-<text name="event_REFUGEE_HAIL_LIST_4_text" language="de">Als du das Flüchtlingsschiff rufst, springt ein Slug-Schiff ins System... Es hatte das Flüchtlingsschiff zum Spaß verfolgt und dich gefunden!</text>
+<text name="event_REFUGEE_HAIL_LIST_4_text" language="de">Als du das Flüchtlingsschiff rufst, springt ein Slug-Schiff ins System... Es hatte das Flüchtlingsschiff zum Spaß gejagt und stattdessen dich gefunden!</text>
 <text name="event_REFUGEE_HAIL_LIST_PIRATE_1_text" language="de">Als du das Flüchtlingsschiff rufst, springt ein Piratenschiff ins System... Das Flüchtlingsschiff war ein Köder!</text>
 <text name="event_REFUGEE_HAIL_LIST_SLUG_1_text" language="de">Als du das Flüchtlingsschiff rufst, springt ein Piratenschiff ins System... Das Flüchtlingsschiff war ein Köder!</text>
-<text name="event_REFUGEE_HAIL_LIST_ZOLTAN_1_text" language="de">Als du das Flüchtlingsschiff rufst, springt plötzlich ein Zoltan-Schiff in das System... Es behauptet, dass die Flüchtlinge Kriminelle sind, und du Flüchtige eskortierst! Bevor du antworten kannst, unterbricht es die Kommunikation und fährt die Waffen hoch!</text>
+<text name="event_REFUGEE_HAIL_LIST_ZOLTAN_1_text" language="de">Als du das Flüchtlingsschiff rufst, springt plötzlich ein Zoltan-Schiff in das System... Es behauptet, dass die Flüchtlinge Kriminelle sind, und du sie eskortierst! Bevor du antworten kannst, unterbricht es die Kommunikation und fährt die Waffen hoch!</text>
 <text name="event_REFUGEE_NO_DISTRESS_PIRATE_c1_choice" language="de">Sie rufen.</text>
 <text name="event_REFUGEE_NO_DISTRESS_PIRATE_c2_choice" language="de">Die Flüchtlinge ignorieren.</text>
 <text name="event_REFUGEE_NO_DISTRESS_PIRATE_text" language="de">Deine Sensoren haben ein Flüchtlingsschiff entdeckt, das durch das System treibt und sicherlich vor den Rebellen flieht. Es scheint dich nicht bemerkt zu haben... oder übersieht dich absichtlich.</text>
@@ -3858,20 +3858,20 @@
 <text name="event_REFUGEE_NO_DISTRESS_text" language="de">Deine Sensoren haben ein Flüchtlingsschiff entdeckt, das durch das System treibt und sicherlich vor den Rebellen flieht. Es scheint dich nicht bemerkt zu haben... oder übersieht dich absichtlich.</text>
 <text name="event_REFUGEE_TRADER_c1_choice" language="de">Handeln.</text>
 <text name="event_REFUGEE_TRADER_c2_choice" language="de">Höflich ablehnen.</text>
-<text name="event_REFUGEE_TRADER_text" language="de">Das Schiff ist erleichtert, vor dir zu hören! Ihm gehen die Vorräte aus. Die Crew will handeln.</text>
+<text name="event_REFUGEE_TRADER_text" language="de">Das Schiff ist erleichtert, vor dir zu hören! Ihnen gehen die Vorräte aus, und sie wollen handeln.</text>
 <text name="event_ROCK_SLUG_ARGUMENT_NEBULA_c1_choice" language="de">Näher heranfliegen.</text>
 <text name="event_ROCK_SLUG_ARGUMENT_NEBULA_c2_choice" language="de">Ignorieren.</text>
-<text name="event_ROCK_SLUG_ARGUMENT_NEBULA_text" language="de">Du entdeckst mehrere Schiffe, die ihre Energie auf dem Maximum haben, aber durch den dichten Nebel kannst du nichts erkennen.</text>
+<text name="event_ROCK_SLUG_ARGUMENT_NEBULA_text" language="de">Du entdeckst mehrere Schiffe mit maximaler Energieauslastung, aber durch den dichten Nebel kannst du nichts weiter erkennen.</text>
 <text name="event_ROCK_SLUG_ARGUMENT_c1_c1_choice" language="de">Anbieten, die Schulden der Rock zu übernehmen.</text>
 <text name="event_ROCK_SLUG_ARGUMENT_c1_c1_text" language="de">Du bezahlst die Schulden. Der Rock-Kapitän scheint noch immer genervt zu sein, weil die Slug den Schrott nicht verdient haben, doch wenigstens bleibt alles friedlich.</text>
 <text name="event_ROCK_SLUG_ARGUMENT_c1_c2_choice" language="de">Von dem Rock-Schiff verlangen, den vereinbarten Preis zu bezahlen.</text>
 <text name="event_ROCK_SLUG_ARGUMENT_c1_c3_choice" language="de">Du hast Besseres zu tun. Sie in Ruhe lassen.</text>
 <text name="event_ROCK_SLUG_ARGUMENT_c1_choice" language="de">Sie rufen und fragen, wo das Problem liegt.</text>
-<text name="event_ROCK_SLUG_ARGUMENT_c1_text" language="de">Der Slug-Kapitän erklärt, dass sie den Schiffsreaktor der Rock auf Vordermann gebracht haben und die "Steinschädel" sich jetzt weigern, dafür zu bezahlen. Der Rock-Kapitän sagt, die "Schleimklumpen" hätten miserable Arbeit geleistet, die den vereinbarten Preis nicht wert ist.</text>
+<text name="event_ROCK_SLUG_ARGUMENT_c1_text" language="de">Der Slug-Kapitän erklärt, dass sie den Schiffsreaktor der Rock verbessert haben und die "Steinschädel" sich jetzt weigern, dafür zu bezahlen. Der Rock-Kapitän sagt, die "Schleimklumpen" hätten miserable Arbeit geleistet, die den vereinbarten Preis nicht wert ist.</text>
 <text name="event_ROCK_SLUG_ARGUMENT_c2_choice" language="de">Sie in Ruhe lassen.</text>
 <text name="event_ROCK_SLUG_ARGUMENT_text" language="de">Du findest einen Slug-Kreuzer und ein Rock-Schiff, die sich mit scharfen Waffen kampfbereit gegenüberstehen. Du könntest eingreifen, bevor die Situation eskaliert.</text>
 <text name="event_ROCK_SLUG_COMMAND_1_text" language="de">Scheinbar war der Rock-Kapitän verärgerter, als du dachtest. Sie brechen die Verbindung ab und wenden sich dir zu, dem "Schleimklumpen-Verteidiger".</text>
-<text name="event_ROCK_SLUG_COMMAND_2_text" language="de">Unter einigem Protest willigt der Rock-Kapitän ein, den Preis zu bezahlen.</text>
+<text name="event_ROCK_SLUG_COMMAND_2_text" language="de">Unter Protest willigt der Rock-Kapitän ein, den Preis zu bezahlen.</text>
 <text name="event_ROCK_SLUG_COMMAND_3_text" language="de">Eine gewaltige Explosion erschüttert das Rock-Schiff, reißt ein klaffendes Loch in seine Hülle und schleudert dir zahlreiche Trümmerteile entgegen. Die Slug scheinen tatsächlich gepfuscht zu haben und nutzen die Ablenkung, um davonzuspringen.</text>
 <text name="event_ROCK_SLUG_GRATEFUL_1_text" language="de">Sie Slug danken dir für die Hilfe und springen davon. Wie dankbar sie wirklich waren, ist fraglich, aber wenigstens kannst du jetzt mit der Mission fortfahren.</text>
 <text name="event_ROCK_SLUG_GRATEFUL_2_text" language="de">Der Slug-Kapitän bietet dir für die Hilfe eine kostenlose Reaktorverbesserung an. Mehr Energie schadet nie!</text>
@@ -3883,41 +3883,41 @@
 <text name="event_ROGUE_REBEL_SEARCH_1_text" language="de">Du siehst dich eine Weile lang um, aber deine Scanner finden keine Spur des Rebellenschiffs. Du machst dich zur Weiterreise bereit.</text>
 <text name="event_ROGUE_REBEL_SEARCH_2_text" language="de">Nach kurzer Suche findest du das Rebellenschiff. Hoffentlich ist es ähnlich schnell zu besiegen, wie es zu finden war.</text>
 <text name="event_ROGUE_REBEL_SEARCH_3_text" language="de">Du findest die Rebellen schon nach kurzer Zeit. Hoffentlich sind sie ähnlich schnell zu besiegen, wie sie zu finden waren.</text>
-<text name="event_ROGUE_REBEL_SEARCH_4_text" language="de">Nachdem du viel zu lange für die Suche gebraucht hast, entdeckst du die Rebellen endlich. Als du dich kampfbereit machst, fragst du dich, wie viel Zeit du wohl auf die Rebellenflotte verloren hast.</text>
+<text name="event_ROGUE_REBEL_SEARCH_4_text" language="de">Nachdem du viel zu lange für die Suche gebraucht hast, entdeckst du die Rebellen endlich. Als du dich kampfbereit machst, fragst du dich, wie viel Zeit du damit wohl verloren hast.</text>
 <text name="event_ROGUE_REBEL_c1_choice" language="de">Nach dem Rebellenschiff suchen.</text>
 <text name="event_ROGUE_REBEL_c2_choice" language="de">Keine Zeit zum Suchen. Zum Sprung bereit machen.</text>
 <text name="event_ROGUE_REBEL_c3_choice" language="de">(Improved Sensors) Umgebungsscan durchführen.</text>
-<text name="event_ROGUE_REBEL_c3_text" language="de">Du findest das Rebellenschiff schnell und machst dich abfangbereit.</text>
-<text name="event_ROGUE_REBEL_c4_choice" language="de">(Advanced Sensors) Den genauen Standort der Rebellen herausfinden.</text>
-<text name="event_ROGUE_REBEL_c4_text" language="de">Das Rebellenschiff versteckt sich auf einem Asteroiden in deiner Nähe. Du landest einen Treffer und deaktivierst den Schiffsantrieb, bevor die Rebellen dich bemerken.</text>
-<text name="event_STEALTH_1_text" language="de">Dies ist ein Prototyp, der eine hochentwickelte Tarntechnologie verwendet. Dies geht zulasten von Schilden und Bewaffnung. Nutze den Vorteil der Tarnvorrichtung, damit dich feindliche Schüsse verfehlen.</text>
+<text name="event_ROGUE_REBEL_c3_text" language="de">Du findest das Rebellenschiff schnell und machst dich kampfbereit.</text>
+<text name="event_ROGUE_REBEL_c4_choice" language="de">(Advanced Sensors) Die genaue Position der Rebellen herausfinden.</text>
+<text name="event_ROGUE_REBEL_c4_text" language="de">Das Rebellenschiff versteckt sich auf einem Asteroiden in deiner Nähe. Du landest einen Treffer und deaktivierst so ihren Antrieb, bevor die Rebellen dich bemerken.</text>
+<text name="event_STEALTH_1_text" language="de">Dies ist ein Prototyp, der eine hochentwickelte Tarntechnologie verwendet. Dies geht jedoch zulasten von Schilden und Bewaffnung. Nutze das Tarnsystem, damit dich feindliche Schüsse verfehlen.</text>
 <text name="event_STEALTH_2_text" language="de">Dieses Schiff basiert auf Entwürfen aus einer Zeit, als Schilde noch nicht zur Standardausstattung von Raumschiffen gehörten. Seine wesentlichen Eigenschaften sind die gepanzerte Hülle und seine enorme Manövrierbarkeit.</text>
-<text name="event_STEALTH_3_text" language="de">Dieses Schiff soll die neue, hochentwickelte Schildaufladetechnologie der Föderation testen. Unglücklicherweise bist du gezwungen, den Test allein durchzuführen.</text>
+<text name="event_STEALTH_3_text" language="de">Dieses Schiff soll die neue, hochentwickelte Schildtechnologie der Föderation testen. Unglücklicherweise bist du gezwungen, den Test allein durchzuführen.</text>
 <text name="event_STEALTH_4_text" language="de">Dieses Schiff wurde darauf ausgelegt, Truppen hinter die feindlichen Linien zu bringen. Aus diesem Grund ist es standardmäßig nicht mit Waffen ausgestattet, doch seine Crew gehört zu den besten von allen.</text>
-<text name="event_STEALTH_5_text" language="de">Dieses Schiff ist ein modifiziertes Minenschiff, das über eine hochentwickelte KI zur Drohnensteuerung verfügt. Es ist kein Kampfschiff, aber das werden die Drohnen hoffentlich ausgleichen.</text>
+<text name="event_STEALTH_5_text" language="de">Dieses Schiff ist ein modifiziertes Bergbauschiff, das über eine hochentwickelte KI zur Drohnensteuerung verfügt. Es ist kein Kampfschiff, aber das werden die Drohnen hoffentlich ausgleichen.</text>
 <text name="event_STEALTH_6_text" language="de">Dein neues Schiff ist mit den modernsten Androiden und Strahlenwaffen ausgerüstet. Es war schwer, eine vollständige Crew zu finden, da keiner mit Androiden zusammenarbeiten will.</text>
 <text name="event_STEALTH_7_text" language="de">Der Erbauer dieses Schiffs hatte eindeutig eine Schwäche für Raketen. Es gibt nur wenige Schiffe, die einer vollen Raketenbreitseite dieses Schiffs widerstehen können, behalte aber stets deine Munitionsvorräte im Auge.</text>
 <text name="event_TAVERN_HIRE_c1_choice" language="de">Ein Crewmitglied anheuern.</text>
 <text name="event_TAVERN_HIRE_c3_choice" language="de">Niemanden anheuern.</text>
-<text name="event_TERRAFORMING_SCAN_c1_c1_choice" language="de">Den Planeten abscannen.</text>
+<text name="event_TERRAFORMING_SCAN_c1_c1_choice" language="de">Versuchen, den Planeten zu scannen.</text>
 <text name="event_TERRAFORMING_SCAN_c1_c2_choice" language="de">(Advanced Sensors) Die Sensoren auf Maximum stellen und scannen.</text>
-<text name="event_TERRAFORMING_SCAN_c1_c3_choice" language="de">(Zoltan) Ein Crewmitglied schicken, um ihre Systeme zu übertakten.</text>
+<text name="event_TERRAFORMING_SCAN_c1_c3_choice" language="de">(Zoltan) Ein Crewmitglied schicken, um ihre Systeme zu überladen.</text>
 <text name="event_TERRAFORMING_SCAN_c1_choice" language="de">Deine Hilfe anbieten.</text>
 <text name="event_TERRAFORMING_SCAN_c1_text" language="de">"Danke! Wir müssen diesen Planeten nach Leben abscannen, bevor wir mit dem Terraforming beginnen können, aber unsere Sensoren haben nicht die nötige Energie, um die Atmosphäre zu durchdringen. Wir müssen unseren Zeitplan einhalten. Können Sie uns vielleicht helfen?"</text>
-<text name="event_TERRAFORMING_SCAN_c2_c1_choice" language="de">Auf Sprung vorbereiten.</text>
+<text name="event_TERRAFORMING_SCAN_c2_c1_choice" language="de">Auf den Sprung vorbereiten.</text>
 <text name="event_TERRAFORMING_SCAN_c2_choice" language="de">Du hast keine Zeit.</text>
 <text name="event_TERRAFORMING_SCAN_c2_text" language="de">"Verstanden. Viel Glück auf Ihrer Mission, Sir!"</text>
-<text name="event_TERRAFORMING_SCAN_text" language="de">Du erhältst eine Nachricht von einer Station, die um einen Planeten in der Nähe kreist. "Kapitän, hier spricht das Terraforming-Föderationsteam C12 und wir brauche Ihre Hilfe. Hätten Sie Zeit?"</text>
+<text name="event_TERRAFORMING_SCAN_text" language="de">Du erhältst eine Nachricht von einer Station, die um einen Planeten in der Nähe kreist. "Kapitän, hier spricht das Terraformingteam C12 der Föderation und wir brauche Ihre Hilfe. Hätten Sie Zeit?"</text>
 <text name="event_TRADER_UPGRADES_EXCHANGE_LIST_1_text" language="de">Du gehst auf den Handel ein und das Team kommt an Bord, um deinen Reaktor zu verbessern.</text>
 <text name="event_TRADER_UPGRADES_EXCHANGE_c1_choice" language="de">Dem Handel zustimmen.</text>
 <text name="event_TRADER_UPGRADES_EXCHANGE_c2_choice" language="de">Höflich ablehnen.</text>
-<text name="event_TRADER_UPGRADES_EXCHANGE_c2_text" language="de">Du entscheidest, dass ihr all euren Nachschub selbst braucht.</text>
+<text name="event_TRADER_UPGRADES_EXCHANGE_c2_text" language="de">Du entscheidest, dass deine Vorräte wichtiger sind.</text>
 <text name="event_TRADER_UPGRADES_LIST_1_c1_choice" language="de">Dem Handel zustimmen.</text>
 <text name="event_TRADER_UPGRADES_LIST_1_c1_text" language="de">Du lässt das Team an Bord und nach kurzer Zeit hat es die Arbeiten abgeschlossen.</text>
 <text name="event_TRADER_UPGRADES_LIST_1_c3_choice" language="de">Ablehnen.</text>
 <text name="event_TRADER_UPGRADES_LIST_1_c3_text" language="de">Du bedankst dich, machst dich aber zur Weiterreise bereit.</text>
 <text name="event_TRADER_UPGRADES_LIST_1_text" language="de">Sie bieten dir an, dein Sauerstoffsystem im Tausch gegen etwas Schrott zu verbessern.</text>
-<text name="event_TRADER_UPGRADES_LIST_2_text" language="de">Sie bieten dir an, dein Pilot-Subsystem im Tausch gegen etwas Schrott zu verbessern.</text>
+<text name="event_TRADER_UPGRADES_LIST_2_text" language="de">Sie bieten dir an, dein Piloting-Subsystem im Tausch gegen etwas Schrott zu verbessern.</text>
 <text name="event_TRADER_UPGRADES_LIST_3_text" language="de">Sie bieten dir an, dein Tür-Subsystem im Tausch gegen etwas Schrott zu verbessern.</text>
 <text name="event_TRADER_UPGRADES_LIST_4_text" language="de">Sie bieten dir an, dein Sensoren-Subsystem im Tausch gegen etwas Schrott zu verbessern.</text>
 <text name="event_TRADER_UPGRADES_LIST_5_text" language="de">Sie bieten dir an, deinen Reaktor im Tausch gegen etwas Schrott zu verbessern.</text>
@@ -3925,39 +3925,39 @@
 <text name="event_TRADER_UPGRADES_c2_choice" language="de">Ablehnen.</text>
 <text name="event_TRADER_UPGRADES_c2_text" language="de">Du bedankst dich für ihr Angebot, machst dich aber zur Weiterreise bereit.</text>
 <text name="event_WRECKAGE_EVENT_c1_choice" language="de">(Improved Sensors) Deine Sensoren benutzen, um die Trümmer zu scannen.</text>
-<text name="event_WRECKAGE_EVENT_c1_text" language="de">Du scannst das Trümmerfeld und mithilfe deiner Sensoren kannst du eine mittlere Menge Schrott aus den Überresten bergen. Du bereitest dich auf den Sprung vor.</text>
+<text name="event_WRECKAGE_EVENT_c1_text" language="de">Du scannst das Trümmerfeld und mithilfe deiner Sensoren kannst du etwas Schrott aus den Überresten bergen. Du bereitest dich auf den Sprung vor.</text>
 <text name="event_WRECKAGE_EVENT_c2_choice" language="de">(Advanced Sensors) Deine Sensoren benutzen, um die Trümmer zu scannen.</text>
 <text name="event_WRECKAGE_EVENT_c3_choice" language="de">Das Schlachtfeld untersuchen.</text>
 <text name="event_WRECKAGE_EVENT_c4_choice" language="de">Die Trümmer ignorieren und weiterfliegen.</text>
 <text name="event_WRECKAGE_INVESTIGATE_1_text" language="de">Du scannst das Schlachtfeld und findest nur wenige Überreste. Enttäuscht bereitest du dich auf den Sprung vor.</text>
 <text name="event_WRECKAGE_INVESTIGATE_5_text" language="de">Du scannst das Schlachtfeld und findest einige nützliche Materialien in den Trümmern.</text>
 <text name="event_WRECKAGE_INVESTIGATE_6_text" language="de">Als du dich den Trümmern näherst, prescht ein Mantis-Schiff in das System... entweder, weil es Beute spürt, oder um zu beenden, was seine Kameraden begonnen haben.</text>
-<text name="event_WRECKAGE_INVESTIGATE_7_text" language="de">Die Trümmer scheinen die Überreste eines Kampfs zwischen Jägern der Föderation und Rebellen-Kreuzern zu sein. Die Föderationsschiffe waren scheinbar zahlenmäßig unterlegen, doch sie kämpften tapfer. Als du einen etwas aufwändigeren Scan der Trümmer beginnst, erscheinen auf einmal Rebellenverstärkungen im System und nehmen dein Schiff ins Visier.</text>
-<text name="event_WRECKAGE_INVESTIGATE_8_text" language="de">Als du dich den Trümmern näherst, erscheint auf einmal ein Zoltan-Schiff. Es hält dich sofort für einen der Angreifer, erklärt dich zu einem feindlichen Aggressor, der in den Zoltan-Raum eindringt, und eröffnet das Feuer!</text>
-<text name="event_WRECKAGE_INVESTIGATE_9_text" language="de">Als du dich den Trümmern näherst, erscheint auf einmal ein Slug-Schiff. Es zögert einen Moment, als wäre es überrascht, überhaupt noch jemanden zu sehen. Dann springt es wortlos davon. Du fährst mit dem Scan fort und hältst Ausschau nach weiteren Fremden.</text>
+<text name="event_WRECKAGE_INVESTIGATE_7_text" language="de">Die Trümmer scheinen die Überreste eines Kampfs zwischen Jägern der Föderation und Rebellen-Kreuzern zu sein. Die Föderationsschiffe waren scheinbar zahlenmäßig unterlegen, doch sie kämpften tapfer. Als du einen etwas aufwändigeren Scan der Trümmer beginnst, erscheinen auf einmal Rebellen im System und nehmen dein Schiff ins Visier.</text>
+<text name="event_WRECKAGE_INVESTIGATE_8_text" language="de">Als du dich den Trümmern näherst, erscheint auf einmal ein Zoltan-Schiff. Es hält dich sofort für einen der Angreifer der in das Zoltan-Gebiet eindringt, und eröffnet das Feuer!</text>
+<text name="event_WRECKAGE_INVESTIGATE_9_text" language="de">Als du dich den Trümmern näherst, erscheint auf einmal ein Slug-Schiff. Es zögert einen Moment, als wäre es überrascht überhaupt noch jemanden zu sehen. Dann springt es wortlos davon. Du fährst mit dem Scan fort und hältst Ausschau nach weiteren Fremden.</text>
 <text name="event_WRECKAGE_SCANNED_1_text" language="de">Du scannst das Trümmerfeld ab und mithilfe deiner Sensoren kannst du eine große Menge Schrott aus den Überresten bergen. Mit vollen Frachträumen bereitest du dich auf den Sprung vor.</text>
-<text name="event_WRECKAGE_SCANNED_2_text" language="de">Du scannst das Trümmerfeld und findest den Prototyp eines Militärschiffs in den Trümmern! Die Crew ist tot, aber ihre funktionierende Prototypenwaffe ist nach wie vor intakt. Du nimmst sie mit an Bord.</text>
+<text name="event_WRECKAGE_SCANNED_2_text" language="de">Du scannst das Trümmerfeld und findest den Prototyp eines Militärschiffs in den Trümmern! Die Crew ist tot, aber ihre Prototypenwaffe ist noch intakt. Du nimmst sie mit an Bord.</text>
 <text name="ship_IMPOSSIBLE_PIRATE_destroyed_text" language="de">Unmöglich! Er war angeblich doch unbesiegbar! Wirklich beeindruckend!</text>
 <text name="ship_PIRATE_REFUGEE_deadCrew_c1_text" language="de">Das Flüchtlingsschiff behauptet, Piraten seien ihm gefolgt, seit es die Heimatwelt verlassen hat. Als Geste des guten Willens und weil es gesehen hat, wie effektiv du das feindliche Schiff ausgeschaltet hast, bietet es dir an, was es erübrigen kann.</text>
-<text name="ship_PIRATE_REFUGEE_deadCrew_text" language="de">Das Piratenschiff bietet ohne Leben an Bord reichlich Beute.</text>
+<text name="ship_PIRATE_REFUGEE_deadCrew_text" language="de">Das Piratenschiff bietet reichlich Beute.</text>
 <text name="ship_PIRATE_REFUGEE_destroyed_c1_choice" language="de">Das Flüchtlingsschiff rufen.</text>
 <text name="ship_PIRATE_REFUGEE_destroyed_c1_text" language="de">Das Flüchtlingsschiff dankt dir für die Hilfe. Als Geste des guten Willens und weil es gesehen hat, wie effektiv du das feindliche Schiff ausgeschaltet hast, bietet es dir an, was es erübrigen kann.</text>
 <text name="ship_PIRATE_REFUGEE_destroyed_text" language="de">Das Piratenschiff bricht entzwei und du erbeutest so viel wie möglich.</text>
 <text name="ship_QUEST_CONSTRUCTIONYARD_SHIP_destroyed_c1_choice" language="de">Das Frachtschiff rufen.</text>
-<text name="ship_QUEST_CONSTRUCTIONYARD_SHIP_destroyed_c1_text" language="de">Inmitten der Salven vom Schiffsabwehrgeschütz flieht das Frachtschiff von der Station. Vor dem Sprung wirft es noch einigen Schrott in deine Richtung ab.</text>
+<text name="ship_QUEST_CONSTRUCTIONYARD_SHIP_destroyed_c1_text" language="de">Inmitten der Salven des ASB flieht das Frachtschiff von der Station. Vor dem Sprung wirft es noch einigen Schrott in deine Richtung ab.</text>
 <text name="ship_QUEST_CONSTRUCTIONYARD_SHIP_destroyed_text" language="de">Du holst dir schnell so viel wie möglich von dem Schiff.</text>
-<text name="ship_REBEL_HELPERS_SHIP_deadCrew_text" language="de">Da die Crew der Rebellen tot ist, plünderst du das Schiff. Es hatte die Zivilisten bereits beliefert.</text>
-<text name="ship_REBEL_HELPERS_SHIP_destroyed_c1_choice" language="de">Die Vorräte der Zivilisten stehlen.</text>
+<text name="ship_REBEL_HELPERS_SHIP_deadCrew_text" language="de">Da die Crew der Rebellen tot ist, plünderst du das Schiff. Es hatte seine Ladung allerdings bereits abgeliefert.</text>
+<text name="ship_REBEL_HELPERS_SHIP_destroyed_c1_choice" language="de">Die Ladung von den Zivilisten stehlen.</text>
 <text name="ship_REBEL_HELPERS_SHIP_destroyed_c2_choice" language="de">Die Zivilisten in Ruhe lassen.</text>
-<text name="ship_REBEL_HELPERS_SHIP_destroyed_text" language="de">Da das Rebellenschiff zerstört ist, sammelst du den übrigen Schrott ein. Es hatte die Zivilisten bereits beliefert.</text>
-<text name="ship_ROCK_SLUG_REACTOR_SHIP_deadCrew_text" language="de">Da die Rock-Crew tot ist, durchsuchst du die Überreste des Schiffs nach Vorräten.</text>
+<text name="ship_REBEL_HELPERS_SHIP_destroyed_text" language="de">Da das Rebellenschiff zerstört ist, sammelst du den übrigen Schrott ein. Es hatte seine Ladung allerdings bereits abgeliefert.</text>
+<text name="ship_ROCK_SLUG_REACTOR_SHIP_deadCrew_text" language="de">Da die Rock-Crew nun tot ist, durchsuchst du die Überreste des Schiffs nach Vorräten.</text>
 <text name="ship_ROCK_SLUG_REACTOR_SHIP_destroyed_c1_choice" language="de">Die Slug rufen.</text>
-<text name="ship_ROCK_SLUG_REACTOR_SHIP_destroyed_text" language="de">Da das Rock-Schiff zerstört ist, sammelst du den übrigen Schrott ein.</text>
-<text name="ship_SLUG_REFUGEE_deadCrew_text" language="de">Das Slug-Schiff bietet ohne Leben an Bord reichlich Beute.</text>
+<text name="ship_ROCK_SLUG_REACTOR_SHIP_destroyed_text" language="de">Da das Rock-Schiff nun zerstört ist, sammelst du den übrigen Schrott ein.</text>
+<text name="ship_SLUG_REFUGEE_deadCrew_text" language="de">Das Slug-Schiff bietet reichlich Beute.</text>
 <text name="ship_SLUG_REFUGEE_destroyed_c1_choice" language="de">Das Flüchtlingsschiff rufen.</text>
-<text name="ship_SLUG_REFUGEE_destroyed_c1_text" language="de">Das Flüchtlingsschiff behauptet, Slug hätten es verfolgt, seit es die Heimatwelt verlassen hat. Als Geste des guten Willens und weil es gesehen hat, wie effektiv du das feindliche Schiff ausgeschaltet hast, bieten es dir an, was es erübrigen kann.</text>
+<text name="ship_SLUG_REFUGEE_destroyed_c1_text" language="de">Das Flüchtlingsschiff behauptet, die Slug hätten es verfolgt, seit es seine Heimat verlassen hat. Als Geste des guten Willens und weil es gesehen hat, wie effektiv du das feindliche Schiff ausgeschaltet hast, bieten es dir an, was es erübrigen kann.</text>
 <text name="ship_SLUG_REFUGEE_destroyed_text" language="de">Das Slug-Schiff bricht entzwei und du erbeutest so viel wie möglich.</text>
-<text name="ship_ZOLTAN_REFUGEE_deadCrew_text" language="de">Das Zoltan-Schiff bietet ohne Lebensformen an Bord reichlich Beute.</text>
+<text name="ship_ZOLTAN_REFUGEE_deadCrew_text" language="de">Das Zoltan-Schiff bietet reichlich Beute.</text>
 <text name="ship_ZOLTAN_REFUGEE_destroyed_c1_choice" language="de">Das Flüchtlingsschiff rufen.</text>
 <text name="ship_ZOLTAN_REFUGEE_destroyed_c1_text" language="de">Das Flüchtlingsschiff dankt dir für die Hilfe. Als Geste des guten Willens und weil es gesehen hat, wie effektiv du das feindliche Schiff ausgeschaltet hast, bietet es dir an, was es erübrigen kann.</text>
 <text name="ship_ZOLTAN_REFUGEE_destroyed_text" language="de">Das Zoltan-Schiff bricht entzwei und du erbeutest so viel wie möglich.</text>
@@ -3965,82 +3965,82 @@
 <text name="text_EMPTY_STATION2_TEXT_2" language="de">Du kommst an und vor dir liegt ein Mond mit einer Kolonie. Die Scans ergeben allerdings, dass die Siedlung verlassen ist. Außerdem bemerkst du eine verlassene Raumstation in der Nähe des Signalpunkts.</text>
 <text name="text_EMPTY_STATION2_TEXT_3" language="de">In der Gegend gibt es Hinweise darauf, dass hier vor einiger Zeit eine Schlacht stattgefunden hat. Neben Schiffswracks fällt dir allerdings auch eine intakte Station auf.</text>
 <text name="text_GENERIC_HIDE_TEXT_1" language="de">Hinter einem Mond verstecken.</text>
-<text name="text_GENERIC_HIDE_TEXT_2" language="de">Alle nichtlebenswichtigen Systeme abschalten und verstecken.</text>
+<text name="text_GENERIC_HIDE_TEXT_2" language="de">Alle unwichtigen Systeme abschalten und verstecken.</text>
 <text name="text_GENERIC_HIDE_TEXT_3" language="de">Ruhig bleiben und hoffen, dass sie dich nicht bemerken.</text>
 <text name="text_GENERIC_HIDE_TEXT_4" language="de">Ihnen aus dem Weg gehen und den FTL-Antrieb laden.</text>
 <text name="text_REBEL_BRIBE_TEXT_1" language="de">Diese Rebellen lassen sich mit dem Versprechen auf zusätzlichen Schrott leicht überreden. Sie lassen die Zivilschiffe frei und alle dürfen gehen.</text>
 <text name="text_REBEL_BRIBE_TEXT_2" language="de">Wie die meisten Rebellen handelt es sich nur um Männer, die in der rauen Galaxis überleben wollen. Sie nehmen deinen Schrott und lassen alle weiterfliegen.</text>
-<text name="text_REBEL_BRIBE_TEXT_3" language="de">Da alle, die aktuell auf eine Inspektion warten, Menschen sind, lassen die Rebellen sie gehen. Sie nehmen deinen Schrott und sagen, dass du schnell weiterfliegen sollst.</text>
+<text name="text_REBEL_BRIBE_TEXT_3" language="de">Da momentan sowieso nur Menschen auf eine Inspektion warten, lassen die Rebellen sie gehen. Sie nehmen deinen Schrott und sagen, dass du schnell weiterfliegen sollst.</text>
 <text name="text_REBEL_BRIBE_TEXT_4" language="de">Sie nehmen deine Bestechung dankbar an, anscheinend sind die Revolutionäre unterbezahlt. Die Zivilschiffe springen weg.</text>
-<text name="text_REBEL_CHECKPOINT_TEXT_1" language="de">Dieser Signalpunkt scheint die Heimat eines Rebellen-Kontrollpostens zu sein. Sie stoppen und durchsuchen jedes Schiff, das vorbeifliegt. Zivilisten werden schikaniert und Föderationsmitglieder festgesetzt. Die Rebellen haben dich noch nicht entdeckt.</text>
-<text name="text_REBEL_CHECKPOINT_TEXT_2" language="de">Ein weiterer Rebellen-Kontrollpunkt überwacht diesen Ort. Einige Zivilschiffe warten auf die Inspektion. Jedes von ihnen könnte föderationsgetreu sein. Die Rebellen haben dich noch nicht bemerkt.</text>
+<text name="text_REBEL_CHECKPOINT_TEXT_1" language="de">Dieser Signalpunkt scheint ein Rebellen-Kontrollposten zu sein. Sie stoppen und durchsuchen jedes Schiff, das vorbeifliegt. Zivilisten werden schikaniert und Föderationsmitglieder festgesetzt. Die Rebellen haben dich noch nicht entdeckt.</text>
+<text name="text_REBEL_CHECKPOINT_TEXT_2" language="de">Ein weiterer Rebellen-Kontrollpunkt überwacht diesen Ort. Einige Zivilschiffe warten auf Inspektion. Einige könnten föderationsgetreu sein. Die Rebellen haben dich noch nicht bemerkt.</text>
 <text name="text_REBEL_CHECKPOINT_TEXT_3" language="de">Eine Rebellen-Raumstation und ein einzelner Jäger überwachen diesen Signalpunkt nach Föderationsaktivitäten. Einige Zivilschiffe warten angedockt auf die Inspektion der Rebellen und mögliche Festsetzung, falls es sich um Föderationsgetreue handelt. Die Rebellen haben dich noch nicht bemerkt.</text>
 <text name="text_REBEL_CHECKPOINT_TEXT_4" language="de">Eine ziemlich große Flotte von Zivilschiffen wird an diesem Signalpunkt festgehalten. Scheinbar handelt es sich um einen Rebellen-Kontrollpunkt, der alle Schiffe nach möglichen Verbindungen zur Föderation untersucht. Bisher hat man dich nicht bemerkt.</text>
-<text name="text_REBEL_HELPERS_TEXT_1" language="de">Du stolperst über ein Rebellenschiff, das Vorräte an Zivilkolonien vor Ort verteilt. Es hat wahrscheinlich keinen Militärrang, aber jedes bisschen hilft ...</text>
+<text name="text_REBEL_HELPERS_TEXT_1" language="de">Du stößt auf ein Rebellenschiff, das Vorräte an Zivilkolonien vor Ort verteilt. Es hat wahrscheinlich keinen Militärrang, aber jedes bisschen hilft...</text>
 <text name="text_REBEL_HELPERS_TEXT_2" language="de">Du findest ein Kampfschiff der Rebellen, das der Notversorgung zugeteilt wurde. Die Zivilisten vor Ort brauchen anscheinend Hilfe und die Rebellen nutzen die Gelegenheit.</text>
 <text name="text_REBEL_HELPERS_TEXT_3" language="de">Die Rebellen in diesem System versorgen die Raumstationen vor Ort. Diese Zivilisten sind wegen des Kriegs bestimmt monatelang nicht versorgt worden und brauchen dringend Vorräte.</text>
-<text name="text_REBEL_HELPERS_TEXT_4" language="de">Zivile Kolonisten, die mit der Seite der Rebellen sympathisieren, sind auf einem Planeten in der Nähe. Sie scheinen gerade eine Nachschublieferung zu erhalten. Könnte hilfreich sein.</text>
+<text name="text_REBEL_HELPERS_TEXT_4" language="de">Auf einem Planeten in der Nähe gibt es zivile Kolonisten, die mit den Rebellen sympathisieren. Sie scheinen gerade eine Vorratslieferung zu erhalten. Könnte hilfreich sein.</text>
 <text name="text_REBEL_HELPERS_TEXT_5" language="de">Wegen des Kriegs war die Versorgung von Tausenden Kolonisten unterbrochen und sie waren dadurch in Schwierigkeiten geraten. In diesem System scheinen die Rebellen Mitleid zu haben und verteilen die wenigen Vorräte, die sie entbehren können.</text>
-<text name="text_REBEL_HELPER_NO_SUPPLIES_TEXT_1" language="de">Du triffst Vorbereitungen zum Abflug. Einer der Anführer der Zivilisten ruft dich: "Dieser Rebell war unsere einzige Nachschubquelle. Sie haben uns alle dem Untergang geweiht."</text>
+<text name="text_REBEL_HELPER_NO_SUPPLIES_TEXT_1" language="de">Du triffst Vorbereitungen zum Abflug. Einer der Anführer der Zivilisten ruft dich: "Dieser Rebell war unsere einzige Vorratsquelle. Sie haben uns alle dem Untergang geweiht."</text>
 <text name="text_REBEL_HELPER_NO_SUPPLIES_TEXT_2" language="de">Du überlässt den Zivilisten die Vorräte, doch ohne den Rebell, der sie mit Vorräten versorgte, werden sie nicht lange überleben.</text>
-<text name="text_REBEL_HELPER_NO_SUPPLIES_TEXT_3" language="de">Du fragst dich, ob es noch weitere Rebellen gibt, die diese Zivilisten am Rand zum Nirgendwo versorgen. Aber für dich sind ein paar tote Rebellen mehr wert als die Leben von Tausenden Kolonisten.</text>
-<text name="text_REBEL_HELPER_NO_SUPPLIES_TEXT_4" language="de">Bevor der FTL-Antrieb geladen ist, erhältst du eine Nachricht: "Mein Sohn war auf dem Schiff. Er hat den Rebellen nur geholfen, weil sie sich um uns gekümmert haben. Ohne ihn, der Vorräte für uns besorgt, werden wir hier draußen vergessen und sterben."</text>
-<text name="text_ROGUE_REBEL_TEXT_1" language="de">Du erreichst einen Signalpunkt in einem zivilen Sternensystem. Eine Kolonie in der Nähe meldet sich bei dir: "Ein wild gewordenes Rebellenschiff tyrannisiert dieses System. Haben Sie Zeit, es aufzuspüren?"</text>
-<text name="text_ROGUE_REBEL_TEXT_2" language="de">Als du eintriffst, empfängst du eine verschlüsselte Nachricht der Föderation: Ein Rebellenschiff terrorisiert die friedlichen Bewohner dieses Systems. Bitte spüren Sie es auf und vernichten Sie es.</text>
-<text name="text_ROGUE_REBEL_TEXT_3" language="de">Du lädst deinen FTL-Antrieb auf und scannst den Planeten in der Nähe. Auf der Oberfläche findest die Ruinen einer erst kürzlich zerstörten Kolonie der Föderation. Es muss ein Rebellenschiff in der Nähe sein ...</text>
+<text name="text_REBEL_HELPER_NO_SUPPLIES_TEXT_3" language="de">Du fragst dich, ob es noch weitere Rebellen gibt, die diese Zivilisten am Rand des Nirgendwo versorgen. Aber für dich sind ein paar tote Rebellen mehr wert als das Leben von Tausenden Kolonisten.</text>
+<text name="text_REBEL_HELPER_NO_SUPPLIES_TEXT_4" language="de">Bevor der FTL-Antrieb geladen ist, erhältst du eine Nachricht: "Mein Sohn war auf diesem Schiff. Er hat den Rebellen nur geholfen, weil sie sich um uns gekümmert haben. Ohne ihn und seine Vorratslieferungen werden wir hier draußen vergessen sein und sterben."</text>
+<text name="text_ROGUE_REBEL_TEXT_1" language="de">Du erreichst einen Signalpunkt in einem zivilen Sternensystem. Eine Kolonie in der Nähe meldet sich bei dir: "Ein Rebellenschiff tyrannisiert dieses System. Haben Sie Zeit, es aufzuspüren?"</text>
+<text name="text_ROGUE_REBEL_TEXT_2" language="de">Als du eintriffst, empfängst du eine verschlüsselte Nachricht der Föderation: "Ein Rebellenschiff terrorisiert die friedlichen Bewohner dieses Systems. Bitte spüren Sie es auf und vernichten Sie es."</text>
+<text name="text_ROGUE_REBEL_TEXT_3" language="de">Du lädst deinen FTL-Antrieb und scannst den Planeten in der Nähe. Auf der Oberfläche findest die Ruinen einer erst kürzlich zerstörten Kolonie der Föderation. Es muss ein Rebellenschiff in der Nähe sein...</text>
 <text name="text_ROGUE_REBEL_TEXT_4" language="de">Du springst mitten in ein Trümmerfeld hinein. Hier scheint vor Kurzem ein Kampf stattgefunden zu haben, und der Verlierer war scheinbar ein ziviles Schiff. Bevor es zerstört wurde, konnte es noch eine sich dauerhaft wiederholende Nachricht absenden: "Rebellen greifen an! Bitte schicken Sie Hilfe!" Die Rebellen sind wahrscheinlich noch in der Nähe.</text>
-<text name="text_TAVERN_HIRE_TEXT_1" language="de">Du findest eine Raumstation für Reisende. Als du dir das Angebot ansiehst, stößt du auf eine Kneipe voller Söldner. Du suchst nach potenziellen Crewmitgliedern.</text>
+<text name="text_TAVERN_HIRE_TEXT_1" language="de">Du findest eine Raumstation für Reisende. Als du dir das Angebot ansiehst, stößt du auf eine Taverne voller Söldner. Du suchst nach potenziellen Crewmitgliedern.</text>
 <text name="text_TAVERN_HIRE_TEXT_2" language="de">Einige Schiffe liegen in der Nähe einer Raststation. Du erhältst eine Nachricht: "Wenn Sie noch ein paar Leute für Ihr Schiff suchen, sind Sie hier an der richtigen Adresse!"</text>
 <text name="text_TAVERN_HIRE_TEXT_3" language="de">Dieser Signalpunkt scheint ein Treffpunkt für Raumschiffe aus der Gegend zu sein. Hier findest du möglicherweise Crewmitglieder für dein Schiff... für einen Preis.</text>
-<text name="text_TIPS_LIST_1" language="de">TIPP: Tod - Denk dran, verlieren gehört dazu!... Im Ernst ...</text>
+<text name="text_TIPS_LIST_1" language="de">TIPP: Tod - Denk dran, verlieren gehört dazu! ... Im Ernst ...</text>
 <text name="text_TIPS_LIST_10" language="de">TIPP: Entern - Wenn du Probleme mit Eindringlingen hast, kämpfe am besten in der Krankenstation. Wenn alles andere scheitert, befördere den restlichen Sauerstoff aus dem Schiff!</text>
-<text name="text_TIPS_LIST_11" language="de">TIPP: Sauerstoff - Wenn die Raumfarbe im Schiff von Hellbraun zu Rot wechselt, verlierst du Sauerstoff. In Räumen mit roten Gefahrenstreifen erleidet die Crew Schaden und Feuer werden erstickt.</text>
+<text name="text_TIPS_LIST_11" language="de">TIPP: Sauerstoff - Wenn die Farbe der Räume im Schiff von Hellbraun zu Rot wechselt, verlierst du Sauerstoff. In Räumen mit roten Gefahrenstreifen erleidet die Crew Schaden und Feuer werden erstickt.</text>
 <text name="text_TIPS_LIST_12" language="de">TIPP: Schilddurchdringung - Raketen ignorieren Schilde. Benutze Raketen, um das Schildsystem eines starken Schiffs zu beschädigen. Aber denk dran, dass Abwehrdrohnen Raketen abschießen können.</text>
-<text name="text_TIPS_LIST_13" language="de">TIPP: Auswahlmöglichkeiten - Die meisten Auswahlmöglichkeiten haben unterschiedliche Auswirkungen. Du kannst dir niemals sicher sein, was passiert.</text>
-<text name="text_TIPS_LIST_14" language="de">TIPP: Autofeuer - Durch Autofeuer behält eine Waffe ihr Ziel bei. Aber behalte die Zahl deiner Raketen im Auge!</text>
-<text name="text_TIPS_LIST_15" language="de">TIPP: Ausweichen - Es ist wichtig, feindlichen Schüssen auszuweichen. Dies erfordert allerdings einen funktionierenden Antrieb UND einen Piloten. Wenn der Antrieb bemannt ist, steigt dein Ausweichen ebenfalls.</text>
+<text name="text_TIPS_LIST_13" language="de">TIPP: Entscheidungen - Die meisten Entscheidungen haben mehrere mögliche Auswirkungen. Du kannst dir niemals sicher sein, was passieren wird.</text>
+<text name="text_TIPS_LIST_14" language="de">TIPP: Autofeuer - Durch Autofeuer behält eine Waffe ihr Ziel bei. Aber behalte deinen Raketenvorrat im Auge!</text>
+<text name="text_TIPS_LIST_15" language="de">TIPP: Ausweichen - Es ist wichtig, feindlichen Schüssen auszuweichen. Dies erfordert allerdings einen funktionierenden Antrieb UND einen Piloten. Wenn der Antrieb bemannt ist, steigt deine Ausweichchance ebenfalls.</text>
 <text name="text_TIPS_LIST_16" language="de">TIPP: Sensoren - Wenn es im Schiff dunkel wird, solltest du nicht in Panik geraten. Repariere einfach das Sensoren-Subsystem.</text>
-<text name="text_TIPS_LIST_17" language="de">TIPP: Drohnen - Wenn du dich gegen feindliche Drohnen schwertust, ziele auf das Drohnensystem, um sie vorübergehend auszuschalten.</text>
-<text name="text_TIPS_LIST_18" language="de">TIPP: Strahlen - Strahlenwaffen verursachen Schaden je nach Anzahl der Räume, die sie treffen. Jede Schildblase blockt 1 Schaden eines Strahls. Am besten setzt du Strahlen ein, wenn der Feind keine Schilde mehr hat.</text>
+<text name="text_TIPS_LIST_17" language="de">TIPP: Drohnen - Wenn du Schwierigkeiten mit feindliche Drohnen hast, ziele auf das feindliche Drohnensystem, um sie vorübergehend auszuschalten.</text>
+<text name="text_TIPS_LIST_18" language="de">TIPP: Strahlen - Strahlenwaffen verursachen Schaden je nach Anzahl der Räume, die sie treffen. Jede Schildbarriere blockt 1 Schaden eines Strahls. Am besten setzt du Strahlen ein, wenn der Feind keine Schilde mehr hat.</text>
 <text name="text_TIPS_LIST_19" language="de">TIPP: Feuer - Wenn sich Feuer ausbreitet, solltest du vielleicht Luftschleusen und Türen öffnen, um den Sauerstoff aus Teilen deines Schiffs zu befördern. Ohne Sauerstoff wird Feuer schnell erstickt.</text>
-<text name="text_TIPS_LIST_2" language="de">TIPP: Sektoren abgrasen - Es kann hilfreich sein, so lange wie möglich in einem Sektor zu bleiben, um das Schiff zu verbessern, da die Sektoren immer schwerer werden.</text>
-<text name="text_TIPS_LIST_20" language="de">TIPP: Gesundheit - Achte auf die Gesundheit deiner Crew! Nutze die Krankenstation, um deine Crewmitglieder wieder zusammenzuflicken.</text>
+<text name="text_TIPS_LIST_2" language="de">TIPP: Sektoren farmen - Es kann hilfreich sein, so lange wie möglich in einem Sektor zu bleiben um das Schiff zu verbessern, da die Sektoren immer schwerer werden.</text>
+<text name="text_TIPS_LIST_20" language="de">TIPP: Gesundheit - Achte auf die Gesundheit deiner Crew! Nutze das Medbay, um deine Crewmitglieder wieder zusammenzuflicken.</text>
 <text name="text_TIPS_LIST_21" language="de">TIPP: Verbesserungen - Vergiss nicht, dein Schiff aufzurüsten! Oft haben Schilde die höchste Priorität, aber unterschätze niemals die Nützlichkeit von Subsystemen.</text>
 <text name="text_TIPS_LIST_22" language="de">TIPP: Treibstoff - Jeder Sprung verbraucht eine Treibstoffeinheit, also behalte deine Reserve im Auge. Kaufe Treibstoff in Shops, um nicht irgendwann auf dem Trockenen zu sitzen.</text>
-<text name="text_TIPS_LIST_23" language="de">TIPP: Sound - Öffne die Optionen, um die Soundeffekte und Musik an- bzw. abzustellen.</text>
+<text name="text_TIPS_LIST_23" language="de">TIPP: Sound - Öffne die Optionen, um die Soundeffekte und Musik an- oder abzustellen.</text>
 <text name="text_TIPS_LIST_24" language="de">TIPP: Asteroiden - Kämpfe in Asteroidenfeldern sind besonders gefährlich, aber du kannst diesen Umstand zu deinem Vorteil nutzen. Schalte die feindlichen Schilde aus und überlass den Asteroiden den Rest.</text>
-<text name="text_TIPS_LIST_25" language="de">TIPP: Nebel - Das Durchfliegen eines Nebels ermöglicht dir, die Flotte vorübergehend zu verlangsamen, aber diese Nebel haben ihre eigenen Tücken.</text>
+<text name="text_TIPS_LIST_25" language="de">TIPP: Nebel - Das Durchfliegen eines Nebels ermöglicht dir, die Flotte vorübergehend zu verlangsamen, aber Nebel sind auch gefährlicher.</text>
 <text name="text_TIPS_LIST_26" language="de">TIPP: Sonneneruptionen - Sonneneruptionen verursachen Hüllenschaden und erzeugen Brände. Vergewissere dich, dass deine Schilde aktiviert sind, um diese Wirkung zu minimieren.</text>
-<text name="text_TIPS_LIST_27" language="de">TIPP: Punkte - Deine Punktezahl hängt davon ab, wie viele Schiffe du besiegst, wie viele Signale du erkundest und wie viel Schrott du gesammelt hast.</text>
-<text name="text_TIPS_LIST_28" language="de">TIPP: Ausbauten - Dein Schiff kann 3 Ausbauten aufnehmen. Sie bieten einem System, der Crew oder dem ganzen Schiff einmalige Vorteile.</text>
-<text name="text_TIPS_LIST_29" language="de">TIPP: Brüche - Wenn ein Raum mit einem Bruch keinen Sauerstoff enthält, solltest du alle ihn umgebenden Türen öffnen, damit er weniger gefährlich ist.</text>
-<text name="text_TIPS_LIST_3" language="de">TIPP: Ausgänge - Es ist verlockend, die Ausgänge der Sektoren so schnell wie möglich zu erreichen, doch nur durch Erkundungen kann dein Schiff verbessert werden. Hol so viel wie möglich aus jedem Sektor heraus.</text>
-<text name="text_TIPS_LIST_30" language="de">TIPP: Rebellenflotte - Die Rebellenflotte (der rote Kreis auf der Karte) kommt deiner Position näher, wenn du springst. Bestimmte Ereignisse können ihre Bewegung verlangsamen oder beschleunigen.</text>
-<text name="text_TIPS_LIST_31" language="de">TIPP: Ionenwaffen - Ionenwaffen legen ein ganzes System eine gewisse Zeit lang lahm. Wenn sie die feindlichen Schilde treffen, verursachen sie ihren Schaden direkt beim Schildsystem.</text>
+<text name="text_TIPS_LIST_27" language="de">TIPP: Punkte - Deine Punktzahl hängt davon ab, wie viele Schiffe du besiegst, wie viele Signalpunkte du erkundest und wie viel Schrott du gesammelt hast.</text>
+<text name="text_TIPS_LIST_28" language="de">TIPP: Schiffserweiterungen - Dein Schiff kann 3 Erweiterungen aufnehmen. Sie bieten einem System, der Crew oder dem ganzen Schiff besondere Vorteile.</text>
+<text name="text_TIPS_LIST_29" language="de">TIPP: Hüllenbrüche - Wenn ein Raum nach einem Hüllenbruch keinen Sauerstoff mehr enthält, solltest du alle ihn umgebenden Türen öffnen, damit er weniger gefährlich ist.</text>
+<text name="text_TIPS_LIST_3" language="de">TIPP: Sektoren - Es ist verlockend, die Ausgänge der Sektoren so schnell wie möglich zu erreichen, doch nur durch Erkundungen kann dein Schiff verbessert werden. Hol so viel wie möglich aus jedem Sektor heraus.</text>
+<text name="text_TIPS_LIST_30" language="de">TIPP: Rebellenflotte - Jedes mal wenn du springst, kommt die Rebellenflotte (der rote Kreis auf der Karte) deiner Position näher. Bestimmte Ereignisse können die Flotte verlangsamen oder beschleunigen.</text>
+<text name="text_TIPS_LIST_31" language="de">TIPP: Ionenwaffen - Ionenwaffen legen ein System eine gewisse Zeit lang lahm. Wenn sie die feindlichen Schilde treffen, verursachen sie ihren Schaden direkt beim Schildsystem.</text>
 <text name="text_TIPS_LIST_32" language="de">TIPP: Bombenwaffen - Bomben werden direkt auf ein anderes Schiff teleportiert. Sie umgehen Schilde UND Abwehrdrohnen. Allerdings fügen sie nur der Crew und den Systemen Schaden zu, aber nicht der Schiffshülle.</text>
 <text name="text_TIPS_LIST_33" language="de">TIPP: Tür-Subsystem - Die Verbesserung deiner Türen reduziert drastisch die Wahrscheinlichkeit, dass sich Feuer von einem Raum zum anderen ausbreitet, und verlangsamt Eindringlinge deutlich.</text>
-<text name="text_TIPS_LIST_4" language="de">TIPP: Ziele - Setze im Kampf Zielprioritäten. Waffen und Schilde sind meist die beste Wahl, doch wenn ein Schiff flieht, ziele auf seinen Antrieb oder das Pilotsystem, um eine Flucht zu verhindern.</text>
-<text name="text_TIPS_LIST_5" language="de">TIPP: Verborgene Auswahl - Wenn eine Auswahlmöglichkeit bei einem Ereignis blau gefärbt ist, handelt es sich um eine spezielle Option, die durch deine momentane Ausrüstung verfügbar ist.</text>
+<text name="text_TIPS_LIST_4" language="de">TIPP: Ziele - Setze im Kampf Zielprioritäten. Waffen und Schilde sind meist die beste Wahl, doch wenn ein Schiff flieht, ziele auf seinen Antrieb oder das Pilotingsystem, um eine Flucht zu verhindern.</text>
+<text name="text_TIPS_LIST_5" language="de">TIPP: Verborgene Ereignisse - Wenn eine Auswahlmöglichkeit bei einem Ereignis blau gefärbt ist, handelt es sich um eine spezielle Option, die durch deine momentane Ausrüstung oder Crew verfügbar ist.</text>
 <text name="text_TIPS_LIST_6" language="de">TIPP: Systemschaden - Wenn ein System durch Feuer oder Eindringlinge vollständig ausfällt, erleidet die Hülle ebenfalls 1 Schaden.</text>
-<text name="text_TIPS_LIST_7" language="de">TIPP: Energiebalken - Verbesserte Systeme können von Nutzen sein, auch wenn du nicht genug Reaktorenergie hast, um sie zu betreiben, denn sie absorbieren sie nach wie vor 1 Schaden.</text>
-<text name="text_TIPS_LIST_8" language="de">TIPP: Waffen - Du kannst einen Angriff auslösen, noch bevor die betreffende Waffe aufgeladen ist. Der Angriff erfolgt dann, sobald sie feuerbereit ist.</text>
+<text name="text_TIPS_LIST_7" language="de">TIPP: Energiebalken - Verbesserte Systeme können von Nutzen sein, auch wenn du nicht genug Reaktorenergie hast um sie zu betreiben, denn sie absorbieren 1 Schaden.</text>
+<text name="text_TIPS_LIST_8" language="de">TIPP: Waffen - Du kannst einen Angriff einreihen, noch bevor die betreffende Waffe aufgeladen ist. Der Angriff erfolgt dann, sobald sie feuerbereit ist.</text>
 <text name="text_TIPS_LIST_9" language="de">TIPP: Tarnung - Tarnung hindert Feinde daran, auf dein Schiff zu feuern oder ihre Waffen aufzuladen. Sie erhöht außerdem dein Ausweichen um 60.</text>
 <text name="text_TIPS_LIST_IPAD_1" language="de">TIPP: Pause - Du kannst jederzeit auf "PAUSE" tippen, um das Spiel zu unterbrechen. Du kannst dann weiterhin der Crew Befehle erteilen oder die Systemenergie ändern.</text>
-<text name="text_TIPS_LIST_IPAD_2" language="de">TIPP: Verkaufen - Waffen, Drohnen und Ausbauten können in Shops für die Hälfte des Kaufpreises verkauft werden. Tippe dazu oben auf "VERKAUFEN".</text>
+<text name="text_TIPS_LIST_IPAD_2" language="de">TIPP: Verkaufen - Waffen, Drohnen und Erweiterungen können in Shops für die Hälfte des Kaufpreises verkauft werden. Tippe dazu oben auf "VERKAUFEN".</text>
 <text name="text_TIPS_LIST_IPAD_3" language="de">TIPP: Waffenanordnung - Platziere einen Waffen- oder Drohnenbauplan um, indem du ihn an die gewünschte Position ziehst. Der unterste Platz wird als Letztes abgeschaltet, wenn das System beschädigt ist.</text>
 <text name="text_TIPS_LIST_PC_1" language="de">TIPP: Pause - Du kannst jederzeit die LEERTASTE drücken, um das Spiel zu unterbrechen. Du kannst dann weiterhin der Crew Befehle erteilen oder die Systemenergie ändern.</text>
-<text name="text_TIPS_LIST_PC_2" language="de">TIPP: Verkaufen - Waffen, Drohnen und Ausbauten können in Shops für die Hälfte des Kaufpreises verkauft werden. Klicke dazu oben auf VERKAUFEN.</text>
-<text name="text_TIPS_LIST_PC_3" language="de">TIPP: Hotkeys - Du kannst Waffen mit verschiedenen Hotkeys aufladen oder scharf machen. Die Waffenplätze entsprechen den Tasten 1-4 auf der Tastatur und die Drohnen den Tasten 5-7 (kann in den Optionen angepasst werden).</text>
-<text name="text_TIPS_LIST_PC_4" language="de">TIPP: Schriftgröße - Wenn du +/- drückst (kann in den Optionen geändert werden), kannst du die Schriftgröße von Ereignissen einstellen.</text>
+<text name="text_TIPS_LIST_PC_2" language="de">TIPP: Verkaufen - Waffen, Drohnen und Erweiterungen können in Shops für die Hälfte des Kaufpreises verkauft werden. Klicke dazu oben auf VERKAUFEN.</text>
+<text name="text_TIPS_LIST_PC_3" language="de">TIPP: Hotkeys - Du kannst Hotkeys nutzen, um Waffen aufzuladen oder scharf zu machen. Die Waffenplätze entsprechen den Tasten 1-4 auf der Tastatur und die Drohnen den Tasten 5-7 (kann in den Optionen angepasst werden).</text>
+<text name="text_TIPS_LIST_PC_4" language="de">TIPP: Schriftgröße - Wenn du +/- drückst (kann in den Optionen geändert werden), kannst du die Schriftgröße für Ereignisstexte einstellen.</text>
 <text name="text_TIPS_LIST_PC_5" language="de">TIPP: Waffenanordnung - Platziere einen Waffen- oder Drohnenbauplan um, indem du ihn an die gewünschte Position ziehst. Der Platz ganz links wird als Letztes abgeschaltet, wenn das System beschädigt ist.</text>
 <text name="text_TRADER_UPGRADES_EXCHANGE_TEXT_1" language="de">"Ihr Schiff sieht militärisch aus. Wir versuchen, lebend zurück nach Hause zu kommen. Ich bin ein ausgebildeter Techniker und könnte versuchen, aus Ihrem Reaktor mehr herauszuholen, wenn Sie zusätzliche Vorräte haben."</text>
 <text name="text_TRADER_UPGRADES_EXCHANGE_TEXT_2" language="de">Du erhältst die Nachricht eines kleinen Konvois. Die Schiffe sind auf der Suche nach militärischem Nachschub und bieten dir an, im Tausch dafür deinen Reaktor zu verbessern.</text>
-<text name="text_TRADER_UPGRADES_TEXT_1" language="de">Als du ankommst, wirst du umgehend von einer mobilen Andockplattform begrüßt: "Willkommen bei Onkel Joes Space Stop! Etwas Tuning gefällig? Wir haben genau das Richtige!"</text>
+<text name="text_TRADER_UPGRADES_TEXT_1" language="de">Als du ankommst, wirst du umgehend von einer mobilen Andockplattform begrüßt: "Willkommen bei Onkel Joe's Space Shop! Etwas Tuning gefällig? Wir haben genau das Richtige!"</text>
 <text name="text_TRADER_UPGRADES_TEXT_2" language="de">Es gibt in der Nähe einige private Schiffswerften. Du findest eine, die noch einen freien Platz für dich hat.</text>
 <text name="text_TRADER_UPGRADES_TEXT_3" language="de">Du empfängst eine automatische Nachricht einer Raumstation in der Nähe. Dort scheint es einen Schiffsbauer zu geben, der Notarbeiten an Militärschiffen vornehmen kann.</text>
 <text name="text_TRADER_UPGRADES_TEXT_4" language="de">Du empfängst die Nachricht eines kleinen Flüchtlingskonvois: "Hallo! Wir würden Ihnen gerne bei Ihrer Mission helfen, aber wir können nicht viel anbieten. Wenn Sie vielleicht etwas Metall übrig haben, können wir auf Ihrem Schiff arbeiten."</text>
-<text name="text_WRECKAGE_TEXT_1" language="de">Was zunächst wie ein einfacher Nebel aussieht, sind in Wahrheit die Überreste mehrerer Kampfschiffe, die sich einen brutalen Raumkampf geliefert haben. Ein Schiffswrack treibt an dir vorbei und trudelt in die Tiefe des Nebels, bis es außer Sicht sind. Ohne genauere Untersuchung lässt sich nur schwer sagen, wer hier gegen wen gekämpft hat.</text>
-<text name="text_WRECKAGE_TEXT_2" language="de">Du bist mitten in die Überreste mehrerer Kampfschiffe gesprungen, die sich einen brutalen Raumkampf geliefert haben. Ein Schiffswrack treibt an dir vorbei und du kannst an manchen auseinanderbrechenden Trümmern noch immer Funken sprühen sehen. Ohne genauere Untersuchung lässt sich nur schwer sagen, wer hier gegen wen gekämpft hat.</text>
+<text name="text_WRECKAGE_TEXT_1" language="de">Was zunächst wie ein einfacher Nebel aussieht, sind in Wahrheit die Überreste mehrerer Kampfschiffe, die sich einen brutalen Kampf geliefert haben. Ein Schiffswrack treibt an dir vorbei und trudelt in die Tiefe des Nebels, bis es außer Sicht ist. Ohne genauere Untersuchung lässt sich nur schwer sagen, wer hier gegen wen gekämpft hat.</text>
+<text name="text_WRECKAGE_TEXT_2" language="de">Du bist mitten in die Überreste mehrerer Kampfschiffe gesprungen, die sich einen brutalen Kampf geliefert haben. Ein Schiffswrack treibt an dir vorbei und du kannst an manchen auseinanderbrechenden Trümmern noch immer Funken sprühen sehen. Ohne genauere Untersuchung lässt sich nur schwer sagen, wer hier gegen wen gekämpft hat.</text>
 
 <!-- FILE: text_misc.xml -->
 
