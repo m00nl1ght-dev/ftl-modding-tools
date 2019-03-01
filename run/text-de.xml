@@ -5221,12 +5221,12 @@
 <text name="ce_systemBlueprint_artillery_desc" language="de">Ermöglicht dir, ein starkes Geschütz zu verwenden.</text>
 <text name="ce_crewBlueprint_human_desc" language="de">Menschen sind gewöhnlich und uninteressant.</text>
 <text name="ce_crewBlueprint_human_title" language="de">Mensch</text>
-<text name="ce_crewBlueprint_ce_crewBlueprint_slug_power_1" language="de">Telepatische Kräfte zeigen Räume und Crew, auch wenn die Sensoren nicht funktionieren</text>
-<text name="ce_crewBlueprint_ce_crewBlueprint_slug_power_2" language="de">Imun gegen Mind Control </text>
-<text name="ce_crewBlueprint_ce_crewBlueprint_rock_power_3" language="de">Gesundheit erhöht auf 150</text>
-<text name="ce_crewBlueprint_ce_crewBlueprint_crystal_power_4" language="de">Gesundheit erhöht auf 125</text>
-<text name="ce_crewBlueprint_ce_crewBlueprint_energy_power_2" language="de">Maximale Gesundheit reduziert</text>
-<text name="ce_crewBlueprint_ce_crewBlueprint_energy_power_3" language="de">Explodiert beim Tod und schadet feindlicher Crew</text>
+<text name="ce_crewBlueprint_slug_power_1" language="de">Telepatische Kräfte zeigen Räume und Crew, auch wenn die Sensoren nicht funktionieren</text>
+<text name="ce_crewBlueprint_slug_power_2" language="de">Imun gegen Mind Control </text>
+<text name="ce_crewBlueprint_rock_power_3" language="de">Gesundheit erhöht auf 150</text>
+<text name="ce_crewBlueprint_crystal_power_4" language="de">Gesundheit erhöht auf 125</text>
+<text name="ce_crewBlueprint_energy_power_2" language="de">Maximale Gesundheit reduziert</text>
+<text name="ce_crewBlueprint_energy_power_3" language="de">Explodiert beim Tod und schadet feindlicher Crew</text>
 <text name="ce_weaponBlueprint_ARTILLERY_FED_title" language="de">Vindicator Beam</text>
 <text name="ce_weaponBlueprint_ARTILLERY_FED_short" language="de">Vindicator</text>
 <text name="ce_weaponBlueprint_ARTILLERY_FED_desc" language="de">Dieser fortschrittliche Beam ignoriert alle Schilde, kann aber nicht manuell gesteuert werden. Zeigt, dass du ein hochrangiges Föderationsschiff steuerst. Abklingzeit: 40 Sek.</text>
@@ -5351,8 +5351,8 @@
 <text name="ce_augBlueprint_AE_HOLOGRAM_GENERATOR_desc" language="de">Kann unbegrenzt holografische KI-Crewmitglieder erstellen. Benötigt leeren Signalpunkt.</text>
 <text name="ce_crewBlueprint_ghost_desc" language="de">Dieses voll empfindungsfähige Hologramm wird von einer fortschrittlichen KI kontrolliert.</text>
 <text name="ce_crewBlueprint_ghost_title" language="de">AI Avatar</text>
-<text name="ce_crewBlueprint_ce_crewBlueprint_ghost_power_1" language="de">Benötigt keinen Sauerstoff</text>
-<text name="ce_crewBlueprint_ce_crewBlueprint_ghost_power_2" language="de">Max. Gesundheit ist halbiert</text>
+<text name="ce_crewBlueprint_ghost_power_1" language="de">Benötigt keinen Sauerstoff</text>
+<text name="ce_crewBlueprint_ghost_power_2" language="de">Max. Gesundheit ist halbiert</text>
 <text name="ce_augBlueprint_AE_CLONE_LAB_title" language="de">On-Board Clone Lab</text>
 <text name="ce_augBlueprint_AE_CLONE_LAB_desc" language="de">Ethisch fragwürdig, erzeugt Klone deiner organischen Crewmitglieder (Mensch, Mantis, Slug). Produktionserweiterung. Benötigt leeren Signalpunkt.</text>
 <text name="ce_augBlueprint_AE_REQUISITION_title" language="de">Requisition License</text>

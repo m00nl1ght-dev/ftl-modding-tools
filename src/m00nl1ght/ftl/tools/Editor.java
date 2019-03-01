@@ -56,7 +56,7 @@ public class Editor extends Application {
         TAG_BP_SYSTEM = new Patcher.TagType("systemBlueprint", (n, p, id, d, tag) -> "ce_systemBlueprint_" + n + "_" + tag, "title", "desc");
         TAG_BP_WEAPON = new Patcher.TagType("weaponBlueprint", (n, p, id, d, tag) -> "ce_weaponBlueprint_" + n + "_" + tag, "title", "desc", "short", "tooltip");
         TAG_BP_CREW = new Patcher.TagType("crewBlueprint", (n, p, id, d, tag) -> "ce_crewBlueprint_" + n + "_" + tag, "title", "desc", "short");
-        TAG_BP_CREW_POWER = new Patcher.TagType("powerList", (n, p, id, d, tag) -> "ce_crewBlueprint_" + n + "_" + d, "power");
+        TAG_BP_CREW_POWER = new Patcher.TagType("powerList", (n, p, id, d, tag) -> n + "_" + d, "power");
         TAG_BP_AUG = new Patcher.TagType("augBlueprint", (n, p, id, d, tag) -> "ce_augBlueprint_" + n + "_" + tag, "title", "desc");
         TAG_BP_DRONE = new Patcher.TagType("droneBlueprint", (n, p, id, d, tag) -> "ce_droneBlueprint_" + n + "_" + tag, "title", "desc", "short");
         TAG_BP_SHIP = new Patcher.TagType("shipBlueprint", (n, p, id, d, tag) -> "ce_shipBlueprint_" + n + "_" + tag, "unlock", "desc");
