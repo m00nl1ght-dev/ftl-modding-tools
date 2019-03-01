@@ -4458,6 +4458,7 @@
 <text name="warning_warning" language="de">WARNUNG!</text>
 <text name="warning_in_danger" language="de">IN GEFAHR</text>
 <text name="warning_environment_danger" language="de">GEFAHR!</text>
+<text name="warning_pds_allies" language="de"></text>
 <text name="warning_solar_flare" language="de">SOLAR FLARE\nIMMINENT!</text>
 <text name="warning_ion_pulse" language="de">ION PULSE\nIMMINENT!</text>
 <text name="warning_pds_locked" language="de">ASB TARGET\nLOCKED!</text>
@@ -5614,14 +5615,24 @@
 <text name="ce_weaponBlueprint_BA_ION_HEAVY_3_tooltip" language="de">Feuert eine einzelne Ladung, die 4 Ionenschaden und 2 Systemschaden verursacht. Geringe Chance auf Feuer.</text>
 <text name="ce_weaponBlueprint_BA_BOMB_FIRE_SMALL_title" language="de">Fire Bomb Mark I</text>
 <text name="ce_weaponBlueprint_BA_BOMB_FIRE_SMALL_short" language="de">Fire B. I</text>
+<text name="ce_weaponBlueprint_BA_BOMB_FIRE_SMALL_desc" language="de">Kleine teleportierende Sprengladung, die Crew verletzt und Feuer entzündet. Kann eigenes Schiff ins Ziel nehmen.</text>
+<text name="ce_weaponBlueprint_BA_BOMB_FIRE_SMALL_tooltip" language="de">Bombe, benötigt Rakete, verletzt Crew und entzündet Feuer. Kann eigenes Schiff ins Ziel nehmen.</text>
 <text name="ce_weaponBlueprint_BA_BOMB_FIRE_2_title" language="de">Fire Bomb Mark III</text>
 <text name="ce_weaponBlueprint_BA_BOMB_FIRE_2_short" language="de">Fire B. III</text>
+<text name="ce_weaponBlueprint_BA_BOMB_FIRE_2_desc" language="de">Etwas langsamer als normale Feuerbomben, verletzt Crew aber stärker und richtet zusätzlich 1 Systemschaden an. Kann eigenes Schiff ins Ziel nehmen.</text>
+<text name="ce_weaponBlueprint_BA_BOMB_FIRE_2_tooltip" language="de">Bombe, benötigt Rakete, verletzt Crew, 1 Systemschaden und entzündet Feuer. Kann eigenes Schiff ins Ziel nehmen.</text>
 <text name="ce_weaponBlueprint_BA_BOMB_BIG_title" language="de">Big Bomb</text>
 <text name="ce_weaponBlueprint_BA_BOMB_BIG_short" language="de">Big B.</text>
+<text name="ce_weaponBlueprint_BA_BOMB_BIG_desc" language="de">Langsamer als kleinere Bomben, aber richtet mehr Schaden an. Kann eigenes Schiff ins Ziel nehmen.</text>
+<text name="ce_weaponBlueprint_BA_BOMB_BIG_tooltip" language="de">Bombe, benötigt Rakete, 3 Systemschaden. Kann eigenes Schiff ins Ziel nehmen.</text>
 <text name="ce_weaponBlueprint_BA_BOMB_BIO_title" language="de">Anti-Bio Bomb</text>
 <text name="ce_weaponBlueprint_BA_BOMB_BIO_short" language="de">Bio B.</text>
+<text name="ce_weaponBlueprint_BA_BOMB_BIO_desc" language="de">Teleportierende Sprengladung, die keinen Systemschaden anrichtet, aber organisches Material zerstört, und so Crew stark verletzt. Kann eigenes Schiff ins Ziel nehmen.</text>
+<text name="ce_weaponBlueprint_BA_BOMB_BIO_tooltip" language="de">Bombe, benötigt Rakete, verletzt Crew, kein Systemschaden. Kann eigenes Schiff ins Ziel nehmen.</text>
 <text name="ce_weaponBlueprint_BA_BOMB_HEAL_2_title" language="de">Healing Cluster Burst</text>
 <text name="ce_weaponBlueprint_BA_BOMB_HEAL_2_short" language="de">Heal C.B.</text>
+<text name="ce_weaponBlueprint_BA_BOMB_HEAL_2_desc" language="de">Teleportiert 3 Heileinheiten, die alle verbündeten Crewmitglieder im jeweiligen Raum heilen. Teleportiert nur eine Ladung, wenn sie auf das eigene Schiff angewendet wird.</text>
+<text name="ce_weaponBlueprint_BA_BOMB_HEAL_2_tooltip" language="de">Bombe, benötigt Rakete, teleportiert 3 Heileinheiten, die deine Crew im jeweiligen Raum heilen. Kann eigenes Schiff ins Ziel nehmen, teleportiert dann aber nur eine Ladung.</text>
 <text name="ce_weaponBlueprint_BA_BOMB_CLUSTER_1_title" language="de">Cluster Bomb</text>
 <text name="ce_weaponBlueprint_BA_BOMB_CLUSTER_1_short" language="de">Cluster B.</text>
 <text name="ce_weaponBlueprint_BA_BOMB_CLUSTER_1_desc" language="de">Teleportiert 3 Sprengkörper, die Systemen und Crew schaden, jedoch nicht der Hülle. Kann eigenes Schiff ins Ziel nehmen.</text>
@@ -5823,6 +5834,7 @@
 <text name="ce_droneBlueprint_COMBAT_1_ENEMY_short" language="de">Anti-Ship I</text>
 <text name="ce_droneBlueprint_COMBAT_2_ENEMY_title" language="de">Anti-Ship Mark II</text>
 <text name="ce_droneBlueprint_COMBAT_2_ENEMY_short" language="de">Anti-Ship II</text>
+<text name="ce_droneBlueprint_COMBAT_2_ENEMY_desc" language="de">Powerful drone that continually attacks the enemy ship. Moves and shoots faster than mark I.</text>
 <text name="ce_weaponBlueprint_DRONE_LASER_DEFENSE_2_title" language="de">Drone Laser 2</text>
 <text name="ce_weaponBlueprint_DE_DRONE_SCANNER_title" language="de">Should not see this</text>
 <text name="ce_weaponBlueprint_DE_DRONE_SCANNER_short" language="de">Should not see this.</text>
