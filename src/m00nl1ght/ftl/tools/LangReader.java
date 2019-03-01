@@ -10,6 +10,8 @@ import java.util.Map;
 
 public class LangReader {
 
+    private static final boolean DEBUG_READER = false;
+
     public final File file;
     private Map<String, Editor.LangEntry> keys;
     public final String lang_id;
@@ -66,11 +68,10 @@ public class LangReader {
                 if (this.lang_id.isEmpty()) {
                     if (entry.value.isEmpty() || entry.file.equals(this.file.getName()) || this.file.getName().contains("append")) {
                         if (!entry.value.equals(text)) {
-                            System.out.println(entry+": "+entry.value+" -> "+text+" f:"+this.file.getName());
+                            if (DEBUG_READER) System.out.println(entry+": "+entry.value+" -> "+text+" f:"+this.file.getName());
                             entry.value = text;
                         }
                     }
-                    //entry.file += "|" + this.file.getName();
                 } else {
                     entry.translation = text;
                 }

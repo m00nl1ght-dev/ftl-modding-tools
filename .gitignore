@@ -2,6 +2,8 @@
 /ce_build/*
 /ce_relevant/*
 /dat_relevant/*
+/build_maingame/*
+/twist_mod/*
 /out/*
 /run/*
 !/run/text-de.xml

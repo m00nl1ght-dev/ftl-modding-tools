@@ -4458,7 +4458,7 @@
 <text name="warning_warning" language="de">WARNUNG!</text>
 <text name="warning_in_danger" language="de">IN GEFAHR</text>
 <text name="warning_environment_danger" language="de">GEFAHR!</text>
-<text name="warning_pds_allies" language="de"></text>
+<text name="warning_pds_allies" language="de"> </text>
 <text name="warning_solar_flare" language="de">SOLAR FLARE\nIMMINENT!</text>
 <text name="warning_ion_pulse" language="de">ION PULSE\nIMMINENT!</text>
 <text name="warning_pds_locked" language="de">ASB TARGET\nLOCKED!</text>
@@ -5221,15 +5221,12 @@
 <text name="ce_systemBlueprint_artillery_desc" language="de">Ermöglicht dir, ein starkes Geschütz zu verwenden.</text>
 <text name="ce_crewBlueprint_human_desc" language="de">Menschen sind gewöhnlich und uninteressant.</text>
 <text name="ce_crewBlueprint_human_title" language="de">Mensch</text>
-<text name="ce_crewBlueprint_slug_power" language="de">Telepatische Kräfte zeigen Räume und Crew, auch wenn die Sensoren nicht funktionieren</text>
-<text name="ce_crewBlueprint_slug_powerx" language="de">Imun gegen Mind Control </text>
-<text name="ce_crewBlueprint_rock_power" language="de">Gesundheit erhöht auf 150</text>
-<text name="ce_crewBlueprint_crystal_power" language="de">Gesundheit erhöht auf 125</text>
-<text name="ce_crewBlueprint_energy_power" language="de">Maximale Gesundheit reduziert</text>
-<text name="ce_crewBlueprint_energy_powerx" language="de">Explodiert beim Tod und schadet feindlicher Crew</text>
-<text name="ce_crewBlueprint_battle_desc" language="de">Dummy blueprint needed now.</text>
-<text name="ce_crewBlueprint_battle_title" language="de">Battle</text>
-<text name="ce_crewBlueprint_repair_title" language="de">Repair</text>
+<text name="ce_crewBlueprint_ce_crewBlueprint_slug_power_1" language="de">Telepatische Kräfte zeigen Räume und Crew, auch wenn die Sensoren nicht funktionieren</text>
+<text name="ce_crewBlueprint_ce_crewBlueprint_slug_power_2" language="de">Imun gegen Mind Control </text>
+<text name="ce_crewBlueprint_ce_crewBlueprint_rock_power_3" language="de">Gesundheit erhöht auf 150</text>
+<text name="ce_crewBlueprint_ce_crewBlueprint_crystal_power_4" language="de">Gesundheit erhöht auf 125</text>
+<text name="ce_crewBlueprint_ce_crewBlueprint_energy_power_2" language="de">Maximale Gesundheit reduziert</text>
+<text name="ce_crewBlueprint_ce_crewBlueprint_energy_power_3" language="de">Explodiert beim Tod und schadet feindlicher Crew</text>
 <text name="ce_weaponBlueprint_ARTILLERY_FED_title" language="de">Vindicator Beam</text>
 <text name="ce_weaponBlueprint_ARTILLERY_FED_short" language="de">Vindicator</text>
 <text name="ce_weaponBlueprint_ARTILLERY_FED_desc" language="de">Dieser fortschrittliche Beam ignoriert alle Schilde, kann aber nicht manuell gesteuert werden. Zeigt, dass du ein hochrangiges Föderationsschiff steuerst. Abklingzeit: 40 Sek.</text>
@@ -5320,8 +5317,6 @@
 <text name="ce_augBlueprint_CREW_STIMS_desc" language="de">Deine Crew bewegt sich 30% schneller. Zeigt, dass du ein skrupelloses Mantis-Schiff steuerst, deine Crew wird sich nicht über Piraterie oder Sklaverei beschweren.</text>
 <text name="ce_augBlueprint_CLOAK_FIRE_title" language="de">Adv. Cloaking Field</text>
 <text name="ce_augBlueprint_CLOAK_FIRE_desc" language="de">Eliminiert die Hitze, die von deinem Schiff und Waffen generiert wird, sodass du während der Tarnung feuern kannst.</text>
-<text name="ce_augBlueprint_CLOAK_FIRE_titlex" language="de">Tarnplatten</text>
-<text name="ce_augBlueprint_CLOAK_FIRE_descx" language="de">Schiffs- und Waffenverschalung, die das Tarnsystem unterstützt und Waffenfeuer während der Tarnung ermöglicht.</text>
 <text name="ce_augBlueprint_SYSTEM_CASING_desc" language="de">Alle Schiffssysteme haben eine erweiterte Verschalung, welche Schaden mit einer Chance von 25% negieren (die Hülle wird trotzdem beschädigt).</text>
 <text name="ce_augBlueprint_ION_ARMOR_desc" language="de">Schützt dein Schiff vor Ionenfeldern und negiert Ionenschaden mit einer Chance von 40% vollständig.</text>
 <text name="ce_augBlueprint_DRONE_SPEED_title" language="de">Improved Internal AI</text>
@@ -5356,8 +5351,8 @@
 <text name="ce_augBlueprint_AE_HOLOGRAM_GENERATOR_desc" language="de">Kann unbegrenzt holografische KI-Crewmitglieder erstellen. Benötigt leeren Signalpunkt.</text>
 <text name="ce_crewBlueprint_ghost_desc" language="de">Dieses voll empfindungsfähige Hologramm wird von einer fortschrittlichen KI kontrolliert.</text>
 <text name="ce_crewBlueprint_ghost_title" language="de">AI Avatar</text>
-<text name="ce_crewBlueprint_ghost_power" language="de">Benötigt keinen Sauerstoff</text>
-<text name="ce_crewBlueprint_ghost_powerx" language="de">Max. Gesundheit ist halbiert</text>
+<text name="ce_crewBlueprint_ce_crewBlueprint_ghost_power_1" language="de">Benötigt keinen Sauerstoff</text>
+<text name="ce_crewBlueprint_ce_crewBlueprint_ghost_power_2" language="de">Max. Gesundheit ist halbiert</text>
 <text name="ce_augBlueprint_AE_CLONE_LAB_title" language="de">On-Board Clone Lab</text>
 <text name="ce_augBlueprint_AE_CLONE_LAB_desc" language="de">Ethisch fragwürdig, erzeugt Klone deiner organischen Crewmitglieder (Mensch, Mantis, Slug). Produktionserweiterung. Benötigt leeren Signalpunkt.</text>
 <text name="ce_augBlueprint_AE_REQUISITION_title" language="de">Requisition License</text>
@@ -5393,9 +5388,6 @@
 <text name="ce_weaponBlueprint_BA_BEAM_BATON_tooltip" language="de">Strahl, 1 Systemschaden, verletzt Crew und betäubt für 10 Sek.</text>
 <text name="ce_weaponBlueprint_BA_BEAM_BO_title" language="de">Bo Beam</text>
 <text name="ce_weaponBlueprint_BA_BEAM_BO_desc" language="de">Fortschrittlicher Partikelstrahl, der Schiff und Crew lahmlegt, ohne Hüllenschaden zu verursachen.</text>
-<text name="ce_weaponBlueprint_BA_BEAM_FLAIL_title" language="de">Flail Beam</text>
-<text name="ce_weaponBlueprint_BA_BEAM_FLAIL_desc" language="de">Experimenteller Strahl, der großen Schaden verursacht und Systeme deaktiviert.</text>
-<text name="ce_weaponBlueprint_BA_BEAM_FLAIL_tooltip" language="de">Strahl, verursacht 1 normalen Schaden und 1 Ionenschaden pro Raum. Kann Schilde und Systeme treffen.</text>
 <text name="ce_weaponBlueprint_BA_BEAM_HASTA_title" language="de">Hasta Beam</text>
 <text name="ce_weaponBlueprint_BA_BEAM_HASTA_short" language="de">Hasta</text>
 <text name="ce_weaponBlueprint_BA_BEAM_HASTA_desc" language="de">Veraltete Strahlwaffe.</text>
@@ -5415,6 +5407,7 @@
 <text name="ce_weaponBlueprint_BA_BEAM_SCYTHE_short" language="de">Scythe</text>
 <text name="ce_weaponBlueprint_BA_BEAM_SCYTHE_desc" language="de">Umgebauter Industriestrahl mit großer Reichweite. Etwas schwerfällig für die Nutzung im Kampf.</text>
 <text name="ce_weaponBlueprint_BA_BEAM_SCYTHE_tooltip" language="de">Schwacher Strahl mit großer Reichweite. 1 Schaden pro Raum.</text>
+<text name="ce_weaponBlueprint_BA_BEAM_FLAIL_DAMAGE_title" language="de">Flail Beam</text>
 <text name="ce_weaponBlueprint_BA_BEAM_FLAIL_DAMAGE_short" language="de">Flail</text>
 <text name="ce_weaponBlueprint_BA_BEAM_FLAIL_DAMAGE_desc" language="de">Militarisierter Abbaustrahl mit großer Reichweite. Etwas langsam und schwerfällig für die Nutzung im Kampf.</text>
 <text name="ce_weaponBlueprint_BA_BEAM_FLAIL_DAMAGE_tooltip" language="de">Starker Strahl mit großer Reichweite. 2 Schaden pro Raum. Geringe Chance auf Hüllenbruch.</text>
@@ -6018,11 +6011,6 @@
 <text name="ce_droneBlueprint_DE_DRONE_ANTI_CRYSTAL_HEAVY_short" language="de">Cr. Destroyer</text>
 <text name="ce_droneBlueprint_DE_DRONE_ANTI_CRYSTAL_HEAVY_desc" language="de">Zerstört Drohnen, die dein Schiff angreifen. Nachladezeit 4 Sek.</text>
 <text name="ce_droneBlueprint_DE_DRONE_SHIELD_SMALL_title" language="de">Shield Overcharger Mark I</text>
-<text name="ce_droneBlueprint_DE_DRONE_SHIELD_SMALL_short" language="de">Shield I</text>
-<text name="ce_droneBlueprint_DE_DRONE_SHIELD_BIG_title" language="de">Shield Overcharger Mark III</text>
-<text name="ce_droneBlueprint_DE_DRONE_SHIELD_BIG_short" language="de">Shield III</text>
-<text name="ce_droneBlueprint_DE_DRONE_SHIELD_BIG_desc" language="de">Fortschrittliche Drohne, die schnell Superschilde erzeugt.</text>
-<text name="ce_droneBlueprint_DE_DRONE_SHIELD_SMALL_titlex" language="de">Shield Overcharger Drone</text>
 <text name="ce_droneBlueprint_DE_ANTI_DRONE_2_title" language="de">Heavy Anti-Combat Drone</text>
 <text name="ce_droneBlueprint_DE_ANTI_DRONE_2_short" language="de">Heavy Anti-Drone</text>
 <text name="ce_droneBlueprint_DE_ANTI_DRONE_2_desc" language="de">Langsame Drohne die mehrere feindliche Drohnen mit Ionenladungen ausschalten kann. Weniger effektiv gegen schnelle Drohnen. Nachladezeit: 8 Sek.</text>
@@ -6209,7 +6197,6 @@
 <text name="ce_shipBlueprint_PLAYER_SHIP_CRYSTAL_desc" language="de">Dieses bedrohliche Schiff wird durch die geheimen Technologien der vergessenen Kristallkreaturen angetrieben und besitzt Waffen, die Gegner kristallisieren können.</text>
 <text name="ce_shipBlueprint_PLAYER_SHIP_CRYSTAL_2_unlock" language="de">Schließe 2 von 3 der Crystal Cruiser Erfolge ab, um dieses Schiff freizuschalten.</text>
 <text name="ce_shipBlueprint_PLAYER_SHIP_CRYSTAL_2_desc" language="de">Dank ihrer einzigartigen Fähigkeit sind die Kristall-Kreaturen sehr geschickt im Entern von Schiffen. Dieses Schiff wurde speziell dafür entwickelt.</text>
-<text name="ce_shipBlueprint_PLAYER_SHIP_HARD_desc" language="de">This class of ship was decommissioned from Federation service years ago. After a number of refits and updates this classic ship is ready for mod testing.</text>
 <text name="ce_augBlueprint_O2_MASKS_title" language="de">Adaptive Gel Suits</text>
 <text name="ce_augBlueprint_O2_MASKS_desc" language="de">Schützt die Crew vor bestimmten Gefahren und reduziert Schaden, der durch Sauerstoffmangel verursacht wird auf ein Minimum.</text>
 <text name="ce_augBlueprint_FIRE_EXTINGUISHERS_desc" language="de">Löscht automatisch und zuverlässig Feuer im Schiff.</text>
@@ -6222,8 +6209,6 @@
 <text name="ce_weaponBlueprint_MISSILE_CHARGEGUN_title" language="de">Charge Missiles Mark II</text>
 <text name="ce_weaponBlueprint_MISSILE_CHARGEGUN_short" language="de">Charge M. II</text>
 <text name="ce_weaponBlueprint_MISSILE_CHARGEGUN_desc" language="de">Wenn dieser Raketenwerfer genug Zeit hat, kann er mehrere Projektile replizieren.</text>
-<text name="ce_droneBlueprint_DRONE_SHIELD_title" language="de">Shield Overcharger Mark II</text>
-<text name="ce_droneBlueprint_DRONE_SHIELD_short" language="de">Shield II</text>
 <text name="ce_droneBlueprint_ANTI_DRONE_title" language="de">Anti-Combat Drone Mark I</text>
 <text name="ce_droneBlueprint_ANTI_DRONE_short" language="de">Anti-Drone I</text>
 <text name="ce_droneBlueprint_ANTI_DRONE_desc" language="de">Betäubt feindliche Drohnen, die dein Schiff angreifen. Nachladezeit: 7 Sek.</text>
