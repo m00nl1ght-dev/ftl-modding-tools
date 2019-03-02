@@ -7,4 +7,6 @@
 /out/*
 /run/*
 !/run/text-de.xml
+!/run/patcher_in
+!/run/lang_in
 *.iml
