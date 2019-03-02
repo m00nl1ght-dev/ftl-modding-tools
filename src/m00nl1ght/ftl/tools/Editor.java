@@ -30,6 +30,9 @@ public class Editor extends Application {
 
     public static void main(String... args) {
 
+        LANG_OUT_DIR.mkdirs();
+        PATCHER_OUT_DIR.mkdirs();
+
         TAG_EVENT_LIST = new Patcher.TagType("eventList", (n, p, id, d, tag) -> "ce_eventList_" + n);
         TAG_EVENT = new Patcher.TagType("event", (n, p, id, d, tag) -> p==null?("ce_event_" + n):(p==TAG_CHOICE?(n + "_e"):(n + "_" + id)), "text");
         TAG_CHOICE = new Patcher.TagType("choice", (n, p, id, d, tag) -> n + "_c" + id, "text");
