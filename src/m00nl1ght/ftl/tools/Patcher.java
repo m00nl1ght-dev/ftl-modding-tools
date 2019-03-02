@@ -25,8 +25,6 @@ public class Patcher {
     private Map<String, Editor.LangEntry> existing_keys = new LinkedHashMap<>(); // text -> key
     private Map<String, Editor.LangEntry> MAP;
 
-    public int duplicates = 0;
-
     public Patcher(File sourceDir, File destDir, String target_file, List<String> source, TagType... tags) {
         this.source = source;
         this.sourceDir = sourceDir;
@@ -179,7 +177,7 @@ public class Patcher {
                 existing_keys.put(entry.value, entry);
                 MAP.put(entry.key, entry);
             } else {
-                duplicates++;
+                entry.dupes++;
             }
             line = pre + " id=\"" + entry.key + "\" />"+post;
             return true;

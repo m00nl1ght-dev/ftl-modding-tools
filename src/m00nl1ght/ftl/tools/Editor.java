@@ -125,7 +125,7 @@ public class Editor extends Application {
         list.getItems().clear();
         if (box.isSelected()) {
             final int[] amount = {0};
-            MAP.values().stream().forEachOrdered(entry -> {if (entry.translation.isEmpty() || entry.value.isEmpty()) {list.getItems().add(entry); amount[0]++;}});
+            MAP.values().stream().forEachOrdered(entry -> {if (entry.translation.isEmpty() || entry.value.isEmpty() || entry.translation.endsWith(") ")) {list.getItems().add(entry); amount[0]++;}});
             box.setText("Only show missing translations ("+ amount[0] +" entries)");
         } else {
             MAP.values().stream().forEachOrdered(entry -> list.getItems().add(entry));
@@ -135,8 +135,9 @@ public class Editor extends Application {
 
     public static class LangEntry {
         public String key, value = "", translation = "", file = "";
+        public int dupes = 0;
         public String toString() {
-            return file.isEmpty()?key:("["+file+"] "+key);
+            return file.isEmpty()?key:("["+file+"] "+key+(dupes>0?" ("+dupes+")":""));
         }
     }
 
@@ -151,6 +152,14 @@ public class Editor extends Application {
             EVENT_PATCHER.patch(MAP);
             BLUEPRINT_PATCHER.patch(MAP);
             new LangReader(new File("text-de.xml"), "de").read(MAP);
+            for (LangEntry e : MAP.values()) {
+                if (e.translation.isEmpty() && e.value.startsWith("(")) {
+                    int c = e.value.indexOf(')');
+                    if (c<3) continue;
+                    String b = e.value.substring(1, c);
+                    e.translation = "("+b+") ";
+                }
+            }
             this.info();
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -164,7 +173,7 @@ public class Editor extends Application {
                 no_eng++;
                 System.out.println("Entry missing value: "+entry.key);
             }
-            if (entry.translation.isEmpty()) no_de++;
+            if (entry.translation.isEmpty() || entry.translation.endsWith(") ")) no_de++;
         }
         System.out.println("Results: "+MAP.size()+" entries, "+no_eng+" missing values and "+no_de+" missing translations.");
     }

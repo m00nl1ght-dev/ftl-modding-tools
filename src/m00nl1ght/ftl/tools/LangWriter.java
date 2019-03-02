@@ -52,10 +52,7 @@ public class LangWriter {
         } else {
             String last_file = "";
             for (Editor.LangEntry entry : keys.values()) {
-                if (entry.translation.isEmpty()) {
-                    //System.out.println("WARN: Missing translation for key "+entry.key);
-                    continue;
-                }
+                if (entry.translation.isEmpty() || entry.translation.endsWith(") ")) {continue;}
                 if (!last_file.equals(entry.file)) {
                     lang_writer.newLine();
                     lang_writer.write("<!-- FILE: "+entry.file+" -->");

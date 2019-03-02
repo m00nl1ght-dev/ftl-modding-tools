@@ -5214,6 +5214,161 @@
 <text name="tutorial_DONE_1_PC" language="de">Das waren die Grundlagen. Viel Glück da draußen.\n\nWähle WEITER, um das Tutorial zu verlassen.</text>
 <text name="tutorial_DONE_1_IPAD" language="de">Das waren die Grundlagen. Viel Glück da draußen.\n\nTippe auf WEITER, um das Tutorial zu verlassen.</text>
 
+<!-- FILE: text_events.xml.append -->
+
+<text name="ce_eventList_CE_PRE_FIGHT_1_c1" language="de">Weiter...</text>
+<text name="ce_eventList_CE_PRE_FIGHT_1_c2" language="de">(Subspace Scanner) Die Umgebung mit deinem erweiterten Scanner untersuchen und so Sensordaten erlangen. [ Energie: -1 ]</text>
+<text name="ce_eventList_CE_PRE_FIGHT_1_c3" language="de">(Internal Effector) Den Feldgenerator aktivieren. [ Energie: -2 ]</text>
+<text name="ce_eventList_CE_PRE_FIGHT_1_c4" language="de">(Targeting Jammer) Die feindliche Zielerfassung stören. [ Energie: -2 ]</text>
+<text name="ce_eventList_CE_PRE_FIGHT_1_c5" language="de">(Drone Uplink Jammer) Die feindliche Drohnenkomunikation stören. [ Energie: -2 ]</text>
+<text name="ce_eventList_CE_PRE_FIGHT_1_c6" language="de">(Teleporter Disruptor) Den feindlichen Teleporter stören. [ Energie: -1 ]</text>
+<text name="ce_eventList_CE_PRE_FIGHT_1_c7" language="de">(Subspace Scanner) Das feindliche Schiff mit dem erweiterten Scanner erfassen, um seine Tarnung zu umgehen. [ Energie: -2 ]</text>
+<text name="ce_eventList_CE_PRE_FIGHT_1_c8" language="de">(Mind Shield) Den Schutz vor Mind Control aktivieren. [ Energie: -1 ]</text>
+<text name="ce_eventList_CE_PRE_FIGHT_1_c9" language="de">(Advanced Plating) Das Schiff vor Mind Control und Hacking schützen. [ Energie: -1 ]</text>
+<text name="ce_eventList_CE_PRE_FIGHT_1_c10" language="de">(Ion Field) Die feindlichen Schilde mit deinem Ionen-Feldgenerator abschwächen. [ Energie: -3 ]</text>
+<text name="ce_eventList_CE_PRE_FIGHT_1_c11" language="de">(Radiation Projector) Den Feind verstrahlen. Mal sehen wie lange sie durchhalten! [ Energie: -2 ]</text>
+<text name="ce_textList_CE_PRE_FIGHT_TEXT_1" language="de">Du bereitest dich auf den Kampf vor.</text>
+<text name="ce_textList_CE_PRE_FIGHT_TEXT_2" language="de">Du bereitest dich auf den Kampf vor.</text>
+<text name="ce_textList_CE_PRE_FIGHT_TEXT_3" language="de">Du näherst dich dem feindlichen Schiff.</text>
+<text name="ce_textList_CE_PRE_FIGHT_TEXT_4" language="de">Jetzt gibt es kein Zurück mehr.</text>
+<text name="ce_textList_CE_PRE_FIGHT_TEXT_5" language="de">Für die Föderation!</text>
+<text name="ce_textList_CE_PRE_FIGHT_TEXT_6" language="de">Der Feind nähert sich.</text>
+<text name="ce_textList_CE_PRE_FIGHT_TEXT_7" language="de">Ein weiterer Kampf steht bevor.</text>
+<text name="ce_textList_CE_PRE_FIGHT_TEXT_8" language="de">Ein weiteres Mal bereitest du dich auf den Kampf vor.</text>
+<text name="ce_textList_CE_PRE_FIGHT_TEXT_9" language="de">Der Bordcomputer informiert die Crew: "Feindliches Schiff nähert sich. Kampf steht bevor."</text>
+<text name="ce_textList_CE_PRE_FIGHT_TEXT_10" language="de">Der Bordcomputer motiviert die Crew: "Simulationen zeigen gute Erfolgschancen für diesen Kampf. Bleibt ruhig und macht eure Arbeit."</text>
+<text name="ce_textList_CE_PRE_FIGHT_TEXT_11" language="de">Rote Lichter flackern auf deinem Bildschirm. Der Feind wird als gefährlich eingestuft.</text>
+<text name="ce_textList_CE_PRE_FIGHT_TEXT_12" language="de">Du bleibst ruhig und gibst den endgültigen Befehl, "Angriff!"</text>
+<text name="ce_textList_CE_PRE_FIGHT_TEXT_13" language="de">Warnsignale ertönen auf dem Schiff... auf Gefechtsstation!</text>
+<text name="ce_textList_CE_PRE_FIGHT_TEXT_14" language="de">Ein Kampf steht bevor. Du begibst dich zur Steuerzentrale und alarmierst die Crew.</text>
+<text name="ce_textList_CE_PRE_FIGHT_TEXT_15" language="de">Deine Crew bereitet sich auf den Kampf vor.</text>
+<text name="ce_textList_CE_PRE_FIGHT_TEXT_16" language="de">Du bereitest die Systeme auf den Kampf vor.</text>
+<text name="ce_textList_CE_PRE_FIGHT_TEXT_17" language="de">Deine Crew meldet: "Wir nähern uns dem Feind, Captain."</text>
+<text name="ce_textList_CE_PRE_FIGHT_TEXT_18" language="de">Deine Crew meldet: "Alle Systeme kampfbereit, Captain."</text>
+<text name="ce_textList_CE_PRE_FIGHT_TEXT_19" language="de">Deine Crew meldet: "Das Schiff ist kampfbereit, Captain."</text>
+<text name="ce_textList_CE_PRE_FIGHT_TEXT_20" language="de">Deine Crew meldet: "Schiff bereit zum Ausweichen, Captain."</text>
+<text name="ce_textList_CE_PRE_FIGHT_TEXT_21" language="de">Deine Crew meldet: "Bereit zum Kampf!"</text>
+<text name="ce_textList_CE_PRE_FIGHT_ION_TEXT_1" language="de">Die feindlichen Schilde flackern und werden immer schwächer. Das wird die Sache etwas vereinfachen!</text>
+<text name="ce_textList_CE_PRE_FIGHT_ION_TEXT_2" language="de">Die feindlichen Schilde flackern und werden immer schwächer. Das Ionenfeld scheint gut zu funktionieren.</text>
+<text name="ce_textList_CE_PRE_FIGHT_ION_TEXT_3" language="de">Die feindlichen Schilde blitzen kurz auf und werden dann schwächer. Das wird die Sache etwas vereinfachen!</text>
+<text name="ce_textList_CE_PRE_FIGHT_ION_TEXT_4" language="de">Das Ionenfeld dezimiert eine der feindlichen Schildbarrieren.</text>
+<text name="ce_textList_CE_PRE_FIGHT_ION_TEXT_5" language="de">Deine Crew meldet: "Feindliche Verteidigung erfolgreich geschwächt!"</text>
+<text name="ce_textList_CE_PRE_FIGHT_ION_TEXT_6" language="de">Deine Crew meldet: "Die feindlichen Schilde brechen zusammen!"</text>
+<text name="ce_textList_CE_PRE_FIGHT_ION_TEXT_7" language="de">Das wird die Sache etwas vereinfachen!</text>
+<text name="ce_textList_CE_PRE_FIGHT_ION_TEXT_8" language="de">Zunächst hat der Feldgenerator Schwierigkeiten, aber nach kurzer Zeit werden die feindlichen Schilde abgeschwächt.</text>
+<text name="ce_textList_CE_PRE_FIGHT_ION_TEXT_9" language="de">Zunächst hat der Feldgenerator Schwierigkeiten, aber nach kurzer Zeit werden die feindlichen Schilde abgeschwächt.</text>
+<text name="ce_textList_CE_PRE_FIGHT_TELEPORTER_TEXT_1" language="de">Dein Bordcomputer bestätigt, dass der feindliche Teleporter erfolgreich gestört wurde.</text>
+<text name="ce_textList_CE_PRE_FIGHT_TELEPORTER_TEXT_2" language="de">Dein Bordcomputer bestätigt, dass der feindliche Teleporter erfolgreich gestört wurde.</text>
+<text name="ce_textList_CE_PRE_FIGHT_TELEPORTER_TEXT_3" language="de">"Disruptor-Feld stabil, Captain. Das sollte sie aufhalten."</text>
+<text name="ce_textList_CE_PRE_FIGHT_TELEPORTER_TEXT_4" language="de">"Disruptor-Feld stabil, Captain. Das sollte sie aufhalten."</text>
+<text name="ce_textList_CE_PRE_FIGHT_BIOWEAPON_TEXT_1" language="de">"Captain?" Deine Crew wartet auf Bestätigung des Befehls. Du ignorierst ihre Bedenken und aktivierst die Biowaffe. Die feindliche Crew wird schwer leiden, es sei denn sie haben ein sehr fortschrittliches Lebenserhaltungssystem.</text>
+<text name="ce_textList_CE_PRE_FIGHT_BIOWEAPON_TEXT_2" language="de">"Oh.. richtig, der Strahlungsprojektor..." Deine Crew scheint von der Nutzung dieser schrecklichen Biowaffe verstört zu sein.</text>
+<text name="ce_textList_CE_PRE_FIGHT_BIOWEAPON_TEXT_3" language="de">Kein Erbarmen!</text>
+<text name="ce_textList_CE_PRE_FIGHT_BIOWEAPON_TEXT_4" language="de">Deine Crew meldet: "Strahlungsprojektor bereit, Captain."</text>
+<text name="ce_textList_CE_PRE_FIGHT_BIOWEAPON_TEXT_5" language="de">Deine Crew wird plötzlich sehr still. Sie sind mit der Nutzung dieser Biowaffe wohl nicht einverstanden, aber befolgen den Befehl.</text>
+<text name="ce_textList_CE_RESIST_WEAPON_JAMMING_TEXT_1" language="de">Dein erweitertes Waffensystem ist weniger auf manuelle Zielerfassung angewiesen, die feindliche Störung ist deshalb nicht so effektiv.</text>
+<text name="ce_textList_CE_RESIST_WEAPON_JAMMING_TEXT_2" language="de">Das feindliche Störfeld verhindert die manuelle Zielerfassung, aber dein erweitertes Waffensystem kann auch mit weniger Daten noch effektiv arbeiten.</text>
+<text name="ce_textList_CE_RESIST_WEAPON_JAMMING_TEXT_3" language="de">Das feindliche Störfeld verhindert die manuelle Zielerfassung, aber dein erweitertes Waffensystem kann auch mit weniger Daten noch effektiv arbeiten.</text>
+<text name="ce_textList_CE_RESIST_ICEFIELD_TEXT_1" language="de">Dein fortschrittliches Tarnsystem wird dich auch ohne Hintergrundstrahlung effektiv tarnen. Dein Gegner wird dich trotz des Eisfeldes nicht kommen sehen.</text>
+<text name="ce_textList_CE_RESIST_ICEFIELD_TEXT_2" language="de">"Mal sehen, was dieses Schiff wirklich drauf hat." Die Hitzeabschirmung deines fortschrittlichen Tarnsystems hinterlässt keine Spuren, selbst unter diesen idealen Bedingungen für Sensorsysteme.</text>
+<text name="ce_textList_CE_RESIST_ICEFIELD_TEXT_3" language="de">"Mal sehen, was dieses Schiff wirklich drauf hat." Die Hitzeabschirmung deines fortschrittlichen Tarnsystems hinterlässt keine Spuren, selbst unter diesen idealen Bedingungen für Sensorsysteme.</text>
+<text name="ce_eventList_CE_RESIST_CLOAK_HACK_1" language="de">Dein erweitertes Tarnsystem ist gut gegen Störungen geschützt, das feindliche Schiff kann daher nur wenig dagegen anrichten.</text>
+<text name="ce_textList_CE_RESIST_DRONE_JAMMING_TEXT_1" language="de">Dein erweitertes Drohnensystem aktiviert automatisch die interne AI der Drohnen, damit sie auch ohne Komunikation zum Schiff weiterarbeiten können.</text>
+<text name="ce_textList_CE_RESIST_DRONE_JAMMING_TEXT_2" language="de">Dein erweitertes Drohnensystem aktiviert automatisch die interne AI der Drohnen, damit sie auch ohne Komunikation zum Schiff weiterarbeiten können.</text>
+<text name="ce_textList_CE_RESIST_DRONE_JAMMING_TEXT_3" language="de">Dein erweitertes Drohnensystem aktiviert automatisch die interne AI der Drohnen, damit sie auch ohne Komunikation zum Schiff weiterarbeiten können.</text>
+<text name="ce_textList_CE_RESIST_ION_TEXT_1" language="de">Dein fortschrittliches Schildsystem kann die Schilde trotz des Ionenfelds stabilisieren.</text>
+<text name="ce_textList_CE_RESIST_ION_TEXT_2" language="de">Dein fortschrittliches Schildsystem kann die Schilde trotz des Ionenfelds stabilisieren.</text>
+<text name="ce_textList_CE_RESIST_ION_TEXT_3" language="de">Dein fortschrittliches Schildsystem kann die Schilde trotz des Ionenfelds stabilisieren.</text>
+<text name="ce_textList_CE_RESIST_ION_TEXT_4" language="de">Dein fortschrittliches Schildsystem kann die Schilde trotz des Ionenfelds stabilisieren.</text>
+<text name="ce_textList_CE_RESIST_ION_TEXT_5" language="de">Dein fortschrittliches Schildsystem kann die Schilde trotz des Ionenfelds stabilisieren.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_NEBULA_SCANNER_1_c2" language="de">(Internal Generator) Den internen Generator nutzen, um diese Kampferweiterung mit Energie zu versorgen.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_NEBULA_SCANNER_1_c3" language="de">(Internal Generator) Eine weitere Kampferweiterung aktivieren.</text>
+<text name="ce_textList_CE_PRE_FIGHT_NEBULA_SCANNER_TEXT_1" language="de">Mit deinen modifizierten Sensoren wird dir selbst in diesen Nebelwolken nichts entgehen.</text>
+<text name="ce_textList_CE_PRE_FIGHT_NEBULA_SCANNER_TEXT_2" language="de">Mit deinen modifizierten Sensoren wird dir selbst in diesen Nebelwolken nichts entgehen.</text>
+<text name="ce_textList_CE_PRE_FIGHT_NEBULA_SCANNER_TEXT_3" language="de">Mit deinen modifizierten Sensoren kannst du das feindliche Schiff selbst in diesen Nebelwolken erfassen.</text>
+<text name="ce_textList_CE_PRE_FIGHT_NEBULA_SCANNER_TEXT_4" language="de">Mit deinen modifizierten Sensoren kannst du das feindliche Schiff selbst in diesen Nebelwolken erfassen.</text>
+<text name="ce_textList_CE_PRE_FIGHT_NEBULA_SCANNER_TEXT_5" language="de">Mit deinen modifizierten Sensoren kannst du das feindliche Schiff selbst in diesen Nebelwolken erfassen.</text>
+<text name="ce_textList_CE_PRE_FIGHT_NEBULA_SCANNER_TEXT_6" language="de">Mit deinen modifizierten Sensoren kannst du das feindliche Schiff selbst in diesen Nebelwolken erfassen.</text>
+<text name="ce_textList_CE_PRE_FIGHT_CLOAK_BREAK_TEXT_1" language="de">Deine modifizierten Sensoren können das feindliche Schiff durch die Tarnung hindurch erfassen, und machen so das feindliche Tarnsystem nutzlos.</text>
+<text name="ce_textList_CE_PRE_FIGHT_CLOAK_BREAK_TEXT_2" language="de">Deine modifizierten Sensoren können das feindliche Schiff durch die Tarnung hindurch erfassen, es kann sich also nicht so leicht durch einfache Tarnsysteme vor dir verstecken.</text>
+<text name="ce_textList_CE_PRE_FIGHT_CLOAK_BREAK_TEXT_3" language="de">Deine modifizierten Sensoren können das feindliche Schiff durch die Tarnung hindurch erfassen, es kann sich also nicht so leicht durch einfache Tarnsysteme vor dir verstecken.</text>
+<text name="ce_textList_CE_PRE_FIGHT_CLOAK_BREAK_TEXT_4" language="de">Deine modifizierten Sensoren können das feindliche Schiff durch die Tarnung hindurch erfassen, es kann sich also nicht so leicht durch einfache Tarnsysteme vor dir verstecken.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_ASB_11" language="de">Das Schiff scheint mit einer seltsamen Abschirmung ausgerüstet zu sein. Deine ASB-Plattform meldet, dass sie das feindliche Schiff nicht richtig erfassen kann, und daher teilweise auch dein Schiff treffen könnte.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_ASB_11_c1" language="de">Deine ASB-Plattform vorsichtshalber deaktivieren.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_ASB_11_c1_e" language="de">Du deaktivierst die Plattform und musst den Feind nun ohne ASB-Unterstützung besiegen.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_ASB_11_c2" language="de">Die Plattform trotzdem einsetzen.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_ASB_11_c2_e" language="de">Du überschreibst die Sicherheitsprotokolle der ASB-Plattform und sie beginnt, breitgefächerte Salven zu schießen. Das wird ein wilder Kampf.</text>
+<text name="ce_textList_CE_PRE_FIGHT_ASB_TEXT_1" language="de">Die Crew trifft die letzten Vorbereitungen, und du positionierst die ASB-Plattform in der Nähe des Schiffs.</text>
+<text name="ce_textList_CE_PRE_FIGHT_ASB_TEXT_2" language="de">Die Crew trifft die letzten Vorbereitungen, und du positionierst die ASB-Plattform in der Nähe des Schiffs.</text>
+<text name="ce_textList_CE_PRE_FIGHT_ASB_TEXT_3" language="de">Die Crew trifft die letzten Vorbereitungen, und du positionierst die ASB-Plattform in der Nähe des Schiffs.</text>
+<text name="ce_textList_CE_PRE_FIGHT_ASB_TEXT_4" language="de">Die Crew trifft die letzten Vorbereitungen, und du positionierst die ASB-Plattform in der Nähe des Schiffs.</text>
+<text name="ce_textList_CE_PRE_FIGHT_ASB_TEXT_5" language="de">"ASB ist bereit und wird gleich beginnen zu feuern, Captain." </text>
+<text name="ce_textList_CE_PRE_FIGHT_ASB_TEXT_6" language="de">"ASB ist bereit und wird gleich beginnen zu feuern, Captain." </text>
+<text name="ce_textList_CE_PRE_FIGHT_ASB_TEXT_7" language="de">"ASB ist bereit und wird gleich beginnen zu feuern, Captain." </text>
+<text name="ce_textList_CE_PRE_FIGHT_ASB_TEXT_8" language="de">"ASB ist bereit und wird gleich beginnen zu feuern, Captain." </text>
+<text name="ce_textList_CE_PRE_FIGHT_ASB_TEXT_9" language="de">Die AI der Plattform meldet: "Ziel erfasst."</text>
+<text name="ce_textList_CE_PRE_FIGHT_ASB_TEXT_10" language="de">Die AI der Plattform meldet: "Ziel erfasst."</text>
+<text name="ce_textList_CE_PRE_FIGHT_ASB_TEXT_11" language="de">Die AI der Plattform meldet: "Ziel erfasst."</text>
+<text name="ce_textList_CE_PRE_FIGHT_ASB_TEXT_12" language="de">Die AI der Plattform meldet: "Ziel erfasst."</text>
+<text name="ce_eventList_CE_PRE_FIGHT_ASB_2_11" language="de">Die ASB-Plattform meldet ein Problem: Du bist zu nah am feindlichen Schiff, wenn das ASB feuert, könnte es auch dein Schiff treffen.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_ASB_2_11_c1" language="de">Die Plattform vorsichtshalber deaktivieren.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_ASB_2_11_c1_e" language="de">Du deaktivierst die Plattform und musst den Feind nun ohne ASB-Unterstützung bekämpfen.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_ASB_2_12" language="de">Das feindliche Schiff scheint mit einer seltsamen Abschirmung ausgerüstet zu sein, die die Zielerfassung des ASB stört.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_ASB_2_13" language="de">"Irgendetwas stimmt hier nicht, Captain." Die ASB-Plattform reagiert nicht auf deine Befehle. Das feindliche Schiff scheint ein spezielles Hacking-System zu haben, und nutzt die Plattform nun gegen dich!</text>
+<text name="ce_eventList_CE_PRE_FIGHT_EFFECTOR_1" language="de">Dein Effektor beginnt, ein starkes Ionenfeld aufzubauen. "Zielsystem, Captain?"</text>
+<text name="ce_eventList_CE_PRE_FIGHT_EFFECTOR_1_c2" language="de">Drohnensystem.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_EFFECTOR_1_c3" language="de">Artillery.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_EFFECTOR_1_c3_e" language="de">Der Effektor ionisiert das Artillery-System. Das sollte die Aufladezeit stark verlängern.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_EFFECTOR_1_c4_e" language="de">Dein Effektor trifft das feindliche Schildsystem, das sollte ihre Verteidigung deutlich schwächen.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_EFFECTOR_1_c5" language="de">Antrieb.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_EFFECTOR_1_c5_e" language="de">Der Effektor deaktiviert die Hauptschubdüse des feindlichen Schiffs.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_EFFECTOR_1_c6" language="de">Cloaking.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_EFFECTOR_1_c6_e" language="de">Dein Effektor deaktiviert das feindliche Tarnsystem.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_EFFECTOR_1_c7" language="de">Anderes System.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_EFFECTOR_1_c7_e_c1" language="de">Teleporter.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_EFFECTOR_1_c7_e_c1_e" language="de">Dein Effektor stört die Zielerfassung des feindlichen Teleporters. Der Feind wird es schwer haben, Crew auf dein Schiff zu teleportieren.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_EFFECTOR_1_c7_e_c2" language="de">Hacking.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_EFFECTOR_1_c7_e_c2_e" language="de">Dein Effektor wird versuchen, feindliche Hacking-Versuche zu verhindern.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_EFFECTOR_1_c7_e_c3" language="de">Mind Control.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_EFFECTOR_1_c7_e_c3_e" language="de">Dein Effektor versucht, das feindliche Mind Control zu deaktivieren.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_EFFECTOR_1_c7_e_c4" language="de">Medbay.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_EFFECTOR_1_c7_e_c4_e" language="de">Dein Effektor versucht, feindliche medizinische Ausrüstung zu deaktivieren.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_EFFECTOR_1_c7_e_c5" language="de">Clonebay.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_EFFECTOR_1_c7_e_c5_e" language="de">Dein Effektor versucht, feindliche Klontechnologie zu deaktivieren.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_EFFECTOR_1_c7_e_c6" language="de">Türen.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_EFFECTOR_1_c7_e_c6_e" language="de">Das feindliche Sicherheitssystem ist nun deaktiviert. Feuer können sich nun ungehindert ausbreiten und eine Entermannschaft kann sich ungehindert bewegen.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_EFFECTOR_1_c7_e_c7" language="de">Lebenserhaltungssystem.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_EFFECTOR_1_c7_e_c7_e" language="de">Dein Effektor versucht, das feindliche Lebenserhaltungssystem zu deaktivieren.</text>
+<text name="ce_textList_CE_PRE_FIGHT_MIND_SHIELD_TEXT_1" language="de">Ein spezielles Schild schützt nun deine Crew vor Gedankenkontrolle.</text>
+<text name="ce_textList_CE_PRE_FIGHT_MIND_SHIELD_TEXT_2" language="de">Ein spezielles Schild schützt nun deine Crew vor Gedankenkontrolle.</text>
+<text name="ce_textList_CE_PRE_FIGHT_MIND_SHIELD_TEXT_3" language="de">Ein spezielles Schild verhindert, dass das feindliche Schiff Gedankenkontrolle effektiv einsetzen kann.</text>
+<text name="ce_textList_CE_PRE_FIGHT_MIND_SHIELD_TEXT_4" language="de">Ein spezielles Schild verhindert, dass das feindliche Schiff Gedankenkontrolle effektiv einsetzen kann.</text>
+<text name="ce_textList_CE_PRE_FIGHT_MIND_SHIELD_TEXT_5" language="de">Ein spezielles Schild verhindert, dass das feindliche Schiff Gedankenkontrolle effektiv einsetzen kann.</text>
+<text name="ce_textList_CE_PRE_FIGHT_MIND_SHIELD_TEXT_6" language="de">Ein spezielles Schild verhindert, dass das feindliche Schiff Gedankenkontrolle effektiv einsetzen kann.</text>
+<text name="ce_textList_CE_PRE_FIGHT_MIND_SHIELD_TEXT_7" language="de">Ein spezielles Schild verhindert, dass das feindliche Schiff Gedankenkontrolle effektiv einsetzen kann.</text>
+<text name="ce_textList_CE_PRE_FIGHT_MIND_SHIELD_TEXT_8" language="de">Ein spezielles Schild verhindert, dass das feindliche Schiff Gedankenkontrolle effektiv einsetzen kann.</text>
+<text name="ce_textList_CE_PRE_FIGHT_FIREWALL_TEXT_1" language="de">Deine Firewall schützt dich nun vor größeren Hacking-Angriffen. Deine Crew fühlt sich dadurch wesentlich sicherer.</text>
+<text name="ce_textList_CE_PRE_FIGHT_FIREWALL_TEXT_2" language="de">Deine Firewall schützt dich nun vor größeren Hacking-Angriffen.</text>
+<text name="ce_textList_CE_PRE_FIGHT_FIREWALL_TEXT_3" language="de">Deine Firewall schützt dich nun vor größeren Hacking-Angriffen. Deine Crew fühlt sich dadurch wesentlich sicherer.</text>
+<text name="ce_textList_CE_PRE_FIGHT_FIREWALL_TEXT_4" language="de">Deine Firewall schützt dich nun vor größeren Hacking-Angriffen. Deine Crew fühlt sich dadurch wesentlich sicherer.</text>
+<text name="ce_textList_CE_PRE_FIGHT_FIREWALL_TEXT_5" language="de">Deine Firewall schützt dich nun vor größeren Hacking-Angriffen. Deine Crew fühlt sich dadurch wesentlich sicherer.</text>
+<text name="ce_textList_CE_PRE_FIGHT_FIREWALL_TEXT_6" language="de">Deine Firewall schützt dich nun vor größeren Hacking-Angriffen. Deine Crew fühlt sich dadurch wesentlich sicherer.</text>
+<text name="ce_textList_CE_PRE_FIGHT_FIREWALL_TEXT_7" language="de">Deine Firewall schützt dich nun vor größeren Hacking-Angriffen. Deine Crew fühlt sich dadurch wesentlich sicherer.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_EFFECTOR_RESULTS_WEAPONS_1_1" language="de">Das feindliche Waffensystem ist nun gestört und verliert etwas Energie.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_EFFECTOR_RESULTS_WEAPONS_1_2" language="de">Das feindliche Schiff ist scheinbar zu gut geschützt. Dein Effektor kann nicht zum Waffensystem durchdringen.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_EFFECTOR_RESULTS_DRONES_1_1" language="de">Das feindliche Drohnensystem ist nun gestört und verliert etwas Energie.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_EFFECTOR_RESULTS_DRONES_1_3" language="de">Das feindliche Schiff ist scheinbar zu gut geschützt. Dein Effektor kann nicht zum Drohnensystem durchdringen.</text>
+<text name="ce_eventList_CE_WEAPON_JAMMING_RESULTS_1_1" language="de">Das feindliche Waffensystem scheint veraltet zu sein, die Störung ist daher recht effektiv.</text>
+<text name="ce_eventList_CE_WEAPON_JAMMING_RESULTS_1_2" language="de">Dein Störsignal scheint gegen dieses Schiff sehr effektiv zu sein. Einige der Waffen können nicht manuell bedient werden und werden somit nutzlos.</text>
+<text name="ce_eventList_CE_WEAPON_JAMMING_RESULTS_1_3" language="de">Das feindliche Waffensystem ist nun gestört und eine der Waffen ist deaktiviert.</text>
+<text name="ce_eventList_CE_WEAPON_JAMMING_RESULTS_1_4" language="de">Das feindliche Waffensystem ist nun gestört und teilweise deaktiviert.</text>
+<text name="ce_eventList_CE_WEAPON_JAMMING_RESULTS_1_5" language="de">Das hat dein Gegner sicher nicht erwartet. Das feindliche Waffensystem ist gestört, und eine der Waffen wird nutzlos.</text>
+<text name="ce_eventList_CE_WEAPON_JAMMING_RESULTS_1_6" language="de">Das Störsignal deaktiviert erfolgreich einen Teil des feindlichen Waffensystems.</text>
+<text name="ce_eventList_CE_WEAPON_JAMMING_RESULTS_1_7" language="de">Deine Crew meldet: "Störsignal aktiv und wirksam, Captain."</text>
+<text name="ce_eventList_CE_WEAPON_JAMMING_RESULTS_1_8" language="de">Deine Crew meldet: "Störsignal aktiv, Captain. Doch sie scheinen fortschrittliche Waffensysteme zu haben, und die Störung ist nicht effektiv. Nicht gut..."</text>
+<text name="ce_eventList_CE_WEAPON_JAMMING_RESULTS_1_9" language="de">Dein Störsignal ist nutzlos gegen die fortschrittlichen Waffensysteme des feindlichen Schiffs.</text>
+<text name="ce_eventList_CE_WEAPON_JAMMING_RESULTS_1_11" language="de">Die feindliche Zielerfassung sollte nun eigentlich gestört sein, doch alle Waffen bleiben aktiv. Dein Störsignal scheint hier ineffektiv zu sein...</text>
+
 <!-- FILE: text_blueprints.xml.append -->
 
 <text name="ce_systemBlueprint_oxygen_title" language="de">Life Support</text>
