@@ -7,6 +7,8 @@ import javafx.scene.control.*;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+import org.apache.commons.lang3.StringUtils;
+import org.apache.commons.text.similarity.FuzzyScore;
 
 import java.io.File;
 import java.io.IOException;
@@ -27,6 +29,7 @@ public class Editor extends Application {
     final Map<String, LangEntry> MAP = new LinkedHashMap<>();
     public LangEntry current = null;
     private ListView<LangEntry> list;
+    private FuzzyScore dist_alg = new FuzzyScore(Locale.ENGLISH);
 
     public static void main(String... args) {
 
@@ -98,10 +101,13 @@ public class Editor extends Application {
         Button btnSave = new Button("Save");
         btnSave.setOnAction(event -> this.save(btnSave));
 
+        Button btnSuggest = new Button("Suggest");
+        btnSuggest.setOnAction(event -> this.suggest(btnSuggest, langB));
+
         CheckBox chkMissinOnly = new CheckBox("Only show missing translations");
         chkMissinOnly.setOnAction(event -> this.changeMode(chkMissinOnly));
 
-        box.getChildren().addAll(btnSave, chkMissinOnly);
+        box.getChildren().addAll(btnSave, chkMissinOnly, btnSuggest);
 
         list = new ListView<>();
         list.setMinSize(-1, 700);
@@ -196,6 +202,25 @@ public class Editor extends Application {
         }
         btnSave.textProperty().setValue("Save");
         btnSave.disableProperty().setValue(false);
+    }
+
+    public void suggest(Button btn, TextArea langB) {
+        btn.textProperty().setValue("...");
+        btn.disableProperty().setValue(true);
+
+        final String a = current.value;
+        double match = 0D;
+        LangEntry best = null;
+        for (LangEntry e : MAP.values()) {
+            if (StringUtils.isBlank(e.value)) continue;
+            double v = dist_alg.fuzzyScore(e.value, a);
+            if (v>match) {match=v; best=e;}
+        }
+
+        if (best!=null) langB.setText(best.translation);
+
+        btn.textProperty().setValue("Suggest");
+        btn.disableProperty().setValue(false);
     }
 
 }
