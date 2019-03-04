@@ -29,6 +29,7 @@ public class Editor extends Application {
     final Map<String, LangEntry> MAP = new LinkedHashMap<>();
     public LangEntry current = null;
     private ListView<LangEntry> list;
+    private Label label = new Label("");
     private FuzzyScore dist_alg = new FuzzyScore(Locale.ENGLISH);
 
     public static void main(String... args) {
@@ -103,11 +104,12 @@ public class Editor extends Application {
 
         Button btnSuggest = new Button("Suggest");
         btnSuggest.setOnAction(event -> this.suggest(btnSuggest, langB));
+        btnSuggest.disableProperty().setValue(true);
 
         CheckBox chkMissinOnly = new CheckBox("Only show missing translations");
         chkMissinOnly.setOnAction(event -> this.changeMode(chkMissinOnly));
 
-        box.getChildren().addAll(btnSave, chkMissinOnly, btnSuggest);
+        box.getChildren().addAll(btnSave, chkMissinOnly, btnSuggest, label);
 
         list = new ListView<>();
         list.setMinSize(-1, 700);
@@ -119,6 +121,8 @@ public class Editor extends Application {
             current = newValue;
             langA.setText(current==null?"":current.value);
             langB.setText(current==null?"":current.translation);
+            label.setText("");
+            btnSuggest.disableProperty().setValue(false);
         });
 
         pane.getChildren().addAll(list, new Label("langA"), langA, new Label("langB"), langB, box);
@@ -205,6 +209,7 @@ public class Editor extends Application {
     }
 
     public void suggest(Button btn, TextArea langB) {
+        if (!langB.getText().isEmpty()) {langB.setText(""); current.translation=""; return;}
         btn.textProperty().setValue("...");
         btn.disableProperty().setValue(true);
 
@@ -212,12 +217,13 @@ public class Editor extends Application {
         double match = 0D;
         LangEntry best = null;
         for (LangEntry e : MAP.values()) {
-            if (StringUtils.isBlank(e.value)) continue;
-            double v = dist_alg.fuzzyScore(e.value, a);
+            if (StringUtils.isBlank(e.value) || e.translation.isEmpty() || e.translation.endsWith(") ")) continue;
+            double v = dist_alg.fuzzyScore(e.value, a) - 0.5 * Math.abs(e.translation.length()-a.length());
             if (v>match) {match=v; best=e;}
         }
 
-        if (best!=null) langB.setText(best.translation);
+        if (best!=null && match>= 75D) langB.setText(best.translation);
+        label.setText("diff: "+match);
 
         btn.textProperty().setValue("Suggest");
         btn.disableProperty().setValue(false);
