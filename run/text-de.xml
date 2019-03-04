@@ -5479,6 +5479,57 @@
 <text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_AMMO_2" language="de">Du nimmst die Munition im Vorbeiflug auf.</text>
 <text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_FUEL_1" language="de">Als du dich dem Treibstoff näherst, entzündet dein Gegner ihn mit einem gezielten Schuss.</text>
 <text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_FUEL_2" language="de">Du nimmst den Treibstoff im Vorbeiflug auf.</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_MANNED_TEXT_1" language="de">Im Vorbeiflug kannst du für einen kurzen Augenblick lang den feindlichen Kapitän durch das Hauptfenster direkt sehen. Für einen Moment blickst du ihm direkt in die Augen.</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_MANNED_TEXT_2" language="de">Deine Schüsse durchdringen das feindliche Schiff und geschmolzenes Metall spritzt in alle Richtungen. Sie haben schweren Schaden genommen.</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_MANNED_TEXT_3" language="de">Die wilden Flugmanöver schmeißen die fast aus dem Sitz.</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_MANNED_TEXT_4" language="de">Plötzlich dreht das feindliche Schiff und rast auf dich zu, du kannst eine Kollision gerade noch vehindern. Das Manöver war entweder sehr gut geplant, oder einfach nur wahnsinnig.</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_MANNED_TEXT_5" language="de">Während deine Sensoren das feindliche Schiff erfassen, befindet es sich einen Moment lang vor der Sonne des Systems. Für einen Augenblick erscheint es als majestätischer Schatten vor dem riesigen Stern. Ein kurzes Bild der Schönheit während diesem grausamen Kampf.</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_MANNED_TEXT_6" language="de">"Das feindliche Schiff fällt bald auseinander, nur noch etwas durchhalten!"</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_MANNED_TEXT_7" language="de">"Die feindliche Crew wird nicht mehr lange durchhalten, Captain."</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_MANNED_TEXT_8" language="de">"Wo sind sie hin?" Plötzlich verlierst du das feindliche Schiff aus den Augen. Zum Glück hat deine Crew die Übersicht behalten und kann weiter angreifen.</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_MANNED_TEXT_9" language="de">Das feindliche Schiff ruft: "Gib auf, du kannst uns nicht besiegen!"</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_MANNED_TEXT_10" language="de">Das feindliche Schiff ruft: "Wir werden euch durchlöchern!"</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_MANNED_TEXT_11" language="de">Das feindliche Schiff ruft: "Wir werden nicht aufgeben!"</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_MANNED_TEXT_12" language="de">Das feindliche Schiff ruft: "Guter Kampf. Habe ich etwa endlich einen würdigen Rivalen gefunden?"</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_MANNED_TEXT_13" language="de">Das feindliche Schiff versucht wohl dich zu rufen, aber die Übertragung ist gestört.</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_MANNED_TEXT_14" language="de">Das feindliche Schiff versucht wohl dich zu rufen, aber die Übertragung wird von den Explosionen des Kampfes übertönt. Du ignorierst die Rufe und konzentrierst dich lieber auf den Kampf.</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_MANNED_TEXT_15" language="de">Das feindliche Schiff sendet eine Beleidigung nach der anderen. Du entscheidest dich, dies zu ignorieren und dich auf den Kampf zu konzentrieren.</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_MANNED_TEXT_16" language="de">Das feindliche Schiff sendet eine Beleidigung nach der anderen. Du entscheidest dich, dies zu ignorieren und dich auf den Kampf zu konzentrieren.</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_MANNED_TEXT_17" language="de">Du kennst dieses Manöver aus der Akademie! Wurde dein Gegner ursprünglich von der Föderation trainiert?</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_MANNED_TEXT_18" language="de">Du kennst keine der Manöver, die dein Gegner fliegt, aber sie haben Stil. Der feindliche Kapitän muss sie in einer weit entfernten Akademie gelernt haben.</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_MANNED_TEXT_19" language="de">Das feindliche Schiff hatte wohl zusätzliche Passagiere an Bord. Einige Fluchtkapsel werden abgeworfen und treiben langsam weg. Es wird ihnen wohl zu gefährlich...</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_MANNED_TEXT_20" language="de">Metallteile werden in alle Richtungen geschleudert, als deine Schüsse auf der feindlichen Hülle einschlagen. Den Schrott kannst du später aufsammeln.</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_MANNED_TEXT_21" language="de">Metallteile werden in alle Richtungen geschleudert, als deine Schüsse auf der feindlichen Hülle einschlagen. Den Schrott kannst du später aufsammeln.</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_MANNED_TEXT_22" language="de">Für einen Moment wird alles still. Du blickst von außen auf dich herab, denkst über deine Heimat und deine Familie nach, und wie du hierher gekommen bist, in den nächsten grausamen Kampf. Was ist nur aus dir geworden?</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_MANNED_TEXT_23" language="de">Ruhig bleiben und auf die Manöver des Feindes achten... genau wie in den Übungssimulationen.</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_MANNED_TEXT_24" language="de">Du wirst diesen Feind besiegen, genau wie alle anderen. Für die Föderation! Dein Vater wäre stolz.</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_MANNED_TEXT_25" language="de">Du willst unbedingt verhindern, dass das Schiff entkommt. "Feuer!"</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_MANNED_TEXT_26" language="de">Metallteile werden in alle Richtungen geschleudert, als deine Schüsse auf der feindlichen Hülle einschlagen. Den Schrott kannst du später aufsammeln.</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_MANNED_TEXT_27" language="de">Für einen Moment bist du unsicher. Was, wenn wir es nicht schaffen? Was, wenn wir es nicht lebend zur Basis schaffen? Die Crew scheint deine Zweifel nicht bemerkt zu haben, oder zumindest zeigen sie es nicht. Du reißt dich zusammen und konzentrierst dich schnell wieder auf den Kampf.</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_MANNED_TEXT_28" language="de">Deine Schiffshülle knarrt während den schnellen Ausweichmanövern. Du hoffst, das dein Schiff das noch eine Weile aushällt.</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_MANNED_TEXT_29" language="de">Deine Schüsse lösen einen großes Bruchstück der feindlichen Schiffshülle. Guter Treffer!</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_MANNED_TEXT_30" language="de">Metallteile werden in alle Richtungen geschleudert, als deine Schüsse auf der feindlichen Hülle einschlagen. Den Schrott kannst du später aufsammeln.</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_MANNED_TEXT_31" language="de">Die Hülle des gegnerischen Schiffs ist mit Einschlagkratern überzogen. Lange werden sie das nicht mehr aushalten.</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_MANNED_TEXT_32" language="de">Du wirst gerufen: "Hey Captain, sollten wir uns auf ein Unentschieden einigen? Ha, nur Spaß! Wir werden euch ordentlich einheizen!"</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_AUTO_12" language="de">Der Antrieb des feindlichen Schiffs beginnt zu stocken. Es scheint zu hart navigiert zu haben.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_AUTO_14" language="de">Im Vorbeiflug wirft das automatische Schiff plötzlich eine Minirakete ab. Die Rakete durchbricht deine Hülle, doch anstatt zu explodieren erstellt sie eine holografische Kreatur, die wohl die KI des automatischen Schiffs repräsentieren soll.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_AUTO_15" language="de">Das automatisierte Schiff steuert auf ein kleines Asteroidenfeld zu. Es scheint zu versuchen, dir auf diese Weise zu entkommen, und wird die Rebellen dann sicher über deine Position informieren.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_AUTO_15_c1" language="de">Dem Schiff folgen.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_AUTO_15_c1_e" language="de">Du folgst dem Schiff und versuchst, den Asteroiden auszuweichen.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_AUTO_15_c2" language="de">Es entkommen lassen.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_AUTO_17" language="de">"Captain, wir verlieren Luft." Ein Teil deiner Schiffshülle scheint plötzlich abgebrochen zu sein.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_AUTO_ASTEROIDS_1" language="de">Das automatisierte Schiff weicht den Asteroiden mühelos aus und verschwindet. Es wird sicher die Rebellen informieren.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_AUTO_ASTEROIDS_2" language="de">Das automatische Schiff fliegt in das Asteroidenfeld, doch seine einfache KI ist nicht in der Lage in der Gefahrenzone sicher zu manövrieren. Ein großer Asteroid zerdrückt das Schiff. Du sammelst vorsichtig etwas von dem umhertreibenden Schrott ein.</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_AUTO_TEXT_3" language="de">Plötzlich dreht das feindliche Schiff und rast auf dich zu, du kannst eine Kollision gerade noch vehindern.</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_AUTO_TEXT_4" language="de">Während deine Sensoren das feindliche Schiff erfassen, befindet es sich einen Moment lang vor der Sonne des Systems. Für einen Augenblick erscheint es als majestätischer Schatten vor dem riesigen Stern. Ein kurzes Bild der Schönheit während diesem grausamen Kampf.</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_AUTO_TEXT_9" language="de">Das automatische Schiff sendet dauerhaft eine verstörende Nachricht: "DIEDIEDIEDIEDIEDIEDIEDIEDIEDIEDIEDIEDIEDIEDIEDIE"</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_AUTO_TEXT_10" language="de">Das automatische Schiff ruft dich: "Dies ist eine automatische Nachricht. Wiederstand ist zwecklos. Ihr werdet sterben." Das hast du schon oft gehört...</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_AUTO_TEXT_11" language="de">Das automatische Schiff ruft erneut: "Dies ist eine automatische Nachricht. Wiederstand ist zwecklos. Ihr werdet sterben."</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_AUTO_TEXT_12" language="de">Das automatische Schiff sendet eine Drohung. Du sperrst den Kanal und konzentrierst dich auf den Kampf.</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_AUTO_TEXT_13" language="de">Das automatische Schiff ruft dich: "Dies ist eine automatische Nachricht. Ihre Vergehen wurden den Rebellen gemeldet und werden Konsequenzen haben."</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_AUTO_TEXT_20" language="de">Der Kampf tut deinem Schiff nicht gerade gut. Funken fliegen von den Wänden und Rauch durchzieht das Schiff. Du riechst verbranntes Plastik, und deinen eigenen Schweiß.</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_AUTO_TEXT_21" language="de">Für einen Moment bist du unsicher. Was, wenn wir es nicht schaffen? Was, wenn wir es nicht lebend zur Basis schaffen? Die Crew scheint deine Zweifel nicht bemerkt zu haben, oder zumindest zeigen sie es nicht. Du reißt dich zusammen und konzentrierst dich schnell wieder auf den Kampf.</text>
+<text name="ce_textList_CE_COMBAT_FLUFF_AUTO_TEXT_25" language="de">Die Hülle des gegnerischen Schiffs ist mit Einschlagkratern überzogen. Lange werden sie das nicht mehr aushalten.</text>
 
 <!-- FILE: text_blueprints.xml.append -->
 
