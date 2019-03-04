@@ -5368,6 +5368,117 @@
 <text name="ce_eventList_CE_WEAPON_JAMMING_RESULTS_1_8" language="de">Deine Crew meldet: "Störsignal aktiv, Captain. Doch sie scheinen fortschrittliche Waffensysteme zu haben, und die Störung ist nicht effektiv. Nicht gut..."</text>
 <text name="ce_eventList_CE_WEAPON_JAMMING_RESULTS_1_9" language="de">Dein Störsignal ist nutzlos gegen die fortschrittlichen Waffensysteme des feindlichen Schiffs.</text>
 <text name="ce_eventList_CE_WEAPON_JAMMING_RESULTS_1_11" language="de">Die feindliche Zielerfassung sollte nun eigentlich gestört sein, doch alle Waffen bleiben aktiv. Dein Störsignal scheint hier ineffektiv zu sein...</text>
+<text name="ce_eventList_CE_DRONE_JAMMING_RESULTS_1_1" language="de">Da ihre Komunikation mit dem Schiff gestört wird, werden einige der feindlichen Drohnen nutzlos. Ein Problem weniger.</text>
+<text name="ce_eventList_CE_DRONE_JAMMING_RESULTS_1_2" language="de">Deine Crew meldet: "Feindliches Drohnensystem erfolgreich geschwächt, Captain."</text>
+<text name="ce_eventList_CE_DRONE_JAMMING_RESULTS_1_3" language="de">Da ihre Komunikation mit dem Schiff gestört wird, werden einige der feindlichen Drohnen nutzlos. Ein Problem weniger.</text>
+<text name="ce_eventList_CE_DRONE_JAMMING_RESULTS_1_7" language="de">Das feindliche Drohnensystem scheint mit verschlüsselten Verbindungen zu arbeiten. Deine Störsender sind daher ineffektiv.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_NO_EFFECTOR_1" language="de">Der Interne Generator stellt Energie für eine zweite Kampferweiterung bereit.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_NO_EFFECTOR_1_c1" language="de">Keine weitere Kampferweiterung einsetzen.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_NO_EFFECTOR_1_c2" language="de">(Anti-Ship Battery) Die autonome ASB-Plattform einsetzen. [ Raketen: -4; Energie: -1 ]</text>
+<text name="ce_eventList_CE_PRE_FIGHT_NO_EFFECTOR_1_c9" language="de">(Ion Field) Die feindlichen Schilde mit deinem Ionen-Feldgenerator abschwächen.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_NO_EFFECTOR_1_c10" language="de">(Radiation Projector) Den Feind verstrahlen. Mal sehen wie lange sie durchhalten! </text>
+<text name="ce_eventList_CE_WEAPON_JAMMING_RESULTS_2_2" language="de">Dein Störsignal scheint gegen dieses Schiff sehr effektiv zu sein. Einige der Waffen können nicht manuell bedient werden und werden somit nutzlos.</text>
+<text name="ce_eventList_CE_WEAPON_JAMMING_RESULTS_2_3" language="de">Das feindliche Waffensystem ist nun gestört und teilweise deaktiviert.</text>
+<text name="ce_eventList_CE_WEAPON_JAMMING_RESULTS_2_10" language="de">Die feindliche Zielerfassung sollte nun eigentlich gestört sein, doch alle Waffen bleiben aktiv. Dein Störsignal scheint hier ineffektiv zu sein...</text>
+<text name="ce_eventList_CE_DRONE_JAMMING_RESULTS_2_1" language="de">Da ihre Komunikation mit dem Schiff gestört wird, werden einige der feindlichen Drohnen nutzlos. Ein Problem weniger.</text>
+<text name="ce_eventList_CE_DRONE_JAMMING_RESULTS_2_3" language="de">Da ihre Komunikation mit dem Schiff gestört wird, werden einige der feindlichen Drohnen nutzlos. Ein Problem weniger.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_NO_WEAPON_JAMMER_1_c3_e_c4_e" language="de">Der Effektor deaktiviert die Hauptschubdüse des feindlichen Schiffs.</text>
+<text name="ce_eventList_CE_PRE_FIGHT_NO_DRONE_JAMMER_1_c3_e_c6_e_c4_e" language="de">Dein Effektor versucht, feindliche medizinische Ausrüstung zu deaktivieren.</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_RANDOM_1" language="de">Das feindliche Schiff scheint mit einer Kampferweiterung ausgerüstet zu sein. Du bemerkst ein starkes Ionenfeld, und eine deiner Schildbarrieren bricht zusammen.</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_RANDOM_1_c2" language="de">Anbieten, dich zu ergeben.</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_RANDOM_1_c3" language="de">(Zoltan Ship) Du kommandierst ein Schiff der weisen und diplomatischen Zoltan. Bestimmt kann man mit diesen Leuten noch verhandeln und einen Kampf verhindern.</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_RANDOM_1_c4" language="de">(Reverse Ion Field) Das Ionenfeld mit einem Gegenfeld neutralisieren.</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_RANDOM_2" language="de">Das feindliche Schiff scheint mit einer Kampferweiterung ausgerüstet zu sein. Du bemerkst ein starkes Ionenfeld, das die Zielerfassung deines Waffensystems stört.</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_RANDOM_2_c4" language="de">(Advanced Targeting Computer) Erweiterte Zielerfassung aktivieren.</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_RANDOM_3" language="de">Das feindliche Schiff scheint mit einer Kampferweiterung ausgerüstet zu sein. Du bemerkst ein starkes Signal, das die Komunikation zu deinen Drohnen stört.</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_RANDOM_3_c4" language="de">(Improved Internal AI) Notfallprotokolle aktivieren.</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_RANDOM_4" language="de">Das feindliche Schiff scheint mit einer Kampferweiterung ausgerüstet zu sein. Radioaktives Material wird auf dein Schiff teleportiert. Dein Gegner nutzt schmutzige Waffen!</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_RANDOM_5" language="de">Das feindliche Schiff scheint mit einer Kampferweiterung ausgerüstet zu sein. Du bemerkst ein starkes Ionenfeld, das deinen Teleporter stört.</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_BOSS_1" language="de">Scheinbar haben die Rebellen noch ein Ass im Ärmel: Das Flaggschiff scheint mit einer Kampferweiterung ausgerüstet zu sein. Du bemerkst ein starkes Ionenfeld, und eine deiner Schildbarrieren bricht zusammen.</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_BOSS_1_c2" language="de">(Internal Effector) Den Feldgenerator vorbereiten.</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_BOSS_1_c3" language="de">(Targeting Jammer) Das Waffensystem des Flaggschiffs stören. [ Energie: -2 ]</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_BOSS_1_c3_e" language="de">Die Zielerfassung des Flaggschiffs ist nun ungenauer, seine Waffen werden dadurch wenigstens etwas weniger gefährlich.</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_BOSS_1_c4" language="de">(Drone Uplink Jammer) Das Drohnensystem des Flaggschiffs stören. [ Energie: -2 ]</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_BOSS_1_c5" language="de">(Teleporter Disruptor) Den Teleporter des Flaggschiffs stören. [ Energie: -1 ]</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_BOSS_1_c6" language="de">(Mind Shield) Deine Crew vor Mind Control schützen. [ Energie: -1 ]</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_BOSS_1_c8" language="de">(Ion Field) Die Schilde des Flaggschiffs stören. [ Energie: -3 ]</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_BOSS_1_c9" language="de">(Radiation Projector) "Lass uns das beenden. Verstrahlt die Rebellen!"</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_BOSS_1_c9_e" language="de">Das Flaggschiff scheint mit mehreren fortschrittlichen Lebenserhaltungssystemen ausgerüstet zu sein. Dadurch wird die Crew vor der Strahlung geschützt.</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_BOSS_2" language="de">Scheinbar haben die Rebellen noch ein Ass im Ärmel: Das Flaggschiff scheint mit einer Kampferweiterung ausgerüstet zu sein. Du bemerkst ein starkes Ionenfeld, das die Zielerfassung deines Waffensystems stört.</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_BOSS_2_c5" language="de">(Teleporter Disruptor) Den Teleporter des Flaggschiffs stören. [ Energie: -1 ]</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_BOSS_2_c6" language="de">(Mind Shield) Deine Crew vor Mind Control schützen. [ Energie: -1 ]</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_BOSS_2_c8" language="de">(Ion Field) Die Schilde des Flaggschiffs stören. [ Energie: -3 ]</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_BOSS_3" language="de">Scheinbar haben die Rebellen noch ein Ass im Ärmel: Das Flaggschiff scheint mit einer Kampferweiterung ausgerüstet zu sein. Du bemerkst ein starkes Signal, das die Komunikation zu deinen Drohnen stört.</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_BOSS_4" language="de">Scheinbar haben die Rebellen noch ein Ass im Ärmel: Das Flaggschiff scheint mit einer Kampferweiterung ausgerüstet zu sein. Radioaktives Material wird auf dein Schiff teleportiert. Sie nutzen schmutzige Waffen!</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_BOSS_5" language="de">Scheinbar haben die Rebellen noch ein Ass im Ärmel: Das Flaggschiff scheint mit einer Kampferweiterung ausgerüstet zu sein. Es stört dein Türsystem mit einem internen Effektor. Die Rebellen können sich nun frei auf deinem Schiff bewegen!</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_BOSS_6" language="de">Scheinbar haben die Rebellen noch ein Ass im Ärmel: Das Flaggschiff scheint mit einer Kampferweiterung ausgerüstet zu sein. Du bemerkst ein starkes Ionenfeld, das deinen Teleporter stört.</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_BOSS_7" language="de">Scheinbar haben die Rebellen noch ein Ass im Ärmel: Das Flaggschiff scheint mit einer Kampferweiterung ausgerüstet zu sein. Du bemerkst ein starkes Ionenfeld, das deinen Antrieb stört. </text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_BOSS_7_c1" language="de">(Internal Effector) "Das können wir auch. Startet den Effektor!"</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_BOSS_7_c7" language="de">(Ion Field) Die Schilde des Flaggschiffs stören.</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_BOSS_7_c8" language="de">(Radiation Projector) "Lass uns das beenden. Verstrahlt die Rebellen!"</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_BOSS_8" language="de">Scheinbar haben die Rebellen noch ein Ass im Ärmel: Das Flaggschiff scheint mit einer Kampferweiterung ausgerüstet zu sein. Du bemerkst ein starkes Ionenfeld, das dein Tarnsystem stört.</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_BOSS_8_c2" language="de">(Advanced Cloaking Field) Das wird nicht reichen, um unsere Tarnung zu umgehen.</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_BOSS_9" language="de">Scheinbar haben die Rebellen noch ein Ass im Ärmel: Das Flaggschiff scheint mit einer Kampferweiterung ausgerüstet zu sein. Du bemerkst ein starkes Ionenfeld, das deine Sensoren stört.</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_BOSS_10" language="de">Scheinbar haben die Rebellen noch ein Ass im Ärmel: Das Flaggschiff scheint mit einer Kampferweiterung ausgerüstet zu sein. Seine Systeme sind mit einer Firewall geschützt, dein Hacking wird daher ineffektiv sein.</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_BOSS_WITH_ASB_1_c1" language="de">(Anti-Ship Battery) "Wir benötigen mehr Feuerkraft. Bereitet die ASB-Plattform vor!" [ Raketen: -4 ]</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_BOSS_WITH_ASB_1_c4_e" language="de">Die Zielerfassung des Flaggschiffs ist nun gestört. Die Waffen erscheinen damit gleich etwas weniger gefährlich.</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_BOSS_WITH_ASB_1_c8" language="de">(Subspace Scanner) Das Flaggschiff mit deinen erweiterten Sensoren erfassen. [ Energie: -1 ]</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_BOSS_WITH_ASB_10_c11" language="de">(Radiation Projector) "Lass uns das beenden. Verstrahlt die Rebellen!" [ Energie: -2 ]</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_AI_4" language="de">Das feindliche Schiff scheint mit einer Kampferweiterung ausgerüstet zu sein. Du bemerkst ein starkes Ionenfeld, das deinen Antrieb stört. </text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_AI_5" language="de">Das feindliche Schiff scheint mit einer Kampferweiterung ausgerüstet zu sein. Du bemerkst ein starkes Ionenfeld, das deine Tarnung stört. </text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_AI_6" language="de">Das feindliche Schiff scheint mit einer Kampferweiterung ausgerüstet zu sein. Es ist mit einer speziellen Abschirmung geschützt, Hacking und Mind Control wird daher ineffektiv sein.</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_LANIUS_1" language="de">Das feindliche Schiff scheint mit einer Kampferweiterung ausgerüstet zu sein. Es ist mit einer speziellen Abschirmung geschützt, Hacking und Mind Control wird daher ineffektiv sein.</text>
+<text name="ce_eventList_CE_ENEMY_COMBATAUG_AUTO_3" language="de">Das feindliche Schiff scheint mit einer Kampferweiterung ausgerüstet zu sein. Es ist mit einer Firewall geschützt, Hacking wird daher ineffektiv sein.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_13" language="de">Deine Salve reißt die Hülle des feindlichen Schiffs auf. Es muss großen strukturellen Schaden erleiden, die Lebenserhaltungssysteme werden nicht mehr lange durchhalten.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_14" language="de">Dein Beschuss beschädigt die Sauerstofftanks des feindlichen Schiffs, ihr Lebenserhaltungssystem ist geschwächt.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_15" language="de">Das feindliche Schiff hat schweren Schaden erlitten und ihr Reaktor hat dadurch eine Fehlfunktion.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_16" language="de">Dein Scanner zeigt, dass der Reaktor des feindlichen Schiffs durchbrochen ist und kaum noch stabilisiert wird. Er verliert schnell Energie.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_17" language="de">Der Antrieb des feindlichen Schiffs scheint überhitzt zu sein. Sie haben wohl zu hart manövriert...</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_20" language="de">Einige deiner Geschosse verursachen eine kleine Explosion innerhalb des feindlichen Schiffs, und im Innenraum wird es plötzlich dunkel. Ihr Reaktor scheint recht veraltet zu sein, denn sie erleiden einen Stromausfall.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_22" language="de">"Fliegt näher heran!" Deine Crew nimmt den Befehl wörtlich und geht auf Kollisionskurs.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_22_c1_e" language="de">Ein lautes Geräusch durchzieht dein Schiff, als du am feindlichen Schiff vorbeischrammst. Du verlierst einige Hüllenteile, das feindliche Schiff jedoch auch. Eine ihrer Waffen ist sogar fast dabei abgebrochen.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_22_c2" language="de">(Advanced Navigation AI) Gegenschub!</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_22_c2_e" language="de">Dein fortschrittlicher Antrieb kann eine Kollision gerade noch verhindern.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_23" language="de">Ein Geschoss scheint den Frachtraum des feindlichen Schiffs durchbrochen zu haben. Es verliert einige Vorräte, die ins All treiben.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_23_c1" language="de">Versuchen, die Munitionsvorräte einzusammeln.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_23_c2" language="de">Die Vorräte ignorieren, und dich lieber auf den Kampf konzentrieren.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_24" language="de">Das feindliche Schiff hat großen Schaden erlitten und lässt einige Treibstoffzellen ins All treiben.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_24_c1" language="de">Versuchen, den Treibstoff einzusammeln.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_24_c2" language="de">Den Treibstoff ignorieren, und dich lieber auf den Kampf konzentrieren.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_25" language="de">"Captain, mit unserem Reaktor stimmt etwas nicht. Wir müssen ihn etwas runterregeln, damit er nicht überhitzt." Du wirst eine Weile mit etwas weniger Energie auskommen müssen.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_26" language="de">Das feindliche Schiff steuert auf ein kleines Asteroidenfeld zu. Es scheint zu versuchen, dir auf diese Weise zu entkommen.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_26_c1" language="de">Ihnen in die Gefahrenzone folgen.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_26_c1_e" language="de">Du folgst ihnen und versuchst, den Asteroiden auszuweichen.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_26_c2" language="de">Sie entkommen lassen.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_26_c2_e" language="de">Das Schiff verschwindet im Asteroidenfeld. Niemand weiß, ob sie da jemals wieder lebend herauskommen.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_26_c3" language="de">(Improved Engines) Sie abfangen, bevor sie das Asteroidenfeld erreichen.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_26_c3_e" language="de">Du wirst tief in den Sitz gedrückt, als dein Pilot mit maximalem Schub dem feindlichen Schiff den Weg abschneidet.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_27" language="de">Das feindliche Schiff steuert auf einen nahen Stern zu. Es scheint zu versuchen, dir auf diese Weise zu entkommen.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_27_c1_e" language="de">Du befiehlst deiner Crew, sich auf Feuerausbrüche vorzubereiten und folgst dem Schiff.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_27_c2_e" language="de">Das Schiff verschwindet hinter dem Stern.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_27_c3" language="de">(Improved Engines) Sie abfangen, bevor sie den Stern erreichen. </text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_28" language="de">"Captain, wir haben die Grenzen unserer Energieversorgung überschritten. Wenn wir nicht..." Ein lauter Knall unterbricht dein Crewmitglied. Eine Energiespitze hat einen Verteiler überladen. Feueralarm!</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_29" language="de">"Captain, wir verlieren Luft." Ein Teil deiner Schiffshülle scheint plötzlich abgebrochen zu sein.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_REBEL_14" language="de">Dein Beschuss beschädigt die Sauerstofftanks des feindlichen Schiffs, ihr Lebenserhaltungssystem ist geschwächt.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_REBEL_20" language="de">Einige deiner Geschosse verursachen eine kleine Explosion innerhalb des feindlichen Schiffs, und im Innenraum wird es plötzlich dunkel. Ihr Reaktor scheint recht veraltet zu sein, denn sie erleiden einen Stromausfall.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_REBEL_30" language="de">Der junge Rebellenkapitän ruft dich: "Aufhören! Bitte, so kann es nicht weitergehen. Meine Crew und ich waren sowieso nie richtig mit den Idealen der Rebellen einverstanden. Wir ergeben uns. Sie können uns gefangen nehmen, vielleicht bezahlen die Rebellen für unsere Freilassung. Dann hätte die Föderation wenigstens auch etwas davon. Es tut mir Leid, uns alle betrogen zu haben."</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_REBEL_30_c1" language="de">Gnade zeigen und den jungen Kapitän in deine Crew aufnehmen.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_REBEL_30_c2" language="de">Die Rebellen gefangen nehmen.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_REBEL_30_c3" language="de">Ihre Kapitulation ignorieren und weiterkämpfen.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_REBEL_30_c3_e" language="de">Keine Gnade für Verräter!</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_REBEL_31" language="de">Mitten im Kampf löst sich eine Fluchtkapsel vom feindlichen Schiff. Sie ist sehr beschädigt und sendet ein Notfallsignal mit Föderationskodierung. Du kannst schwache Lebenszeichen in der Kapsel lokalisieren. Vielleicht ein Gefangener der Rebellen?</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_REBEL_31_c1" language="de">Dich nähern und die Kapsel aufnehmen.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_REBEL_31_c2" language="de">Wir sollten besser nichts riskieren. Die Kapsel sich selbst überlassen.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_REBEL_31_c2_e" language="de">Als der Kampf fortschreitet, verlierst du die Kapsel aus den Augen. Wer auch immer da drin ist, ohne Sauerstoffnachschub wir er nicht lange überleben.</text>
+<text name="ce_eventList_CE_REBEL_ESCAPE_POD_1" language="de">Du nimmst die Kapsel im Vorbeiflug auf. Sie enthällt tatsächlich einen Föderationsoffizier, der den Rebellen im Eifer des Gefechts entkommen ist. Du erinnerst ihn, dass der Kampf noch nicht vorbei ist und wirfst ihn etwas Ausrüstung zu. "Verstanden, Captain."</text>
+<text name="ce_eventList_CE_REBEL_ESCAPE_POD_2" language="de">Du nimmst die Kapsel im Vorbeiflug auf. Sie enthällt nur einen weinenden Mondwelpen... und eine Ladung Sprengstoff mit Zeitzünder. Ein Crewmitglied kann der Explosion nicht mehr rechtzeitig entkommen. "Diese verdammten Rebellen!"</text>
+<text name="ce_eventList_CE_REBEL_TURNCOAT_JOIN_1" language="de">Du dockst an das Rebellenschiff, merkst aber sofort, dass es Falle ist. Ein Enterteam der Rebellen stürmt auf dein Schiff und platziert eine Sprengladung im Schildraum. Das Rebellenschiff löst sich und eröffnet wieder das Feuer.</text>
+<text name="ce_eventList_CE_REBEL_TURNCOAT_JOIN_2" language="de">Der Verräter kann sein Glück kaum glauben und ist dir sehr dankbar. Trotzdem solltest du ihn lieber im Auge behalten.</text>
+<text name="ce_eventList_CE_REBEL_TURNCOAT_PRISONER_2" language="de">Du kontaktierst einen lokalen Rebellenstützpunkt über ein verschlüsseltes Signal und vereinbarst einen Austausch auf neutralem Gebiet. Falls du es vor dem Eintreffen der Flotte dorthin schaffst, könnte sich das für dich lohnen.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_AMMO_1" language="de">Die Munition war manipuliert und explodiert, als sich dein Schiff nähert. Du kannst nicht glauben, dass du darauf reingefallen bist.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_AMMO_2" language="de">Du nimmst die Munition im Vorbeiflug auf.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_FUEL_1" language="de">Als du dich dem Treibstoff näherst, entzündet dein Gegner ihn mit einem gezielten Schuss.</text>
+<text name="ce_eventList_CE_COMBAT_FLUFF_MANNED_FUEL_2" language="de">Du nimmst den Treibstoff im Vorbeiflug auf.</text>
 
 <!-- FILE: text_blueprints.xml.append -->
 
