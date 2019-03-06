@@ -9,6 +9,7 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.text.similarity.FuzzyScore;
+import org.apache.commons.text.similarity.LevenshteinDistance;
 
 import java.io.File;
 import java.io.IOException;
@@ -30,7 +31,7 @@ public class Editor extends Application {
     public LangEntry current = null;
     private ListView<LangEntry> list;
     private Label label = new Label("");
-    private FuzzyScore dist_alg = new FuzzyScore(Locale.ENGLISH);
+    private LevenshteinDistance dist_alg = new LevenshteinDistance();
 
     public static void main(String... args) {
 
@@ -209,21 +210,22 @@ public class Editor extends Application {
     }
 
     public void suggest(Button btn, TextArea langB) {
-        if (!langB.getText().isEmpty()) {langB.setText(""); current.translation=""; return;}
+        if (!langB.getText().isEmpty() && label.getText().isEmpty()) {langB.setText(""); current.translation=""; return;}
         btn.textProperty().setValue("...");
         btn.disableProperty().setValue(true);
 
         final String a = current.value;
-        double match = 0D;
+        double match = 10000000D;
+        double max = label.getText().isEmpty()?-1D:Double.parseDouble(label.getText());
         LangEntry best = null;
         for (LangEntry e : MAP.values()) {
-            if (StringUtils.isBlank(e.value) || e.translation.isEmpty() || e.translation.endsWith(") ")) continue;
-            double v = dist_alg.fuzzyScore(e.value, a) - 0.5 * Math.abs(e.translation.length()-a.length());
-            if (v>match) {match=v; best=e;}
+            if (StringUtils.isBlank(e.value) || e.translation.isEmpty() || e.translation.endsWith(") ") || e.translation.equals(langB.getText())) continue;
+            double v = dist_alg.apply(e.value, a);
+            if (v<match && v>max) {match=v; best=e;}
         }
 
-        if (best!=null && match>= 75D) langB.setText(best.translation);
-        label.setText("diff: "+match);
+        if (best!=null && (match < 500 || !label.getText().isEmpty())) langB.setText(best.translation);
+        label.setText(""+match);
 
         btn.textProperty().setValue("Suggest");
         btn.disableProperty().setValue(false);
