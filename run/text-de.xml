@@ -5530,6 +5530,75 @@
 <text name="ce_textList_CE_COMBAT_FLUFF_AUTO_TEXT_20" language="de">Der Kampf tut deinem Schiff nicht gerade gut. Funken fliegen von den Wänden und Rauch durchzieht das Schiff. Du riechst verbranntes Plastik, und deinen eigenen Schweiß.</text>
 <text name="ce_textList_CE_COMBAT_FLUFF_AUTO_TEXT_21" language="de">Für einen Moment bist du unsicher. Was, wenn wir es nicht schaffen? Was, wenn wir es nicht lebend zur Basis schaffen? Die Crew scheint deine Zweifel nicht bemerkt zu haben, oder zumindest zeigen sie es nicht. Du reißt dich zusammen und konzentrierst dich schnell wieder auf den Kampf.</text>
 <text name="ce_textList_CE_COMBAT_FLUFF_AUTO_TEXT_25" language="de">Die Hülle des gegnerischen Schiffs ist mit Einschlagkratern überzogen. Lange werden sie das nicht mehr aushalten.</text>
+<text name="ce_event_ASTEROID_EXPLORE_c1" language="de">Das Asteroidenfeld erkunden.</text>
+<text name="ce_event_ASTEROID_EXPLORE_c4" language="de">(Scythe Beam) Mal sehen, ob dein zweckentfremdeter Bergbaustrahl noch etwas taugt.</text>
+<text name="ce_event_ASTEROID_EXPLORE_c4_e" language="de">Es ist etwas schwierig, den Strahl neu zu konfigurieren, aber du kannst einige mineralreiche Stücke aus den Asteroiden herausschneiden.</text>
+<text name="ce_event_ASTEROID_EXPLORE_c5" language="de">(Flail Beam) Mal sehen, ob dein zweckentfremdeter Bergbaustrahl noch etwas taugt.</text>
+<text name="ce_eventList_ASTEROID_EXPLORE_RESULTS_4" language="de">Du stößt auf ein verlassenes Bergwerk. Es stehen noch einige Bergbaudrohnen herum, die du ausschlachten kannst.</text>
+<text name="ce_eventList_ASTEROID_EXPLORE_RESULTS_5" language="de">Du entdeckst die Überreste eines Schiffs zwischen den Felsen. Die Ladung scheint noch intakt zu sein.</text>
+<text name="ce_eventList_ASTEROID_EXPLORE_RESULTS_5_c1" language="de">Die Ladung scannen.</text>
+<text name="ce_eventList_ASTEROID_EXPLORE_RESULTS_6" language="de">Das Asteroidenfeld ist gefährlicher als erwartet. Die Asteroidendichte steigt und die Gefahrenerkennung ist überladen.</text>
+<text name="ce_eventList_ASTEROID_EXPLORE_RESULTS_6_c1" language="de">Versuchen, einen sicheren Weg aus dem Asteroidenfeld zu finden.</text>
+<text name="ce_eventList_ASTEROID_EXPLORE_RESULTS_6_c1_e" language="de">Du versuchst, das Feld unbeschadet zu verlassen, aber einige Asteroiden durchdringen deine Schilde.</text>
+<text name="ce_eventList_ASTEROID_EXPLORE_RESULTS_6_c2" language="de">(Advanced Navigation AI) Einen optimalen Kurs berechnen. </text>
+<text name="ce_eventList_ASTEROID_EXPLORE_RESULTS_6_c2_e" language="de">Dein erweiterter Antrieb erlaubt dir, das Feld unbeschadet zu verlassen.</text>
+<text name="ce_eventList_ASTEROID_EXPLORE_RESULTS_8" language="de">Während du das Feld durchsuchst, stößt du auf eine versteckte Piratenbasis, die in einem ausgehöhltem Asteroiden versteckt ist. Sie entdecken dich und fahren ihre Verteidigung hoch.</text>
+<text name="ce_eventList_TE_LOOT_GOODS_ASTEROID_EXPLORE_1" language="de">Die Scans zeigen, dass der Frachtraum des Schiffs mit Steinen gefüllt ist. Es hat wohl Erze gefördert. Du nimmst die Fracht an Bord.</text>
+<text name="ce_eventList_TE_LOOT_GOODS_ASTEROID_EXPLORE_3" language="de">Die Scans zeigen, dass der Frachtraum des Schiffs mit industrieller Ausrüstung gefüllt ist. Die Machienen sind noch intakt und du nimmst sie an Bord.</text>
+<text name="ce_eventList_TE_LOOT_GOODS_ASTEROID_EXPLORE_4" language="de">Die Scans zeigen, dass der Frachtraum des Schiffs mit Nahrungsrationen gefüllt ist. Du nimmst sie an Bord.</text>
+<text name="ce_eventList_TE_LOOT_GOODS_ASTEROID_EXPLORE_5" language="de">Die Scans zeigen, dass der Frachtraum des Schiffs mit... Teleportern gefüllt ist?! Oh nein...</text>
+<text name="ce_eventList_TE_LOOT_GOODS_ASTEROID_EXPLORE_5_c1" language="de">(Teleporter Disruptor) Die Teleporter stören.</text>
+<text name="ce_eventList_TE_LOOT_GOODS_ASTEROID_EXPLORE_5_c1_e" language="de">Du bekommst das Störfeld schnell genug zum laufen. Eine Salve deiner Waffen auf das Wrack beendet die Sache.</text>
+<text name="ce_eventList_TE_LOOT_GOODS_ASTEROID_EXPLORE_5_c2_e" language="de">Sicherheitsalarm!</text>
+<text name="ce_textList_MERCENARY_TEXT_2" language="de">Ein Söldner ruft dich: "Hallo, mein Freund! Wir haben von Ihrer Mission gehört und wollen Ihnen unsere Dienste anbieten."</text>
+<text name="ce_textList_MERCENARY_TEXT_3" language="de">Um einen Planeten in der Nähe kreist ein Schiff mit Piratenabzeichen. Es ruft dich: "Alles ist möglich, für den richtigen Preis."</text>
+<text name="ce_textList_MERCENARY_TEXT_4" language="de">Der Kapitän des Schiffs behauptet, er könne "Dienstleistungen" erbringen, solange du ihn mit Schrott bezahlen kannst.</text>
+<text name="ce_textList_MERCENARY_TEXT_6" language="de">Ein Schiff ruft dich: "Es scheint als hättet ihr Probleme mit den Rebellen. Ich würde Ihnen gerne helfen, aber ich kann es mir nicht leisten, diesen Schrotthaufen zu reparieren. Vielleicht könnten wir uns einigen?"</text>
+<text name="ce_textList_TRAP_BEACON_TEXT_3" language="de">Dein Cockpit leuchtet vor lauter Warnsignalen hell auf. Du wirst von einem Schiff in unmittelbarer Nähe ins Visier genommen. Der Notruf war nur ein Köder, um ahnungslose Schiffe in Waffenreichweite zu locken. Du machst dich kampfbereit.</text>
+<text name="ce_event_PIRATE_CIVILIAN_BEACON_c2_e" language="de">Die beiden Schiffe entfernen sich und entgehen deiner Scanreichweite.</text>
+<text name="ce_event_PIRATE_CIVILIAN_BEACON_c4" language="de">(Simurgh Missiles) Drohend den Raketenwerfer aktivieren.</text>
+<text name="ce_event_PIRATE_CIVILIAN_BEACON_c5" language="de">(Ifrit Missiles) Drohend den Raketenwerfer aktivieren.</text>
+<text name="ce_event_REBEL_VS_FEDERATION_c2_e" language="de">Da das Rebellenschiff mit dem Föderationsschiff beschäftigt ist, kannst du unentdeckt verschwinden. Doch du wirst das Gefühl nicht los, dass du hättest helfen sollen.</text>
+<text name="ce_event_DISTRESS_STATION_DISEASE" language="de">Du findest die Quelle des Notsignals, eine Bergbaukolonie der Menschen. Eine einfache, aber unbekannte Krankheit hat sich unter den Arbeitern ausgebreitet. Es wird versucht, eine Quarantäne einzurichten um die Ausbreitung einzudämmen, aber es gibt kaum Sicherheitskräfte und ein Aufstand ist wahrscheinlich.</text>
+<text name="ce_event_DISTRESS_STATION_DISEASE_c3" language="de">(Adaptive Gel Suits) Deine Crew mit Schutzanzügen losschicken, um einen Aufstand zu verhindern.</text>
+<text name="ce_event_DISTRESS_STATION_DISEASE_c3_e" language="de">Die fortschrittlichen Anzüge schützen deine Crew vor der Krankheit. So schaffen sie es, einen Aufstand zu verhindern und die Quarantäne einzurichten. Der Leiter der Einrichtung bietet dir eine Belohnung an und versichert, so bald wie möglich nach einem Heilmittel zu suchen.</text>
+<text name="ce_event_DISTRESS_STATION_DISEASE_c4" language="de">(Rock Crew) Dein Rock-Crewmitglied reinschicken.</text>
+<text name="ce_event_DISTRESS_STATION_DISEASE_c5" language="de">(AI Avatar Crew) Sende dein AI-Crewmitglied, um zu helfen.</text>
+<text name="ce_event_DISTRESS_STATION_DISEASE_c5_e" language="de">Die Biomodule des Hologramms sind mehr oder weniger imun gegen Krankheiten. Die Arbeiter sind etwas verwirrt, befolgen aber die Anweisungen und begeben sich in Quarantäne. Der Leiter der Einrichtung bietet dir eine Belohnung an und versichert, so bald wie möglich nach einem Heilmittel zu suchen.</text>
+<text name="ce_event_DISTRESS_STATION_DISEASE_c6_e" language="de">Dein Engi-Crewmitglied muss keine Krankheiten fürchten und kann so helfen, die Erkrankten zu beruhigen und an den richtigen Ort zu bringen. Sein umfassendes Wissen über die menschliche Physiologie macht den Kranken Hoffnung auf eine baldige Heilung und sie begeben sich in Quarantäne. Als Dank dafür, dass du einen gefährlichen Zwischenfall verhindert hast, bieten dir die Anführer der Kolonie eine Belohnung an.</text>
+<text name="ce_event_DISTRESS_STATION_DISEASE_c7" language="de">(Neural Stunner) Die infizierten Arbeiter ruhig stellen.</text>
+<text name="ce_event_DISTRESS_STATION_DISEASE_c7_e" language="de">Du lädst deinen Feldgenerator auf Maximum und betäubst das gesamte Arbeiterlager. Die Sicherheitskräfte können sie in Gewahrsam nehmen und eine Quarantäne einrichten. Als Dank dafür, dass du einen gefährlichen Zwischenfall verhindert hast, bieten dir die Anführer der Kolonie eine Belohnung an.</text>
+<text name="ce_event_DISTRESS_STATION_DISEASE_c8" language="de">(Improved Medbay) Versuchen, die Krankheit zu heilen.</text>
+<text name="ce_event_DISTRESS_STATION_DISEASE_c8_e" language="de">Deine hochentwickelte medizinische Ausrüstung kann die Ursache der Erkrankung ausmachen und ein Gegenmittel entwickeln. Das war knapp.</text>
+<text name="ce_event_DISTRESS_STATION_DISEASE_c8_e_c2" language="de">(Engi Med-bot Dispersal) Die Einrichtung mit Nano-Medbots versorgen, um die Heilung zu unterstützen.</text>
+<text name="ce_event_DISTRESS_STATION_DISEASE_c8_e_c2_e" language="de">Du rekonfigurierst deinen Med-Bot-Verteiler. In wenigen Minuten sind die Arbeiter geheilt. Die Leiter der Einrichtung können es kaum glauben und bieten dir eine Belohnung an.</text>
+<text name="ce_event_DISTRESS_STATION_DISEASE_c9" language="de">(Heal Bomb) Eine Heileinheit abwerfen. [ Raketen: -1 ]</text>
+<text name="ce_event_DISTRESS_STATION_DISEASE_c9_e" language="de">"Vielen, vielen Dank! Wir haben nicht das Geld, um Hilfe von außerhalb anfordern zu können, und wir hätten Wochen gebraucht, um den Erreger zu finden. Hier, nehmen Sie das als Belohnung!"</text>
+<text name="ce_event_DISTRESS_INFESTATION" language="de">Du stößt auf eine Reihe von Schiffen, die von einer kleinen Raumstation flüchten. Du rufst sie und erhältst folgende Nachricht: "Hilfe! Wir werden von riesigen Alien-Spinnen überrannt!"</text>
+<text name="ce_event_DISTRESS_INFESTATION_c1" language="de">Die Crew zur Hilfe schicken. Mit riesigen Alien-Spinnen ist nicht zu spaßen.</text>
+<text name="ce_event_DISTRESS_INFESTATION_c4" language="de">(Boarding Drone) Eine Enterdrohne in die Station schicken.</text>
+<text name="ce_event_DISTRESS_INFESTATION_c6" language="de">(Bio Bomb) Eine Bombe nutzen, um die Spinnen zu vernichten.</text>
+<text name="ce_event_DISTRESS_INFESTATION_c6_e" language="de">Deine Scanner finden den Raum mit den meisten Spinnen und du sendest die Sprengladung mitten hinein. Übrig bleibt nur ein dunkler Matsch. "Ich weiß nicht, was sie da hineingebeamt haben, aber es hat wohl funktioniert. Danke für die Hilfe."</text>
+<text name="ce_event_DISTRESS_INFESTATION_c7" language="de">(Big Bomb) Das Problem mit einem lauten Knall lösen.</text>
+<text name="ce_event_DISTRESS_INFESTATION_c7_e" language="de">Du fragst nach der Quelle der Verseuchung. "Raum 2-3-9-2-1, wozu fra..." Die Explosion der Sprengladung, die du mitten hinein teleportiert hast, übertönt alles. Kurz darauf wirst du erneut gerufen: "Wir haben den Rest der Monster zwar besiegen können, aber einige unserer Systeme sind zerstört. Danke dass Sie uns fast hochgejagt haben!" Sie bieten dir trotzdem eine kleine Belohnung.</text>
+<text name="ce_event_DISTRESS_INFESTATION_c8" language="de">(Light Laser) Die Spinnen mit deinem Laser eliminieren.</text>
+<text name="ce_event_DISTRESS_INFESTATION_c8_e" language="de">Deine Scanner finden den Raum mit den meisten Spinnen und du feuerst einige Lasersalven. Die Crew der Station ist nicht gerade begeistert von dem Schaden, den du damit angerichtet hast, aber sie geben dir trotzdem eine kleine Belohnung für die Rettung.</text>
+<text name="ce_event_DISTRESS_INFESTATION_c9" language="de">(Radiation Projector) Die Spinnen verstrahlen.</text>
+<text name="ce_event_DISTRESS_INFESTATION_c9_e" language="de">Dein Projektor bombardiert die Spinnen mit Strahlung, und sorgt so für ihr Ende. "Wir werden diesen Abschnitt der Station wohl dekontaminieren müssen... oder gleich verschrotten. Aber trotzdem danke." Sie übergeben dir eine Belohnung.</text>
+<text name="ce_event_PIRATE_STATION_CROPS_c3" language="de">(Fire Beam) Dem Piraten zeigen, wie man Siedler einschüchtert: Die Ernte verbrennen!</text>
+<text name="ce_event_PIRATE_STATION_CROPS_c4" language="de">(Fire Bomb) Dem Piraten zeigen, wie man Siedler einschüchtert, und ihre einfachen Behausungen anzünden.</text>
+<text name="ce_event_PIRATE_STATION_CROPS_c4_e" language="de">Der Pirat beobachtet, wie du eine Brandbombe in die Siedlung teleportierst. Als die Siedler herauskommen, um die Brände zu löschen, fährt ihre einfache Planetenverteidigung herunter. Es war schon zu einfach, sie einzuschüchtern, aber der Pirat scheint von deiner Taktik beeindruckt zu sein und ist bereit, den "Tribut" der Siedlung mit dir zu teilen.</text>
+<text name="ce_event_BOARDERS_c1_e" language="de">Durch das Störfeld hat die Entercrew keine andere Wahl, als zu bleiben wo sie ist. Du entfernst dich schnell, bevor sie Verstärkung rufen können.</text>
+<text name="ce_event_BOARDERS_c2_e" language="de">Eindringlinge an Bord!</text>
+<text name="ce_textList_BOARDERS_PIRATE_TEXT_1" language="de">Ein Zivilschiff versucht offenbar, dich zu rufen. Als du dich dem Schiff näherst, melden die Sensoren einen Teleport...</text>
+<text name="ce_textList_BOARDERS_PIRATE_TEXT_2" language="de">Bei diesem Signalpunkt treibt ein schwerbeschädigtes Schiff, das eine Nachricht aussendet: "Hallo! Schön, dass Sie vorbeikommen. Unser Schiff hat schon bessere Tage gesehen, aber Ihres sieht nett aus. Ich glaube, wir nehmen Ihnen das jetzt ab."</text>
+<text name="ce_textList_BOARDERS_PIRATE_TEXT_3" language="de">Du entdeckst Lebenszeichen auf dem eigentlichen Signalpunkt selbst! Ein Teleportersignal wird erfasst...</text>
+<text name="ce_textList_BOARDERS_PIRATE_TEXT_4" language="de">Die Sensoren melden ein schwaches Notsignal, das von einem Mond in der Nähe kommt. Als du dich dem Mond näherst, geht der Alarm los, denn Eindringlinge versuchen sich an Bord zu teleportieren.</text>
+<text name="ce_textList_BOARDERS_PIRATE_TEXT_5" language="de">Als du ankommst, bemerkst du einen kleinen Piraten-Außenposten nahe dem Signalpunkt. Du hast kaum noch Zeit, einen Befehl zu geben, da bemerkst du schon die ersten Teleportersignale. Sie müssen auf dich gewartet haben...</text>
+<text name="ce_event_BOARDERS_HACKING" language="de">Für einen Moment siehst du ein seltsames Signal, das von einer Raumstation stammt, bevor deine Sensoren unerwartet ausfallen. Du bemerkst, dass deine Sensoren gestört werden - und du hörst, wie sich Feinde an Bord teleportieren wollen.</text>
+<text name="ce_event_BOARDERS_HACKING_c1" language="de">(Teleporter Disruptor) Die Teleporter stören.</text>
+<text name="ce_event_BOARDERS_HACKING_c1_e" language="de">Die feindliche Crew hat sich bereits teleportiert, doch dein Störsignal sorgt dafür, dass sie sich irgendwo im Hyperraum auflösen. Was für ein schrecklicher Tod.</text>
+<text name="ce_event_BOARDERS_HACKING_c2_e" language="de">Du bemerkst, wie Feinde sich an Bord teleportieren. Bereit zum Kampf!</text>
 
 <!-- FILE: text_blueprints.xml.append -->
 
