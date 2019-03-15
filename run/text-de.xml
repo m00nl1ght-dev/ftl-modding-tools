@@ -5599,6 +5599,62 @@
 <text name="ce_event_BOARDERS_HACKING_c1" language="de">(Teleporter Disruptor) Die Teleporter stören.</text>
 <text name="ce_event_BOARDERS_HACKING_c1_e" language="de">Die feindliche Crew hat sich bereits teleportiert, doch dein Störsignal sorgt dafür, dass sie sich irgendwo im Hyperraum auflösen. Was für ein schrecklicher Tod.</text>
 <text name="ce_event_BOARDERS_HACKING_c2_e" language="de">Du bemerkst, wie Feinde sich an Bord teleportieren. Bereit zum Kampf!</text>
+<text name="ce_event_STATION_SICK_c3" language="de">(Adaptive Gel Suits) Deine Crew mit Schutzanzügen losschicken.</text>
+<text name="ce_event_STATION_SICK_c5" language="de">(AI Avatar Crew) Sende dein AI-Crewmitglied, um nachzusehen.</text>
+<text name="ce_eventList_STATION_SICK_AI_LIST_1" language="de">Du schickst dein holografisches Crewmitglied los, um die Station zu erkunden. Was es findest, ist äußerst beunruhigend... Irgendetwas scheint die Wissenschaftler und Sicherheitsleute dazu gebracht zu haben, sich gegenseitig in Stücke zu reißen. Du lässt die Station lieber in Ruhe, weil du fürchtest, dass sie kontaminiert sein könnte.</text>
+<text name="ce_eventList_STATION_SICK_AI_LIST_2" language="de">An Bord der Station findet dein AI-Crewmitglied nur durchgedrehte Wissenschaftler und Sicherheitsleute. Sie scheinen dein Crewmitglied und das Schiff aber nicht zu bemerken. Du entscheidest dich, dein Crewmitglied lieber so schnell wie möglich wieder von der Station runterzuholen.</text>
+<text name="ce_eventList_STATION_SICK_AI_LIST_3" language="de">Dein AI-Crewmitglied findet sich in einer chaotischen Szenerie wieder. Es sind keine Personen zu sehen, dafür aber eindeutige Spuren eines Kampfs an Bord. Du weist die AI an, einige nützliche Materialien aufzusammeln, bevor sie die Station wieder verlässt.</text>
+<text name="ce_eventList_STATION_SICK_LIST_1" language="de">Auf der Station siehst du Anzeichen eines heftigen Kampfs. Überall liegen tote Wissenschaftler herum, die brutal zerstückelt wurden. Du sammelst schnell ein paar Teile einer Forschungsdrohne auf, die auf einem Schreibtisch in der Nähe der Tür liegen, und verlässt die Station wieder.</text>
+<text name="ce_eventList_STATION_SICK_LIST_2" language="de">Du dockst an die Station an und bemerkst einen verängstigten Mann an der Luftschleuse. Er sinkt auf den Boden: "Meine... Freunde... Sie sind wahnsinnig geworden... Sie kommen!" Du gibst ihm einen Blaster, drehst dich um und siehst eine Meute, die auf dein Schiff zustürmt.</text>
+<text name="ce_eventList_STATION_SICK_LIST_2_c2" language="de">(Doors) Notverriegelung! Lasst sie nicht an Bord kommen!</text>
+<text name="ce_eventList_STATION_SICK_LIST_2_c2_e" language="de">Du aktivierst den Antrieb und reißt das Schiff von der Station los. Die Luftschleusen schließen sich, und nur einige wenige Verrückte haben es vorher an Bord geschafft. Deine Crew kann sie mühelos besiegen und die Station liegt nun ungeschützt vor dir.</text>
+<text name="ce_eventList_STATION_SICK_LIST_2_c2_e_c1" language="de">Die Infizierten an Bord bekämpfen und die Station angreifen.</text>
+<text name="ce_eventList_STATION_SICK_LIST_2_c2_e_c1_e" language="de">Die Station von den Infizierten zu befreien wäre nicht schwer, aber du könntest genauso gut auch einfach wegspringen.</text>
+<text name="ce_eventList_STATION_SICK_LIST_2_c2_e_c2" language="de">Weitere Konfrontation vermeiden und nur die Verrückten an Bord deines Schiffs bekämpfen.</text>
+<text name="ce_eventList_STATION_SICK_LIST_2_c2_e_c2_e" language="de">Wir werden sie wohl töten müssen...</text>
+<text name="ce_eventList_STATION_SICK_LIST_2_c3" language="de">(Medbay) Die erweiterte Krankenstation ihren Zustand analysieren lassen.</text>
+<text name="ce_eventList_STATION_SICK_LIST_2_c3_e" language="de">Du hältst sie auf Distanz, während du dich in die Krankenstation zurückziehst. Die hochentwickelten Systeme erkennen, dass der Wahnsinn durch ein fremdartiges Neurotoxin hervorgerufen wird. Es synthetisiert ein Gegenmittel und gibt es dann in die Luft frei. Nach einiger Zeit erholen sich die Wissenschaftler. Einer bietet dir als Dank für seine Rettung seine Dienste an.</text>
+<text name="ce_eventList_STATION_SICK_LIST_3_c1" language="de">Ihn zum Schiff schleifen und dich auf einen Kampf vorbereiten.</text>
+<text name="ce_eventList_STATION_SICK_LIST_3_c2" language="de">(Teleporter) Deinen Teleporter einsetzen, um deine Crew herauszuholen.</text>
+<text name="ce_eventList_STATION_SICK_LIST_3_c2_e" language="de">Du teleportierst dein Außenteam zurück an Bord und löst dich von der Station. Die Station von den Infizierten zu befreien wäre nicht schwer, aber du könntest genauso gut auch einfach wegspringen.</text>
+<text name="ce_eventList_STATION_SICK_LIST_3_c2_e_c1_e" language="de">Leider ist das infizierte Crewmiglied nicht mehr zu retten, es wird immer wahnsinniger und greift an.</text>
+<text name="ce_eventList_STATION_SICK_LIST_3_c2_e_c2" language="de">Weitere Konfrontation vermeiden und die Weiterreise vorbereiten.</text>
+<text name="ce_eventList_STATION_SICK_LIST_3_c3" language="de">(Medbay) Ihn zur Krankenstation zerren.</text>
+<text name="ce_eventList_STATION_SICK_LIST_3_c3_e" language="de">Du hältst ihn in Schach und die Krankenstation kann das Neurotoxin das auf der Station war daran hindern, deine gesamte Crew zu infizieren. Als er wieder bei Sinnen ist, bereitest du dich auf einen Kampf gegen die Wissenschaftler vor, für die jede Hilfe zu spät kommt.</text>
+<text name="ce_eventList_STATION_SICK_LIST_3_c4" language="de">(Advanced Medbay) Die Erweiterte Krankenstation ihren Zustand analysieren lassen.</text>
+<text name="ce_eventList_STATION_SICK_LIST_3_c4_e" language="de">Du hältst sie auf Distanz, während du dich in die Krankenstation zurückziehst. Die hochentwickelten Systeme erkennen, dass der Wahnsinn durch ein fremdartiges Neurotoxin hervorgerufen wird. Es synthetisiert ein Gegengift und gibt es dann im Schiff frei. Nach einiger Zeit erholen sich die Wissenschaftler wieder. Einer bietet dir zum Dank für seine Rettung seine Dienste an.</text>
+<text name="ce_eventList_STATION_SICK_LIST_SAFE_3" language="de">Als du die Basis erkundest, ist schrilles Geschrei zu hören. Dein Team zieht sich zum Schiff zurück, mit eine Meute bewaffneter Wissenschaftler auf den Fersen. Sie scheinen komplett wahnsinnig und verwahrlost zu sein. Ohne die Schutzanzüge wäre das für deine Crew sicher nicht gut ausgegangen...</text>
+<text name="ce_eventList_STATION_SICK_LIST_SAFE_3_c1_e" language="de">Du teleportierst dein Außenteam zurück an Bord und löst dich von der Station. Die Station von den Infizierten zu befreien wäre nicht schwer, aber du könntest genauso gut auch einfach wegspringen.</text>
+<text name="ce_event_BOARDERS_ASTEROID_GHOST_c1" language="de">Die Erscheinungen untersuchen.</text>
+<text name="ce_event_BOARDERS_ASTEROID_GHOST_c1_e" language="de">Deine Scans zeigen, dass es sich um kleine Drohnen handelt, die versuchen, AI-Avatare auf dein Schiff zu teleportieren. Ihre AI muss wohl durchgedreht sein.</text>
+<text name="ce_event_BOARDERS_ASTEROID_GHOST_c1_e_c1" language="de">(Teleporter Disruptor) Den Feldgenerator aktivieren.</text>
+<text name="ce_event_BOARDERS_ASTEROID_GHOST_c1_e_c1_e" language="de">Als die Drohnen dein Störfeld bemerken, ziehen sie sich zurück und verschwinden zwischen den Asteroiden.</text>
+<text name="ce_event_BOARDERS_ASTEROID_GHOST_c1_e_c2_e" language="de">Die Drohnen zerstören sich selbst, nachdem sie ihre Ladung auf dein Schiff teleportiert haben. Die AI-Avatare lächeln die ganze Zeit auf verstörende Weise, während sie deine Crew angreifen.</text>
+<text name="ce_event_BOARDERS_ASTEROID_GHOST_c2_e" language="de">Mit deinen erweiterten Antrieb kommst du schnell aus dem Asteroidenfeld, allerdings ist es sehr wahrscheinlich, dass dein Schiff dabei ein paar Treffer einstecken wird.</text>
+<text name="ce_event_BOARDERS_ASTEROID_GHOST_c2_e_c1" language="de">(Advanced Navigation AI) Einen sicheren Kurs berechnen.</text>
+<text name="ce_event_BOARDERS_ASTEROID_GHOST_c2_e_c1_e" language="de">Ein komplexer Ausweichkurs bringt dich sicher aus dem Asteroidenfeld.</text>
+<text name="ce_event_BOARDERS_ASTEROID_GHOST_c2_e_c2_e" language="de">Dein Schiff muss einige Treffer einstecken.</text>
+<text name="ce_event_BOARDERS_ASTEROID_GHOST_c3_e_c1_e" language="de">Deine Scans zeigen, dass es sich um kleine Drohnen handelt, die versuchen, AI-Avatare auf dein Schiff zu teleportieren. Ihre AI muss wohl durchgedreht sein.</text>
+<text name="ce_event_AUTO_ASTEROID" language="de">Du erreichst einen Asteroidengürtel, in dem die Rebellen einen automatisierten Aufklärer stationiert haben. Auf Gefechtsstation!</text>
+<text name="ce_event_FRIENDLY_BEACON_c2" language="de">(FTL Fuel Recycler) Ihre verbrauchten Treibstoffzellen wiederverwerten.</text>
+<text name="ce_event_FRIENDLY_BEACON_c2_e" language="de">Du versuchst, so viel wie möglich Treibstoff aus ihren bereits verbrauchten Zellen zurückzugewinnen. "Wow, dieses Gerät ist super praktisch! Dies sollte reichen, damit wir es zur nächsten Station schaffen."</text>
+<text name="ce_event_FRIENDLY_BEACON_c4" language="de">Wir benötigen so viele Vorräte wie möglich. Plündert das Schiff!</text>
+<text name="ce_event_FRIENDLY_BEACON_c4_e" language="de">Du bist gerade dabei, einen Akt der Piraterie zu verüben. Dies könnte auf deine Crew verstörend wirken.</text>
+<text name="ce_event_FRIENDLY_BEACON_c4_e_c1" language="de">Die Aktion durchziehen und sehen, wie deine Crew reagiert.</text>
+<text name="ce_event_FRIENDLY_BEACON_c4_e_c2" language="de">Deine Meinung ändern und die Zivilisten in Ruhe lassen.</text>
+<text name="ce_event_FRIENDLY_BEACON_c4_e_c3" language="de">(Requisition License) Diese Aktion ist legal. Wir tun dies für unsere Mission und das Wohl der ganzen Föderation.</text>
+<text name="ce_event_FRIENDLY_BEACON_c4_e_c4" language="de">(Rock Ship) Du kommandierst ein Schiff der brutalen Rock. Deiner Crew ist bewusst, dass dies keine friedliche Vergnügungsfahrt wird.</text>
+<text name="ce_event_FRIENDLY_BEACON_c4_e_c5" language="de">(Mantis Ship) Du kommandierst ein Schiff der grausamen Mantis. Deine Crew sollte mit Aktionen wie dieser kein Problem haben.</text>
+<text name="ce_event_FRIENDLY_BEACON_c4_e_c6" language="de">(Slug Ship) Du kommandierst ein Schiff der hinterhältigen und verräterischen Slug. Deine Crew sollte mit Aktionen wie dieser kein Problem haben.</text>
+<text name="ce_event_ESCORT_BEACON_c1_e" language="de">"Hier, nehmen Sie diesen Schrott als Anzahlung. Wir folgen einfach Ihrer Sprungsignatur. Sie sind wirklich unsere Rettung."</text>
+<text name="ce_event_ESCORT_BEACON_c3" language="de">(Advanced Navigation AI) Deine Navigationssoftware einen Kurs berechnen lassen und ihn zum Schiff übertragen.</text>
+<text name="ce_event_QUEST_ESCORT_c1_e" language="de">"Wunderbar. Hier, nehmen Sie den Treibstoff als Anzahlung. Wir bleiben einen Schritt hinter Ihnen und folgen Ihren Sprungsignaturen. Wir wollen ja nichts riskieren, oder?"</text>
+<text name="ce_event_QUEST_STORE_RESCUE_c2_e" language="de">Nach einiger Zeit fährt das Schiff seine Waffensysteme runter und springt fort. Auf dem Mond entdeckst du keine Lebenszeichen.</text>
+<text name="ce_eventList_MERCENARY_WORK_LIST_1" language="de">"Moment, Sie gehören zur Föderation? Wir suchen nach Unterstützung, um unseren lokalen Außenposten zu verteidigen, könnten Sie uns vielleicht helfen? Nicht jeder hat vergessen, was die Föderation für diesen Sektor getan hat. Bitte schützt uns vor den Rebellen!" Sie senden dir die Koordinaten einer Föderationsbasis in der Nähe, die gerade belagert wird.</text>
+<text name="ce_eventList_MERCENARY_WORK_LIST_2" language="de">"Ein bekannter flüchtiger Pirat wird durch dieses System fliegen, aber wir haben nicht die nötige Feuerkraft, um ihn zu erledigen. Können Sie ihn abfangen? Besonders wird es sich für Sie lohnen, falls sie ihn lebend gefangen nehmen können."</text>
+<text name="ce_eventList_MERCENARY_WORK_LIST_2_c1" language="de">Zustimmen, den Flüchtigen abzufangen.</text>
+<text name="ce_eventList_MERCENARY_WORK_LIST_2_c1_e" language="de">Du machst das Schiff kampfbereit und wartest in der Nähe des Signalpunkts.</text>
+<text name="ce_eventList_MERCENARY_WORK_LIST_2_c2_e" language="de">"Nun gut, wir verstehen. Aber wenn Sie uns nicht helfen, entkommt er bestimmt und wird weiterhin die Handelsroute terrorisieren."</text>
 
 <!-- FILE: text_blueprints.xml.append -->
 
