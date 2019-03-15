@@ -1,6 +1,7 @@
 package m00nl1ght.ftl.tools;
 
 import javafx.application.Application;
+import javafx.beans.value.ObservableValue;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
@@ -8,12 +9,12 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.text.similarity.FuzzyScore;
 import org.apache.commons.text.similarity.LevenshteinDistance;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.*;
+import java.util.function.Predicate;
 
 public class Editor extends Application {
 
@@ -21,6 +22,7 @@ public class Editor extends Application {
     static final File LANG_OUT_DIR = new File("./lang_out/");
     static final File PATCHER_IN_DIR = new File("./patcher_in/");
     static final File PATCHER_OUT_DIR = new File("./patcher_out/");
+    static final List<String> PREFIX_LIST = Arrays.asList("ce", "event", "eventList", "textList", "text", "ship");
 
     static Patcher EVENT_PATCHER, BLUEPRINT_PATCHER;
     static Patcher.TagType TAG_EVENT, TAG_CHOICE, TAG_REMOVE_CREW, TAG_EVENT_LIST, TAG_TEXT_LIST, TAG_SHIP, TAG_SHIP_DESTROYED, TAG_SHIP_DEAD_CREW;
@@ -28,8 +30,9 @@ public class Editor extends Application {
 
     final List<LangReader> LANG_IN = new ArrayList<>();
     final Map<String, LangEntry> MAP = new LinkedHashMap<>();
-    public LangEntry current = null;
-    private ListView<LangEntry> list;
+    private TreeView<LangEntry> tree;
+    private TextArea langA, langB;
+    private Button btnSuggest;
     private Label label = new Label("");
     private LevenshteinDistance dist_alg = new LevenshteinDistance();
 
@@ -80,7 +83,6 @@ public class Editor extends Application {
 
     }
 
-    @SuppressWarnings("SimplifyStreamApiCallChains")
     @Override
     public void start(Stage primaryStage) {
 
@@ -91,10 +93,10 @@ public class Editor extends Application {
         pane.setPadding(new Insets(20, 20, 20, 20));
         pane.setSpacing(5);
 
-        TextArea langA = new TextArea();
+        langA = new TextArea();
         langA.wrapTextProperty().setValue(true);
 
-        TextArea langB = new TextArea();
+        langB = new TextArea();
         langB.wrapTextProperty().setValue(true);
 
         HBox box = new HBox();
@@ -103,8 +105,8 @@ public class Editor extends Application {
         Button btnSave = new Button("Save");
         btnSave.setOnAction(event -> this.save(btnSave));
 
-        Button btnSuggest = new Button("Suggest");
-        btnSuggest.setOnAction(event -> this.suggest(btnSuggest, langB));
+        btnSuggest = new Button("Suggest");
+        btnSuggest.setOnAction(event -> this.suggest());
         btnSuggest.disableProperty().setValue(true);
 
         CheckBox chkMissinOnly = new CheckBox("Only show missing translations");
@@ -112,23 +114,14 @@ public class Editor extends Application {
 
         box.getChildren().addAll(btnSave, chkMissinOnly, btnSuggest, label);
 
-        list = new ListView<>();
-        list.setMinSize(-1, 700);
-        MAP.values().stream().forEachOrdered(entry ->  list.getItems().add(entry));
-        list.getSelectionModel().selectedItemProperty().addListener((observable, oldValue, newValue) -> {
-            if (current!=null) {
-                current.translation = langB.getText();
-            }
-            current = newValue;
-            langA.setText(current==null?"":current.value);
-            langB.setText(current==null?"":current.translation);
-            label.setText("");
-            btnSuggest.disableProperty().setValue(false);
-        });
+        tree = new TreeView<>();
+        tree.setMinSize(-1, 700);
+        tree.setShowRoot(false);
+        this.changeMode(chkMissinOnly);
+        tree.getSelectionModel().selectedItemProperty().addListener(this::changeSel);
 
-        pane.getChildren().addAll(list, new Label("langA"), langA, new Label("langB"), langB, box);
+        pane.getChildren().addAll(tree, new Label("langA"), langA, new Label("langB"), langB, box);
         Scene scene = new Scene(pane, 1000, 1000);
-        //scene.getRoot().setStyle("-fx-base: rgba(60, 63, 65, 255)");
         primaryStage.setScene(scene);
         primaryStage.show();
 
@@ -136,22 +129,79 @@ public class Editor extends Application {
 
     @SuppressWarnings({"SimplifyStreamApiCallChains", "SimplifyForEach"})
     private void changeMode(CheckBox box) {
-        list.getItems().clear();
-        if (box.isSelected()) {
-            final int[] amount = {0};
-            MAP.values().stream().forEachOrdered(entry -> {if (entry.translation.isEmpty() || entry.value.isEmpty() || entry.translation.endsWith(") ")) {list.getItems().add(entry); amount[0]++;}});
-            box.setText("Only show missing translations ("+ amount[0] +" entries)");
+        final TreeItem<LangEntry> root = new TreeItem<>();
+        tree.setRoot(root);
+        final LinkedHashMap<String, LinkedHashMap<String, List<LangEntry>>> data = new LinkedHashMap<>();
+        final Predicate<LangEntry> filter = box.isSelected()?e -> (e.translation.isEmpty() || e.value.isEmpty() || e.translation.endsWith(") ")):e -> true;
+        final int[] amount = {0};
+        MAP.values().stream().forEachOrdered(entry -> {
+            if (filter.test(entry)) {
+                String prefix = getPrefix(entry);
+                data.computeIfAbsent(entry.src, k -> new LinkedHashMap<>()).computeIfAbsent(prefix, k -> new ArrayList<>(8)).add(entry);
+                amount[0]++;
+            }
+        });
+        data.forEach((key, value) -> {
+            LangEntry e = new LangEntry();
+            TreeItem<LangEntry> node = new TreeItem<>(e);
+            root.getChildren().add(node);
+            if (value.size()==1) {
+                value.values().iterator().next().forEach(langEntry -> node.getChildren().add(new TreeItem<>(langEntry)));
+            } else {
+                value.forEach((s, le) -> {
+                    if (le.size()==1) {
+                        node.getChildren().add(new TreeItem<>(le.get(0)));
+                    } else {
+                        if (s.isEmpty()) {
+                            le.forEach(langEntry -> node.getChildren().add(new TreeItem<>(langEntry)));
+                        } else {
+                            LangEntry e1 = new LangEntry();
+                            e1.key = s;
+                            TreeItem<LangEntry> node1 = new TreeItem<>(e1);
+                            node.getChildren().add(node1);
+                            le.forEach(langEntry -> node1.getChildren().add(new TreeItem<>(langEntry)));
+                        }
+                    }
+                });
+            }
+            e.key = key + " ("+node.getChildren().size()+")";
+        });
+        box.setText("("+ amount[0] +" entries) Only show missing translations");
+    }
+
+    private String getPrefix(LangEntry e) {
+        String[] s = e.key.split("_");
+        StringBuilder r = new StringBuilder();
+        int i = 0; while (i<s.length && (PREFIX_LIST.contains(s[i]))) {i++;}
+        if (i>0 && i<s.length && Character.isUpperCase(s[i].charAt(0))) {
+            for (int j = 0; j<=i; j++) {if (r.length()>0) r.append("_"); r.append(s[j]);}
+            while (i++<s.length-1 && Character.isUpperCase(s[i].charAt(0))) {r.append("_").append(s[i]);}
+        }
+        return r.toString();
+    }
+
+    private void changeSel(ObservableValue<? extends TreeItem<LangEntry>> obs, TreeItem<LangEntry> old, TreeItem<LangEntry> val) {
+        if (old!=null && !old.getValue().src.isEmpty()) {
+            old.getValue().translation = langB.getText();
+        }
+        if (val!=null && !val.getValue().src.isEmpty()) {
+            langA.setText(val.getValue().value);
+            langB.setText(val.getValue().translation);
+            label.setText("");
+            btnSuggest.disableProperty().setValue(false);
         } else {
-            MAP.values().stream().forEachOrdered(entry -> list.getItems().add(entry));
-            box.setText("Only show missing translations");
+            langA.setText("");
+            langB.setText("");
+            label.setText("");
+            btnSuggest.disableProperty().setValue(true);
         }
     }
 
     public static class LangEntry {
-        public String key, value = "", translation = "", file = "";
+        public String key = "", value = "", translation = "", file = "", src = "";
         public int dupes = 0;
         public String toString() {
-            return file.isEmpty()?key:("["+file+"] "+key+(dupes>0?" ("+dupes+")":""));
+            return key+(dupes>0?" ("+dupes+")":"");
         }
     }
 
@@ -209,26 +259,26 @@ public class Editor extends Application {
         btnSave.disableProperty().setValue(false);
     }
 
-    public void suggest(Button btn, TextArea langB) {
-        if (!langB.getText().isEmpty() && label.getText().isEmpty()) {langB.setText(""); current.translation=""; return;}
-        btn.textProperty().setValue("...");
-        btn.disableProperty().setValue(true);
+    public void suggest() {
+        final LangEntry ae = tree.getSelectionModel().getSelectedItem().getValue();
+        if (!langB.getText().isEmpty() && label.getText().isEmpty()) {langB.setText(""); ae.translation=""; return;}
+        btnSuggest.textProperty().setValue("...");
+        btnSuggest.disableProperty().setValue(true);
 
-        final String a = current.value;
         double match = 10000000D;
         double max = label.getText().isEmpty()?-1D:Double.parseDouble(label.getText());
         LangEntry best = null;
         for (LangEntry e : MAP.values()) {
             if (StringUtils.isBlank(e.value) || e.translation.isEmpty() || e.translation.endsWith(") ") || e.translation.equals(langB.getText())) continue;
-            double v = dist_alg.apply(e.value, a);
+            double v = dist_alg.apply(e.value, ae.value);
             if (v<match && v>max) {match=v; best=e;}
         }
 
         if (best!=null && (match < 500 || !label.getText().isEmpty())) langB.setText(best.translation);
         label.setText(""+match);
 
-        btn.textProperty().setValue("Suggest");
-        btn.disableProperty().setValue(false);
+        btnSuggest.textProperty().setValue("Suggest");
+        btnSuggest.disableProperty().setValue(false);
     }
 
 }

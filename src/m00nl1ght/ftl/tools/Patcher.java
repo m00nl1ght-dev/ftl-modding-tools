@@ -16,7 +16,7 @@ public class Patcher {
     private final TagType[] TAGS;
     private final String TARGET_FILE;
     private String line = null;
-    private String name = null;
+    private String name = null, srcfile = null;
     private boolean inComment = false;
     private List<TagType> tags = new ArrayList<>();
     private int[] tag_ids = new int[20];
@@ -63,6 +63,7 @@ public class Patcher {
         });
 
         for(String sName : source) {
+            srcfile = sName;
             File src = new File(sourceDir, sName+".xml.append");
             System.out.println("Patching file ["+src.getName()+"] for target ["+TARGET_FILE+"] ...");
             File file = new File(destDir, src.getName());
@@ -174,6 +175,7 @@ public class Patcher {
                 if (entry.key.isEmpty()) return false;
                 entry.value = text;
                 entry.file = TARGET_FILE+".append";
+                entry.src = srcfile;
                 existing_keys.put(entry.value, entry);
                 MAP.put(entry.key, entry);
             } else {

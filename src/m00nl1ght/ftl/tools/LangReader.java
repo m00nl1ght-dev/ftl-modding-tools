@@ -3,7 +3,6 @@ package m00nl1ght.ftl.tools;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
-import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.util.Map;
@@ -59,6 +58,7 @@ public class LangReader {
                 entry.key = key;
                 if (this.lang_id.isEmpty()) {
                     entry.value = text;
+                    entry.src = this.file.getName();
                     entry.file = this.file.getName();
                 } else {
                     entry.translation = text;
@@ -69,6 +69,7 @@ public class LangReader {
                     if (entry.value.isEmpty() || entry.file.equals(this.file.getName()) || this.file.getName().contains("append")) {
                         if (!entry.value.equals(text)) {
                             if (DEBUG_READER) System.out.println(entry+": "+entry.value+" -> "+text+" f:"+this.file.getName());
+                            entry.src = this.file.getName();
                             entry.value = text;
                         }
                     }
