@@ -5655,6 +5655,83 @@
 <text name="ce_eventList_MERCENARY_WORK_LIST_2_c1" language="de">Zustimmen, den Flüchtigen abzufangen.</text>
 <text name="ce_eventList_MERCENARY_WORK_LIST_2_c1_e" language="de">Du machst das Schiff kampfbereit und wartest in der Nähe des Signalpunkts.</text>
 <text name="ce_eventList_MERCENARY_WORK_LIST_2_c2_e" language="de">"Nun gut, wir verstehen. Aber wenn Sie uns nicht helfen, entkommt er bestimmt und wird weiterhin die Handelsroute terrorisieren."</text>
+<text name="ce_eventList_MERCENARY_WORK_AMBUSH_LIST_1" language="de">Es dauert eine ganze Weile, bis die Kriminellen endlich ankommen. Du bist kurz davor, den Auftrag aufzugeben, als du eine Sprungsignatur bemerkst. Das müssen sie sein!</text>
+<text name="ce_eventList_MERCENARY_WORK_AMBUSH_LIST_2" language="de">Die Kriminellen erreichen den Signalpunkt nach kurzer Zeit. Angriff!</text>
+<text name="ce_eventList_MERCENARY_WORK_AMBUSH_DESTROYED_1" language="de">Die ganze Piratencrew ist bei der Zerstörung des Schiffs gestorben. Du überträgst deine Aufzeichnungen und meldest den Tod des gesuchten Kriminellen. Da seine Indentität jedoch nicht mehr eindeutig nachgewiesen werden kann, bekommst du nur eine kleine Belohnung.</text>
+<text name="ce_eventList_MERCENARY_WORK_AMBUSH_DESTROYED_2" language="de">Die ganze Piratencrew ist bei der Zerstörung des Schiffs gestorben. Du überträgst deine Aufzeichnungen und meldest den Tod des gesuchten Kriminellen. Da seine Indentität jedoch nicht mehr eindeutig nachgewiesen werden kann, bekommst du nur eine kleine Belohnung.</text>
+<text name="ce_eventList_MERCENARY_WORK_AMBUSH_DESTROYED_3" language="de">Nach dem Kampf entdeckst du etwas seltsames auf dem Radar. Anscheinend hat der gesuchte Kriminelle versucht, mit einer Fluchtkapsel zu entkommen. Du nimmst ihn gefangen und bekommst einen Teil des Kopfgelds als Belohnung.</text>
+<text name="ce_eventList_MERCENARY_WORK_AMBUSH_CREW_DEAD_2" language="de">Überaschenderweise hat der gesuchte Kriminelle den Kampf überlebt. Vermutlich, weil er sich aus Angst in einer Kiste versteckt hat. Du nimmst ihn gefangen und bekommst einen Teil des Kopfgelds als Belohnung.</text>
+<text name="ce_eventList_MERCENARY_WORK_AMBUSH_CREW_DEAD_3" language="de">Du identifizierst einen der Piraten als den gesuchten Kriminellen. Er ist bewusstlos und schwer verletzt.</text>
+<text name="ce_eventList_MERCENARY_WORK_AMBUSH_CREW_DEAD_3_c1" language="de">Erste Hilfe leisten.</text>
+<text name="ce_eventList_MERCENARY_WORK_AMBUSH_CREW_DEAD_3_c1_e" language="de">Trotz deiner Anstrengungen gelingt es dir nicht, den Kriminellen wiederzubeleben. Immerhin bekommst du einen kleinen Teil des Kopfgelds.</text>
+<text name="ce_eventList_MERCENARY_WORK_AMBUSH_CREW_DEAD_3_c2" language="de">(Improved Medbay) Den Kriminellen mit deinem Medbay wiederbeleben.</text>
+<text name="ce_eventList_MERCENARY_WORK_AMBUSH_CREW_DEAD_3_c2_e" language="de">Deine fortschrittliche medizinische Ausrüstung kann den Kriminellen stabilisieren. Er erwacht aus seinem Koma und kann verhört werden. Du erhältst einen Teil des Kopfgelds als Belohnung.</text>
+<text name="ce_eventList_MERCENARY_WORK_AMBUSH_CREW_DEAD_3_c3" language="de">(Clonebay) Die DNA des Kriminellen sichern und einen Klon ausliefern.</text>
+<text name="ce_eventList_MERCENARY_WORK_AMBUSH_CREW_DEAD_3_c3_e" language="de">Deine Auftraggeber wundern sich, wie der Kriminelle den Kampf völlig unbeschadet überstanden zu haben scheint. Trotzdem erhältst du einen Teil des Kopfgelds als Belohnung.</text>
+<text name="ce_eventList_DISTRESS_TRAPPED_MINER_SHOOT_1" language="de">Deine Schüsse lösen ein Bruchstück und und Felsen werden in allle Richtungen geschleudert.</text>
+<text name="ce_eventList_DISTRESS_TRAPPED_MINER_SHOOT_1_c1" language="de">(Advanced Navigation AI) Ausweichen!</text>
+<text name="ce_eventList_DISTRESS_TRAPPED_MINER_SHOOT_1_c1_e" language="de">Dein fortschrittliches Antriebssystem kann den Felsen gerade noch ausweichen. Von dem anderen Schiff ist jedoch nicht mehr viel übrig...</text>
+<text name="ce_eventList_DISTRESS_TRAPPED_MINER_SHOOT_1_c2_e" language="de">Eine Schockwelle durchdringt dein Schiff, als die Felsen auf deine Hülle treffen. Von dem anderen Schiff ist nicht mehr viel übrig...</text>
+<text name="ce_eventList_DISTRESS_TRAPPED_MINER_LOOT_1" language="de">Du beschließt, dass Piraten es nicht verdient haben, gerettet zu werden. Du feuerst mehrmals auf das Schiff und es zerbricht in mehrere Stücke. Dann näherst du dich, um die Überreste zu plündern.</text>
+<text name="ce_event_DISTRESS_SATELLITE_DEFENSE_c1_e_c9" language="de">(Lanius Crew) Dein Crewmitglied bietet an, zu helfen.</text>
+<text name="ce_event_DISTRESS_SATELLITE_DEFENSE_c1_e_c9_e" language="de">Der Lanius wird vom dem Geschütz aufgrund seiner niedrigen Körpertemperatur nicht erkannt und kann es unbeschadet erreichen und... einschmelzen. Du machst dich lieber schnell aus dem Staub, bevor die Leute auf der Station deine Methoden hinterfragen können.</text>
+<text name="ce_event_DISTRESS_SATELLITE_DEFENSE_c1_e_c10" language="de">(Targeting Jammer) Das Zielsystem außer Gefecht setzen.</text>
+<text name="ce_event_DISTRESS_SATELLITE_DEFENSE_c1_e_c10_e" language="de">Du aktivierst den Störsender und meldest der Reperaturcrew, dass es nun sicher ist. Die Geschütze feuern wie wild, erzielen aber fast keine Treffer. Nach der erfolgreichen Reperatur bieten sie dir eine Belohnung an.</text>
+<text name="ce_event_DISTRESS_SATELLITE_DEFENSE_c1_e_c11" language="de">(Improved Sensors) Das Geschützsystem analysieren.</text>
+<text name="ce_event_DISTRESS_SATELLITE_DEFENSE_c1_e_c11_e" language="de">Deine Scans zeigen, dass alle Geschütze von einer Art Haupteinheit gesteuert werden. Du könntest sie angreifen und so das ganze System außer Kraft setzen.</text>
+<text name="ce_event_DISTRESS_SATELLITE_DEFENSE_c1_e_c11_e_c1" language="de">Angreifen.</text>
+<text name="ce_event_DISTRESS_SATELLITE_DEFENSE_c1_e_c11_e_c1_e" language="de">"Waffen bereit, Captain."</text>
+<text name="ce_event_DISTRESS_SATELLITE_DEFENSE_c1_e_c11_e_c2" language="de">Besser nichts riskieren.</text>
+<text name="ce_eventList_SATELLITE_DEFENSE_BORING_2" language="de">Du feuerst, kannst aber die Verteidigung des Geschützes nicht überwinden. Das Geschütz andererseits hat aber keine Probleme, deine Schilde zu durchdringen...</text>
+<text name="ce_eventList_SATELLITE_DEFENSE_BORING_2_c1" language="de">(Advanced Navigation AI) Ausweichen!</text>
+<text name="ce_eventList_SATELLITE_DEFENSE_BORING_2_c1_e" language="de">Dein fortschrittlicher Navigationscomputer ermöglicht dir, den meisten Geschossen auszuweichen. Trotzdem muss dein Schiff einige Treffer einstecken...</text>
+<text name="ce_eventList_SATELLITE_DEFENSE_BORING_2_c2_e" language="de">Die Geschosse des Geschützes prasseln auf deine Hülle. Die Station wird sich wohl woanders Hilfe suchen müssen.</text>
+<text name="ce_event_DISTRESS_STATION_FIRE_c4" language="de">(Fire Suppression) Die Station mit Löschschaum fluten.</text>
+<text name="ce_event_DISTRESS_STATION_FIRE_c4_e" language="de">Dein Feuerlöschsystem pumpt mit voller Leistung eine riesige Menge dynamischer Schaummischung in die Station. Das Feuer wird dadurch sofort gelöscht. </text>
+<text name="ce_event_DISTRESS_STATION_FIRE_c4_e_c1_e" language="de">Die Wissenschaftler sind zwar vollständig mit Schaum bedeckt, aber dankbar. Sie bieten dir eine großzügige Belohnung an.</text>
+<text name="ce_event_DISTRESS_STATION_FIRE_c5" language="de">(Rock Crew) Dein Rock-Crewmitglied reinschicken.</text>
+<text name="ce_event_DISTRESS_STATION_FIRE_c6" language="de">(Repair Drone) Deine Reparaturdrohne ins Feuer schicken.</text>
+<text name="ce_event_DISTRESS_STATION_FIRE_c6_e" language="de">Du schickst die Reparaturdrohne los, und sie löscht das Feuer auf effiziente Weise. Kurz darauf schickst du deine Crew hinterher, um die Station zu sichern.</text>
+<text name="ce_eventList_DISTRESS_STATION_FIRE_RESCUE_1" language="de">Du suchst dir die höchste Konzentration an Biosignalen und manövrierst das Schiff neben die Station. Bevor du aber Überlebende aufnehmen kannst, wird die Station von einer Explosion in Stücke gerissen und dein Schiff wird fortgeschleudert.</text>
+<text name="ce_eventList_DISTRESS_STATION_FIRE_RESCUE_1_c1" language="de">(Advanced Navigation AI) Das Schiff stabilisieren.</text>
+<text name="ce_eventList_DISTRESS_STATION_FIRE_RESCUE_1_c1_e" language="de">Deine fortschrittliche Steuereinheit kann den meisten Bruchteilen ausweichen. Die Wissenschaftler haben jedoch nicht solches Glück...</text>
+<text name="ce_eventList_DISTRESS_STATION_FIRE_RESCUE_1_c2_e" language="de">Einige Bruchstücke durchdringen deine Hülle. Von den Wissenschaftlern bleibt nicht viel übrig...</text>
+<text name="ce_event_QUEST_MANTIS_INVASION" language="de">Du findest das Mantis-Lager, aber es sind zu viele, um sie genau zu zählen. Du schickst eine Langstreckennachricht mit deinen Ergebnissen zurück zur Siedlung, kannst aber sonst nicht viel tun. Ein direkter Angriff wäre reiner Selbstmord.</text>
+<text name="ce_event_QUEST_MANTIS_INVASION_c1_e" language="de">Du feuerst auf ihr Treibstofflager, doch ein Schuss von der Oberfläche reißt die Rakete in Stücke. Sie scheinen bereits über ein planetares Verteidigungssystem zu verfügen! Du versuchst zu fliehen, aber ein Schiff nähert sich, um anzugreifen.</text>
+<text name="ce_event_QUEST_MANTIS_INVASION_c2" language="de">(Boarding Drone) Eine Drohne losschicken, um das Lager zu sabotieren.</text>
+<text name="ce_event_QUEST_MANTIS_INVASION_c2_e" language="de">Deine Drohne schafft es unbemerkt in das Camp und feuert ihre gesamte Ladung auf das Munitionslager der Mantis. Ein greller Blitz erhellt das Gebiet als das Lager explodiert. Mantis-Schiffe fliehen in alle Richtungen.</text>
+<text name="ce_event_QUEST_MANTIS_INVASION_c2_e_c1_e" language="de">Da die meisten ihrer Schiffe geflohen sind, kannst du dich nun an ihren Resourcen bedienen.</text>
+<text name="ce_event_QUEST_MANTIS_INVASION_c3_e" language="de">Das Lager scheint noch nicht mit Störfeldern gesichert zu sein. Du teleportierst Sprengladungen in ihr Treibstofflager, und kurz darauf geht ein großer Teil der Einrichtung in Flammen auf.</text>
+<text name="ce_event_QUEST_MANTIS_INVASION_c4" language="de">(Minelauncher) Einige Minen auf ihrer Einflugbahn platzieren. [ Raketen: -3 ]</text>
+<text name="ce_event_QUEST_MANTIS_INVASION_c4_e" language="de">Du legst unbemerkt einige Minen in der Nähe des Signalpunkts, und wartest auf deine Beute. Nach kurzer Zeit trifft ein Frachtschiff ein und wird in Stücke gerissen.</text>
+<text name="ce_event_QUEST_MANTIS_INVASION_c4_e_c1_e" language="de">Du sammelst so viele Resourcen wie möglich, bevor die Kampfschiffe des Lagers eintreffen.</text>
+<text name="ce_event_QUEST_MANTIS_INVASION_c5" language="de">(Minelauncher) Einige Minen auf ihrer Einflugbahn platzieren. [ Drohnen: -1 ]</text>
+<text name="ce_event_QUEST_MANTIS_INVASION_c5_e" language="de">Du legst unbemerkt einige Minen in der Nähe des Signalpunkts, und wartest auf deine Beute. Nach kurzer Zeit trifft ein Kampfschiff ein und wird in Stücke gerissen.</text>
+<text name="ce_event_QUEST_MANTIS_INVASION_c5_e_c1_e" language="de">Du sammelst so viele Resourcen wie möglich, bevor die Kampfschiffe des Lagers eintreffen.</text>
+<text name="ce_eventList_MANTIS_LANDING_PARTY_LEAVE_1" language="de">Als du gerade verschwinden willst, entdeckt dich eine Patrouille. Im Lager heulen Sirenen auf und das Schiff greift an!</text>
+<text name="ce_event_ALISON_DEFECTOR_c1_e" language="de">Ein aufgeregter Rebellensoldat hat sich an Bord teleportiert. Er scheint unbewaffnet zu sein und erklärt wiederholt, dass er friedliche Absichten hat. Scheinbar hat das Rebellenleben seinen Reiz verloren.</text>
+<text name="ce_event_ALISON_DEFECTOR_c1_e_c1" language="de">Sein Angebot annehmen und das Rebellenschiff bekämpfen.</text>
+<text name="ce_event_ALISON_DEFECTOR_c1_e_c2" language="de">Sein Angebot ablehnen. Diesen Rebellen kann man nicht trauen.</text>
+<text name="ce_event_ALISON_DEFECTOR_c1_e_c3" language="de">(Slug Crew) Dein Slug-Crewmitglied seine wahren Absichten analysieren lassen.</text>
+<text name="ce_eventList_ALISON_DEFECTOR_REJECT_3" language="de">Er verspricht, dich zu einem Materialversteck in der Nähe zu führen, wenn du ihn in die Crew aufnimmst.</text>
+<text name="ce_eventList_ALISON_DEFECTOR_REJECT_3_c1" language="de">Widerwillig auf sein Angebot eingehen und gegen das Rebellenschiff kämpfen.</text>
+<text name="ce_eventList_ALISON_DEFECTOR_REJECT_3_c2" language="de">Sein Angebot weiterhin ablehnen.</text>
+<text name="ce_eventList_ALISON_DEFECTOR_REJECT_3_c2_e" language="de">Der Überläufer wirkt verzweifelt. "Ich gehe nicht zurück zu den Rebellen!" Er zieht eine versteckte Waffe.</text>
+<text name="ce_eventList_ALISON_DEFECTOR_HELP_1" language="de">Der ehrlose Rebell hat dich getäuscht. Er beschädigt den Antrieb und stiehlt deine Flugdaten, bevor er sich wegteleportiert. Die Flotte wird dich leicht finden können... falls dich diese Rebellen hier nicht vorher töten!</text>
+<text name="ce_eventList_ALISON_DEFECTOR_HELP_2" language="de">Dein neues Crewmitglied grinst und hält dir einen kleinen Fernzünder unter die Nase. Explosionen erschüttern das Schiff und es teleportieren sich weitere Eindringlinge an Bord!</text>
+<text name="ce_eventList_ALISON_DEFECTOR_HELP_3" language="de">Erleichtert macht sich dein neues Crewmitglied an die Arbeit, während das Rebellenschiff angreift.</text>
+<text name="ce_eventList_ALISON_DEFECTOR_HELP_6" language="de">Der Rebell geht zu seiner Station, dreht sich dann aber plötzlich um und tötet das nächstbeste Crewmitglied!</text>
+<text name="ce_eventList_ALISON_DEFECTOR_HELP_2_2" language="de">Dein neues Crewmitglied grinst und hält dir einen kleinen Fernzünder unter die Nase. Explosionen erschüttern das Schiff und es teleportieren sich weitere Eindringlinge an Bord!</text>
+<text name="ce_eventList_ALISON_DEFECTOR_HELP_2_6" language="de">Der Rebell geht zu seiner Station, dreht sich dann aber plötzlich um und tötet das nächstbeste Crewmitglied!</text>
+<text name="ce_eventList_ALISON_DEFECTOR_SLUG_1" language="de">Der Slug starrt den Rebellen kurz an. "Diessse Perssson manipuliert Sie, Captain. Vertrauen Sie ihr nicht." Deine Crew kann den Eindringling schnell überwältigen, aber das Rebellenschiff muss trotzdem noch besiegt werden....</text>
+<text name="ce_eventList_ALISON_DEFECTOR_SLUG_2" language="de">Der Slug starrt den Rebellen kurz an. "Diessse Perssson manipuliert Sie, Captain. Vertrauen Sie ihr nicht." Dem Rebellen wird klar, dass ihm nur noch eine Möglichkeit bleibt...</text>
+<text name="ce_eventList_ALISON_DEFECTOR_SLUG_3" language="de">Der Slug starrt den Rebellen kurz an. "Diessse Perssson will sich wirklich Ihrer Crew anschließen. Sie hat schreckliche Dinge gesehen, aber sie hat einen guten Willen. Sie wird uns sicher helfen können." Dein neues Crewmitglied ist zwar etwas verwirrt, macht sich aber sofort an die Arbeit, als das Rebellenschiff angreift.</text>
+<text name="ce_eventList_ALISON_DEFECTOR_SLUG_4" language="de">Der Slug starrt den Rebellen kurz an. "Diessse Perssson will sich wirklich Ihrer Crew anschließen." Doch der Abtrünnige wird plötzlich unruhig. "Gedankenmanipulation? Ich wollte dieser Art von Unterdrückung entkommen, aber die Föderation scheinen wohl auch nicht besser zu sein als die Rebellen..."</text>
+<text name="ce_eventList_ALISON_DEFECTOR_SLUG_4_c1_e" language="de">"Ich werde mich nicht Ihrer Crew anschließen. Sie können mich an der nächstbesten Station absetzen." Zuerst musst du dich aber um das Rebellenschiff kümmern...</text>
+<text name="ce_event_ALISON_MANTIS_CREW_c1_e_c2" language="de">Den Mantis gegen ein Kopfgeld ausliefern.</text>
+<text name="ce_eventList_ALISON_MANTIS_CREW_HELP_1" language="de">Es war eine Falle! Der Mantis sabotiert dein Schiff, bevor er sich wegteleportiert.</text>
+<text name="ce_eventList_ALISON_MANTIS_CREW_HELP_2" language="de">Er bedankt sich und macht sich bereit, dir im Kampf gegen die Verfolger zu helfen.</text>
+<text name="ce_eventList_ALISON_MANTIS_CREW_REJECT_1" language="de">Der Engi-Kapitän ist hocherfreut und bereitet den Austausch des Gefangenen vor.</text>
 
 <!-- FILE: text_blueprints.xml.append -->
 
