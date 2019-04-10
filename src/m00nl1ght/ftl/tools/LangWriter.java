@@ -43,7 +43,7 @@ public class LangWriter {
         if (this.lang_id.isEmpty()) {
             String f = file.getName();
             for (Editor.LangEntry entry : keys.values()) {
-                if (entry.file.equals(f) && !entry.translation.isEmpty()) {
+                if (entry.file.equals(f)) {
                     lang_writer.write("<text name=\"" + entry.key + "\">" + entry.value + "</text>");
                     lang_writer.newLine();
                     count++;

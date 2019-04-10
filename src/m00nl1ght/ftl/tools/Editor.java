@@ -32,7 +32,7 @@ public class Editor extends Application {
     final Map<String, LangEntry> MAP = new LinkedHashMap<>();
     private TreeView<LangEntry> tree;
     private TextArea langA, langB;
-    private Button btnSuggest;
+    private Button btnSuggest, btnTranslate;
     private Label label = new Label("");
     private LevenshteinDistance dist_alg = new LevenshteinDistance();
 
@@ -109,10 +109,14 @@ public class Editor extends Application {
         btnSuggest.setOnAction(event -> this.suggest());
         btnSuggest.disableProperty().setValue(true);
 
+        btnTranslate = new Button("Auto");
+        btnTranslate.setOnAction(event -> this.translate());
+        btnTranslate.disableProperty().setValue(true);
+
         CheckBox chkMissinOnly = new CheckBox("Only show missing translations");
         chkMissinOnly.setOnAction(event -> this.changeMode(chkMissinOnly));
 
-        box.getChildren().addAll(btnSave, chkMissinOnly, btnSuggest, label);
+        box.getChildren().addAll(btnSave, chkMissinOnly, btnSuggest, btnTranslate, label);
 
         tree = new TreeView<>();
         tree.setMinSize(-1, 700);
@@ -189,11 +193,13 @@ public class Editor extends Application {
             langB.setText(val.getValue().translation);
             label.setText("");
             btnSuggest.disableProperty().setValue(false);
+            btnTranslate.disableProperty().setValue(false);
         } else {
             langA.setText("");
             langB.setText("");
             label.setText("");
             btnSuggest.disableProperty().setValue(true);
+            btnTranslate.disableProperty().setValue(true);
         }
     }
 
@@ -279,6 +285,24 @@ public class Editor extends Application {
 
         btnSuggest.textProperty().setValue("Suggest");
         btnSuggest.disableProperty().setValue(false);
+    }
+
+    public void translate() {
+        final LangEntry ae = tree.getSelectionModel().getSelectedItem().getValue();
+        if (!langB.getText().isEmpty() && label.getText().isEmpty()) {langB.setText(""); ae.translation=""; return;}
+        btnTranslate.textProperty().setValue("...");
+        btnTranslate.disableProperty().setValue(true);
+
+        String out = null;
+        try {
+            out = Translator.translate("en", "de", ae.value);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        if (out !=null && !out.isEmpty()) {langB.setText(out);}
+
+        btnTranslate.textProperty().setValue("Auto");
+        btnTranslate.disableProperty().setValue(false);
     }
 
 }
