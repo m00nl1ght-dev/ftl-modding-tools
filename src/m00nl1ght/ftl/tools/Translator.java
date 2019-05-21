@@ -22,7 +22,6 @@ public class Translator {
         BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
         response = in.lines().collect(Collectors.joining());
         in.close();
-        response = response.replaceAll("&quot;", "\"");
         return response;
     }
 

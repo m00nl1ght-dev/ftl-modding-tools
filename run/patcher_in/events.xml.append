@@ -17520,7 +17520,8 @@
 			<event load="BS_AUTO_SURRENDER_RESULTS_CREW"/>
 		</choice>
 		<choice hidden="true">
-			<text>"We can't trust anything Rebel-made." Delete the program and strip the auto station.</text>			<event>
+			<text>"We can't trust anything Rebel-made." Delete the program and strip the auto station.</text>
+            <event>
 				<text>Shortly before being deleted, the AI manages to hack into your personal comms. "You are a murderer, Captain." This is disturbing, but irrelevant for your mission.</text>
 				<ship hostile="false"/>
 				<autoReward level="LOW">standard</autoReward>
