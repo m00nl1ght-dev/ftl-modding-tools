@@ -8,8 +8,7 @@ import javafx.scene.control.*;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
-import org.apache.commons.lang3.StringUtils;
-import org.apache.commons.text.similarity.LevenshteinDistance;
+import m00nl1ght.ftl.tools.Patcher.TagType;
 
 import java.io.File;
 import java.io.IOException;
@@ -18,6 +17,7 @@ import java.util.function.Predicate;
 
 public class Editor extends Application {
 
+    static final double SUG_TRESHOLD = 100;
     static final File LANG_IN_DIR = new File("./lang_in/");
     static final File LANG_OUT_DIR = new File("./lang_out/");
     static final File PATCHER_IN_DIR = new File("./patcher_in/");
@@ -25,8 +25,8 @@ public class Editor extends Application {
     static final List<String> PREFIX_LIST = Arrays.asList("ce", "event", "eventList", "textList", "text", "ship");
 
     static Patcher EVENT_PATCHER, BLUEPRINT_PATCHER;
-    static Patcher.TagType TAG_EVENT, TAG_CHOICE, TAG_REMOVE_CREW, TAG_EVENT_LIST, TAG_TEXT_LIST, TAG_SHIP, TAG_SHIP_DESTROYED, TAG_SHIP_DEAD_CREW;
-    static Patcher.TagType TAG_BP_SYSTEM, TAG_BP_WEAPON, TAG_BP_CREW, TAG_BP_CREW_POWER, TAG_BP_AUG, TAG_BP_DRONE, TAG_BP_SHIP;
+    static TagType TAG_EVENT, TAG_CHOICE, TAG_REMOVE_CREW, TAG_EVENT_LIST, TAG_TEXT_LIST, TAG_SHIP, TAG_SHIP_DESTROYED, TAG_SHIP_DEAD_CREW;
+    static TagType TAG_BP_SYSTEM, TAG_BP_WEAPON, TAG_BP_CREW, TAG_BP_CREW_POWER, TAG_BP_AUG, TAG_BP_DRONE, TAG_BP_SHIP;
 
     final List<LangReader> LANG_IN = new ArrayList<>();
     final Map<String, LangEntry> MAP = new LinkedHashMap<>();
@@ -34,21 +34,20 @@ public class Editor extends Application {
     private TextArea langA, langB;
     private Button btnSuggest, btnTranslate;
     private Label label = new Label("");
-    private LevenshteinDistance dist_alg = new LevenshteinDistance();
 
     public static void main(String... args) {
 
         LANG_OUT_DIR.mkdirs();
         PATCHER_OUT_DIR.mkdirs();
 
-        TAG_EVENT_LIST = new Patcher.TagType("eventList", (n, p, id, d, tag) -> "ce_eventList_" + n);
-        TAG_EVENT = new Patcher.TagType("event", (n, p, id, d, tag) -> p==null?("ce_event_" + n):(p==TAG_CHOICE?(n + "_e"):(n + "_" + id)), "text");
-        TAG_CHOICE = new Patcher.TagType("choice", (n, p, id, d, tag) -> n + "_c" + id, "text");
-        TAG_REMOVE_CREW = new Patcher.TagType("removeCrew", (n, p, id, d, tag) -> n + "_clone", "text");
-        TAG_TEXT_LIST = new Patcher.TagType("textList", (n, p, id, d, tag) -> "ce_textList_" + n + "_" + d, "text");
-        TAG_SHIP = new Patcher.TagType("ship", (n, p, id, d, tag) -> "ce_ship_" + n);
-        TAG_SHIP_DESTROYED = new Patcher.TagType("destroyed", (n, p, id, d, tag) -> n + "_destroyed", "text");
-        TAG_SHIP_DEAD_CREW = new Patcher.TagType("deadCrew", (n, p, id, d, tag) -> n + "_deadCrew", "text");
+        TAG_EVENT_LIST = new TagType("eventList", (n, p, id, d, tag) -> "ce_eventList_" + n);
+        TAG_EVENT = new TagType("event", (n, p, id, d, tag) -> p==null?("ce_event_" + n):(p==TAG_CHOICE?(n + "_e"):(n + '_' + id)), "text");
+        TAG_CHOICE = new TagType("choice", (n, p, id, d, tag) -> n + "_c" + id, "text");
+        TAG_REMOVE_CREW = new TagType("removeCrew", (n, p, id, d, tag) -> n + "_clone", "text");
+        TAG_TEXT_LIST = new TagType("textList", (n, p, id, d, tag) -> "ce_textList_" + n + '_' + d, "text");
+        TAG_SHIP = new TagType("ship", (n, p, id, d, tag) -> "ce_ship_" + n);
+        TAG_SHIP_DESTROYED = new TagType("destroyed", (n, p, id, d, tag) -> n + "_destroyed", "text");
+        TAG_SHIP_DEAD_CREW = new TagType("deadCrew", (n, p, id, d, tag) -> n + "_deadCrew", "text");
 
         TAG_EVENT_LIST.sub(TAG_EVENT);
         TAG_EVENT.sub(TAG_CHOICE, TAG_REMOVE_CREW);
@@ -64,13 +63,13 @@ public class Editor extends Application {
         EVENT_PATCHER = new Patcher(PATCHER_IN_DIR, PATCHER_OUT_DIR,"text_events.xml", event_files,
                 TAG_EVENT, TAG_EVENT_LIST, TAG_TEXT_LIST, TAG_SHIP);
 
-        TAG_BP_SYSTEM = new Patcher.TagType("systemBlueprint", (n, p, id, d, tag) -> "ce_systemBlueprint_" + n + "_" + tag, "title", "desc");
-        TAG_BP_WEAPON = new Patcher.TagType("weaponBlueprint", (n, p, id, d, tag) -> "ce_weaponBlueprint_" + n + "_" + tag, "title", "desc", "short", "tooltip");
-        TAG_BP_CREW = new Patcher.TagType("crewBlueprint", (n, p, id, d, tag) -> "ce_crewBlueprint_" + n + "_" + tag, "title", "desc", "short");
-        TAG_BP_CREW_POWER = new Patcher.TagType("powerList", (n, p, id, d, tag) -> n + "_" + d, "power");
-        TAG_BP_AUG = new Patcher.TagType("augBlueprint", (n, p, id, d, tag) -> "ce_augBlueprint_" + n + "_" + tag, "title", "desc");
-        TAG_BP_DRONE = new Patcher.TagType("droneBlueprint", (n, p, id, d, tag) -> "ce_droneBlueprint_" + n + "_" + tag, "title", "desc", "short");
-        TAG_BP_SHIP = new Patcher.TagType("shipBlueprint", (n, p, id, d, tag) -> "ce_shipBlueprint_" + n + "_" + tag, "unlock", "desc");
+        TAG_BP_SYSTEM = new TagType("systemBlueprint", (n, p, id, d, tag) -> "ce_systemBlueprint_" + n + '_' + tag, "title", "desc");
+        TAG_BP_WEAPON = new TagType("weaponBlueprint", (n, p, id, d, tag) -> "ce_weaponBlueprint_" + n + '_' + tag, "title", "desc", "short", "tooltip");
+        TAG_BP_CREW = new TagType("crewBlueprint", (n, p, id, d, tag) -> "ce_crewBlueprint_" + n + '_' + tag, "title", "desc", "short");
+        TAG_BP_CREW_POWER = new TagType("powerList", (n, p, id, d, tag) -> n + '_' + d, "power");
+        TAG_BP_AUG = new TagType("augBlueprint", (n, p, id, d, tag) -> "ce_augBlueprint_" + n + '_' + tag, "title", "desc");
+        TAG_BP_DRONE = new TagType("droneBlueprint", (n, p, id, d, tag) -> "ce_droneBlueprint_" + n + '_' + tag, "title", "desc", "short");
+        TAG_BP_SHIP = new TagType("shipBlueprint", (n, p, id, d, tag) -> "ce_shipBlueprint_" + n + '_' + tag, "unlock", "desc");
 
         TAG_BP_CREW.sub(TAG_BP_CREW_POWER);
 
@@ -168,7 +167,8 @@ public class Editor extends Application {
                     }
                 });
             }
-            e.key = key + " ("+node.getChildren().size()+")";
+            int total = node.getChildren().stream().mapToInt(list -> list.getChildren().isEmpty() ? 1 : list.getChildren().size()).sum();
+            e.key = key + " ("+node.getChildren().size()+ '/' +total+ ')';
         });
         box.setText("("+ amount[0] +" entries) Only show missing translations");
     }
@@ -178,8 +178,8 @@ public class Editor extends Application {
         StringBuilder r = new StringBuilder();
         int i = 0; while (i<s.length && (PREFIX_LIST.contains(s[i]))) {i++;}
         if (i>0 && i<s.length && Character.isUpperCase(s[i].charAt(0))) {
-            for (int j = 0; j<=i; j++) {if (r.length()>0) r.append("_"); r.append(s[j]);}
-            while (i++<s.length-1 && Character.isUpperCase(s[i].charAt(0))) {r.append("_").append(s[i]);}
+            for (int j = 0; j<=i; j++) {if (r.length()>0) r.append('_'); r.append(s[j]);}
+            while (i++<s.length-1 && Character.isUpperCase(s[i].charAt(0))) {r.append('_').append(s[i]);}
         }
         return r.toString();
     }
@@ -207,7 +207,7 @@ public class Editor extends Application {
         public String key = "", value = "", translation = "", file = "", src = "";
         public int dupes = 0;
         public String toString() {
-            return key+(dupes>0?" ("+dupes+")":"");
+            return key+(dupes>0?" ("+dupes+ ')' :"");
         }
     }
 
@@ -227,7 +227,7 @@ public class Editor extends Application {
                     int c = e.value.indexOf(')');
                     if (c<3) continue;
                     String b = e.value.substring(1, c);
-                    e.translation = "("+b+") ";
+                    e.translation = '(' +b+") ";
                 }
             }
             this.info();
@@ -271,17 +271,17 @@ public class Editor extends Application {
         btnSuggest.textProperty().setValue("...");
         btnSuggest.disableProperty().setValue(true);
 
-        double match = 10000000D;
-        double max = label.getText().isEmpty()?-1D:Double.parseDouble(label.getText());
+        double match = 0D;
+        double max = label.getText().isEmpty()?2D:Double.parseDouble(label.getText());
         LangEntry best = null;
         for (LangEntry e : MAP.values()) {
-            if (StringUtils.isBlank(e.value) || e.translation.isEmpty() || e.translation.endsWith(") ") || e.translation.equals(langB.getText())) continue;
-            double v = dist_alg.apply(e.value, ae.value);
-            if (v<match && v>max) {match=v; best=e;}
+            if (e.value.isEmpty() || e.translation.isEmpty() || e.translation.endsWith(") ") || e.translation.equals(langB.getText())) continue;
+            double v = SearchUtils.similarity(e.value, ae.value);
+            if (v>match && v<max) {match=v; best=e;}
         }
 
-        if (best!=null && (match < 500 || !label.getText().isEmpty())) langB.setText(best.translation);
-        label.setText(""+match);
+        if (best!=null && (match > 0.5 || !label.getText().isEmpty())) langB.setText(best.translation);
+        label.setText(String.valueOf(match));
 
         btnSuggest.textProperty().setValue("Suggest");
         btnSuggest.disableProperty().setValue(false);

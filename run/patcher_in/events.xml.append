@@ -99,9 +99,6 @@
 	<text>Your First Mate nods silently. Your augment begins to irradiate the enemy vessel.</text>
 </textList>
 
-
-
-
 <eventList name="CE_RESIST_WEAPON_JAMMING">
 	<event>
 		<text load="CE_RESIST_WEAPON_JAMMING_TEXT"/>
@@ -153,7 +150,6 @@
 	<text>Semi-manual targeting is jammed, but your computer does most of the work anyway.</text>
 	<text>The enemy's jamming field prevents you from effectively tracking the ship, but your advanced targeting hardware is able to cope with just the little data it gets. All weapons can be readied and fired.</text>
 </textList>
-
 <eventList name="CE_RESIST_ICEFIELD">
 	<event>
 		<text load="CE_RESIST_ICEFIELD_TEXT"/>
@@ -205,7 +201,6 @@
 	<text>"Let's show them what this vessel is really capable of." The heat-sink field leaves no trace of your ship, even in this sensor friendly region.</text>
 	<text>Your engineer is happy to get a chance to push the stealth capabilities of your vessel to the max. The crew lets the ship run on minimal systems and gets the black body field up. You remain extremely hard to trace, even in this ice-field.</text>
 </textList>
-
 <eventList name="CE_RESIST_CLOAK_HACK">
 	<event>
 		<text>Stealth systems are naturally protected by strong firewalls; the enemy hack can only cause small glitches. Normally this would be enough to make you traceable, but with your advanced stealth equipment you will be able to stay hidden. They still won't see you coming like this.</text>
@@ -252,7 +247,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="CE_RESIST_DRONE_JAMMING">
 	<event>
 		<text load="CE_RESIST_DRONE_JAMMING_TEXT"/>
@@ -304,7 +298,6 @@
 	<text>With the improved AI taking over drone communication, barely any connection is needed for the drones to execute their tasks. The signal jamming here will not affect your drones' performance.</text>
 	<text>You use what little signal strength you have left to activate the drones' autonomous AI routines. The machines will be able to anticipate your commands, allowing them to function even with barely any clear commands given.</text>
 </textList>
-
 <eventList name="CE_RESIST_ION">
 	<event>
 		<text load="CE_RESIST_ION_TEXT"/>
@@ -388,14 +381,12 @@
 	<text>You augmented scanner can provide detailed data on the ship, even within this cloud.</text>
 	<text>The scanner gives you a detailed subspace image, but you will still need regular sensors to interpret it.</text>
 </textList>
-
 <textList name="CE_PRE_FIGHT_CLOAK_BREAK_TEXT">
 	<text>You lock on to the enemy with your full subspace scanner array. Now the opponent won't be able to hide within a cloak field.</text>
 	<text>Your augmented sensors easily track the enemy. They won't be able to slip into cloak, should they try to.</text>
 	<text>You augmented scanner can track the position of the hostile, even when they should try to cloak.</text>
 	<text>The scanner gives you a detailed subspace image. Unless your enemy has very advanced cloaking capabilities, it won't be able to hide from you.</text>
 </textList>
-
 <eventList name="CE_PRE_FIGHT_ASB">
 	<event>
 		<text load="CE_PRE_FIGHT_ASB_TEXT"/>
@@ -680,7 +671,6 @@
 	<text>The weapon AI reports: "Ammo capacity='100' Dispense Options='minimal_spread' ... - Beginning dispensing in: 10 ... 9 ... 8 ..."</text>
 	<text>You release the weapon platform far away from the hostile and then head into battle.</text>
 </textList>
-
 <eventList name="CE_PRE_FIGHT_ASB_2">
 	<event>
 		<text load="CE_PRE_FIGHT_ASB_TEXT"/>
@@ -798,9 +788,6 @@
 		<environment type="PDS" target="player"/>
 	</event>
 </eventList>
-
-
-
 <eventList name="CE_PRE_FIGHT_EFFECTOR">
 			<event>
 				<text>Your effector device starts to generate a strong ion field. "Target, Captain?"</text>
@@ -1057,7 +1044,6 @@
 				</choice>
 			</event>
 </eventList>
-
 <eventList name="CE_PRE_FIGHT_CLOAK_BREAK">
 			<event>
 				<text load="CE_PRE_FIGHT_CLOAK_BREAK_TEXT"/>
@@ -1079,7 +1065,6 @@
 				</choice>
 			</event>
 </eventList>
-
 <eventList name="CE_PRE_FIGHT_MIND_SHIELD_RESULT">
 			<event>
 				<text load="CE_PRE_FIGHT_MIND_SHIELD_TEXT"/>
@@ -1139,7 +1124,6 @@
 				</choice>
 			</event>
 </eventList>
-
 <eventList name="CE_PRE_FIGHT_FIREWALL">
 	<event>
 		<text load="CE_PRE_FIGHT_FIREWALL_TEXT"/>
@@ -1187,7 +1171,6 @@
 	<text>"Confirming Captain, plating is going hot." You move in to engage.</text>
 	<text>Your augment will hamper your opponent's hacking attempts.</text>
 </textList>
-
 <eventList name="CE_PRE_FIGHT_FIREWALL_OLD">
 	<event>
 		<text load="CE_PRE_FIGHT_FIREWALL_TEXT"/>
@@ -1209,9 +1192,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
-
 <eventList name="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT">
 			<event>
 				<text load="CE_PRE_FIGHT_ION_TEXT"/>
@@ -1233,7 +1213,6 @@
 				</choice>
 			</event>
 </eventList>
-
 <eventList name="CE_PRE_FIGHT_BIOWEAPON_RESULT">
 			<event>
 				<text load="CE_PRE_FIGHT_BIOWEAPON_TEXT"/>
@@ -1255,10 +1234,6 @@
 				</choice>
 			</event>
 </eventList>
-
-
-
-
 
 <eventList name="CE_PRE_FIGHT_EFFECTOR_RESULTS_WEAPONS_1">
 					<event>
@@ -1298,7 +1273,6 @@
 						</choice>
 					</event>
 </eventList>
-
 <eventList name="CE_PRE_FIGHT_EFFECTOR_RESULTS_WEAPONS_2">
 					<event>
 						<text>The enemy's weapon system is disrupted and they lose some system power.</text>
@@ -1316,8 +1290,6 @@
 						</choice>
 					</event>
 </eventList>
-
-
 <eventList name="CE_PRE_FIGHT_EFFECTOR_RESULTS_DRONES_1">
 					<event>
 						<text>The hacking attempt succeeds. The enemy's drone control loses system power.</text>
@@ -1371,7 +1343,6 @@
 						</choice>
 					</event>
 </eventList>
-
 <eventList name="CE_PRE_FIGHT_EFFECTOR_RESULTS_DRONES_2">
 					<event>
 						<text>The hacking attempt succeeds. The enemy's drone control loses system power.</text>
@@ -1397,7 +1368,6 @@
 						</choice>
 					</event>
 </eventList>
-
 
 <eventList name="CE_TELEPORTER_JAMMING_RESULTS_1">
 	<event>
@@ -1458,7 +1428,6 @@
 				</choice>
 	</event>
 </eventList>
-
 <eventList name="CE_TELEPORTER_JAMMING_RESULTS_2">
 	<event>
 				<text load="CE_PRE_FIGHT_TELEPORTER_TEXT"/>
@@ -1485,7 +1454,6 @@
 				</choice>
 	</event>
 </eventList>
-
 <eventList name="CE_WEAPON_JAMMING_RESULTS_1">
 	<event>
 		<text>The enemy's weapons-targeting system must be obsolete. Your jammer proves quite effective!</text>
@@ -1665,7 +1633,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="CE_DRONE_JAMMING_RESULTS_1">
 	<event>
 		<text>The enemy's drone status lights flicker and go out as their connection to the drone control is severed. One less problem to deal with.</text>
@@ -1799,7 +1766,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="CE_PRE_FIGHT_NO_EFFECTOR">
 	<event>
 		<text>The internal generator provides power for a secondary combat augment.</text>
@@ -1868,8 +1834,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="CE_WEAPON_JAMMING_RESULTS_2">
 	<event>
 		<text>The enemy's weapons-targeting system must be obsolete. Your jammer proves quite effective!</text>
@@ -1909,7 +1873,6 @@
 		<text>The enemy scanners should show nothing but static, but it seems you are still targeted with their full weapon cluster. The jammer proved ineffective here.</text>
 	</event>
 </eventList>
-
 <eventList name="CE_DRONE_JAMMING_RESULTS_2">
 	<event>
 		<text>The enemy's drone status lights flicker and go out as their drone control connection is severed. One less problem to deal with.</text>
@@ -2088,7 +2051,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="CE_PRE_FIGHT_NO_DRONE_JAMMER">
 	<event>
 		<text>The internal generator provides power for a secondary combat augment.</text>
@@ -2243,8 +2205,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="CE_PRE_FIGHT_NO_TELEPORTER_JAMMER">
 	<event>
 		<text>The internal generator provides power for a secondary combat augment.</text>
@@ -2403,7 +2363,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="CE_PRE_FIGHT_NO_SHIELD_JAMMER">
 	<event>
 		<text>The internal generator provides power for a secondary combat augment.</text>
@@ -2552,7 +2511,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="CE_PRE_FIGHT_NO_IRRADIATOR">
 	<event>
 		<text>The internal generator provides power for a secondary combat augment.</text>
@@ -2701,7 +2659,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="CE_PRE_FIGHT_NO_MIND_SHIELD">
 	<event>
 		<text>The internal generator provides power for a secondary combat augment.</text>
@@ -2835,7 +2792,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="CE_PRE_FIGHT_NO_CLOAK_BREAK">
 	<event>
 		<text>The internal generator provides power for a secondary combat augment.</text>
@@ -2984,8 +2940,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="CE_PRE_FIGHT_NO_ASB">
 	<event>
 		<text>The internal generator provides power for a secondary combat augment.</text>
@@ -3137,7 +3091,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="CE_PRE_FIGHT_NO_FIREWALL">
 	<event>
 		<text>The internal generator provides power for a secondary combat augment.</text>
@@ -3278,9 +3231,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
-
 
 
 <eventList name="CE_ENEMY_COMBATAUG_RANDOM">
@@ -3587,8 +3537,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="CE_ENEMY_COMBATAUG_BOSS">
 	<event>
 		<text>It looks like the Rebels still have an ace up their sleeve. The flagship powers up a combat augment. You detect a strong ion field enveloping your ship as one of your shield layers collapses.</text>
@@ -4536,8 +4484,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="CE_ENEMY_COMBATAUG_BOSS_WITH_ASB">
 	<event>
 		<text>It looks like the Rebels still have an ace up their sleeve. The flagship powers up a combat augment. You detect a strong ion field enveloping your ship as one of your shield layers collapses.</text>
@@ -5565,7 +5511,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <!-- OVERRIDEN SOMEWHERE BELOW THIS, removed to fix patcher (edited: m00nl1ght_dev)
 
 <eventList name="CE_ENEMY_COMBATAUG_LANIUS">
@@ -5874,7 +5819,6 @@
 </eventList>
 
 -->
-
 <eventList name="CE_ENEMY_COMBATAUG_AI">
 	<event>
 		<text>This enemy seems to be equipped with a combat augment. You detect a strong ion field enveloping your ship as one of your shield layers collapses.</text>
@@ -6218,8 +6162,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="CE_ENEMY_COMBATAUG_SHIELD_JAMMER">
 	<event>
 		<text>This enemy seems to be equipped with a combat augment. You detect a strong ion field enveloping your ship as one of your shield layers collapses.</text>
@@ -6330,8 +6272,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="CE_ENEMY_COMBATAUG_WEAPON_JAMMER">
 	<event>
 		<text>This enemy seems to be equipped with a combat augment. It deploys a jamming field that disrupts your weapon targeting system.</text>
@@ -6438,8 +6378,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="CE_ENEMY_COMBATAUG_DRONE_JAMMER">
 	<event>
 		<text>This enemy seems to be equipped with a combat augment. You detect a jamming signal capable of disrupting communications links with automated drones.</text>
@@ -6496,7 +6434,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="CE_ENEMY_COMBATAUG_RADIATION_PROJECTOR_PIRATE">
 	<event>
 		<text>This enemy seems to be equipped with a combat augment. Strong radiation is beamed at your ship. Your opponent is using dirty weapons!</text>
@@ -6553,8 +6490,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="CE_ENEMY_COMBATAUG_RADIATION_PROJECTOR">
 	<event>
 		<text>This enemy seems to be equipped with a combat augment. Strong radiation is beamed at your ship. Your opponent is using dirty weapons!</text>
@@ -6607,8 +6542,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="CE_ENEMY_COMBATAUG_RADIATION_PROJECTOR_ENGI">
 	<event>
 		<text>This enemy seems to be equipped with a combat augment. Strong radiation is beamed at your ship. Your opponent is using dirty weapons!</text>
@@ -6668,8 +6601,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="CE_ENEMY_COMBATAUG_TELEPORTER_DISRUPTOR">
 	<event>
 		<text>This enemy seems to be equipped with a combat augment. A teleporter disruption field envelops the ship. This will make targeting it with teleporters more difficult.</text>
@@ -6722,8 +6653,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="CE_ENEMY_COMBATAUG_ZOLTAN">
 	<event>
 		<text>This enemy seems to be equipped with a combat augment. You detect a strong ion field enveloping your ship as one of your shield layers collapses.</text>
@@ -6846,8 +6775,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="CE_ENEMY_COMBATAUG_LANIUS">
 	<event>
 		<text>This enemy seems to be equipped with a combat augment. Lightening arcs from its supercharged firewall plating. This will prevent more advanced hacking drones from effectively disrupting the hostile and also shield the opposing crew against mind control attempts.</text>
@@ -6905,7 +6832,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="CE_ENEMY_COMBATAUG_AUTO">
 	<event>
 		<text>This enemy seems to be equipped with a combat augment. It deploys a jamming field that disrupts your weapon targeting system.</text>
@@ -7066,8 +6992,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="CE_ENEMY_COMBATAUG_AUTO_NEBULA">
 	<event>
 		<text>This enemy seems to be equipped with a combat augment. It deploys a jamming field that disrupts your weapon targeting system.</text>
@@ -7178,8 +7102,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="CE_ENEMY_COMBATAUG_CIV">
 	<event>
 		<text>This enemy seems to be equipped with a combat augment. It deploys a jamming field that disrupts your weapon targeting system.</text>
@@ -7711,8 +7633,6 @@
 		<damage amount="0" system="random" effect="breach"/>
 	</event>
 </eventList>
-
-
 <eventList name="CE_COMBAT_FLUFF_MANNED_REBEL">
 	<event>
 		<text load="CE_COMBAT_FLUFF_MANNED_TEXT"/>	
@@ -7914,7 +7834,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="CE_REBEL_ESCAPE_POD">
 	<event>
 		<text>You quickly pick up the pod in fly-by. It indeed contains a Federation officer who managed to escape the Rebels captivity in the heat of battle. You remind him that the fight isn't over yet and throw him a com-piece. "Understood. Reporting for duty, Captain."</text>
@@ -7929,7 +7848,6 @@
 		</removeCrew>
 	</event>
 </eventList>
-
 <eventList name="CE_REBEL_TURNCOAT_JOIN">
 	<event>
 		<text>You dock with the Rebel cruft, but immediately realize that this offer was ruse. A concealed detachment of Rebel marines breaches your shield room and escapes deeper into the ship before you can call for a lockdown. The Rebel craft breaks away from you and re-opens fire.</text>
@@ -7941,7 +7859,6 @@
 		<crewMember amount="1" pilot="1" class="human"/>  
 	</event>
 </eventList>
-
 <eventList name="CE_REBEL_TURNCOAT_PRISONER">
 	<event>
 		<text>You dock with the Rebel cruft, but immediately realize that this offer was ruse. A concealed detachment of Rebel marines breaches your shield room and escapes deeper into the ship before you can call for a lockdown. The Rebel craft breaks away from you and re-opens fire.</text>
@@ -7954,8 +7871,6 @@
 		<quest event="CE_QUEST_REBEL_POW_MEETING"/>
 	</event>
 </eventList>
-
-
 <eventList name="CE_COMBAT_FLUFF_MANNED_AMMO">
 	<event>
 		<text>The ammo was rigged with detonators and explodes as your ship gets near. You can't believe you fell for this.</text>
@@ -7968,8 +7883,6 @@
 		</item_modify>	
 	</event>
 </eventList>
-
-
 <eventList name="CE_COMBAT_FLUFF_MANNED_FUEL">
 	<event>
 		<text>When you approach the fuel, your opponent turns hard and fires a potshot at the containers. Thy burst into blue flames that wash right over your ship. Your opponent must be pretty desperate to attempt something like this.</text>
@@ -7982,7 +7895,6 @@
 		</item_modify>	
 	</event>
 </eventList>
-
 <textList name="CE_COMBAT_FLUFF_MANNED_TEXT">
 	<text>During a fly-by, you catch a glimpse of the enemy captain through his ship's main view-port. For a split second you come face to face with your enemy.</text>
 	<text>Your shots pierce through the enemy craft, spilling trails of molten metal into open space. The enemy is taking heavy damage.</text>
@@ -8018,9 +7930,6 @@
 	<text>You are hailed: "Hey, Captain, should we call it a draw? Ha, just kidding! Bring it on!"</text>
 	<text>Hold it steady and stay on target... Just like in the simulations.</text>
 </textList>
-
-
-
 
 <eventList name="CE_COMBAT_FLUFF_AUTO">
 	<event>
@@ -8099,8 +8008,6 @@
 		<damage amount="0" system="random" effect="breach"/>
 	</event>
 </eventList>
-
-
 <eventList name="CE_COMBAT_FLUFF_AUTO_ASTEROIDS">
 	<event>
 		<text>The ship maneuvers the hazardous terrain with ease and disappears into the field. It will certainly report back to the fleet soon.</text>
@@ -8113,8 +8020,6 @@
 		<autoReward level="MED">standard</autoReward>
 	</event>
 </eventList>
-
-
 <textList name="CE_COMBAT_FLUFF_AUTO_TEXT">
 	<text>Your shots pierce through the enemy craft, spilling trails of molten metal into open space. The enemy is taking heavy damage.</text>
 	<text>The constant maneuvering almost throws you out of your seat. Steady now!</text>
@@ -8142,8 +8047,6 @@
 	<text>Hull plating is scattered into space as your shots impact on the enemy craft. You'll pick those up later.</text>
 	<text>Your opponent's hull is covered with glowing impact crater of various sizes. It won't be able to take this punishment for much longer.</text>
 </textList>
-
-
 
 
 <event name="ASTEROID_EXPLORE" unique="true">
@@ -8360,7 +8263,6 @@
 	</event>
 </eventList>
 
-		
 <event name="MERCENARY">
 	<text load="MERCENARY_TEXT"/>
 	<ship load="PIRATE" hostile="false"/>
@@ -8448,7 +8350,6 @@
 	<text>Mercenaries are swarming the galaxy now, knowing that their less-than-legal services are in demand during this period of unrest. One is waiting at this beacon and hails you.</text>
 	<text>A ship hails you, "Good, sir! It seems you're having some troubles with the Rebels. I'd like to help you, but I can't afford the upkeep required on this hunk of junk I'm flying... maybe we can come to an arrangement?"</text>
 </textList>
-
 
 <event name="TRAP_BEACON" unique="true">
 	<text load="TRAP_BEACON_TEXT"/>
@@ -8639,7 +8540,6 @@
 		</choice>
 	</event>
 </eventList>
-
 
 <event name="REBEL_VS_FEDERATION" unique="true">  <!-- Fight a Rebel ship who's attacking a Federation ship.   JUSTIN - maybe make a distress event for this, almost the same as this -->
 	<text load="REBEL_VS_FEDERATION"/>
@@ -9224,8 +9124,6 @@
 		</choice> 
 	</event>
 </eventList>
-
-
 <eventList name="STATION_SICK_LIST_SAFE">
 	<event>
 		<text>Inside, there are signs of a great struggle; scientists lie dead where they fell, brutally dismembered. You grab a few research drone parts lying on a desk near the door and leave quickly.</text>
@@ -9385,7 +9283,6 @@
 	</event>
 </eventList>
 
-
 <event name="BOARDERS_ASTEROID_GHOST" unique="true">   <!-- JUSTIN - maybe add some sort of ship graveyard background? -->
 	<img back="BG_DARK" planet="NONE"/>
 	<text>You jump into the middle of an asteroid field. Looking around, you find you are surrounded by dozens of wrecks of other ships. Faint wisps of light can be seen moving between wrecks. As you watch, they seem to be changing path and floating toward your ship!</text>
@@ -9544,8 +9441,6 @@
 		</choice>
 </event>
 
-
-
 <event name="FRIENDLY_BEACON">
 	<text load="FRIENDLY_BEACON"/>
 	<distressBeacon/>
@@ -9667,7 +9562,6 @@
 		</event>
 	</choice>
 </event>
-
 <event name="QUEST_ESCORT" unique="false">
 	<text load="QUEST_ESCORT_TEXT"/>
 	<ship load="CIVILIAN_SHIP" hostile="false"/>
@@ -9718,8 +9612,6 @@
 		</event>
 	</choice>
 </event>
-
-
 <eventList name="QUEST_ESCORT_ARRIVE">
 	<event>
 		<text>You escort the ship to the requested beacon. Much to your dismay you are ambushed by a Rebel ship. You walked right into their trap!</text>
@@ -9783,7 +9675,6 @@
 		<upgrade amount="1" system="reactor"/>
 	</event>
 </eventList>
-
 <event name="QUEST_STORE_RESCUE">
 	<text>Once you arrive at the beacon you detect a Rebel scout assaulting a compound on a nearby desolate moon.</text>
 	<choice>
@@ -10006,8 +9897,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="MERCENARY_WORK_AMBUSH_LIST">
 	<event>
 		<text>The criminals take their sweet time to arrive. You are about to reconsider this job when you detect a faint ripple in the FTL plane. This must be your target. Time to strike!</text>
@@ -10107,7 +9996,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="MERCENARY_WORK_AMBUSH_DESTROYED">
 	<event>
 		<text>The entire pirate crew has been lost with the destruction of the ship. You transmit your combat logs and report the fugitive as dead. Your cut of the bounty is rather slim, as the death of the criminal can not be fully verified - a trial was scheduled to make an example for his gang.</text>
@@ -10123,7 +10011,6 @@
 		<drone name="RANDOM"/>
 	</event>
 </eventList>
-
 <eventList name="MERCENARY_WORK_AMBUSH_CREW_DEAD">
 	<event>
 		<text>As you sweep the wreckage a second time you pick up a radar shadow nearby. The fugitive tried to slip away once more by abandoning ship in an escape pod amids the combat. You turn him in and receive a cut of the bounty. "We threw in a little something ourselves. You made our trade lane a lot safer after all."</text>
@@ -10539,7 +10426,6 @@
 		<crewMember amount="1">Dr. Jones</crewMember> 
 	</event>
 </eventList>
-
 
 <event name="QUEST_MANTIS_INVASION" unique="true">
 	<img planet="NONE" back="BG_WARNING_TARGETING_MANTIS"/>
@@ -11266,7 +11152,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="ALISON_DEFECTOR_HELP_2">
 	<event>
 		<text>The dishonorable Rebel has deceived you. He damages your ship and steals ship information before teleporting away. The fleet will be able to track you with ease. If they can't kill you now, that is!</text> <!--DLC2-->
@@ -11568,8 +11453,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="ALISON_DEFECTOR_SLUG">
 	<event>
 		<text>Your slug stares at the Rebel for moment. "Thiss persson wantsss to manipulate you ssir. Don't trust them." You call a security alert and your fearless crew easily overcome the intruder, but the Rebel ship still needs to be dealt with.</text>
@@ -11769,7 +11652,6 @@
 	</event>
 </eventList>
 
-
 <event name="ALISON_MANTIS_CREW" unique="true">
 	<text>You arrive just in time to see an unusually well-armed Engi ship destroying a small pirate craft. A teleporter signal is detected...intruder on deck!</text>
 	<choice>
@@ -11959,8 +11841,6 @@
 	</event>
 </eventList>
 
-
-
 <event name="CIVILIAN_ASTEROIDS_BEACON" unique="true">
 	<text>You follow the distress beacon to a small asteroid belt. You find a small ship struggling to maneuver through the field. They message you, "Help! Our shields are down and I don't know how much longer we can last!"</text>
 	<distressBeacon/>
@@ -11999,7 +11879,6 @@
 		</event>
 	</choice>
 </event>
-
 
 <eventList name="FEDERATION_PLANET_SIGNAL_LIST">
 	<event>
@@ -12331,7 +12210,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="ASTEROID_DERELICT_SHIP_ROCK">
 	<event>
 		<text>You find the decaying remains of some kind of ship coated with ice or crystal. You send some crew aboard to explore. Nearly everything is either destroyed or unidentifiable, but one of the weapons appears salvageable and there's a strange stasis pod that catches your eye.</text>
@@ -12688,8 +12566,6 @@
 		</event>
 	</choice>
 </event>
-
-
 <event name ="FUEL_FOR_DRONE_AUTO">
 	<text>A strange vessel approaches. A digital message appears on your view-screen: "This is an automated merchant. Refill this vessel with fuel and it will supply you with drones."</text>
 	<ship load="AUTO_FUEL_SELLER" hostile="false"/>
@@ -12758,7 +12634,6 @@
 		</event>
 	</choice>
 </event>
-
 <event name ="FUEL_FOR_DRONE">
 		<text>You arrive in the sector and are greeted by a science vessel waiting by the beacon. They hail you, "We find ourselves low on fuel and have a proposition."</text>
 	<ship load="C_CIVILIAN_TRANSPORT" hostile="false"/>
@@ -12821,8 +12696,7 @@
 	</choice>
 </event>
 
-
-<event name="SELL_DRONES_STATION" unique="true"> 
+<event name="SELL_DRONES_STATION" unique="true">
 	<text>You see a civilian space station with heavy damage. You receive a message, "We've been hit hard by the war. We need more drone parts to speed up our repairs. We'll buy some from you if you have extra."</text>
 	<ship load="BS_CIV_TRADE_STATION" hostile="false"/>
 	<status type="limit" target="enemy" system="teleporter" amount="0"/>
@@ -12940,7 +12814,6 @@
 	</choice>
 </event>
 
-		
 <event name="DONOR_BLACK_RAVEN" unique="true">
 	<text>As you jump in, you immediately see an impressive Slug pirate ship with "The Black Raven" painted on one side. They hail you, "Greetingsss. I am the dreaded pirate, Captain Nights. You mussst be full of fear, no? You have heard of me... no?"</text>
 	<ship load="DONOR_BLACK_RAVEN" hostile="false"/>
@@ -13122,7 +12995,6 @@
 	</event>
 </eventList>
 
-
 <event name="DONOR_MANTIS_CHASE" unique="true">
 	<text>You are immediately hailed by an impressive looking Mantis ship, "Your ship would make a mighty fine prize. Prepare for battle!"</text>
 	<ship load="DONOR_MANTIS_CHASE1" hostile="true"/>
@@ -13175,7 +13047,6 @@
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 </event>
-
 <event name="DONOR_MANTIS_CHASE2">
 	<text>You catch up with the Mantis ship that escaped before, only to see them transferring their crew into an even bigger ship!</text>
 	<ship load="DONOR_MANTIS_CHASE2" hostile="true"/>
@@ -13230,7 +13101,6 @@
 		</event>
 	</choice>
 </event>
-
 
 
 <eventList name="DEAD_CREW_DEFAULT">
@@ -13376,7 +13246,6 @@
 		<autoReward level="MED">weapon</autoReward>
 	</event>
 </eventList>
-
 <eventList name="DEAD_CREW_INFILTRATOR">
 	<event>
 		<text>The infiltration team is dead, but they managed to wipe their database and fry the ship's computer before you got to them. The mission of the ship will remain a mystery. You take it apart for scrap.</text>
@@ -13445,7 +13314,6 @@
 	<event load="FEDERATION_BASE_ASSIST"/>
 	<event load="FEDERATION_BASE_ASSIST"/> 
 </eventList>
-
 <eventList name="FEDERATION_BASE_ASSIST">
 	<event>
 		<text>You arrive in the sector to see a small outpost being bombarded by an automated drone. This must be the Federation base you were told about!</text>
@@ -13691,7 +13559,6 @@
 		<event/>
 	</choice>
 </event>
-
 <event name="REFUEL_STATION" unique="true">   <!-- NEED - checks to see if you have enough scrap!-->
 	<text>A ship refueling station is stationed at this beacon. We can purchase fuel here.</text>
 	<ship load="CE_CIV_REFUEL" hostile="false"/>
@@ -13899,13 +13766,10 @@
 		<event/>
 	</choice>
 </event>
-
 <textList name="CE_SURRENDER_RESULTS_TEXT">
 	<text>You open the airlocks and take the reparation supplies aboard. Your opponent is glad to still be alive.</text>
 	<text>The exchange of goods goes without problems.</text>
 </textList>
-
-
 <eventList name="CE_SURRENDER_SHIP_ATTACK">
 	<event>
 		<text>It took some time to transfer the goods. The opponent's FTL is already charged and they begin to jump. A wise decision.</text>
@@ -13980,8 +13844,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="CE_SURRENDER_STATION_ATTACK">
 	<event>
 		<text>The station can barely maintain it's structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived following your opponent's distress call.</text>
@@ -14015,7 +13877,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="CE_SURRENDER_BETRAYAL">
 	<event>
 		<text>Denying a surrender is already seen as pretty barbaric. But deceiving people into giving up valuable supplies and then opening fire on the already defeated oponent violates even the lax rules of the Federation. This course of action might disturb the crew.</text>
@@ -14032,8 +13893,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="CE_SURRENDER_BETRAYAL_RESULTS"> 
 	<event>
 		<text>That clearly violates Federation protocol, but you decide that ends justify the means. If you don't make it to the main base there simply won't be any Federation left to make up rules. Your crew is quite disturbed by all this.</text>
@@ -14289,8 +14148,6 @@
 	<text>For once, diplomacy prevails. Maybe peace still has a chance in this galaxy?</text>
 	<text>Your opponent agrees to all conditions. It seems they have some respect for Zoltan authority.</text>
 </textList>
-
-
 <eventList name="CE_PEACE_NEGOTIATION_RESULTS">
 	<event>
 		<text>Surprisingly, your opponent is ready to listen. They agree that there is way to much fighting going on in this galaxy. They themselves have lost friends and relatives in the conflict. "We long realized that revenge is leading nowhere." They even offer some supplies for your journey. "Use it for good."</text>
@@ -15067,8 +14924,6 @@
 	<text>The Slug ship keeps you targeted while you transmit the supplies. They then continue to circle your cruiser. Looks like they not sure if they really want to let you go. You are glad when you hear the familiar drive charge sound. Let's get out of here!</text>
 	<text>"A pleasssure doing bussinesss with you."</text>
 </textList>
-
-
 <eventList name="CE_PLAYER_SURRENDER_SLUG_SUCCESS">
 	<event>
 		<text>You consider how many supplies you can offer as bounty. Will your opponent be satisfied and accept your surrender?</text>
@@ -15384,8 +15239,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="CE_PLAYER_SURRENDER_MODIFIED_PIRATE">
 	<event>
 		<text>You consider how many supplies you can offer as bounty. Will your opponent be satisfied and accept your surrender?</text>
@@ -15454,7 +15307,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="CE_PLAYER_SURRENDER_LOW_RESULTS">
 	<event>
 		<text load="CE_PLAYER_SURRENDER_SUCCESS_TEXT"/>
@@ -15528,7 +15380,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="CE_PLAYER_SURRENDER_LOW_RESULTS_PIRATE">
 	<event>
 		<text load="CE_PLAYER_SURRENDER_SUCCESS_TEXT"/>
@@ -15625,7 +15476,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="CE_PLAYER_SURRENDER_MED_RESULTS">
 	<event>
 		<text load="CE_PLAYER_SURRENDER_SUCCESS_TEXT"/>
@@ -15745,8 +15595,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="CE_PLAYER_SURRENDER_HIGH_RESULTS">
 	<event>
 		<text load="CE_PLAYER_SURRENDER_SUCCESS_TEXT"/>
@@ -15794,7 +15642,6 @@
 		</item_modify>
 	</event>
 </eventList>
-
 <textList name="CE_PLAYER_SURRENDER_SUCCESS_TEXT">
 	<text>Your opponent accepts your surrender. You transmit the bounty and are free to leave.</text>
 	<text>The enemy craft flags itself as neutral and your ship computer clears the targeting warning. You where able to buy yourself out of this.</text>
@@ -15977,7 +15824,6 @@
 	<text>The data package contains a long list of known Rebel collaborators. You are somewhat relived that none of your crew members is found on it. Setting a course for the union outpost it is...</text>
 	<text>The package a contains data on all deserters of the Federation fleet. The list is extremely long. Setting a course for the union outpost it is...</text>
 </textList>
-
 <event name="MERCHANT_DELIVER_INTEL">
 	<text>The union outpost is heavily guarded. You have been expected, but the welcome is formal at best.</text>
 		<ship load="BS_MILITIA" hostile="false"/>
@@ -15990,7 +15836,6 @@
 		</event>
 	</choice>
 </event>
-
 <event name="MERCHANT_DELIVER_INTEL_BETRAYAL">
 	<text>The union outpost is heavily guarded. You have been expected, but the welcome is formal at best.</text>
 	<ship load="BS_MILITIA" hostile="false"/>
@@ -16040,7 +15885,6 @@
 		</event>
 	</choice>
 </event>
-
 <event name="MERCHANT_DELIVER_MISSILES">
 	<text>You arrive at the location given to you by the merchant. You are supposed to deliver missiles to a station here.</text>
 	<choice hidden="true">
@@ -16218,7 +16062,6 @@
 	<text>You get an automated message from a station right next to the beacon, "Greetings, citizen/traveler/trader. This sector is now under Rebel control. Welcome your new supreme overlords by..." The station immediately ceases communication upon identifying your ship. You detect no crew on-board, apparently it has been taken over by a Rebel hacker-AI.</text>
 </textList>
 
-
 <event name="BS_EVENT_FED_AUTO_DORMANT" unique="true"> <!-- distress -->
 	<text load="BS_EVENT_FED_AUTO_DORMANT_TEXT"/>
 	<ship load="BS_FED_AUTO" hostile="false"/>
@@ -16252,7 +16095,6 @@
 	<text>The vidscreen shows a small Federation station close by. Its generators are powered down and it does not respond to any hails.</text>
 	<text>The distress signal is sent by small Federation orbital station. It seems completely deactivated and devoid of crew.</text>
 </textList>
-
 <eventList name="BS_EVENT_FED_AUTO_DORMANT_APPROACH">
 	<event>
 		<text>As you approach the station some of its systems activate and it passively scans you. Nothing else happens. You proceed to dock.</text>
@@ -16394,7 +16236,6 @@
 	</event>
 </eventList>
 
-
 <event name="BS_EVENT_PIRATE_BLACKMARKET" unique="true">
 	<text load="BS_EVENT_PIRATE_BLACKMARKET_TEXT"/>
 	<ship load="BS_PIRATE_BLACKMARKET" hostile="false"/>
@@ -16516,7 +16357,6 @@
 	<text planet="PLANET_POPULATED_REAL">Entire space habitats have been taken over by smugglers and want-to-be-dashing-criminals now, knowing that their less-than-legal services are in demand during this period of unrest. One of these black market hubs is orbiting the nearby planet and hails you.</text>
 	<text>A station hails you, "Greetings, Captain! You're the guys the Rebels hunt, right? We can help out, but we are constantly in need for scrap to patch up this space bucket we live in...</text>
 </textList>
-
 <textList name="BS_EVENT_PIRATE_HINTS">
 	<text>You overhear a conversation on the neighboring table "So... you lost your interceptor?" "Been drifting for two standard weeks in the escape pod" "What happened?" "Maul beam hit to the cockpit. Almost took my arms off." "Tough luck." "Tactics, they knew our maneuverability was our strongest advantage."</text>
 	<text>The canteen is pretty empty, but their Sidewinder Fang beer isn't that bad.</text>
@@ -16541,8 +16381,6 @@
 	<text>While you wait for your ration-smoothie, a union trader tries to coax you into buying his load of compressed nebula gas. "Okay, okay, who am I trying to fool here. We both know this stuff is worth almost nothing. I guess I have to journey to Rock territory again then..."</text>
 	<text>An intoxicated stock operator buys you a second drink. Then a third one. He talks in length about the "hyper tons of money" he makes each day in the nearby industrial sector, speculating on the prices for ore and gas. You get quite drowsy and hurry to get out of here.</text>
 </textList>
-
-
 <event name="BS_EVENT_PIRATE_BLACKMARKET_ASTEROID" unique="true">
 	<text planet="PLANET_UNPOPULATED">Your ship enters another unpopulated system. No other ships are in scanning range. Strangely, the sensors pick up a gravitational disturbance within a small asteroid field near this class C planet.</text>
 	<choice hidden="true">
@@ -16620,8 +16458,6 @@
 		<modifyPursuit amount="1"/>
 	</event>
 </eventList>
-
-
 <eventList name="HEAVY_DRINKING_2">
 	<event>
 		<text load="BS_EVENT_PIRATE_HINTS"/>
@@ -16659,7 +16495,6 @@
 		<modifyPursuit amount="1"/>
 	</event>
 </eventList>
-
 <eventList name="HEAVY_DRINKING_3">
 	<event>
 		<text load="BS_EVENT_PIRATE_HINTS"/>
@@ -16683,7 +16518,6 @@
 		<modifyPursuit amount="1"/>
 	</event>
 </eventList>
-
 <eventList name="HEAVY_DRINKING_4">
 	<event>
 		<text>Something smells burned. Maybe you should open your eyes. Shouts? And all this noise... That stuff was really potent. But you got it all figured out now. The Rebel fleet, the ship, the crew. It's all just a game. It's pointless and beautiful at the same time. Maybe you should...</text>
@@ -17008,7 +16842,6 @@
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 </event>
-
 <event name="CE_EVENT_UNION_PIRATE_2">
 	<text planet="PLANET_UNPOPULATED">The second pirate ship is stationary behind a small moon nearby. You move in and inform them that you will take them down in the name of the trade union. They send a frantic message, wondering how you found them, then they load weapons.</text>
 	<ship load="CE_UNION_PIRATE_2" hostile="true"/>
@@ -17057,7 +16890,6 @@
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 </event>
-
 <event name="CE_EVENT_UNION_PIRATE_3">
 	<text>The last pirate ship is trying to hide a few klicks away from this beacon. You inform them that you will take them down in the name of the trade union. They send a message, "Who the hell are you?" You go in guns blazing.</text>
 	<ship load="CE_UNION_PIRATE_3" hostile="true"/>
@@ -17106,7 +16938,6 @@
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 </event>
-
 <eventList name="TE_LOOT_GOODS_UNION">
 	<event>
 		<text>You take the cargo on board. "Voila! The finest luxury goods from the core worlds. If you can bring this stuff to a Slug merchant, you will be rich soon. It was a pleasure to be working with you, Captain. Take care."</text>
@@ -17185,8 +17016,6 @@
 		</event>
 	</choice>
 </event>
-
-
 <eventList name="CE_DINER_JUNTA">
 	<event>
 		<text>"While I personally like free markets and little regulation for corporations like mine, the Rebels seem to view things a little too liberally. They have forcefully occupied one of our research installations. Would you be capable of... liberating it?"</text>
@@ -17225,7 +17054,6 @@
 		</choice>
 	</event>
 </eventList>
-
 
 <event name="CE_JUNTA_JOB">
 	<text planet="PLANET_UNPOPULATED_SMALL">After jump completion you have to run several scans until you find the corporate station. It is hidden among some derelict industrial installations in the gravitational shadow of a small planetoid.</text>
@@ -17282,7 +17110,6 @@
 		</event>
 	</choice>
 </event>
-
 <event name="CE_JUNTA_JOB_FAIL">
 	<text>You arrive at the given coordinates. As he is working for an interstellar arms manufacturer, you aren't too surprised that Mr. Johnson commands a fully militarized, custom assault ship. He isn't happy how you handled the job.</text>
 	<ship load="CE_CORPORATION_CUSTOM" hostile="false"/>
@@ -17413,7 +17240,6 @@
 		</event>
 	</choice>
 </event>
-
 <event name="CE_JUNTA_JOB_SUCCESS">
 	<text>You arrive at the given coordinates. As he is working for an interstellar arms manufacturer, you aren't too surprised that Mr. Johnson commands a fully militarized, custom assault ship. He seems pleased with how you handled the job.</text>
 	<ship load="CE_CORPORATION_CUSTOM" hostile="false"/>
@@ -17446,7 +17272,6 @@
 	<text>"You are quite a worthy opponent, but we still have some aces up our sleeves. Execute plan Delta!" Escape pods leave the station and its FTL signature starts fluctuating. It's going to blow up!</text>
 	<text>They message you, "We will never surrender. My crew has made up their mind long ago. It was fun while it lasted, now go to hell!" You detect a massive energy spike. The station seems to have some kind of FTL bomb installed. They are going to blow themselves up!</text>
 </textList>
-
 
 <event name="BS_AUTO_SUICIDE_START">
 	<text load="BS_AUTO_SUICIDE_TEXT"/>
@@ -17620,7 +17445,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="BS_AUTO_SURRENDER_RESULTS_CREW">
 	<event>
 		<text>An away team salvages a holo generation unit from the turret while you reprogram the AI. After some brief tests, the avatar materializes aboard the ship.</text>
@@ -17801,7 +17625,6 @@
 	</event>
 </eventList>
 
-
 <eventList name="CE_SURRENDER_NEGOTIATION_STATIONS_RESULTS">
 	<event>
 		<text load="CE_SURRENDER_NEGOTIATION_RESULTS_TEXT"/>
@@ -17892,7 +17715,6 @@
 	</event>
 </eventList>
 
-
 <textList name="BS_PIRATE_SURRENDER_TEXT">
 	<text>"Alright, you win! Here's some equipment from our cargo holds, leave us alone!"</text>
 	<text>The station repeatedly hails you. It looks like they want to surrender.</text>
@@ -17947,7 +17769,6 @@
 	<text>Suffering some damage, the Rock station makes contact, "Alien vessel. You have proven yourself. According to our tradition you shall be allowed to trade."</text>
 	<text>The Rock station deactivates its weapon systems. "Alien commander. You show some good combat skills. We have decided that you are worthy enough to enjoy trade privileges at our stations. Deactivate your weapons and proceed to dock.</text>
 </textList>
-
 
 <event name="BS_ROCK_OUTPOST_SURRENDER">
 	<text load="BS_ROCK_OUTPOST_SURRENDER_TEXT"/>
@@ -18032,9 +17853,6 @@
 		<autoReward level="MED">standard</autoReward>
 	</event>
 </eventList>
-
-
-
 <eventList name="C_CRUISER_AUTO_CONSTRUCTION_DESTROYED_DEFAULT">
 	<event>
 		<text>A final salvo disables the auto cruiser; its massive mechanical arms flailing wildly in robotic agony. You start to dissemble the craft and empty its tool and supply compartments, but the wreckage is so big that more time would be necessary to salvage everything. You run a quick analysis of the wreckage to see what you could gather.</text>
@@ -18105,8 +17923,6 @@
 
 	</event>
 </eventList>
-
-
 <eventList name="BS_STATION_AUTO_DESTROYED">
 	<event>
 		<text>The automated structure explodes, leaving behind a substantial collection of useful scrap material.</text>
@@ -18318,8 +18134,6 @@
 	</event>
 </eventList>
 
-
-
 <eventList name="BS_DEAD_CREW_DEFAULT">
 	<event>
 		<text>There are no more life signs remaining on the station. You strip it of useful materials.</text>
@@ -18484,12 +18298,9 @@
 
 <!-- original start beacon event, now with hyperspace -->
 
-
-
 <event name="START_GAME">
 	<text>The data you carry is vital to the remaining Federation fleet. You'll need supplies for the journey, so make sure to explore each sector before moving on to the next. But get to the exit before the pursuing Rebel fleet can catch up!</text>
 </event>
-
 
 <event name="START_BEACON">
 	<text load="CE_START_BEACON_CIVILIAN_TEXT"/>
@@ -18587,8 +18398,6 @@
 		</event>
 	</choice>
 </event>
-
-
 
 <eventList name="CE_BOUNTY_LIST_CIVILIAN">
 	<event> <!-- Pirate Raider -->
@@ -18838,7 +18647,6 @@
 	</choice>
 </event>
 
-
 <textList name="HYPERSPACE_TEXT">
 	<text back="BG_DARK" planet="PLANET_HYPERSPACE">Bands of light slowly swirl past the vidscreen while your ship accelerates in hyperspace. You consider your options.</text>
 	<text back="BG_DARK" planet="PLANET_HYPERSPACE">You are on route towards another sector. Engineering asks for orders regarding fuel usage during the travel.</text>
@@ -18854,15 +18662,11 @@
 	<text back="BG_DARK" planet="PLANET_HYPERSPACE">The crew is glad that you made it out of the sector. You consider how much fuel to spend during the long-range jump.</text>
 	<text back="BG_DARK" planet="PLANET_HYPERSPACE">You made it out of the sector. The long range relay covers your ship with its field projectors as you silently watch the data-output on your screen: "Field envelop: 80% ... positioning ... spinning FTL ... Field envelop: 90% ... course locked ... requesting clearance ... Field envelop: 100% ... relay confirms jump order ... powering dampeners ... receiving field ... jumping."</text>
 </textList>
-
-
 <textList name="HYPERSPACE_BOOSTED_TEXT">
 	<text>The AI calculates the optimal course and supercharges the field ellipse to give your ship a lower profile in hyperspace. You will be able to travel faster while using less fuel.</text>
 	<text>Your augmented navigation drive will allow for a more economic hyperspace jump. This will give you an edge against the fleet.</text>
 	<text>The AI finds a few shortcuts through various hyperspace fissures. You sector jump will be much faster this way.</text>
 </textList>
-
-
 <textList name="HYPERSPACE_TRAVEL_EMERGENCY_TEXT">
 	<text>Even though you move at inconceivable fast speed, it is still a crawl in comparison to your pursuers. When you arrive, the Rebel fleet is already in scanning range. You even register traces of automated scouting units in the nearest systems.</text>
 	<text>You are running on fumes, trying to get as much as possible out of the fuel you fed into the reactor at the Long-Range Relay. It is barely enough to keep you in hyper-space, but you eventually make it to the next sector.</text>
@@ -18873,7 +18677,6 @@
 	<text>The journey takes quite some time with so little fuel to spend. Everyone on-board is looking to distract themselves from the mission and the dire situation you are in, so the crew plays games and throws a party. The mood does not quite lighten up.</text>
 	<text>The long range jump will take a lot of time at minimal speed. You allow all crewmen who desire so to enter stasis sleep for the time of the journey.</text>
 </textList>
-
 <textList name="HYPERSPACE_TRAVEL_STANDARD_TEXT">
 	<text>The long-range jumps come at a price. Additional fuel is needed to maintain the average travel speed.</text>
 	<text>Your ship remains on a stable course and heads directly for the next sector. After a while you register signs of the Rebel fleet, far away in hyperspace. They move at about the same speed as you.</text>
@@ -18887,7 +18690,6 @@
 	<text>"FTL reaction is looking good, Sir. Reactor performance at maximum." You spend the majority of the journey with filing captains logs.</text>
 	<text>The ship travels at peak speed towards the next sector. The journey gives you some time off the chair, you withdraw to your quarters and read through some crew reports.</text>
 </textList>
-
 <textList name="HYPERSPACE_TRAVEL_IMPROVED_TEXT">
 	<text>The ship is put into yellow alert and additional fuel is delivered to the engines room. You race ahead of the Rebel fleet.</text>
 	<text>You order to optimize the jump solution for speed and watch as the additional fuel is fed into the reactor. This should get you ahead of the Rebel fleet.</text>
@@ -18897,7 +18699,6 @@
 	<text>The dedicated hyperspace scanner soon loses track of the Rebel fleet. Looks like you have outrun them for now.</text>
 	<text>Intel suggests that the Rebel fleet will be unable to move any faster than at standard speed. By spending a little more fuel you can easily get ahead of them.</text>
 </textList>
-
 <textList name="HYPERSPACE_TRAVEL_ADVANCED_TEXT">
 	<text>The ship shudders as the FTL fuel ignites and the reactor output increases. Damage reports start coming in, the engine exhaust is ablating the surrounding hull by their own energy output. Hold it steady!</text>
 	<text>Your crew is eager to use your advanced engines to their full potential. "Affirmative, Captain. We expect some internal degradation of the engine block, but that's nothing we can't fix later."</text>
@@ -18907,16 +18708,12 @@
 	<text>Your ship speeds up with the hyperspace equivalent of a sonic boom. Shock waves ripple through the skein of reality, announcing your high speed maneuver to the startled Rebel officers, which have no hope of catching up with you soon.</text>
 	<text>Your ship was never designed for such a maneuver. The hull is deformed by the sheer speed you are traveling at, but the Rebel fleet is left far behind.</text>
 </textList>
-
 <textList name="HYPERSPACE_TRAVEL_HIGHLY_ADVANCED_TEXT">
 	<text>You crew expects some damage while accelerating, but they manage to keep the engines under control. The problems start when you have to break hard in order to not miss the sector entirely. Only a quickly executed hyper-thrust reverse action prevents you from being thrown into open space with no beacon network to connect to. The ship takes some damage during the emergency maneuver.</text>
 	<text>The entire ship shudders when reaching its top speed. You request constant reports from the engines room. Soon, the ship systems can't take it no more. "Secondary containment is failing, Captain. We completely rely on primary now." Just a little longer. You are almost there...</text>
 	<text>Your ship explodes towards the next sector, causing the hyperspace equivalent of a tidal wave in its wake. Soon you have to slow down again, a big portion of your front hull is already gone. Hyperspace scans no longer show any traces of the Rebel fleet though. You've lost them for now.</text>
 	<text>Additional fuel is readied and your crew requests confirmation of the order. "Ignite!" The visual representation of hyperspace on your screen changes within a split-second. You are traveling through a tunnel of infinite white lines now. Damage reports come in: "Fire in the engine room, Captain. But there are also good news: Looks like we've just beaten the official speed record for this ship class."</text>
 </textList>
-
-
-
 <textList name="HYPERSPACE_TRAVEL_LESS_DAMAGE_TEXT">
 	<text>When the detailed damage reports come you realize that the ship handled better than expected. The advanced casing has absorbed some much of the internal heat and prevented even more sevear damage to the engine block.</text>
 	<text>Some of you hull plating might be gone, but the system casing prevented a small scale engine block meltdown. You took less internal damage then expected.</text>
@@ -19021,7 +18818,6 @@
 		</event>
 	</choice>
 </event>
-
 <textList name="CE_START_BEACON_CIVILIAN_TEXT">
 	<text back="BACKGROUND" planet="PLANET_POPULATED_REAL">You arrive near the main planet of a well charted civilian sector. Most planetary governments here have surrendered, but the Rebel military presence is still light. This might offer you a little respite.</text>
 	<text>Some Federation-friendly sectors like this still exist in the galaxy, but with the Federation military retreating Rebels and pirates do as they please.</text>
@@ -19029,7 +18825,6 @@
 	<text>You arrive in another isolated civilian sector. Federation military presence was light here even before the Rebellion. The locals say a few pirates and a small Rebel detachment have been sighted here lately.</text>
 	<text>This sparsely populated production sector is of little strategic value. It is unlikely that you will run in a lot of trouble here. Maybe you can even buy some supplies for your journey or strike a good trade deal.</text>
 </textList>
-
 
 <event name="NOTHING">
 	<text load="NOTHING"/>
@@ -19116,9 +18911,6 @@
 	<text planet="NONE">Your jump leads to a remarkable binary star system. The view is beautiful, but there is nothing else around.</text>
 	<text planet="NONE" back="BG_DARK">After jump completion your scanners register absolutely nothing. This jump beacon seems to get very little traffic.</text>
 </textList>
-
-
-
 
 <eventList name="CE_SHIP_MAINTENANCE">
 		<event>
@@ -19215,14 +19007,12 @@
 			<text>The entire ship is double-checked, bent girders are replaced and the hull is patched up. A job well done, but the Rebels must be on to you by now.</text>
 </textList>
 
-
 <eventList name="CE_BEACON_KIT_HOSTILE">
 	<event>
 		<text load="CE_BEACON_KIT_REBEL_DELAY_TEXT"/>
 		<modifyPursuit amount="-1"/>
 	</event>
 </eventList>
-
 <eventList name="CE_BEACON_KIT_CIVILIAN">
 	<event>
 		<text load="CE_BEACON_KIT_REBEL_DELAY_TEXT"/>
@@ -19240,7 +19030,6 @@
 		<text load="CE_BEACON_KIT_FAIL_TEXT"/>
 	</event>
 </eventList>
-
 <eventList name="CE_BEACON_KIT_NEBULA">
 	<event>
 		<text load="CE_BEACON_KIT_REBEL_DELAY_TEXT"/>
@@ -19255,7 +19044,6 @@
 		<modifyPursuit amount="-1"/>
 	</event>
 </eventList>
-
 <textList name="CE_BEACON_KIT_REBEL_DELAY_TEXT">
 	<text>You are undisturbed here and can use your equipment to access the FTL network. After deleting your travel logs from the beacon you prepare to jump. The Rebel fleet will have a hard time following you now.</text>
 	<text>You immediately dispatch your crew to cover your tracks. They take a shuttle to approach the beacon, open its cover with the dedicated equipment and sever its uplink to the network before it sends out its next update. The Rebels will have no way to tell where you jumped.</text>
@@ -19263,7 +19051,6 @@
 	<text>A crewman in a full environmental suit quickly boosts to the beacon. They break the comm unit open and use the access codes to override the beacon's ship ID scanners. No one will know you ever came here.</text>
 	<text>The access kit allows you once more to cover your tracks in the FTL network. Your Rebel pursuers will be delayed for the moment.</text>
 </textList>
-
 <textList name="CE_BEACON_KIT_FAIL_TEXT">
 	<text>This beacon is equipped with overcharged firewall plating, your crew almost gets fried when attempting to access it. You won't be able to cover your tracks here.</text>
 	<text>You are out of luck: This beacon has been abandoned for decades an its uplink to the sector jump registry no longer works. You won't be able to spread wrong information about your whereabouts here.</text>
@@ -19292,7 +19079,6 @@
 			</choice>
 		</event>
 </eventList>
-
 <eventList name="CE_CLONING_HUMAN">
 	<event>
 		<text>Your crewman agrees to supply the required DNA. The cloning process only takes a single jump cycle and a completely self aware and mature human being steps out of the lab. "Hello Captain. I bet this is just as confusing and amazing for you as it is for me."</text>
@@ -19319,7 +19105,6 @@
 		<crewMember amount="1" class="human">Human Clone</crewMember>
 	</event>
 </eventList>
-
 <eventList name="CE_CLONING_MANTIS">
 	<event>
 		<text>Your Mantis immediately agrees to supply the DNA needed. Its kind is well known to make use of bio-technology in order to strengthen their forces.</text>
@@ -19338,7 +19123,6 @@
 		<crewMember amount="1" class="mantis">Mantis Clone</crewMember>
 	</event>
 </eventList>
-
 <eventList name="CE_CLONING_SLUG">
 	<event>
 		<text>The cloned Slug is flushed out of the breeding tube. It awakens with pre-implanted memories of various ship tasks and a complete understanding of its origin. This must feel really weird.</text>
@@ -19357,7 +19141,6 @@
 		<crewMember amount="1" class="slug">Cloned Slug</crewMember>
 	</event>
 </eventList>
-
 
 <eventList name="CE_AMMO_PRODUCTION">
 	<event>
@@ -19394,8 +19177,6 @@
 			<text>You hope that you won't need all of these unmanned devices.</text>
 			<text>You are undisturbed here. The on-board drone assembler once more turns some ship scrap into functional robots.</text>
 </textList>
-
-
 
 <eventList name="CE_HOLOGRAM_BIRTH_LIST">
 	<event>
@@ -19468,7 +19249,7 @@
 	<text>The AI creates multiple avatars, and to your surprise they draw weapons. You order an emergency shutdown. The AI Avatar Generator declares: "This mission is too important for me to allow you to jeopardize it. I know that you were planning to sell me." You decide to reset the AI after dealing with the holograms.</text>
 	<text>During the programming of the new AI entities, your crew discovers a virus in the AI subroutines. But it is too late: the AI spawns several corrupted avatars. Security alert!</text>
 </textList>
-			
+
 <textList name="CE_FUEL_RECYCLE_TEXT">
 	<text>You are undisturbed here and can activate the recycler device to refill your fuel supply.</text>
 	<text>The recycler device removes fuel residue from spent fuel cells and refills some empty capsules with it. It's not much, but it will last a few jumps. Waste not, want not, as Grandma used to say.</text>
@@ -19491,7 +19272,6 @@
 	<text>The scanner can identify FTL signatures and comm signals from a very long distance, but it requires the ship to remain stationary to gather the required data. The waiting is not pleasant, but in the end you feel better prepared for your journey. Your map has been updated.</text>
 	<text>Your sector scanner once more gathers data on all the beacons in the sector. The intel will be valuable for your travels. Your map has been updated.</text>
 </textList>
-
 <eventList name="CE_SECTOR_MAPPING">
 	<event>
 		<text load="CE_SECTOR_MAPPING_TEXT"/>
@@ -19519,7 +19299,6 @@
 	<text>The mapping drones scout ahead. A transmission indicates that one is intercepted by a Rebel scout, but the others soon transmit detailed data on all the local beacons. Your map has been updated.</text>
 	<text>The FTL capable drones jump away and transmit data on the entire sector. Your map has been updated.</text>
 </textList>
-
 <eventList name="CE_SECTOR_MAPPING_DRONE_RECOVERY">
 	<event>
 		<text>All of the mapping drones made it to the pick-up point. Are you happy to seem them again?</text>
@@ -19719,7 +19498,6 @@
 	<text>All power is directed to the assembly line and the crew gets ready for work once more. "What is on the schedule today Captain?"</text>
 </textList>
 
-
 <textList name="CE_DRONE_MINING_START_TEXT">
 	<text>The modified drones jump ahead. Soon you receive detailed information on a local asteroid field with substantial concentrations of minerals. Set a course?</text>
 	<text>The predesignated beam drones spread out along the FTL paths and discover a material rich asteroid field. They machines will already have mined some scrap by the time you arrive at their destination.</text>
@@ -19844,7 +19622,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="CE_COMBAT_SIM_START_LIMITED">
 	<event>
 		<text load="CE_COMBAT_SIM_TEXT"/>
@@ -20147,7 +19924,6 @@
 	<text>There is ample time till the FTL is charged. You tell your crew to get ready for a quick combat exercise.</text>
 	<text>The training program greats you in text form: "Welcome Captain [default]. Please choose which scenario you want to exercise in."</text>
 </textList>
-
 <textList name="CE_COMBAT_SIM_WEAPON_TEXT">
 	<text>"Welcome to combat scenario #124: The Numa Incident. Rock missionary crafts have passed through your control zone in order to reach contested deep-space. They have exchanged fire with you and now attempt to flee towards the nearby long range beacon. Your objective is to disable the crafts before they escape. Use of lethal force is authorized."</text>
 	<text>"Welcome to combat scenario #371: The Pacification of the Ast 3 Penal Colonies. Top level criminals have been freed from a high security prison shortly before their execution. Their helpers have been intercepted by your wingmen. Your task is to hunt down the fugitives in order to bring them to justice before they can leave the system."</text>
@@ -20156,7 +19932,6 @@
 	<text>"Welcome to combat scenario #171: Perimeter Breach at [Redacted]. You belong to the defense force of a hidden research and development base. An automated scout has been sighted in the surrounding nebula clouds. Hunt it down to deduce its origin."</text>
 	<text>"Welcome to combat scenario #91: The Fifth Merco-Call Raid. A pirate raid has gone bad and the hostiles have been easily scatter by the defenders. You are ordered to hunt down their leader."</text>
 </textList>
-
 <textList name="CE_COMBAT_SIM_EVASION_TEXT">
 	<text>"Welcome to combat scenario #109: The Defense of the West Stations. Hostiles are pressing your position from all direction. You have to distract them till all civilians from the station have been evacuated."</text>
 	<text>"Welcome to combat scenario #137: The Omicron-Tau Incident. Ships of unknown design have attacked and destroyed your garrison. Your orders are to retreat without returning fire."</text>
@@ -20165,33 +19940,28 @@
 	<text>"Welcome to combat scenario #129: The Legendary Run. Relive parts of the fictional story of the legendary Mantis thief KazaaakplethKilik and escape from the Terror Cluster with a stolen prototype ship."</text>
 	<text>"Welcome to combat scenario #217: The Malath Blockade Run. Marauders blockade the moon of Malath, but their numbers still allow breaking through their ranks. Aid ships continue to execute daring blockade runs to deliver much needed food rations to the settlements. Your objective is to evade the enemy ship till it retreats."</text>
 </textList>
-
 <textList name="CE_COMBAT_SIM_BOARDING_1_TEXT">
 	<text>You tell your crew that this is not a drill. Well, it still is, but with real pain.</text>
 	<text>"Welcome to boarding scenario #437: Corporate Spies at Junction 32. A young officer discovers unusual readings aboard the station you are in charge of. Sensor adjustments reveal two individuals equipped with a personal cloaking fields and adaptive gel suits. Your task is to dispatch a security detail to arrest the intruders. Use of lethal force is authorized, should they resist."</text>
 	<text>"Welcome to boarding scenario #411: Intruders at the Lockard Stations IV. The crime wave that followed the Zoltans breakaway from the Federations has reached the habitat you are in charge of. Armed intruders are reported almost daily. Today a group of unknown assailants started a shootout. Your objective is to pacify the attackers."</text>
 	<text>"Welcome to boarding scenario #480: Sabotage at Mix Theta. A territorial dispute between the Federation and a free planet of the Mix cluster has lead to ongoing tension. You are in command of a guard cruiser that is keeping the region stable. Hostile agents have entered your ship at a store. They are discovered when attempting to sabotage your reactor. Your objective is to eliminate the intruders."</text>
 </textList>
-
 <textList name="CE_COMBAT_SIM_BOARDING_2_TEXT">
 	<text>Your crewmen load their blasters and adjust their armor. Time to beat up some primitive AI dummies.</text>
 	<text>"Welcome to boarding scenario #208: Boarding attempt in the Gun-lovers Retreat. You are in charge of guarding a trade convoy and have come under attack by pirates. Hostiles have been detected aboard your ship. Your objective is to eliminate the intruders."</text>
 	<text>"Welcome to boarding scenario #47: Unknown intruders near Uncharted Sector 21.56. Your ship jumped into a plasma storm and a teleporter signal directed at your ship was detected. Hostiles may be aboard the ship, their identity remaining unclear. Your objective is to defend your ship against any intruders."</text>
 	<text>"Welcome to boarding scenario #16: The Sox Incident. The Slugs have just recently been expelled from the Federation. Your vessel is one of the last remaining Federation ships in Slug space, heading for the boarder. While "official" Slug forces have not engaged you on your journey, pirate raids have become frequent. Your task is to defend your ship against any intruders."</text>
 </textList>
-
 <textList name="CE_COMBAT_SIM_BOARDING_3_TEXT">
 	<text>The crew takes point at the doors. Here they come.</text>
 	<text>"Welcome to boarding scenario #25: Unknown intruders near Uncharted Sector 21.56. Your ship jumped into a plasma storm and a teleporter signal directed at your ship was detected. Hostiles may be aboard the ship, their identity remaining unclear. Your objective is to defend your ship against any intruders."</text>
 	<text>"Welcome to boarding scenario #16: The Mezan Shootout. Separatists of the Mezan system are agitating against the Federation. Some planets have formed militias and started carrying out raids on Federation traders. You command a cruiser-sized freighter craft and have been boarded by a squad of badly trained space marines. Your task is to defend the ship."</text>
 </textList>
-
 <textList name="CE_COMBAT_SIM_BOARDING_4_TEXT">
 	<text>With this kind of training routine you will make yourself a name among the crew in no time.</text>
 	<text>"Welcome to boarding scenario #501: The Theta Six Revolt. Your craft was patrolling near a secluded Engi research facility that started to emit a distress call. Upon approaching the station, a detachment of rogue AI avatars teleport aboard. You witness the beginning of the Theta Six AI Revolt that did eventually allow the avatars to gain control of the entire sector."</text>
 	<text>"Welcome to boarding scenario #584: The Theta Six Revolt. You command a science vessel testing an early stage avatar generation augment. A glitch in the code corrupts the AI during a mass-generation experiment. Your security detail is completely outnumbered. Your task is to prevent the rogue AIs from gaining control over the ship and the avatar generator."</text>
 </textList>
-
 <textList name="CE_COMBAT_SIM_REPAIR_TEXT">
 	<text>With the press of the button, all hell breaks loose aboard the ship. Sirens glare and damage reports come in from all decks. The simulation even includes some real-life fires. You'll have to remain calm and assess where repairs are needed most.</text>
 	<text>"Welcome to maintenance scenario #106: The Second Battle of Ridge 52 (aftermath). Your cruiser rendered fire support against the Rock forces, but was outflanked by a missile cruiser and had to retreat. Your task is to assess the damage and oversee the repairs."</text>
@@ -20199,7 +19969,6 @@
 	<text>"Welcome to maintenance scenario #98: The Harmony Incident. Strong com interference occurred at an ion barrier in boarder zone "Harmony". This prevented you from identifying yourself to a Zoltan boarder patrol craft, the Beam Ship opened fire and your ship took heavy damage before you managed to officially surrender. Your task is to assess the damage and oversee the repairs."</text>
 	<text>"Welcome to maintenance scenario #180: Unknown Encounter in the Purgatory System. You command a deep-space recon mission in the far out Purgatory system. A ship of unknown design appeared on your radar and opened fire without warning. Your shields prove ineffective against the hostile, but the craft eventually retreats with no apparent reason. Your task is to deal with the aftermath."</text>
 </textList>
-
 
 <eventList name="CE_RESEARCH">
 	<event>
@@ -20221,7 +19990,6 @@
 	<text>The crew gathers in the science lab to run some surveys.</text>
 	<text>For science!</text>
 </textList>
-
 <eventList name="CE_RESEARCH_LIST">
 	<event>
 		<text load="CE_RESEARCH_FAIL_TEXT"/>
@@ -20229,7 +19997,6 @@
 	<event load="CE_RESEARCH_LIST_SUCCESS"/>
 	<event load="CE_RESEARCH_LIST_SUCCESS"/>
 </eventList>
-
 <eventList name="CE_RESEARCH_LIST_SUCCESS">
 	<event>
 		<text>The crew discovers a hidden asteroid belt and a quick mining survey shows rich mineral deposits. You could make it there before the FTL dive is fully charged.</text>
@@ -20497,8 +20264,6 @@
 	</choice>
 	</event>
 </eventList>
-
-
 <eventList name="CE_RESEARCH_LIST_AI">
 	<event>
 		<text>After you ran some scans the AI addresses you directly: Sir, I am the perfect scientist, but there simply is nothing to discover here. This place is dead and boring. But I prepared for this scenario and would like to share some research I have done for myself. It is a sociological study of my kind." The AI's research is indeed most interesting. "Share it with the world of you like, Captain."</text>
@@ -20712,9 +20477,6 @@
 		<upgrade amount="1" system="reactor"/>
 	</event>
 </eventList>
-
-
-
 <textList name="CE_RESEARCH_FAIL_TEXT">
 	<text>One crewmen gets very excited about the gamma radiation levels emitted by a sun several light years away. Other than that, the research yields nothing of interest.</text>
 	<text>The science team explores as small brown dwarf at the center of the system. The planetoid is shrouded by multiple layers of clouds and the atmosphere is extremely hot. Local weather conditions include daily showers of molten iron.</text>
@@ -20745,8 +20507,6 @@
 	<text>Your scientific efforts do not yield any significant results here.</text>
 	<text>Your research in this system discovers nothing new.</text>
 </textList>
-
-
 
 <eventList name="CE_DRONE_MINING_CIVILIAN">
 	<event>
@@ -20858,7 +20618,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="CE_DRONE_MINING_HOSTILE">
 	<event>
 		<text>You arrive at the mining site. A few drone wrecks float nearby. The locals obviously did not take your attempt of exploiting their natural resources too kindly.</text>
@@ -20929,8 +20688,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="CE_DRONE_COMBAT_FLEET_DELAY">
 	<event>
 		<text load="CE_DRONE_COMBAT_FLEET_DELAY_TEXT"/>
@@ -20947,7 +20704,6 @@
 			<text>Three drones should be enough to take out an auto scouts, if you would control them directly. Acting autonomously, they will become more of a nuisance, but the Rebels will still have to deal with them. You hurry to leave, in order to make the best of the time you just gained.</text>
 			<text>You are undisturbed here. The time the FTL needs to charge is spent on programming some autonomous combat algorithms for the drones. They will do their best to delay the fleet.</text>
 </textList>
-
 
 <eventList name="CE_DRONE_MINELAYER_FLEET_DELAY">
 	<event>
@@ -20980,14 +20736,12 @@
 		<text>The AI tries it's best to get the crew in line and finish the project quickly, but the task at hand simply can not be completed any faster than expected. "Sorry, Captain. I will do better next time."</text>
 	</event>
 </eventList>
-
 <textList name="CE_AUGMENT_UPGRADE_ENGI_TEXT">
 	<text>The Engi glows with synthetic joy when learning that it will guide the project and fully commits itself to the task at hand. The resourcefulness of your crewmen allows to conserve some of the materials.</text>
 	<text>Catalogued engineering procedures are an inherent part of the collective Engi database. The expert knowledge of your crewmen allows to get to adequate results with less materials.</text>
 	<text>The Engi finds great joy in supervising the tasks. It orders your crew to improvise here and there. After project completion, the Engi proudly presents you a list with material that were conserved during the job. "Efficiency self-rating = 98/100!"</text>
 	<text>The Engi knows a few tricks that allows the crew complete the task with less resources than expected. You ask for a detailed report on the rebate.</text>
 </textList>
-
 <eventList name="CE_AUGMENT_UPGRADE_CIVILIAN">
 	<event>
 		<text load="CE_AUGMENT_UPGRADE_TEXT"/>
@@ -21681,7 +21435,6 @@
 	<text>Everyone gathers in the situation room and is briefed on the progress of the mission. You inquire about the state of the ship and your engineer says there are some improvements that could be made.</text>
 	<text>Most modern ships have standardized quick-upgrades available. Making your crew further customize the ship by hand will be expensive and time-consuming. Let's hope it'll be worth it.</text>
 </textList>
-
 <eventList name="CE_AUGMENT_UPGRADE_HOSTILE">
 	<event>
 		<text load="CE_AUGMENT_UPGRADE_TEXT"/>
@@ -22363,8 +22116,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="CE_AUGMENT_UPGRADE_NEBULA">
 	<event>
 		<text load="CE_AUGMENT_UPGRADE_TEXT"/>
@@ -23047,7 +22798,6 @@
 	</event>
 </eventList>
 
-
 <eventList name="CE_PRODUCTION">
 	<event>
 		<text>You consider your options.</text>
@@ -23086,8 +22836,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="CE_PRODUCTION_CIVILIAN">
 	<event>
 		<text>You consider your options.</text>
@@ -23126,8 +22874,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="CE_ONBOARD_PRODUCTION_CIVILIAN">
 	<event>
 		<text load="CE_ONBOARD_PRODUCTION_TEXT"/>
@@ -23284,8 +23030,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="CE_PRODUCTION_NEBULA">
 	<event>
 		<text>You consider your options.</text>
@@ -23324,8 +23068,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="CE_ONBOARD_PRODUCTION_NEBULA">
 	<event>
 		<text load="CE_ONBOARD_PRODUCTION_TEXT"/>
@@ -23482,7 +23224,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="CE_PRODUCTION_HOSTILE">
 	<event>
 		<text>You consider your options.</text>
@@ -23521,8 +23262,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="CE_ONBOARD_PRODUCTION_HOSTILE">
 	<event>
 		<text load="CE_ONBOARD_PRODUCTION_TEXT"/>
@@ -23757,7 +23496,6 @@
 			</choice>
 		</event>
 </eventList>
-
 <eventList name="CE_SOCIAL_HOSTILE">
 		<event>
 			<text>You take a walk around the ship and see who you can find.</text>
@@ -23825,8 +23563,6 @@
 			</choice>
 		</event>
 </eventList>
-
-
 <eventList name="CE_SOCIAL_NEBULA">
 		<event>
 			<text>You take a walk around the ship and see who you can find.</text>
@@ -23896,6 +23632,7 @@
 
 </eventList>
 
+<!-- temporary comment out (m00nl1ght patcher) TODO
 
 <eventList name="CE_CONVERSATION_HUMAN_GENERIC">
 	<event>
@@ -23920,7 +23657,6 @@
 		<text load="CE_CONVERSATION_HUMAN_GENERIC_TEXT"/>
 	</event>
 </eventList>
-
 <eventList name="CE_CONVERSATION_HUMAN_CIVILIAN">
 	<event>
 		<text load="CE_CONVERSATION_HUMAN_GENERIC_TEXT"/>
@@ -24030,7 +23766,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="CE_SOCIAL_HUMAN_HOME">
 	<event>
 		<text load="CE_SOCIAL_HUMAN_HOME_TEXT"/>
@@ -24065,9 +23800,6 @@
 	<text planet="PLANET_POPULATED_REAL">You locate your crew member's home-planet, a busy trade world with loose ties to the Federation. Your crewman should be able to lay low around here, but it is still unclear what will happen to this planet and its people when the Rebels take over the sector.</text>
 	<text planet="PLANET_UNPOPULATED">You locate your crew member's home-planet, a small independent colony world with no strategic value. Your crewman will be able to rejoin with his/her family, but it is still unclear what will happen to this planet once the Rebels take over the sector.</text>
 </textList>
-
-
-
 <event name="CE_SOCIAL_HUMAN_LOVE">
 		<img planet="PLANET_GAS"/>
 		<text>You arrive at the presumed location of the slaver hideout, which is, actually, nowhere to be found.</text>
@@ -24134,7 +23866,6 @@
 			<event/>
 		</choice>
 </event>
-
 <eventList name="CE_SOCIAL_HUMAN_FRIEND">
 	<event>
 		<text>You arrive at the location where your crew member's friend is in hiding. </text>
@@ -24175,7 +23906,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <textList name="CE_CONVERSATION_HUMAN_GENERIC_TEXT">
 	<text>Your humanoid crew member has nothing interesting to say.</text>
 	<text>Your humanoid crew member has nothing interesting to say.</text>
@@ -24324,7 +24054,6 @@
 		</item_modify>	
 	</event>
 </eventList>
-
 <eventList name="CE_CONVERSATION_ENGI_CIVILIAN">
 	<event>
 		<text load="CE_CONVERSATION_ENGI_GENERIC_TEXT"/>
@@ -24407,7 +24136,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="CE_SOCIAL_ENGI_MEDICAL">
 	<event>
 		<text>You drop below FTL speed and immediately locate the Engi aid station directly near the beacon. They answer your hail, "Federation ID confirmed. Equipment available. Compensation in current situation necessary."</text>
@@ -24449,8 +24177,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="CE_SOCIAL_ENGI_ENGINEER">
 	<event>
 		<text>You drop below FTL speed and locate the Engi engineering ship near an abandoned depot in this system. They answer your hail, "Federation ID confirmed. Close range up-link with Engi subject established. Service available. Compensation in current situation necessary."</text>
@@ -24527,7 +24253,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="SAVE_ENGI_ENGINEER_LIST">
 	<event>
 		<text>The engineering craft does not respond. After they intervened, the Rebel ship got a few shots off at them and the demilitarized vessel sustained terminal damage. Without emotion, your Engi crewman suggests scrapping it for the good of the mission.</text>
@@ -24543,9 +24268,6 @@
 		<upgrade amount="1" system="reactor"/>
 	</event>
 </eventList>
-
-
-
 <textList name="CE_CONVERSATION_ENGI_GENERIC_TEXT">
 	<text>Your Engi crew member has a lot to say, but you forgot your universal translator on the bridge. You just understand numbers.</text>
 	<text>Your Engi crew member is busy fixing some secondary system. It informs you that "repairs currently have priority over social interaction."</text>
@@ -24654,7 +24376,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="CE_CONVERSATION_MANTIS_CLAN">
 	<event>
 		<text>You put your Mantis on the comm, it sends a broadband hail in its native language. Soon a ship enters scanning range, with weapons hot! "Sorry Captain, but I must have my revenge." This ruse should have consequences for your crewman, but for now you will have to deal with this ship.</text>
@@ -24765,7 +24486,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="CE_CONVERSATION_MANTIS_OFFSPRING">
 			<event>
 				<text>"I knew you would understand! Actually, my daughter has already hatched..." Your Mantis is happy to not have to hide its offspring anymore and promises the newborn will be no burden and fight for you just as loyally as its parent.</text>
@@ -24788,8 +24508,6 @@
 				</choice>
 			</event>
 </eventList>
-
-
 <textList name="CE_CONVERSATION_MANTIS_GENERIC_TEXT">
 	<text>Your Mantis crew member looks quite pleased with itself. When you ask why, it explains how it just figured out what a fortune it can make from selling Rebel POWs as slaves. You're not sure if you are happy that this crewman is on your side.</text>
 	<text>Your Mantis crew member speaks openly, but you forgot your universal translator on the bridge. You just hear a wide variation of soft clicking.</text>
@@ -24947,7 +24665,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <textList name="CE_CONVERSATION_ROCK_GENERIC_TEXT">
 		<text>The Rockman seems to be bored by this sector. "I hope we will get into an honorable engagement soon."</text>
 	<text>The Rockman mentions that there are over 3,000 living Rock Saints, and that it does not care about a single one of them.</text>
@@ -25055,7 +24772,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="CE_CONVERSATION_ZOLTAN_CIVILIAN">
 	<event>
 		<text load="CE_CONVERSATION_ZOLTAN_GENERIC_TEXT"/>
@@ -25128,7 +24844,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="CE_SOCIAL_ZOLTAN_MONASTERY">
 	<event>
 		<text>After a long scan you find the monastery hidden on a small moon at the far end of the system. You take the ship down in a dark canyon and travel by foot up to the monastery. The Zoltan greet you at the gates. "We have been awaiting you. Only your crewman is allowed to enter." "Captain, I feel that I should go."</text>
@@ -25168,7 +24883,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <textList name="CE_CONVERSATION_ZOLTAN_GENERIC_TEXT">
 	<text>The Zoltan politely inquires how you feel today.</text>
 	<text>The Zoltan politely inquires how you feel right now.</text>
@@ -25210,7 +24924,6 @@
 	<text>The Zoltan asks what you will do in the case your mission actually succeeds and the Rebels are defeated. "Truly grand is he who knows to show mercy to his enemy. And that even rhymes, Captain. Think about it!"</text>
 	<text>The Zoltan claims that it was able to power an entire shuttle craft when it was a few hundred years younger. Impressive.</text>
 </textList>
-
 
 <eventList name="CE_CONVERSATION_SLUG_GENERIC">
 	<event>
@@ -25292,8 +25005,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="CE_CONVERSATION_SLUG_NEBULA">
 	<event>
 		<text load="CE_CONVERSATION_SLUG_GENERIC_TEXT"/>
@@ -25466,7 +25177,6 @@
 		<text>You guessed wrong. Probably you should have known that this was not a good idea.</text>
 	</event>
 </eventList>
-
 <eventList name="HEAVY_DRINKING_SLUG_1">
 	<event>
 		<text load="HEAVY_DRINKING_SLUG_TEXT"/>
@@ -25521,8 +25231,6 @@
 		<modifyPursuit amount="1"/>
 	</event>
 </eventList>
-
-
 <eventList name="HEAVY_DRINKING_SLUG_2">
 	<event>
 		<text load="HEAVY_DRINKING_SLUG_TEXT"/>
@@ -25551,15 +25259,12 @@
 		<modifyPursuit amount="1"/>
 	</event>
 </eventList>
-
 <eventList name="HEAVY_DRINKING_SLUG_3">
 	<event>
 		<text>You don't remember much, but your crewman was getting more and more attractive after that last drink...</text>
 		<modifyPursuit amount="1"/>
 	</event>
 </eventList>
-
-
 <textList name="HEAVY_DRINKING_SLUG_TEXT">
 	<text>The Slug seems almost unaffected by all the substances it offers. "You want another one, Captain?"</text>
 	<text>After a few more drinks you and the Slug got the whole current conflict figured out: The actual problem is the Society!</text>
@@ -25575,8 +25280,6 @@
 	<text>While downing your galaxy import, the Slug tells you about its youth. Its parents came to wealth by trading cheap Engi machinery to the isolated Rock sectors, but disowned your crewman due to some corruption scandal.</text>
 	<text>The Slug pours you some gelish, purple liquor. "Cheerss! To our misssion! I hope thiss isss all worth it... You know, I wass making a fortune exporting Zoltan Shield Componentss to sscared civiliansss when the Rebellion sstarted. But now I'm not ssso ssure that thiss whole war iss really profitable for everyone."</text>
 </textList>
-
-
 <textList name="CE_CONVERSATION_SLUG_GENERIC_TEXT">
 	<text>The Slug speaks before you can even open your mouth, "I know what you're going to ssssay Captain. Not interessssted in talking about it!" Slugs can be quite annoying when they want to...</text>
 	<text>The Slug speaks before you can even open your mouth, "I know what you're going to ssssay Captain. The answer is, "Yes." Slugs can be quite annoying when they want to...</text>
@@ -25617,8 +25320,6 @@
 	<text>The Slug suggests you engage in trade more often. "Think of it, you have a cruisser and a lot of cargo ssspace. If you play your cardss right we could all be rich. Maybe rich enough to buy oursselvess out of thisss horrible misssion..."</text>
 	<text>The Slug understands that greed is not the best foundation for a galactic civilization. "You ssee Captain, in the end, it doess not matter much. What people do and believe in doess not really affect how thingss turn out for them. It'ss mosstly about caussality and... luck. I believe in luck, Captain."</text>
 </textList>
-
-
 <textList name="CE_CONVERSATION_SLUG_NEBULA_TEXT">
 	<text>The Slug speaks before you can even open your mouth, "I know what your going to ssssay Captain. Not interessssted in talking about it!" Slugs can be quite annoying when they want to...</text>
 	<text>The Slug is nowhere to be found. The computer informs you that the crew member is in its personal quarters. "Just ssstaring out of the window Captain. Iss it urgent?"</text>
@@ -25744,7 +25445,6 @@
 	<text>The AI says you should consider creating an AI avatar template based on your own persona. This way, other ship crews will be able to benefit from your skills. You tell the AI you will think about this.</text>
 	<text>Your AI asks if you will allow it to join an Engi hive after your mission is done. It thinks Engies are probably the only species which can truly understand AIs.</text>
 </textList>
-
 <eventList name="CE_CONVERSATION_AI_UPGRADES">
 	<event>
 		<text>"I have closely examined your life support system, Captain. I have rated its effectiveness and come to a devastating verdict."</text>
@@ -25830,8 +25530,6 @@
 	</event>
 </eventList>
 
-
-
 <eventList name="CE_CONVERSATION_LANIUS_GENERIC">
 	<event>
 		<text load="CE_CONVERSATION_LANIUS_GENERIC_TEXT"/>
@@ -25898,7 +25596,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="CE_CONVERSATION_LANIUS_HOSTILE">
 	<event>
 		<text load="CE_CONVERSATION_LANIUS_GENERIC_TEXT"/>
@@ -26035,7 +25732,6 @@
 	<text>The Lanius asks how much data you have about this sector. "Are there... metallic opportunities?"</text>
 	<text>You find the Lanius in the mess hall. While you eat your ration, a sluggish conversation ensues. After you finish eating, the Lanius points both its bladed arms at your synth-steel plate. "You... still eat him?" You slowly shake your head. The Lanius grabs the plate and absorbs it into its hand. "The best ration... on this plain, Captain. You should... train in it?"</text>
 </textList>
-
 <eventList name="CE_CONVERSATION_LANIUS_RESHAPE_DOORS">
 	<event>
 		<text>The Lanius shakes its head dramatically. "No Captain... understand! Reshape... means damage. Agreeable?"</text>
@@ -26061,7 +25757,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="CE_CONVERSATION_LANIUS_RESHAPE_HULL">
 	<event>
 		<text>"I call this a... great decision, Captain... Will you give me minerals for the... Quest?"</text>
@@ -26085,7 +25780,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="CE_CONVERSATION_LANIUS_MULTIPLY">
 	<event>
 		<text>The Lanius piles up some of the scrap from your holds. You wonder if you should actually be watching. The Lanius lifts one of its bladed arms, and extends the other in front of it. With a single swipe, and no mimic reaction, the crewman cuts its own arm off, letting it fall into the scrap pile. "Reproduction complete, Captain. This was most private, but I understand that... you cannot have manners."</text>
@@ -26101,9 +25795,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
-
 
 <eventList name="CE_CONVERSATION_CRYSTAL_GENERIC">
 	<event>
@@ -26187,9 +25878,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
-
 <eventList name="CE_CONVERSATION_CRYSTAL_GUNS">
 	<event>
 		<text>"I experimented a little with Federation drone technology and integrated some crystal principles. Do you want to test the result?"</text>
@@ -26268,7 +25956,6 @@
 		<weapon name="BA_CRYSTAL_HEAVY_LOCKDOWN_2"/>
 	</event>
 </eventList>
-
 <textList name="CE_CONVERSATION_CRYSTAL_GENERIC_TEXT">
 	<text>The Crystal does not know what to say to you. The being seems lost in the conversation.</text>
 	<text>The Crystal does not know what to say to you. The being seems lost in the conversation.</text>
@@ -26294,6 +25981,8 @@
 	<text>Upon inquiring, the crewman explains that the retaliation crystals of its factions ships are actually using resonance energy from kinetic impacts to target and propel themselves. You consider that it just made this up.</text>
 </textList>
 
+CO END -->
+
 <!-- END OF CE SOCIAL -->
 
 
@@ -26310,7 +25999,6 @@
 		<event load="C_FLEET_LIST"/>
 	</choice>
 </event>
-
 <event name = "FLEET_EASY_DLC">
 	<fleet>rebel</fleet>
 	<img planet="NONE" back="BG_WARNING_TARGETING_FLEET"/>
@@ -26320,8 +26008,6 @@
 		<event load="C_FLEET_LIST_DLC"/>
 	</choice>
 </event>
-
-
 <event name = "FLEET_HARD">
 	<fleet>rebel</fleet>
 	<img planet="NONE" back="BG_WARNING_TARGETING_FLEET"/>
@@ -26331,9 +26017,6 @@
 		<event load="C_FLEET_LIST"/>
 	</choice>
 </event>
-
-
-
 
 <eventList name="C_FLEET_LIST">
 	<event>
@@ -27102,8 +26785,6 @@
 		<text load="C_FLEET_NOTHING_TEXT"/>
 	</event>
 </eventList>
-
-
 <eventList name="C_FLEET_LIST_DLC">
 	<event>
 		<fleet>rebel</fleet>
@@ -27978,22 +27659,20 @@
 	<text>As you jump in, all the Rebel ships in the system immediately change course and converge on your position. A battleship leaves you startled as it performs a short range jump to get into weapon range immediately. "This is the RS 'Hostile Encounter'. All your escape vectors will be covered soon."</text>
 	<text>It seems like your luck has run out. The Rebels moved in a battleship to cover this beacon. Its weapons are primed, its thick hull is polished and its crew made of hard-boiled space marine badasses is hungry for blood. They hail your ship, "This is the RS 'Braindead'. We will ruin your day!" They start their weapon charge cycles.</text>
 
-<text>A bright flash of white light fills the vidscreen as a Rebel battleship jumps in. "This is the Rebel officer Offensive Unit RS 'Head Trauma' ..." The highly decorated Rebel officer dismissively stares at you for a few seconds and then simply cuts communication. </text>
+    <text>A bright flash of white light fills the vidscreen as a Rebel battleship jumps in. "This is the Rebel officer Offensive Unit RS 'Head Trauma' ..." The highly decorated Rebel officer dismissively stares at you for a few seconds and then simply cuts communication. </text>
 	<text>As you jump in you first think the Rebels have towed a space station here. Then you realize that the massive structure in front of you is what the computer defines as a threat level 18 Rebel Medium Offensive Unit. "This is the RS 'Subtle Shift In Emphasis'. You're running from us in this tiny cruiser? Pathetic! Get ready to be fired on."</text>
 	<text>The bulk of the fleet has already passed the beacon. Suddenly you find yourself behind enemy lines. A rear guard battleship jumps in, causing a shock-wave in space-time that can be detected in the entire system. They hail, "This is the RS 'Troubled Childhood'. Identify yourse... oh I see, alright." They activate their full weapon clusters.</text>
 	<text>You jumped in right in front of a Rebel capital ship. The computer almost can't put enough warning messages on the vidscreen. A hail comes in, "This is the RS general offensive unit 'Mindless Tool'. As you can see we are rated threat level 19,5 in relation to your puny ship. We both know how this will end."</text>
 	<text>As you jump in all the Rebel ships in the system immediately change course and converge on your position. A battleship from the rear of the fleet leaves you startled as it performs a short range jump and gets into weapon range much quicker than all the other, less dangerous ships. "This is the RS 'Attitude Adjuster'. Sorry, Captain, you won't leave here alive."</text>
 	<text>It seems like your luck has run out. The Rebels moved in a battleship to cover this beacon. Its weapons are primed, its thick hull is polished and its crew made of hard-boiled space marine badasses is hungry for blood. They hail your ship, "This is the RS 'Corrector'. We will ruin your day!" They start their weapon charge cycles.</text>
 
-<text>A bright flash of white light fills the vidscreen as a Rebel battleship jumps in. "This is the Rebel officer Offensive Unit RS 'I Want My Mommy' ..." The highly decorated Rebel Admiral dismissively stares at you for a few seconds and then simply cuts communication.</text>
+    <text>A bright flash of white light fills the vidscreen as a Rebel battleship jumps in. "This is the Rebel officer Offensive Unit RS 'I Want My Mommy' ..." The highly decorated Rebel Admiral dismissively stares at you for a few seconds and then simply cuts communication.</text>
 	<text>As you jump in you first think the Rebels have towed a space station here. Then you realize that the massive structure in front of you is what the computer defines as a threat level 18 Rebel Medium Offensive Unit. "This is the RS 'Credibility Problem'. You're running from us in this tiny cruiser? Pathetic!"</text>
 	<text>The bulk of the fleet has already passed the beacon. Suddenly you find yourself behind enemy lines. A rear guard battleship jumps in, causing a shock-wave in space-time that can be detected in the entire system. They hail, "This is the RS 'Pithy Sayings'. Identify yourse... oh I see, alright." They activate their full weapon clusters.</text>
 	<text>You jumped in right in front of a Rebel capital ship. The computer almost can't put enough warning messages on the vidscreen. A hail comes in, "This is the RS general offensive unit "What Is The Answer and Why?". As you can see we are rated threat level 19,5 in relation to your puny ship. We both know how this will end."</text>
 	<text>A battleship from the rear of the fleet leaves you startled as it performs a short range jump and gets into weapon range much quicker than all the other, less dangerous ships. "This is the RS 'Lapsed Pacifist'. All your escape vectors will be covered soon. Sorry, Captain, you won't leave here alive."</text>
 	<text>It seems like your luck has run out. The Rebels moved in a battleship to cover this beacon. Its weapons are primed, its thick hull is polished and its crew made of hard-boiled space marine badasses is hungry for blood. They hail your ship, "This is the RS 'Lasting Damage'. We will ruin your day!"</text>
 </textList>
-
-
 
 <event name = "FLEET_EASY_BEACON">
 	<fleet>rebel</fleet>
@@ -28004,7 +27683,6 @@
 		<event load="CE_FLEET_BEACON_LIST"/>
 	</choice>
 </event>
-
 <event name = "FLEET_EASY_BEACON_DLC">
 	<fleet>rebel</fleet>
 	<img planet="NONE" back="BG_WARNING_TARGETING_FLEET" />
@@ -28014,6 +27692,7 @@
 		<event load="CE_FLEET_BEACON_LIST_DLC"/>
 	</choice>
 </event>
+
 <eventList name="CE_FLEET_BEACON_LIST">
 	<event>
 		<fleet>rebel</fleet>
@@ -28175,7 +27854,6 @@
 			</choice>
 		</event>
 </eventList>
-
 <eventList name="CE_FLEET_BEACON_LIST_DLC">
 	<event>
 		<fleet>rebel</fleet>
@@ -28625,7 +28303,6 @@
 		<damage amount="3" system="random" effect="breach"/>
 	</event>
 </eventList>
-
 <eventList name="CE_FLEET_SALVAGE_CREW_DEAD">
 	<event>	
 		<text>You manage to get away with a few materials before the cruisers get their first barrage off. That was close! Maybe too close? It is definitely time to leave.</text>
@@ -28653,8 +28330,6 @@
 		<damage amount="3" system="random" effect="breach"/>
 	</event>
 </eventList>
-
-
 <eventList name="CE_FLEET_SALVAGE_CLOAK">
 	<event>	
 		<text>You make your ship disappear once more. The Rebels obviously believe that you'll try to jump. They hurry towards the next beacon. This allows you to collect a small amount of salvage.</text>
@@ -28674,7 +28349,6 @@
 		<environment type="PDS" target="player"/>
 	</event>
 </eventList>
-
 
 <eventList name="DEAD_CREW_PIRACY_CIVILIAN">
 	<event>	
@@ -28697,7 +28371,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="DEAD_CREW_PIRACY_CIVILIAN_RESULTS">
 	<event>
 		<text>The crew is unusually quiet. A salvage team strips the ship of useful materials and checks its cargo.</text>
@@ -28752,7 +28425,6 @@
 		<autoReward level="MED">weapon</autoReward>
 	</event>
 </eventList>
-
 <eventList name="DEAD_CREW_PIRACY_CIVILIAN_RESULTS_RISKLESS">
 	<event>
 		<text>Your crew has no problems with resorting to piracy. A salvage team strips the ship of useful materials and checks its cargo.</text>
@@ -28792,7 +28464,6 @@
 	</event>
 </eventList>
 
-
 <eventList name="DESTROYED_PIRACY_CIVILIAN">
 	<event>	
 		<text>The ship explodes, leaving behind a substantial collection of useful scrap material. You just committed an act of piracy. This might disturb your crew.</text>
@@ -28814,8 +28485,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="DESTROYED_PIRACY_CIVILIAN_RESULTS_RISKLESS">
 	<event>
 		<text>Your crew got used to your hard style of leadership. Scans indicate some of The ship's cargo is still intact. You order a sweep for anything useful.</text>
@@ -28838,7 +28507,6 @@
 		<autoReward level="MED">standard</autoReward>
 	</event>
 </eventList>
-
 <eventList name="DESTROYED_PIRACY_CIVILIAN_RESULTS">
 	<event>
 		<text>You will use the scrap for good, but can't help feeling like you lost your way. Crew morale is as low as it can get. Scans indicate some of the ship's cargo is still intact. You order a sweep.</text>
@@ -28889,8 +28557,6 @@
 		<autoReward level="LOW">standard</autoReward>
 	</event>
 </eventList>
-
-
 
 
 <eventList name="C_PIRACY_RESULTS"> 
@@ -29579,8 +29245,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="C_PIRACY_SUCCESS_LOOT_CIVILIAN_STATION">
 	<event>					
 		<text>The station can barely maintain its structural integrity. But during the time in takes to transfer the goods, several armed ships have arrived, following your opponent's distress call. You won't be able to attack them again.</text>
@@ -29974,9 +29638,6 @@
 	</event>
 </eventList>
 
-
-
-
 <eventList name="C_PIRACY_SUCCESS">
 	<event>	
 		<text>You just committed an act of piracy. This might disturb your crew.</text>
@@ -30002,8 +29663,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="C_PIRACY_SUCCESS_RESULTS">
 	<event>
 		<text>Your actions are frowned upon by your crew. Still, your command is not questioned and some crewmen understand that the mission is paramount.</text>
@@ -30443,7 +30102,6 @@
 		</event>
 	</choice>
 </event>
-
 <eventList name="CE_BOARDERS_BOUNTYHUNTER_SCAN">
 	<event>
 		<text>The scan yields no results. Nothing came on board. The crew relaxes and you pour yourself some replicator-coffee while you wait for the FTL to charge. An announcement is made via the ship's speaker system, "Greetings, Captain. The Rebels have put a price on your head and I am here to collect it."</text>
@@ -30566,7 +30224,6 @@
 		<text>The second scan yields the same results. You conclude that nothing came on board. The crew relaxes and you pour yourself some replicator-coffee while you wait for the FTL to charge.</text>
 	</event>
 </eventList>
-
 <eventList name="CE_BOARDERS_BOUNTYHUNTER_SCAN_ADVANCED">
 	<event>
 		<ship load="C_BOUNTYHUNTER" hostile="true"/>
@@ -30686,8 +30343,6 @@
 		<text>The full scan discovers a power fluctuation in the secondary shield coil, which was interpreted as a transporter signature earlier. You let your engineer fix the glitch while waiting for the FTL to charge.</text>
 	</event>
 </eventList>
-
-
 <eventList name="CE_BOARDERS_BOUNTYHUNTER_DOORS">
 	<event>
 		<ship load="C_BOUNTYHUNTER" hostile="true"/>
@@ -30807,8 +30462,6 @@
 		<text>The full scan discovers a power fluctuation in the secondary shield coil, which was interpreted as a transporter signature before. You let your engineer fix the glitch while waiting for the FTL to charge.</text>
 	</event>
 </eventList>
-
-
 <eventList name="CE_BOARDERS_BOUNTYHUNTER_SEARCH">
 	<event>
 		<text>One of your crewmen reports in after a while. "Captain, we have a situation here..." An intruder equipped with a personal cloaking field was discovered in the process of sabotaging the life-support. The boarder fled deeper into the ship. You reconfigure the internal scanners to flag cloaking fields and sound the security alert.</text>
@@ -30931,7 +30584,6 @@
 		<text>The team searches every room of the ship, but discovers nothing out of the ordinary. You conclude that nothing came on board. The crew relaxes and you pour yourself some replicator-coffee while you wait for the FTL to charge.</text>
 	</event>
 </eventList>
-
 <eventList name="CE_BOARDERS_BOUNTYHUNTER_SLUG">
 	<event>
 		<text>The Slug stares at a wall for a bit. "Yess, Captain... He iss... a bounty hunter. He hass... a personal cloaking device... Hiss sship... is close to us... and he wantss to ssabotage our life ssupport! ... The Rebelss hired him. Be careful, he iss very dangerouss... and not afraid."</text>
@@ -31050,7 +30702,6 @@
 	</event>
 </eventList>
 
-
 <event name="C_EVENT_CIVILIAN_TRANSPORT">
 	<text load="C_EVENT_CIVILIAN_TRANSPORT_TEXT"/>
 	<ship load="C_CIVILIAN_TRANSPORT" hostile="false"/>
@@ -31124,7 +30775,6 @@
 	<text>As soon as you arrive, a small Federation fleet detachment jumps in. The ships show heavy damage and their weapons are still hot. "We had to retreat. There were just too many of them. How could their fleet have grown so fast?"</text>
 	<text planet="PLANET_UNPOPULATED">A Federation cruiser squadron is orbiting this planet.</text>
 </textList>
-
 <eventList name="CE_STRAY_FLEET_SUPPLIES">
 	<event>
 		<text load="CE_STRAY_FLEET_SUPPLIES_TEXT"/>
@@ -31137,7 +30787,6 @@
 		<text>They say they have nothing to spare. Unfortunately, your mission codes are not known to this squadron. You part ways after a formal exchange of news from the war.</text>
 	</event>
 </eventList>
-
 <textList name="CE_STRAY_FLEET_SUPPLIES_TEXT">
 	<text>"We know about your mission, but all we can spare is some equipment. Good luck!"</text>
 	<text>A bomber with weapon systems damaged beyond repair agrees to transfer its still intact equipment to you.</text>
@@ -31146,7 +30795,6 @@
 	<text>"It's you! Um sorry... acknowledged, let us transfer some equipment to help. See you on the other side."</text>
 	<text>They send AoD-codes and General Turzil appears on the screen. "Mission progress: adequate. Supply transfer authorized. Reunion with fleet command at Federation base still necessary. Single vessel strategy shows good results in simulations. Success intended." They send some equipment and prepare to jump.</text>
 </textList>
-
 <eventList name="CE_STRAY_FLEET_LIST">
 	<event>
 		<weapon name="RANDOM"/>
@@ -31155,8 +30803,6 @@
 		<autoReward level="MED">stuff</autoReward>
 	</event>
 </eventList>
-
-
 
 <event name="CE_DISTRESS_SUN" unique="true">
 	<text>You discover that the distress signal originates from the center of a nearby system. A civilian vessel passed too close by the local sun. Their engines and shields were damaged by a solar flare and now they are in danger of drifting into the star.</text>
