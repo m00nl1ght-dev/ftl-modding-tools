@@ -30804,6 +30804,7 @@ CO END -->
 	</event>
 </eventList>
 
+
 <event name="CE_DISTRESS_SUN" unique="true">
 	<text>You discover that the distress signal originates from the center of a nearby system. A civilian vessel passed too close by the local sun. Their engines and shields were damaged by a solar flare and now they are in danger of drifting into the star.</text>
 	<distressBeacon/>
@@ -31309,7 +31310,6 @@ CO END -->
 		<augment name="TE_GOODS_CONDUITS"/>
 	</event>
 </eventList>
-
 
 <event name="CE_DISTRESS_OXYGEN" unique="true">
 	<text>You arrive at the distress beacon and find a civilian trader. Their ship is undamaged; they were simply careless and did not restock enough oxygen for their journey. It is unclear if they can make it to a settlement before they all suffocate.</text>
