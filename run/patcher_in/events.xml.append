@@ -15942,7 +15942,6 @@
 	</event>
 </eventList>
 
-
 <!-- END OF CE MODIFIED VANILLA EVENTS -->
 
 
@@ -29697,7 +29696,6 @@ CO END -->
 	</event>
 </eventList>
 
-
 <!-- END OF C EVENTS -->
 
 
@@ -31514,7 +31512,6 @@ CO END -->
 	</event>
 </eventList>
 
-
 <event name="CE_PIRATE_CREW_BOUNTY" unique="true">
 	<img back="BG_DARK" planet="NONE"/>
 	<ship load="PIRATE" hostile="false"/>
@@ -31644,7 +31641,6 @@ CO END -->
 		<crewMember amount="-1" class="traitor"/>
 	</event>
 </eventList>
-
 
 <event name="CE_LONE_SHUTTLE" unique="true">
 	<text>After arriving at the beacon you detect a small, one-man shuttle craft that is headed straight for you. Repeated hails yield no response. You've got a strange feeling about this.</text>
@@ -31863,8 +31859,6 @@ CO END -->
 	</event>
 </eventList>
 
-
-
 <event name="CE_DERELICT_TREASURE" unique="true">
 	<text load="DERELICT_TREASURE_TEXT"/>
 	<choice hidden="true">
@@ -31880,13 +31874,11 @@ CO END -->
 		<event/>
 	</choice>
 </event>
-
 <textList name="DERELICT_TREASURE_TEXT">
 	<text>You stumble upon the remnants of a recent battle. One ship nearby looks like it could still have some valuable resources.</text>
 	<text>A derelict freighter is floating near this beacon. It could contain something valuable.</text>
 	<text>A massive space station is orbiting a nearby moon. Initial scans show it to be empty and abandoned.</text>
 </textList>
-
 <eventList name="CE_DERELICT_TREASURE_REWARD">
 	<event>
 		<text>An explosion rocks your ship. The wreckage must have been rigged with traps.</text>
@@ -31918,7 +31910,6 @@ CO END -->
 		<autoReward level="LOW">standard</autoReward>
 	</event>
 </eventList>
-
 <eventList name="CE_DERELICT_ENGI">
 	<event>
 		<text>The sensors show nothing out of the ordinary at first, but when you remotely access the ship's computer you discover that the ship is rigged to explode if you get too near. You'd better stay away and continue on your way.</text>
@@ -31937,12 +31928,9 @@ CO END -->
 	</event>
 </eventList>
 
-
-
 <!-- END OF CE EVENTS -->
 
 <!-- TE EVENTS -->
-
 
 <eventList name="CE_REQUISITION_CIVILIAN">
 	<event>
