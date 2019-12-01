@@ -1,5 +1,7 @@
 package m00nl1ght.ftl.tools;
 
+import m00nl1ght.ftl.tools.translation.TranslationHelper;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
@@ -26,7 +28,7 @@ public class LangReader {
     }
 
     public void read(Map<String, Editor.LangEntry> dest) throws IOException {
-        keys = dest;
+        this.keys = dest;
         if (file.exists()) {
             System.out.println("Reading lang file "+file.getName()+" ...");
             BufferedReader br = Files.newBufferedReader(file.toPath(), StandardCharsets.UTF_8);
