@@ -32060,7 +32060,6 @@ CO END -->
 	<text>The civilians hail and a nervous young captain appears on screen: "The requested supplies will be transmitted, but we expect to be compensated at a later date, as determined by your license." They cut communication refuse any further hails.</text>
 </textList>
 
-
 <eventList name="TE_LOOT_GOODS_CIVILIAN">
 	<event>
 		<text>The ship's cargo consists of some common goods. You prepare to take the containers on board.</text>
@@ -32144,7 +32143,6 @@ CO END -->
 		<augment name="TE_GOODS_RELICS"/>
 	</event>
 </eventList>
-
 <eventList name="TE_LOOT_GOODS_DEAD_CREW">
 	<event>
 		<text>The ship's cargo consists of some common goods. You prepare to take the containers on board.</text>
@@ -32327,8 +32325,6 @@ CO END -->
 	<text>A civilian ship flagged as trader waits at this beacon. You hail them: "Federation, hugh? Just as good. We buy anything from anyone here, but ship gear is only available for preferred customers. You might get to look at it if you sell for a good price."</text>
 	<text>An armed transport vessel broadcast subspace ads throughout this system: "The Rebel fleet approaches, so make your last deal in this sector with the trade union! Everything bought at fine prices. And as an added bonus, transactions above 30 scrap grant you access to our fine selection of ship gear. Don't let this opportunity go to waste!"</text>
 </textList>
-
-
 
 <eventList name="TE_TRADER_LIST">
 	<event>
@@ -33226,19 +33222,11 @@ CO END -->
 		</choice>
 	</event>
 </eventList>
-
 <textList name="TRADER_SELL_TEXT">
 	<text>You dock with the trade ship. It takes a while to negotiate a good price. After receiving some scrap in advance you are asked to unload the cargo at the shop to get the rest of your payment. They allow you to check the available ship equipment during the process.</text>
 	<text>You dock with the trade ship. You try to negotiate a good price. After receiving some scrap in advance you are asked to unload the cargo at the shop to get the rest of your payment. "Be sure to check out our selection of ship equipment as well!"</text>
 	<text>You dock with the trade ship. After time consuming haggling, you reach an agreement. You still have to unload the cargo at the shop to receive the rest of your payment. While you are there, you also get to take a glance at the ship equipment they have in stock.</text>
 	<text>You dock with the trade ship. After time consuming negotiations, you get an advance payment. "You get the rest after you unload the cargo at the shop." They don't seem to trust you much.</text>
-</textList>
-
-<textList name="TRADER_SELL_TEXT_BOOSTED">
-	<text>It takes a while to negotiate a good price. After receiving some scrap in advance you are asked to unload the cargo at the shop to get the rest of your payment. They allow you to check the available ship equipment during the process.</text>
-	<text>You try to negotiate a good price. After receiving some scrap in advance you are asked to unload the cargo at the shop to get the rest of your payment. "Be sure to check out our selection of ship equipment as well!"</text>
-	<text>After time consuming haggling, you reach an agreement. You still have to unload the cargo at the shop to receive the rest of your payment. While you are there, you also get to take a glance at the ship equipment they have in stock.</text>
-	<text>After time consuming negotiations, you get an advance payment. "You get the rest after you unload the cargo at the shop." They don't seem to trust you much.</text>
 </textList>
 
 <eventList name="TE_TRADER_LIST_BOOSTED">
@@ -34053,11 +34041,12 @@ CO END -->
 		</choice>
 	</event>
 </eventList>
-
-
-
-
-
+<textList name="TRADER_SELL_TEXT_BOOSTED">
+<text>It takes a while to negotiate a good price. After receiving some scrap in advance you are asked to unload the cargo at the shop to get the rest of your payment. They allow you to check the available ship equipment during the process.</text>
+<text>You try to negotiate a good price. After receiving some scrap in advance you are asked to unload the cargo at the shop to get the rest of your payment. "Be sure to check out our selection of ship equipment as well!"</text>
+<text>After time consuming haggling, you reach an agreement. You still have to unload the cargo at the shop to receive the rest of your payment. While you are there, you also get to take a glance at the ship equipment they have in stock.</text>
+<text>After time consuming negotiations, you get an advance payment. "You get the rest after you unload the cargo at the shop." They don't seem to trust you much.</text>
+</textList>
 
 
 <event name="STORE">
@@ -34094,8 +34083,6 @@ CO END -->
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="TE_STORE_CIVILIAN_ACTUAL">
 	<event>
 		<text>You consider dealing with the trader. This might take some time.</text>
@@ -34935,7 +34922,6 @@ CO END -->
 	<text>You hand over the crates with the scrap. Loading the cargo takes its time. The cargo drones are in much less of a hurry than you. While waiting you get a chance to check the ship equipment they offer here.</text>
 	<text>To seal the deal you have to give detailed explanations on your trade license and your (fake) ship registration. Everything is double-checked. Why is this taking so long? Then the cargo is finally loaded, slowly. At least you get a chance to look at the ship gear they also offer.</text>
 </textList>
-
 <textList name="STORE_SELL_TEXT">
 	<text>It takes a while to negotiate a good price. After receiving some scrap in advance you are asked to unload the cargo at the shop to get the rest of your payment.</text>
 	<text>You try to negotiate a good price. After receiving some scrap in advance you are asked to unload the cargo at the shop to get the rest of your payment. This all took really long.</text>
@@ -35731,7 +35717,6 @@ CO END -->
 	<text>You hand over the crates with the scrap. Teleporting the cargo is authorized. You still have time until the FTL is charged and decide check the ship equipment they offer here.</text>
 	<text>You write a scrap transfer order. Processing it takes a while, but loading the cargo becomes an easy task with the heavy duty teleporter. You check the ship equipment catalog.</text>
 </textList>
-
 <textList name="STORE_SELL_TEXT_BOOSTED">
 	<text>The trader transfers the scrap. While your crew prepares to teleport the cargo you have a look at the ship equipment the shop also offers.</text>
 	<text>It takes a while to negotiate a good price. After receiving some scrap in advance you are asked to teleport the cargo to the store to get the rest of your payment.</text>
@@ -35745,8 +35730,9 @@ CO END -->
 
 
 
- <!-- SE CIVILIAN -->
- <!-- 
+<!-- SE CIVILIAN -->
+
+<!--
 
 IDEAS
 
@@ -35754,7 +35740,6 @@ IDEAS
 -wait in line, wait somehow, militia control
 
 -->
-
 
 <eventList name="HOSTILE_CIVILIAN">
 	<event load="REBEL"/>
@@ -35772,7 +35757,6 @@ IDEAS
 	<event load="GANG"/>
 	<event load="CE_PDS_CIV"/>
 </eventList>
-
 <eventList name="NEUTRAL_CIVILIAN">
 	<event load="REBEL_TRANSPORT"/>
 	<event load="BROKEN_REBEL_DRONE"/>
@@ -35795,7 +35779,6 @@ IDEAS
 	<event load="REBEL_HELPERS"/>  <!--DLC matt - down below-->
 	<event load="ROGUE_REBEL"/><!--DLC matt - down below-->
 </eventList>
-
 <eventList name="DISTRESS_BEACON_CIVILIAN">
 	<event load="FRIENDLY_BEACON"/>
 	<event load="TRAP_BEACON"/>
@@ -35808,7 +35791,6 @@ IDEAS
 	<event load="CIVILIAN_DISTRESS_RIOT"/>
 	<event load="CIVILIAN_DISTRESS_RIOT"/>
 </eventList>
-
 <eventList name="QUESTS_CIVILIAN">
 	<event load="QUEST_ESCORT"/>
 	<event load="MERCHANT_REQUEST"/>
@@ -35821,7 +35803,6 @@ IDEAS
 	<event load="SE_QUEST_PASSANGERS_START"/>
 	<event load="CE_QUEST_CURATOR_START"/>
 </eventList>
-
 <eventList name="ITEMS_CIVILIAN">
 	<event load="FIND_DRONE"/>
 	<event load="FIND_WEAPON"/>

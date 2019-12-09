@@ -7073,6 +7073,156 @@
 <text name="ce_eventList_CE_DERELICT_ENGI_2" language="de">Deine Sensoren entdecken einen versteckten Rebellensender im Wrack! Du kannst ihn aus der Ferne deaktivieren und das Schiff nach wertvollen Materialien durchsuchen.</text>
 <text name="ce_eventList_CE_DERELICT_ENGI_3" language="de">Die Sensoren zeigen nichts Außergewöhnliches an. Du durchsuchst das Wrack nach nützlichen Materialien.</text>
 <text name="ce_eventList_CE_DERELICT_ENGI_4" language="de">Die Sensoren zeigen nichts Außergewöhnliches an. Du durchsuchst das Wrack nach nützlichen Materialien.</text>
+<text name="ce_eventList_CE_REQUISITION_CIVILIAN_3_c1" language="de">Einen Bericht über die Ladung anfordern.</text>
+<text name="ce_textList_CE_REQUISITION_CIVILIAN_REFUSE_1" language="de">Du übermittelst eine Kopie deiner Dokumente und forderst die Zivilisten auf, ihre Fracht freizugeben. Ein sichtlich unzufriedener Kapitän erscheint auf dem Bildschirm: "Was ist das für ein Unsinn? Ihr seid nur gewöhnliche Diebe, mehr nicht! Wir werden euch nichts geben!" Die Sensoren melden eine Energiespitze in ihrem Waffensystem.</text>
+<text name="ce_textList_CE_REQUISITION_CIVILIAN_REFUSE_2" language="de">Die Zivilisten weigern sich. Vielleicht kannst du sie mit ein paar gezielten Schüssen überzeugen.</text>
+<text name="ce_textList_CE_REQUISITION_CIVILIAN_REFUSE_3" language="de">"Unverschämt! Ich habe mein gesamtes Kapital in diesen Auftrag investiert. Dies ist mein Privateigentum und ich werde es mir nicht nehmen lassen." Sieht wohl so aus, als wäre hier eine kleine Machtdemonstration nötig.</text>
+<text name="ce_textList_CE_REQUISITION_CIVILIAN_REFUSE_4" language="de">"Wir sind keine Untergebenen der Föderation mehr, und akzeptieren Ihr Dokument nicht. Seien Sie gewarnt, dass wir uns verteidigen werden, wenn Sie weiter auf uns zukommen." Sie laden bereits ihre Waffen.</text>
+<text name="ce_textList_CE_REQUISITION_CIVILIAN_REFUSE_5" language="de">"Was? Aber ich habe letzte Woche schon eine ganze Ladung aufgegeben!" Das hast du schon oft gehört... Vielleicht werden sie ein paar Warnschüsse überzeugen.</text>
+<text name="ce_textList_CE_REQUISITION_CIVILIAN_COMPLY_1" language="de">Die Zivilisten öffnen ihre Laderäume und giben ihre Fracht frei, allerdings erst, nachdem sie wiederholt deine Waffensysteme gescannt haben. Sie lehnen jeden weiteren Kontakt ab.</text>
+<text name="ce_textList_CE_REQUISITION_CIVILIAN_COMPLY_2" language="de">"Ähm, ja sicher, wir werden alles tun, um die Kriegsanstrengungen zu unterstützen... Für die Föderation!" Deine Scanner stellen in diesem Satz einen gewissen Sarkasmus fest, aber sie geben ihre Fracht frei, ohne Probleme zu machen.</text>
+<text name="ce_textList_CE_REQUISITION_CIVILIAN_COMPLY_3" language="de">Die Zivilisten ergeben sich sofort. Nach der Überprüfung deiner Lizenz und dem Scannen deines Waffenclusters geben sie einige Frachtkisten frei. Sie sind nicht überzeugt, dass dies in irgendeiner Weise fair war. "Was ist nur aus der Föderation geworden? Ich dachte, Sie sind die Guten..."</text>
+<text name="ce_textList_CE_REQUISITION_CIVILIAN_COMPLY_4" language="de">" 'Eine Entschädigung für die erbrachten Güter wird zu einem späterem Zeitpunkt sichergestellt' - Ja sicher. Sie wissen, dass Sie nichts weiter als von der Regierung autorisierte Diebe sind, oder?" Du lässt das nochmal durchgehen und nimmst die Fracht entgegen.</text>
+<text name="ce_textList_CE_REQUISITION_CIVILIAN_BRIBE_1" language="de">Die Händlercrew behauptet, keine Fracht an Bord zu haben, aber sie hat solche Angst vor deinem Waffenarsenal, dass sie die letzten Schrottreste aus ihren leeren Laderäumen herausreißen und aushändigt. Vorbildliche Bürger der Föderation.</text>
+<text name="ce_textList_CE_REQUISITION_CIVILIAN_BRIBE_2" language="de">Nach Erhalt deiner Lizenz begrüßt dich ein erfahrener Commander: "Okay, das scheint in Ordnung zu sein, wir werden bezahlen. Ich hoffe, Sie nutzen es, um die Rebellen aus der galaktischen Spirale zu tilgen. Deren Steuereintreiber sind noch schlimmer als die der Föderation. Dieser ganze Krieg ist schlecht fürs Geschäft."</text>
+<text name="ce_textList_CE_REQUISITION_CIVILIAN_BRIBE_3" language="de">Die Zivilisten antworten und ein nervöser junger Kapitän erscheint auf dem Bildschirm: "Die angeforderten Vorräte werden übermittelt, aber wir erwarten eine Entschädigung zu einem späteren Zeitpunkt, wie in Ihrer Lizenz festgelegt." Sie unterbrechen die Kommunikation und lehnen jeden weiteren Kontakt ab.</text>
+<text name="ce_eventList_TE_LOOT_GOODS_CIVILIAN_1" language="de">Die Ladung des Schiffs besteht aus einigen gewöhlichen Gütern. Du bereitest die Übernahme der Container vor.</text>
+<text name="ce_eventList_TE_LOOT_GOODS_CIVILIAN_4" language="de">Die Ladung des Schiffs besteht hauptsächlich aus industrieller Ausrüstung. Deine Crew verstaut sie in deinen Frachträumen.</text>
+<text name="ce_eventList_TE_LOOT_GOODS_CIVILIAN_6" language="de">Die Ladung des Schiffs besteht hauptsächlich aus Lebensmittellieferungen für weit entfernte Kolonien. Deine Crew verstaut sie in deinen Frachträumen.</text>
+<text name="ce_eventList_TE_LOOT_GOODS_CIVILIAN_8" language="de">Das Schiff hat wertvolle Güter geladen. Deine Crew verstaut sie vorsichtig in deinen Frachträumen.</text>
+<text name="ce_eventList_TE_LOOT_GOODS_CIVILIAN_9" language="de">Das Schiff hat Schmuggelware der Rebellen geladen. Jemand wir dafür sicher gutes Geld zahlen.</text>
+<text name="ce_eventList_TE_LOOT_GOODS_CIVILIAN_10" language="de">Das Schiff hat ein paar Kisten mit seltenen Kristallartefakten geladen. Sowas hast du noch nie gesehen. Du befiehlst der Crew, die Kisten in den Laderäumen zu sichern und eines der Artefakte in dein Quartier zu bringen. Sie sind ziemlich faszinierend.</text>
+<text name="ce_eventList_TE_LOOT_GOODS_CIVILIAN_11" language="de">Die Ladung des Schiffs besteht aus Baumaterialien. Du bereitest die Übernahme der Container vor.</text>
+<text name="ce_eventList_TE_LOOT_GOODS_CIVILIAN_12" language="de">Die Ladung des Schiffs besteht aus frisch abgebauten Edelsteinen. Du bereitest die Übernahme der Container vor.</text>
+<text name="ce_eventList_TE_LOOT_GOODS_CIVILIAN_13" language="de">Die Ladung des Schiffs besteht aus Fässern mit industriellen Chemikalien. Du bereitest die Übernahme der Container vor.</text>
+<text name="ce_eventList_TE_LOOT_GOODS_CIVILIAN_14" language="de">Die Ladung des Schiffs besteht aus synthetischer Kleidung. Du bereitest die Übernahme der Container vor.</text>
+<text name="ce_eventList_TE_LOOT_GOODS_CIVILIAN_15" language="de">Die Ladung des Schiffs besteht hauptsächlich aus genetisch modifiziertem Saatgut. Deine Crew verstaut die Behälter in deinen Frachträumen.</text>
+<text name="ce_eventList_TE_LOOT_GOODS_CIVILIAN_17" language="de">Die Ladung des Schiffs besteht hauptsächlich aus Hochleistungskabeln. Deine Crew verstaut sie in deinen Frachträumen.</text>
+<text name="ce_eventList_TE_LOOT_GOODS_CIVILIAN_18" language="de">Die Ladung des Schiffs besteht hauptsächlich aus Ersatzteilen für Sensorsysteme. Deine Crew verstaut sie in deinen Frachträumen.</text>
+<text name="ce_eventList_TE_LOOT_GOODS_CIVILIAN_19" language="de">Das Schiff hat Solarzellen geladen. Jemand wir dafür sicher gutes Geld zahlen.</text>
+<text name="ce_eventList_TE_LOOT_GOODS_CIVILIAN_20" language="de">Das Schiff hat archäologische Artifakte geladen. Was sollst du denn damit anfangen?</text>
+<text name="ce_eventList_TE_LOOT_GOODS_DEAD_CREW_3" language="de">Das Schiff hatte Erze aus Asteroiden abgebaut, die Laderräume sind voller Steine. Du übernimmst die Ladung.</text>
+<text name="ce_eventList_TE_LOOT_GOODS_DEAD_CREW_4" language="de">Die Ladung des Schiffs besteht hauptsächlich aus Lebensmittellieferungen für weit entfernte Kolonien. Du nimmst sie an Bord.</text>
+<text name="ce_eventList_TE_LOOT_GOODS_DEAD_CREW_7" language="de">Das Schiff hatte Wasser aus Asteroiden gesammelt, um damit anderswo einen Lebensraum aufzubauen. Du nimmst die Tanks an Bord.</text>
+<text name="ce_eventList_TE_LOOT_GOODS_DEAD_CREW_8" language="de">Das Schiff hat eine riesigen Sauerstoffvorrat geladen. Du nimmst die Tanks an Bord.</text>
+<text name="ce_event_INFILTRATOR_HIDDEN" language="de">Dein Sprung führt dich in den leeren Weltraum. Dieser Signalpunkt dient lediglich als Verbindung. Die Scanner zeigen lediglich eine seltsame Temperaturanomalie.</text>
+<text name="ce_event_INFILTRATOR_HIDDEN_c1" language="de">(Advanced Sensors) Irgendwas stimmt da nicht. Einen weiteren Scan starten!</text>
+<text name="ce_event_INFILTRATOR_HIDDEN_c1_e" language="de">Deine Scanner entdecken schwache Wärmesignaturen und warnen vor einem nicht identifizierten Infiltrator, der sich in der Nähe versteckt. Das Schiff enttarnt sich und greift an.</text>
+<text name="ce_event_CE_CIVILIAN_TRADER_c1" language="de">(Trade Goods) Versuchen, hier einen Teil deiner Fracht zu verkaufen.</text>
+<text name="ce_event_CE_CIVILIAN_TRADER_c2" language="de">(Cargo Teleporter) Schnell etwas Geld mit den Handelsgütern verdienen, die du geladen hast.</text>
+<text name="ce_event_CE_CIVILIAN_TRADER_c4" language="de">Sie sind ein leichtes Ziel. Angriff!</text>
+<text name="ce_textList_CE_CIVILIAN_TRADER_TEXT_1" language="de">Ein ziviles Schiff löst sich von einer nahe gelegenen Station und nähert sich dir. Ein Händler der Gewerkschaft erscheint auf deinem Bildschirm: "Föderationsschiff, willkommen an unserem bescheidenen Außenposten. Haben Sie Handelswaren geladen? Wir kaufen derzeit zu guten Preisen ein. Falls wir uns auf einen Handel einigen können, dürfen Sie sich danach gerne auch unsere Schiffsausrüstung ansehen..."</text>
+<text name="ce_textList_CE_CIVILIAN_TRADER_TEXT_2" language="de">Als du ankommst, ist gerade ein Handelskonvoi dabei, das System zu verlassen. Scans zeigen, dass die meisten ihrer Laderäume leer sind. Möglicherweise sind sie am Kauf von Handelswaren interessiert.</text>
+<text name="ce_textList_CE_CIVILIAN_TRADER_TEXT_3" language="de">Ein Zivilschiff, das als Händler markiert ist, wartet an diesem Signalpunkt. "Föderation, hm? Nun gut. Mit wem wir handeln ist uns gleichgültig, solange der Preis stimmt. Aber Schiffsausrüstung ist nur für besondere Kunden erhältlich. Sie können einen Blick darauf werfen, nachdem Sie uns ein gutes Angebot machen."</text>
+<text name="ce_textList_CE_CIVILIAN_TRADER_TEXT_4" language="de">Ein bewaffnetes Handelsschiff sendet Werbung in diesem System: "Die Rebellenflotte rückt näher, also schließen Sie hier noch schnell ein gutes Geschäft mit der Handelsgewerkschaft ab! Natürlich alles zu günstigen Preisen. Und als zusätzlichen Bonus: Ab einem Transaktionswert von 30 Schrott erhalten Sie Zugang zu unserer feinen Auswahl an Schiffsausrüstung. Lassen Sie sich diese Gelegenheit nicht entgehen!"</text>
+<text name="ce_eventList_TE_TRADER_LIST_1" language="de">Du überlegst, ob du auf eines der Angebote des Händlers eingehen solltest. Dies könnte jedoch etwas Zeit beanspruchen.</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c1" language="de">[Sell Space Rations for about 40 Scrap]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c1_e_c1_e" language="de">[Die FTL-Engine bietet leider keine Möglichkeit, die hier eingetauschten Handelsgüter automatisch aus dem Inventar zu entfernen. Die CE ist daher auf die Ehrlichkeit des Spielers angewiesen. Bitte verkaufe die entsprechende Schiffserweiterung nun im Shop.]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c2" language="de">[Consumer Goods für etwa 35 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c3" language="de">[Luxury Goods für etwa 60 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c4" language="de">[Plastic Items für etwa 30 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c5" language="de">[Ship Hull Panels für etwa 60 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c6" language="de">[Ship Wreckage für etwa 50 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c7" language="de">[AI Research Data für etwa 60 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c8" language="de">[Raw Asteroid Ore für etwa 45 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c9" language="de">[Rare Elements für etwa 70 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c10" language="de">[Zoltan Legal Codex für etwa 40 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c11" language="de">[Shield Components für etwa 55 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c12" language="de">[Pharmaceuticals für etwa 45 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c13" language="de">[Ship Hardware für etwa 40 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c14" language="de">[Industrial Machinery für etwa 30 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c15" language="de">[Beacon Parts für etwa 45 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c16" language="de">[Religious Rock Scriptures für etwa 50 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c17" language="de">[Engine Parts für etwa 50 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c18" language="de">[Weapon Components für etwa 65 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c19" language="de">[Looted Bounty für etwa 40 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c20" language="de">[Slug Hallucinogens für etwa 60 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c21" language="de">[Eccentric Artworks für etwa 55 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c22" language="de">[Alien Livestock für etwa 45 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c23" language="de">[Small Arms für etwa 55 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c24" language="de">[Federation Contraband für etwa 40 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c25" language="de">[Compressed Nebula Gas für etwa 40 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c26" language="de">[Crystal Artifacts für etwa 70 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c27" language="de">[Obedient Nanobots für etwa 60 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c28" language="de">[Disease Samples für etwa 40 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c29" language="de">[Terraforming Gear für etwa 40 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c30" language="de">[Reactor Modules für etwa 50 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c31" language="de">[Space Building Material für etwa 30 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c32" language="de">[Basic Chemicals für etwa 30 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c33" language="de">[Synth-Textiles für etwa 30 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c34" language="de">[Xeno Organisms für etwa 30 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c35" language="de">[Stored Oxygen für etwa 30 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c36" language="de">[Huge Water Supply für etwa 30 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c37" language="de">[Bio-Engineered Seeds für etwa 30 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c38" language="de">[Power Conduits für etwa 30 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c39" language="de">[Station-Grown Vegetables für etwa 40 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c40" language="de">[Antimatter für etwa 40 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c41" language="de">[Virtual Games für etwa 40 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c42" language="de">[Sensor Components für etwa 40 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c43" language="de">[Life Support Gear für etwa 40 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c44" language="de">[Serve Drones für etwa 40 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c45" language="de">[Research Eqipment für etwa 50 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c46" language="de">[Solar Panels für etwa 50 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c47" language="de">[Archaeological Relics für etwa 50 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c48" language="de">[Trooper DNA Backups für etwa 50 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c49" language="de">[Alien Glands für etwa 30 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c50" language="de">[Deep-Space Gemstones für etwa 40 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c51" language="de">[Space Whale Ambra für etwa 50 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_TRADER_LIST_1_c52" language="de">Du solltest diese Option nicht sehen können. Dies ist ein bedeutungsloser Platzhalter.</text>
+<text name="ce_textList_TRADER_SELL_TEXT_1" language="de">Du dockst an das Handelsschiff an. Es dauert eine Weile, einen guten Preis auszuhandeln. Nachdem du im Voraus einen Teil der Bezahlung erhalten hast, wirst du gebeten, die Fracht im Shop abzuladen, um dort den Rest deiner Bezahlung zu erhalten. Währenddessen darfst du dir außerdem die Schiffsausrüstung ansehen, die dort angeboten wird.</text>
+<text name="ce_textList_TRADER_SELL_TEXT_2" language="de">Du dockst an das Handelsschiff an. Du versuchst, einen guten Preis auszuhandeln. Nachdem du im Voraus einen Teil der Bezahlung erhalten hast, wirst du gebeten, die Fracht im Shop abzuladen, um dort den Rest deiner Bezahlung zu erhalten. "Schauen Sie sich außerdem unsere große Auswahl an Schiffsausrüstung an!"</text>
+<text name="ce_textList_TRADER_SELL_TEXT_3" language="de">Du dockst an das Handelsschiff an. Nach langwierigem Feilschen kommst du zu einer Einigung. Du musst die Fracht noch im Shop abgeben, um den Rest deiner Bezahlung zu erhalten. Während du dort bist, kannst du außerdem einen Blick auf die Schiffsausrüstung werfen, die dort angeboten wird.</text>
+<text name="ce_textList_TRADER_SELL_TEXT_4" language="de">Du dockst an das Handelsschiff an. Nach langwierigem Feilschen erhältst du eine Vorrauszahlung. "Den Rest bekommen Sie, nachdem Sie die Fracht im Shop abgeladen haben." Sie scheinen dir nicht zu vertrauen.</text>
+<text name="ce_eventList_TE_TRADER_LIST_BOOSTED_1" language="de">Du überlegst, ob du auf eines der Angebote des Händlers eingehen solltest. Der Cargo-Teleporter wird einen schnellen Güteraustausch ermöglichen.</text>
+<text name="ce_textList_TRADER_SELL_TEXT_BOOSTED_1" language="de">Es dauert eine Weile, einen guten Preis auszuhandeln. Nachdem du im Voraus einen Teil der Bezahlung erhalten hast, wirst du gebeten, die Fracht im Shop abzuladen, um dort den Rest deiner Bezahlung zu erhalten. Währenddessen darfst du dir außerdem die Schiffsausrüstung ansehen, die dort angeboten wird.</text>
+<text name="ce_textList_TRADER_SELL_TEXT_BOOSTED_2" language="de">Du versuchst, einen guten Preis auszuhandeln. Nachdem du im Voraus einen Teil der Bezahlung erhalten hast, wirst du gebeten, die Fracht im Shop abzuladen, um dort den Rest deiner Bezahlung zu erhalten. "Schauen Sie sich außerdem unsere große Auswahl an Schiffsausrüstung an!"</text>
+<text name="ce_textList_TRADER_SELL_TEXT_BOOSTED_3" language="de">Nach langwierigem Feilschen kommst du zu einer Einigung. Du musst die Fracht noch im Shop abgeben, um den Rest deiner Bezahlung zu erhalten. Während du dort bist, kannst du außerdem einen Blick auf die Schiffsausrüstung werfen, die dort angeboten wird.</text>
+<text name="ce_textList_TRADER_SELL_TEXT_BOOSTED_4" language="de">Nach langwierigem Feilschen erhältst du eine Vorrauszahlung. "Den Rest bekommen Sie, nachdem Sie die Fracht im Shop abgeladen haben." Sie scheinen dir nicht zu vertrauen.</text>
+<text name="ce_event_STORE_c1" language="de">(Cargo Teleporter) Den Cargo-Teleporter vorbereiten, und dir die Angebote ansehen.</text>
+<text name="ce_textList_STORE_TEXT_1" language="de">Ein Schiffstechniker hat hier einen kleinen Laden eingerichtet.</text>
+<text name="ce_textList_STORE_TEXT_2" language="de">Du erreichst einen Außenposten der interstellaren Handelsgewerkschaft. Eine Gruppe von bewaffneten Kreuzern sorgt dafür, dass die örtlichen Gewerbeflächen gut geschützt sind.</text>
+<text name="ce_textList_STORE_TEXT_3" language="de">Du bist auf einmal von seltsamen Alien-Schiffen umzingelt. Sie begrüßen dich und scheinen dir wertvolle Technologie verkaufen zu wollen.</text>
+<text name="ce_textList_STORE_TEXT_4" language="de">Eine Übertragung von einem Planeten in der Nähe deutet auf einen Außenposten hin, der vorbeikommenden Schiffen Vorräte anbietet. Du schickst ein Außenteam nach unten, um dir einen Eindruck zu verschaffen.</text>
+<text name="ce_textList_STORE_TEXT_6" language="de">Es gibt nur ein anderes Schiff an diesem Signalpunkt und es ist schwer beschädigt. Du erhältst eine Nachricht auf deiner Konsole: "Ich grüße Sie, Reisender. Wir wurden von einem Haufen Piraten überfallen und sind nun gezwungen, unsere verbliebene Ausrüstung zu verkaufen, um die benötigten Vorräte für unseren Heimweg besorgen zu können."</text>
+<text name="ce_textList_STORE_TEXT_7" language="de">Ein Handelsdepot umkreist den nahe gelegenen Planeten. Mehrere Handelsschiffe sind dort angedockt. Sieht so aus, als könntest du hier ein Geschäft machen.</text>
+<text name="ce_textList_STORE_TEXT_8" language="de">Ein Weltraum-Einkaufszentrum verkauft hier Waren an Schiffe, die an dieser Siedlung vorbeifliegen.</text>
+<text name="ce_eventList_TE_STORE_CIVILIAN_LIST_1" language="de">Beim Andocken stellst du fest, dass dieser Händler einen Cargo-Teleporter hat. Hier ein Geschäft abzuschließen wird dich also nicht viel Zeit kosten.</text>
+<text name="ce_eventList_TE_STORE_CIVILIAN_ACTUAL_1_c1" language="de">Eine Ladung Konsumgüter kaufen.</text>
+<text name="ce_eventList_TE_STORE_CIVILIAN_ACTUAL_1_c2" language="de">Eine Kiste Lebensmittelrationen kaufen.</text>
+<text name="ce_eventList_TE_STORE_CIVILIAN_ACTUAL_1_c3" language="de">Eine Auswahl an Luxusgütern kaufen.</text>
+<text name="ce_eventList_TE_STORE_CIVILIAN_ACTUAL_1_c4" language="de">Ein Aktivist für Schutzrechte meldet sich bei dir: "Wir haben Ihre Frachtprotokolle gesehen. Seit die Rebellen ihre... Säuberungsaktionen gestartet haben, sind Kopien des Codex hier nur noch schwer aufzutreiben. Wir haben noch einige Spendengelder übrig, wissen Sie?" [Zoltan Legal Codex für etwa 90 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_STORE_CIVILIAN_ACTUAL_1_c5" language="de">Verschiedene anonyme Kaüfer bieten hier gutes Geld für Schildsysteme. Die Menschen scheinen Angst vor dem Krieg haben. [Shield Components für etwa 110 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_STORE_CIVILIAN_ACTUAL_1_c6" language="de">Nachdem du deine Frachtprotokolle übermittelt hast, machen verschiedene Schiffskapitäne einige gute Angebote für deine Ladung Hüllenplatten. Der Krieg hat die Menschen hier vorsichtiger gemacht. [Ship Hull Panels für etwa 90 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_STORE_CIVILIAN_ACTUAL_1_c7" language="de">Ein Händler meldet sich bei dir: "Grüße, Captain. Ich kenne eine neu gegründete Siedlung in der Nähe. Sie könnten diese Reaktoren, die Sie anbieten, sehr gut gebrauchen..." [Reactor Modules für etwa 110 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_STORE_CIVILIAN_ACTUAL_1_c8" language="de">Die Landwirtschaft ist die Haupteinnahmequelle für die Menschen hier. Du könntest ihnen einige teure Wundersamen verkaufen. [Bio-Engineered Seeds für etwa 70 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_STORE_CIVILIAN_ACTUAL_1_c9" language="de">Einige Randgebiete in diesem Sektor sind noch nicht vollständig bewohnbar. Deine Atmosphären-Konverter könnten hier einen guten Preis erzielen. [Terraforming Gear für etwa 110 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_STORE_CIVILIAN_ACTUAL_1_c15" language="de">[Raw Asteroid Ore für etwa 30 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_STORE_CIVILIAN_ACTUAL_1_c20" language="de">[Eccentric Artwork für etwa 55 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_STORE_CIVILIAN_ACTUAL_1_c26" language="de">[Ship Wreckage für etwa 30 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_STORE_CIVILIAN_ACTUAL_1_c27" language="de">[Rare Elements für etwa 60 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_STORE_CIVILIAN_ACTUAL_1_c28" language="de">[AI Research Data für etwa 40 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_STORE_CIVILIAN_ACTUAL_1_c32" language="de">[Building Material für etwa 30 Scrap verkaufen]</text>
+<text name="ce_eventList_TE_STORE_CIVILIAN_ACTUAL_1_c53" language="de">Nur schnell die angebotene Schiffsausrüstung ansehen.</text>
+<text name="ce_textList_STORE_BUY_TEXT_1" language="de">Du übergibst den Schrott. Während deine Crew die Kisten in die Frachträume trägt, siehst du dir die Schiffsausrüstung an, die der Shop ebenfalls anbietet. Einige Zeit vergeht.</text>
+<text name="ce_textList_STORE_BUY_TEXT_2" language="de">Du schreibst einen Schrott-Transferauftrag. Die Bearbeitung dauert eine Weile, das Übertragen der Ladung dauert noch länger. Du überprüfst den Schiffsausrüstungs-Katalog, während du wartest.</text>
+<text name="ce_textList_STORE_BUY_TEXT_3" language="de">Du übergibst die Kisten mit dem Schrott. Das Tranfer der Ladung nimmt viel Zeit in Anspruch. Die Frachtdrohnen haben es viel weniger eilig als du. Während des Wartens hast du die Möglichkeit, dir die Schiffsausrüstung anzusehen, die hier angeboten wird.</text>
+<text name="ce_textList_STORE_BUY_TEXT_4" language="de">Um hier ein Geschäft abzuschließen, musst du detaillierte Erklärungen zu deiner Handelslizenz und deiner (gefälschten) Schiffsregistrierung abgeben. Alles wird doppelt geprüft. Warum dauert das so lange? Dann wird die Ladung endlich geladen... langsam. Zumindest hast du die Möglichkeit, dir die Schiffsausrüstung anzusehen, die sie hier anbieten.</text>
+<text name="ce_textList_STORE_SELL_TEXT_1" language="de">Es dauert eine Weile, einen guten Preis auszuhandeln. Nachdem du im Voraus einen Teil der Bezahlung erhalten hast, wirst du gebeten, die Fracht im Shop abzuladen, um dort den Rest deiner Bezahlung zu erhalten.</text>
+<text name="ce_textList_STORE_SELL_TEXT_2" language="de">Du versuchst, einen guten Preis auszuhandeln. Nachdem du im Voraus einen Teil der Bezahlung erhalten hast, wirst du gebeten, die Fracht im Shop abzuladen, um dort den Rest deiner Bezahlung zu erhalten. Dies hat viel Zeit in Anspruch genommen.</text>
+<text name="ce_textList_STORE_SELL_TEXT_3" language="de">Nach langwierigem Feilschen kommst du zu einer Einigung. Du musst die Fracht noch im Shop abgeben, um den Rest deiner Bezahlung zu erhalten.</text>
+<text name="ce_textList_STORE_SELL_TEXT_4" language="de">Nach langwierigem Feilschen erhältst du eine Vorrauszahlung. "Den Rest bekommen Sie, nachdem Sie die Fracht im Shop abgeladen haben." Sie scheinen dir nicht zu vertrauen.</text>
+<text name="ce_textList_STORE_SELL_TEXT_5" language="de">Du versuchst dem Händler einzureden, dass die Waren wirklich so viel wert sind. Der Händler versucht dir einzureden, er wäre nicht wirklich interessiert. Eine Einladung zum Synth-Tee führt zu langwierigen Verhandlungen, aber du bleibst geduldig. Nachdem du deinen Vorschuss entgegengenommen hast, musst du die Fracht noch im Shop abgeben, um das Geschäft abzuschließen.</text>
+<text name="ce_eventList_TE_STORE_CIVILIAN_LIST_BOOSTED_1" language="de">Du überlegst, ob du auf eines der Angebote des Händlers eingehen solltest. Der Cargo-Teleporter wird einen schnellen Güteraustausch ermöglichen.</text>
+<text name="ce_eventList_TE_STORE_CIVILIAN_LIST_BOOSTED_1_c53" language="de">Nur schnell die angebotene Schiffsausrüstung ansehen.</text>
+<text name="ce_textList_STORE_BUY_TEXT_BOOSTED_1" language="de">Du übergibst den Schrott und der Cargo-Teleporter ermöglicht es dir, die Fracht mit minimalem Zeitverlust zu transportieren. Du siehst dir außerdem die Schiffsausrüstung an, die der Shop anbietet.</text>
+<text name="ce_textList_STORE_BUY_TEXT_BOOSTED_2" language="de">Du übergibst den Schrott und der Cargo-Teleporter erledigt den Rest. Es bleibt noch genug Zeit, um dir den Schiffsausrüstungs-Katalog anzusehen.</text>
+<text name="ce_textList_STORE_BUY_TEXT_BOOSTED_3" language="de">Du übergibst die Kisten mit dem Schrott. Das Teleportieren der Ladung wird kurz darauf genehmigt. Du hast noch etwas Zeit bis das FTL aufgeladen ist, um dir die Schiffsausrüstung anzusehen, die hier angeboten wird.</text>
+<text name="ce_textList_STORE_BUY_TEXT_BOOSTED_4" language="de">Du schreibst einen Schrott-Transferauftrag. Die Bearbeitung dauert eine Weile, aber das Beladen deines Schiffs wird mit dem Cargo-Teleporter zu einer einfachen Aufgabe. Du siehst dir außerdem die Schiffsausrüstung an, die der Shop anbietet.</text>
+<text name="ce_textList_STORE_SELL_TEXT_BOOSTED_1" language="de">Der Händler übergibt den Schrott. Während die Kisten für die Teleportation vorbereitet werden, siehst du dir die Schiffsausrüstung an, die der Shop anbietet.</text>
+<text name="ce_textList_STORE_SELL_TEXT_BOOSTED_2" language="de">Es dauert eine Weile, einen guten Preis auszuhandeln. Nachdem du im Voraus einen Teil der Bezahlung erhalten hast, wirst du gebeten, die Fracht in die Lagerräume des Shops zu teleportieren, um den Rest deiner Bezahlung zu erhalten.</text>
+<text name="ce_textList_STORE_SELL_TEXT_BOOSTED_3" language="de">Nach langwierigem Feilschen kommst du zu einer Einigung. Du musst die Fracht noch in die Lagerräume des Shops teleportieren, um den Rest deiner Bezahlung zu erhalten.</text>
+<text name="ce_textList_STORE_SELL_TEXT_BOOSTED_4" language="de">Nach langwierigem Feilschen erhältst du eine Vorrauszahlung. "Den Rest bekommen Sie, nachdem Sie die Waren abgeliefert haben. Zeigen Sie uns, was der Cargo-Teleporter drauf hat!"</text>
+<text name="ce_textList_STORE_SELL_TEXT_BOOSTED_5" language="de">Du versuchst dem Händler einzureden, dass die Waren wirklich so viel wert sind. Der Händler versucht dir einzureden, er wäre nicht wirklich interessiert. Nachdem du im Voraus einen Teil der Bezahlung erhalten hast, wirst du gebeten, die Fracht in die Lagerräume des Shops zu teleportieren, um den Rest deiner Bezahlung zu erhalten</text>
 
 <!-- FILE: text_blueprints.xml.append -->
 
