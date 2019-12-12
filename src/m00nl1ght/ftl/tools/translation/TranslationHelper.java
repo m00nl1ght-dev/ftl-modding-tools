@@ -19,6 +19,8 @@ public class TranslationHelper {
 
     private static final Pattern SECTION_SPLIT_PATTERN = Pattern.compile("[.?!:]");
     private static final Pattern FULL_SPLIT_PATTERN = Pattern.compile("[.?!:\"]");
+    private static final double THRESHOLD_SECTIONS = 0.5D;
+    private static final double THRESHOLD_COMPOUND = 0.6D;
 
     private final Map<String, String> dictionary = new HashMap<>();
     private final List<VBox> boxes = new ArrayList<>(10);
@@ -85,12 +87,12 @@ public class TranslationHelper {
             textAreas.get(i).setText(str);
             final ComboBox<Suggestion> comboBox = comboBoxes.get(i);
             comboBox.getItems().clear();
-            lookup(comboBox.getItems(), str, 0.6D);
+            lookup(comboBox.getItems(), str, THRESHOLD_SECTIONS);
             if (!comboBox.getItems().isEmpty()) comboBox.getSelectionModel().select(0);
             mainBox.getChildren().add(boxes.get(i));
         }
 
-        Suggestion fullSg = lookupBest(query, 0.6D);
+        Suggestion fullSg = lookupBest(query, THRESHOLD_COMPOUND);
 
         try {
             String gtResult = gtTask.get();
@@ -252,7 +254,7 @@ public class TranslationHelper {
 
         @Override
         public String toString() {
-            return translation + " (" + match + ")";
+            return translation + " (" + String.format("%.2f", match) + ")";
         }
 
     }
