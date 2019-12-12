@@ -36039,7 +36039,6 @@ IDEAS
 		</event>
 	</choice>
 </event>
-
 <event name="SE_START_BEACON_CIVILIAN_HOME_ACTUAL">
 	<text load="SE_START_BEACON_CIVILIAN_HOME_TEXT"/>
 	<environment type="PDS" target="enemy"/>
@@ -36290,7 +36289,6 @@ IDEAS
 	<text planet="NONE">Your arrive at a simple connection beacon. An Engi refugee transport lingers nearby but they don't reply to your hails.</text>
 	<text planet="NONE" back="BG_DARK">After jump completion your scanners register absolutely nothing. This jump beacon seems to get very little traffic.</text>
 </textList>
-
 <eventList name="CE_CIVILIAN_THEFT_INVESTIGATE">
 	<event>
 		<text>The investigation reveals nothing out of the ordinary. All the cargo logs are in orders, but the stuff is not there. Maybe someone just counted wrong? You order to update the date and prepare to move on. You hope to get at the bottom of this some day.</text>
@@ -36323,8 +36321,6 @@ IDEAS
 		<text>Scanner logs that the supplies simply have been misplaced. The crewmen responsible for this is found quickly. You suspend some of their off-time privileges. Let's hope this won't happen again.</text>
 	</event>
 </eventList>
-
-
 <eventList name="CE_CIVILIAN_THEFT_SCANNER">
 	<event>
 		<text>Security feeds indicate that some locals used old Federation ID codes to secretly enter your ship at the last station. You won't get the stuff back that they stole, but at least you know what happened now.</text>
@@ -36345,8 +36341,6 @@ IDEAS
 		<text>The logs reveals that the supplies simply have been misplaced. The crewman responsible for this is found quickly. You suspend some of their off-time privileges. Let's hope this won't happen again.</text>
 	</event>
 </eventList>
-
-
 <eventList name="CE_CIVILIAN_THEFT_SLUG">
 	<event>
 		<text>The Slug looks insulted. "I didn't take it, if that'sss what you think Captain. But let me tell you: there wass plenty opportunity for theft in thiss sector. We might never find out what happened to thiss sssuppliess."</text>
@@ -36413,7 +36407,6 @@ IDEAS
 		</choice>
 	</event>
 </eventList>
-
 
 
 <event name="INFILTRATOR_HIDDEN_AUTO">
@@ -36484,6 +36477,7 @@ IDEAS
 	</choice>
 </event>
 
+
 <event name="MILITIA">
 	<text load="MILITIA_TEXT"/>
 	<ship load="MILITIA_SHIP" hostile="true"/>
@@ -36550,7 +36544,6 @@ IDEAS
 	<text>After jump completion a militia ship hails you, "Federation Sympathizer. You are under arrest. Hand over your ships control to us." You have to assume that these guys are cooperating with the Rebels... "Comply or prepare to be fired on." They lose patience fast and start to fire.</text>
 	<text>The militia escort of a small trade caravan takes your still hot weapon signatures for an act of aggression. They can't be reasoned with and engage.</text>
 </textList>
-
 
 <event name="MILITIA_AUGMENTED" unique="true">
 	<text load="MILITIA_TEXT"/>
@@ -36677,14 +36670,11 @@ IDEAS
 	<text planet="PLANET_POPULATED_REAL">The space station is offering local goods. They do not offer ship equipment though.</text>
 	<text planet="PLANET_POPULATED_REAL">A trade depot orbits the nearby planet. Multiple merchant ships are docked. Looks like you can strike a bargain here. They seem to trade only in bulk goods and are not interested in buying.</text>
 	<text planet="PLANET_POPULATED_REAL">A space mall sells trade goods to ships coming and going from this settlement.</text>
-<text>You spot a civilian trade depot nearby. Passive scans indicate they are storing locally produced goods. They notice your interest and offer a sale. They don't sell ship equipment though...</text>
+    <text>You spot a civilian trade depot nearby. Passive scans indicate they are storing locally produced goods. They notice your interest and offer a sale. They don't sell ship equipment though...</text>
 	<text>An unprotected trade depot lingers nearby. They reluctantly offer to sell some of their goods. The station's chief seems nervous because of all the firepower you brought here.</text>
 	<text>A civilian trade depot hails, "Federation? Well we don't care, not many militia units or Rebels come around here. Just keep your big guns holstered, alright?" They offer to sell some goods.</text>
 	<text>A trade depot is storing and trading goods here. They greet you, "OK... we detect a lot of weaponry on your ship. Do we have to call in the militia or do you just want to politely buy some stuff?" They seem to feel threatened.</text>
 </textList>
-
-
-
 <eventList name="CIVILIAN_TRADE_DEPOT_LIST">
 	<event>
 		<text>You consider making a deal here. This might take some time.</text>
@@ -36729,14 +36719,12 @@ IDEAS
 		</choice>
 	</event>
 </eventList>
-
 <textList name="CIVILIAN_TRADE_DEPOT_BUY_TEXT">
 	<text>You transfer the scrap. While your crew loads the cargo. Time passes.</text>
 	<text>You write a scrap transfer order. Processing it takes a while, loading the cargo takes even longer.</text>
 	<text>You hand over the crates with the scrap. Loading the cargo takes its time, the cargo drones are in much less of a hurry than you.</text>
 	<text>To seal the deal you have to give detailed explanations on your trade license and your (fake) ship registration. Everything is double-checked. Why is this taking so long? Then the cargo is finally loaded, slowly.</text>
 </textList>
-
 <eventList name="CIVILIAN_TRADE_DEPOT_LIST_BOOSTED">
 	<event>
 		<text>You consider making a deal here. Your cargo teleporter will make trading easier.</text>
@@ -36779,25 +36767,6 @@ IDEAS
 	</event>
 </eventList>
 
-<!--
-				<event load="CE_PIRACY_ATTACK_ROCK"/>
-				<event load="CE_PIRACY_ATTACK_MANTIS"/>
-				<event load="CE_PIRACY_ATTACK_SLUG"/>
-
-			<choice req="ROCK_ARMOR" hidden="true"> 
-				<text>(Rock Ship) You command a vessel of the brutal Rock people. Your crew knew that they were signing on for a moral joyride here.</text>
-				<event load="CE_PIRACY_ATTACK_ROCK"/>
-			</choice>
-			<choice req="CREW_STIMS" hidden="true"> 
-				<text>(Mantis Ship) You command a vessel of the most vicious creatures in the galaxy. Your crew should expect things like this.</text>
-				<event load="CE_PIRACY_ATTACK_MANTIS"/>
-			</choice>
-			<choice req="SLUG_GEL" hidden="true"> 
-				<text>(Slug Ship) You command a vessel of the sly and treacherous Slugs. Your crew knew this mission wouldn't be that clean.</text>
-				<event load="CE_PIRACY_ATTACK_SLUG"/>
-			</choice>
-
--->
 
 <eventList name="CE_PIRACY_ATTACK_ROCK">
 	<event>	
@@ -36845,8 +36814,6 @@ IDEAS
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="CE_PIRACY_ATTACK_MANTIS">
 	<event>	
 		<text>None of your crew members is really surprised by your disrespect for Federation rules and individual lives. You engage the ship.</text>
@@ -36893,8 +36860,6 @@ IDEAS
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="CE_PIRACY_ATTACK_SLUG">
 	<event>	
 		<text>(Slug Ship) You command a vessel of the sly and treacherous Slugs. Your crew knew this mission wouldn't go that clean.</text>
@@ -36964,7 +36929,6 @@ IDEAS
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="DESTROYED_PIRACY_CIVILIAN_RESULTS_STATION">
 	<event>
 		<text>This was for the good of the mission, but you still can't help feeling like you lost your way. Crew morale is as low as it can get. Scans indicate some of stored cargo is still intact. You order a sweep.</text>
@@ -37023,7 +36987,6 @@ IDEAS
 		<autoReward level="LOW">standard</autoReward>
 	</event>
 </eventList>
-
 <eventList name="DESTROYED_PIRACY_CIVILIAN_RESULTS_RISKLESS_STATION">
 	<event>
 		<text>The crew isn't questioning your course of action. Scans indicate some of the cargo is still intact. You order a sweep.</text>
@@ -37051,7 +37014,6 @@ IDEAS
 	</event>
 </eventList>
 
-
 <eventList name="DEAD_CREW_PIRACY_CIVILIAN_STATION">
 	<event>	
 		<text>There are no more life signs remaining on the civilian station. You murdered these poor people and this constitutes an act of piracy. Your crew might be disturbed.</text>
@@ -37073,7 +37035,6 @@ IDEAS
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="DEAD_CREW_PIRACY_CIVILIAN_RESULTS_STATION">
 	<event>
 		<text>The crew is unusually quiet. A salvage team strips the station of useful materials and checks its cargo.</text>
@@ -37136,7 +37097,6 @@ IDEAS
 		<autoReward level="MED">weapon</autoReward>
 	</event>
 </eventList>
-
 <eventList name="DEAD_CREW_PIRACY_CIVILIAN_RESULTS_RISKLESS_STATION">
 	<event>
 		<text>Your crew has no problems with resorting to piracy. A salvage team strips the station of useful materials and checks its cargo.</text>
@@ -37267,6 +37227,7 @@ IDEAS
 	</event>
 </eventList>
 
+
 <event name="GANG_SHAKEDOWN" unique="true">
 	<text load="GANG_SHAKEDOWN_TEXT"/>
 	<ship load="GANG_WARNING" hostile="false"/>
@@ -37338,6 +37299,12 @@ IDEAS
 		</event>
 	</choice>
 </event>
+<textList name="GANG_SHAKEDOWN_TEXT">
+<text>Since interstellar authority has broken down, pirates, militia units and local gangs share control of the coreworlds and keep a relative stable peace. A local banger crew seem to know who you are. They threaten to sell you out to the Rebel fleet and demand some scrap to keep quiet.</text>
+<text>A small gang ship hails you, "This is our beacon. Some say you are a wanted criminal, but you don't look like a cool one. Got some scrap? Else the Rebels might get a little tip on your whereabouts soon, if you get my meaning..." This seems to be some kind of shakedown.</text>
+<text>A militia ship with gang markings hails, "Federation!? No way! You are that ship everyone is looking for! You better hand over some scrap or we gonna put the fleet on your ass within a standard hour."</text>
+<text>A ship with the markings of a local gang jumps in shortly after you. They hail, "Hey there, glad we caught up with you. You are this rogue Federation ship, right? The Rebels would pay a lot for some intel on your whereabouts. What's about you make us a better offer first?" They giggle.</text>
+</textList>
 
 <event name="GANG">
 	<text load="GANG_TEXT"/>
@@ -37403,13 +37370,6 @@ IDEAS
 	<text>After your jump drive cooled down, a ship of a local gang sends a message: "You want to fight?" They definitely want to and come at you dead on.</text>
 </textList>
 
-<textList name="GANG_SHAKEDOWN_TEXT">
-	<text>Since interstellar authority has broken down, pirates, militia units and local gangs share control of the coreworlds and keep a relative stable peace. A local banger crew seem to know who you are. They threaten to sell you out to the Rebel fleet and demand some scrap to keep quiet.</text>
-	<text>A small gang ship hails you, "This is our beacon. Some say you are a wanted criminal, but you don't look like a cool one. Got some scrap? Else the Rebels might get a little tip on your whereabouts soon, if you get my meaning..." This seems to be some kind of shakedown.</text>
-	<text>A militia ship with gang markings hails, "Federation!? No way! You are that ship everyone is looking for! You better hand over some scrap or we gonna put the fleet on your ass within a standard hour."</text>
-	<text>A ship with the markings of a local gang jumps in shortly after you. They hail, "Hey there, glad we caught up with you. You are this rogue Federation ship, right? The Rebels would pay a lot for some intel on your whereabouts. What's about you make us a better offer first?" They giggle.</text>
-</textList>
-
 <event name="GANG_MANTIS" unique="true">
 	<text>A small gang vessel hails you: "Glad you are here, friend. See that ship on your nine? That's a Mantis expedition ship. My drive is almost charged, I'll inform the militia while you hold them off, okay?" It seems you won't have much other choice.</text>
 	<ship load="MANTIS_FIGHT" hostile="true"/>
@@ -37463,6 +37423,7 @@ IDEAS
 		</choice>
 </event>
 
+
 <event name="SE_QUEST_PASSANGERS_START" unique="true">
 	<text planet="PLANET_POPULATED_REAL">While the FTL drive charges, you skim the virtual billboard of the nearby planet. A group of individuals wants to get off world, to a destination which lies almost on your route. You could make some scrap on the side by bringing them there.</text>
 	<choice hidden="true">
@@ -37479,7 +37440,6 @@ IDEAS
 		</event>
 	</choice>
 </event>
-
 <event name="SE_QUEST_PASSANGERS_ARRIVE" unique="true">
 	<text>You arrived at the destination of your customers.</text>
 	<choice hidden="true">
@@ -37487,7 +37447,6 @@ IDEAS
 		<event load="SE_QUEST_PASSANGERS_RESULTS"/>
 	</choice>
 </event>
-
 <eventList name="SE_QUEST_PASSANGERS_RESULTS">
 	<event>
 		<text planet="PLANET_POPULATED_REAL">One of the major coreworlds lies in front of you. The passengers, a group of human merchants, take a public shuttle down to the surface. They were quite wealthy and you receive a nice tip for the timely delivery.</text>
@@ -37619,6 +37578,7 @@ IDEAS
 		</choice>
 	</event>
 </eventList>
+
 
 <event name="CIVILIAN_DISTRESS_RIOT" unique="true">
 	<text planet="PLANET_UNPOPULATED">The main colony on this barren planet is in unrest. Citizens demonstrate in the street, they want to join the Rebellion and demand the resignation of their rulers. The local magistrate wanted to call in the militias with the distress call, and is quite surprised by your visit.</text>
