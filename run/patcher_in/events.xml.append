@@ -37759,7 +37759,6 @@ IDEAS
 		</event>
 	</choice>
 </event>
-
 <eventList name="CE_QUEST_CURATOR_START_OFFER">
 <event>
 	<text load="CE_QUEST_CURATOR_START_OFFER_DRONE_OFFER_TEXT"/>
@@ -37790,7 +37789,6 @@ IDEAS
 	</choice>
 </event>
 </eventList>
-
 <textList name="CE_QUEST_CURATOR_START_OFFER_DRONE_OFFER_TEXT">
 	<text>"Greeting, Captain. I am 127 Praf, an autonomous AI drone. I represent an individual of great fame in this part of the galaxy, a collector of interstellar artifacts known as "The Curator." My AI brethren and I seek to recruit help to enlarge our master's collection."</text>
 	<text>"Greeting, Captain. I am Lux, an autonomous AI drone. I represent an individual of great fame in this part of the galaxy, a collector of interstellar artifacts known as "The Curator". My AI brethren and I seek to recruit help to enlarge our master's collection."</text>
@@ -37833,7 +37831,6 @@ IDEAS
 	<text>A derelict Engi station, remote-jumped here from another sector, holds an original operational codex. These are the first behavioral programs used by the Engi. Since obsolete Codexes are almost always deleted when Engis develop new versions, it is quite a rare find.</text>
 	<text>A Mantis egg sack from one of their abandoned hatcheries. Why the Curator would want to risk his life with a Mantis brood is beyond you.</text>
 </textList>
-
 
 <event name="CE_QUEST_CURATOR_ITEM_2">
 	<text load="CE_QUEST_CURATOR_ITEMS_TEXT_2"/>
@@ -37964,7 +37961,6 @@ IDEAS
 	</choice>
 </event>
 </eventList>
-
 <eventList name="CE_QUEST_CURATOR_REWARD_2">
 <event>
 	<text>You located one of the Curator's drones. The sentient automaton arranges for a cargo ship to take the strange items you gathered on board. Afterwards you meet the AI servant in the holds.</text>
@@ -37977,7 +37973,6 @@ IDEAS
 	</choice>
 </event>
 </eventList>
-
 <eventList name="CE_QUEST_CURATOR_REWARD_3">
 <event>
 	<text>You located one of the Curator's drones. The sentient automaton arranges for a cargo ship to take the strange items you gathered on board. Afterwards you meet the AI servant in the holds.</text>
@@ -37990,7 +37985,6 @@ IDEAS
 	</choice>
 </event>
 </eventList>
-
 <eventList name="CE_QUEST_CURATOR_REWARD_4">
 <event>
 	<text>You located one of the Curator's drones. The sentient automaton arranges for a cargo ship to take the strange items you gathered on board. Afterwards you meet the AI servant in the holds.</text>
@@ -38010,7 +38004,6 @@ IDEAS
 	</choice>
 </event>
 </eventList>
-
 <eventList name="CE_QUEST_CURATOR_REWARD_5">
 <event>
 	<text>You located one of the Curator's drones. The sentient automaton arranges for a cargo ship to take the strange items you gathered on board. Afterwards you meet the AI servant in the holds. The drone floats towards you, its lights blinking with delight.</text>
@@ -38027,7 +38020,6 @@ IDEAS
 	</choice>
 </event>
 </eventList>
-
 <eventList name="CE_QUEST_CURATOR_REWARD_DRONE">
 	<event>
 		<text>"You should also know that you are deemed "an explorer worth monitoring" by my master. I would like to transfer my mind state into an avatar and join your crew to see what interesting things you come across. There will be an additional payment, if you should allow to me to accompany you."</text>
@@ -38211,7 +38203,6 @@ IDEAS
 		<event load="EXIT_LIST"/>
 	</choice>
 </event>
-
 <event name="FINISH_BEACON_NEBULA">
 	<text>This long-range relay is almost hidden within a nebula. You can travel to the next sector from here.</text>
 </event>
@@ -38316,6 +38307,7 @@ IDEAS
 </event>
 
 -->
+
 <mod:findLike>
 <mod:findLike>
 	<mod:findLike type="choice">
@@ -39637,6 +39629,7 @@ IDEAS
 		<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 	</choice>
 </event>
+
 <eventList name="CE_FLEET_PRE_FIGHT_ASB"> 
 	<event load="CE_FLEET_PRE_FIGHT_ASB_1"/>
 	<event load="CE_FLEET_PRE_FIGHT_ASB_1"/>
