@@ -37,7 +37,9 @@
 	<event load="BS_EVENT_PIRATE_BLACKMARKET_NEBULA"/>
 </eventList>
 
+
 <!-- CE MODIFIED NEBULA VANILLA EVENTS -->
+
 
 <event name="NEBULA_EMPTY">
 	<text load = "NEBULA_EMPTY_LIST"/>
@@ -129,9 +131,7 @@
 	<text>There's nothing here, save for vast swirls of gas reflecting rays from a distant sun.</text>
 </textList>
 
-
 <event name="START_BEACON_NEBULA">
-	<!-- <text>You totally travel through hyperspace lol</text> -->
 	<text load="HYPERSPACE_TEXT"/>
 	<img back="BG_DARK" planet="PLANET_HYPERSPACE"/>
 	<choice req="engines" lvl="1" hidden="true" blue="false">
@@ -347,7 +347,6 @@
 		</event>
 	</choice>
 </event>
-
 <event name="START_BEACON_NEBULA_ACTUAL">
 	<text load="START_BEACON_NEBULA"/>
 	<environment type="PDS" target="enemy"/>
@@ -467,7 +466,6 @@
 	</event>
 </eventList>
 
-
 <event name = "FLEET_EASY_NEBULA">
 	<text>The high amount of cruiser-sized FTL fields has caused a massive plasma anomaly to form. The Rebel fleet has literally become a raging storm. You can't see it through the nebula, but you can assume that it is right on top of you.</text>
 	<environment type="storm"/>
@@ -477,8 +475,6 @@
 		<event load="C_FLEET_NEBULA_LIST"/>
 	</choice>
 </event>
-
-
 <eventList name="C_FLEET_NEBULA_LIST">
 	<event>
 		<fleet>rebel</fleet>
@@ -982,7 +978,6 @@
 		</choice>
 </event>
 
-
 <event name="NEBULA_AUTO">
 	<text load="NEBULA_AUTO_LIST"/>
 	<environment type="nebula"/>
@@ -1032,7 +1027,6 @@
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 </event>
-
 <event name="NEBULA_AUTO_WARNING" unique = "true">
 	<text>It appears that an automated Rebel scout was positioned within the nebula to warn of your passing.</text>
 	<environment type="nebula"/>
@@ -1197,7 +1191,6 @@
 	<text>You notice a Mantis attack ship ducking between the clouds of swirling space stuff; it's hunting you. You try to get the jump and consider moving in to attack.</text>
 </textList>
 
-
 <event name="NEBULA_REBEL_UNDETECTED" unique="true">
 	<text>Your ship emerges quite far away from the beacon. You see a Rebel ship waiting nearby; undoubtedly stationed to look for you.</text>
 	<ship load="REBEL" hostile="false"/>
@@ -1334,7 +1327,6 @@
 	</event>
 </eventList>
 
-
 <event name="NEBULA_PIRATE_SMUGGLE">
 	<text>A pirate ship arrives shortly after you. Judging from the fact that it is attempting to avoid your ship, you assume that it's a smuggler trying to stay away from beacons.</text>
 	<ship load="PIRATE_SMUGGLE" hostile ="false"/>
@@ -1461,7 +1453,6 @@
 	</choice>
 </event>
 
-
 <event name="NEBULA_AUTO_DEFENSE_ITEM" unique="true">
 	<text>An advanced Rebel automated ship remains stationed near a small Rebel space station. However, without functioning sensors it is impossible to tell what is inside.</text>
 	<ship load="REBEL_AUTO_ITEM" hostile="false"/>  <!-- ship is in other xmls -->
@@ -1544,7 +1535,6 @@
 	<environment type="nebula"/>
 </event>
 
-
 <event name="NEBULA_LOST_SHIP" unique="true">
 	<text>A heavily damaged Federation ship is hiding in the nebula at this beacon. Before you have time to make contact with them, they fade into the nebula.</text>
 	<environment type="nebula"/>
@@ -1573,7 +1563,6 @@
 		<event load="NEBULA_LOST_SHIP_LIST2"/>
 	</choice>
 </event>
-
 <eventList name="NEBULA_LOST_SHIP_LIST">
 	<event>
 		<text>Your search is hopeless. Your sensors can't pick up anything in the nebula.</text>
@@ -1811,7 +1800,6 @@
 		</event>
 	</choice>
 </event>
-
 <eventList name="NEBULA_WEAPONS_TRADER_LIST">
 	<event>
 		<text>You transfer the scrap and receive a weapon in return. Let's hope it was worth it.</text>
@@ -1882,7 +1870,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="NEBULA_WEAPONS_TRADER_LIST2"> <!--DLC-->
 	<event>
 		<text>Once "convinced" to help he lowers the price and describes the weapon. However he eventually comes to his senses and confusedly takes back his discount. He is clearly unsure why he offered it in the first place.</text>
@@ -1952,7 +1939,6 @@
 		</choice>
 	</event>
 </eventList>
-
 
 <event name="NEBULA_ROCK_RACIST" unique="true">
 	<text>A Rock armored transport nearby looks to have lost its bearings, but when you hail they grow suspicious, "Whatever lifeform you are, we find you repugnant. We seek no aid. Leave. Now."</text>
@@ -2039,7 +2025,6 @@
 		<event/>
 	</choice>
 </event>
-
 
 <event name="NEBULA_REBEL_CHASE" unique="true">
 	<text>You spot a rebel ship in the nebula ahead and stay off their radar. Try to engage?</text>
@@ -2224,7 +2209,6 @@
 		</event>
 	</choice>
 </event>
-
 <eventList name="NEBULA_REBEL_CHASE_LIST">
 	<event>
 		<text>You follow their vapor trails and come up on their six, weapons hot.</text>
@@ -2283,7 +2267,6 @@
 	</event>
 </eventList>
 
-
 <event name="NEBULA_BOARDING" unique="true"> <!-- split this one up --> 
 	<text load="NEBULA_BOARDING_TEXT"/>
 	<environment type="nebula"/>
@@ -2317,7 +2300,6 @@
 	<text>You arrive in the nebula and immediately receive a distorted message, "Prepare to be boarded!" With the static from the nebula, there's no way to tell where they broadcast from.</text>
 	<text>You see a number of derelict ships near this beacon. After a short time the ship computer puts a teleporter warning on the vidscreen.</text>
 </textList>
-
 
 <event name="STORM_AUTO" unique = "true">
 	<text>You jump into a sector of the nebula beset by a plasma storm. An automated Rebel scout stationed at the beacon moves in to attack.</text>
@@ -2357,9 +2339,6 @@
 
 	<ship load="REBEL" hostile="true"/>
 </event>
-
-
-
 
 <event name="STORM_ITEMS" unique = "true">
 	<text>You jump into the middle of a plasma storm. Multiple recently incapacitated ships loom in the shadows, briefly illuminated by the lightning.</text>
