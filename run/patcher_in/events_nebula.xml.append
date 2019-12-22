@@ -2936,7 +2936,6 @@
 	<text>The Rebel turret that is guarding this remote part of the nebula seems still be well up to date about high level targets. It immediately powers up its weapons as you arrive.</text>
 </textList>
 
-
 <event name="NEBULA_AUTO_AUGMENTED" unique="true">
 	<text load="NEBULA_AUTO_LIST"/>
 	<environment type="nebula"/>
@@ -2956,8 +2955,6 @@
 		<event load="CE_ENEMY_COMBATAUG_AUTO_NEBULA"/>
 	</choice>
 </event>
-
-
 <event name="BS_EVENT_AUTO_SUICIDE_NEBULA_AUGMENTED" unique="true">
 	<text load="BS_EVENT_AUTO_SUICIDE_NEBULA_TEXT"/>
 	<ship load="BS_AUTO_SUICIDE" hostile="true"/>
@@ -2968,6 +2965,7 @@
 		<event load="CE_ENEMY_COMBATAUG_AUTO_NEBULA"/>
 	</choice>
 </event>
+
 
 <event name="BS_EVENT_PIRATE_NEBULA">
 	<text load="BS_EVENT_PIRATE_NEBULA_TEXT"/>
@@ -3107,6 +3105,7 @@
 	<text>"This beacon is corporate property. By jumping here you agreed to our license agreement. It is within our right to requisition parts of your weaponry for customer research. Please comply." This is ridiculous. A crew vote results in the decision to teach these guys a lesson.</text>
 </textList>
 
+
 <event name="NEBULA_AUTO_CRUISER">
 	<text load="NEBULA_AUTO_CRUISER_TEXT"/>
 	<ship load="C_AUTO_CRUISER" hostile="false"/>
@@ -3167,7 +3166,6 @@
 	<text>You arrive at a beacon in pristine condition. As you move in to investigate who has constructed it, the computer registers a lvl 8 offensive structure ahead in the clouds. An automated Rebel beacon-layer drifts out of the clouds. It has identified you as hostile.</text>
 	<text>Burnt out ship husks are scattered throughout this part of the nebula, most of them are bearing Federation tags. The crew wonders what came through here. When you move in to investigate one of the large structures, red lights flicker on all over it. The wreckage turns and reveals itself as a fully functional automated cruiser. And it is already spinning up it guns!</text>
 </textList>
-
 <textList name="NEBULA_AUTO_CRUISER_NAME_TEXT">
 	<text>You are hailed: "I am an almost infallible Rebel Automated Cruiser, designated 'Logic Bomb'. You have been identified as a target. Prepare to be eliminated."</text>
 	<text>There is an short message incoming: "You are inferior. Accept annihilation by: (CruiserNameTag:'Names are so 011101 years ago')."</text>

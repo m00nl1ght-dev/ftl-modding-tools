@@ -1193,6 +1193,10 @@
 <text name="credits_loc_ru">Russian version</text>
 <text name="credits_loc_ru_names">Alexander Skakovsky, Vladimir Emyshev, Mikhail Shvyryaev, Dmitry Usov, Irina Nechaeva</text>
 
+<text name="credits_loc_ja">Japanese localization:</text>
+<text name="credits_loc_ja_84">8-4, Ltd.</text>
+<text name="credits_loc_ja_names">Kimitaka Ogawa, Hiroyuki Matsushita, Dermot Creegan, Graeme Howard, John Ricciardi</text>
+
 <text name="kickstarter">Thank you to all of our extremely generous Kickstarter backers, with a very special thank you to:</text>
 
 <text name="third_party">FTL uses the following third party libraries</text>
@@ -1200,7 +1204,8 @@
 <text name="freetype">The FreeType Project (c) 1996-2002, 2006 by David Turner, Robert Wilhelm, and Werner Lemberg</text>
 <text name="bass">BASS audio library (c) 1999-2012 Un4seen Developments Ltd</text>
 <text name="rapidxml">RapidXML (c) 2006, 2007 Marcin Kalicinski</text>
-<text name="font">'Half-Life 1 + 2' fonts used with permission from freakyfonts.de</text>
+<text name="font_halflife">'Half-Life 1 + 2' fonts used with permission from freakyfonts.de</text>
+<text name="font_dotgothic">'DotGothic' font used under license from Fontworks Inc.</text>
 
 <text name="touch_skip">Keep finger pressed to skip the credits.</text>
 

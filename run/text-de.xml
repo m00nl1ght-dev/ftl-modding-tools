@@ -4952,13 +4952,17 @@
 <text name="credits_loc_pt_BR_names" language="de">Bruno Dias, Caio Uliana, Diego Perez, Thierry Banhete</text>
 <text name="credits_loc_ru" language="de">Russische Version</text>
 <text name="credits_loc_ru_names" language="de">Alexander Skakovsky, Vladimir Emyshev, Mikhail Shvyryaev, Dmitry Usov, Irina Nechaeva</text>
+<text name="credits_loc_ja" language="de">Japanische Version</text>
+<text name="credits_loc_ja_84" language="de">8-4, Ltd.</text>
+<text name="credits_loc_ja_names" language="de">Kimitaka Ogawa, Hiroyuki Matsushita, Dermot Creegan, Graeme Howard, John Ricciardi</text>
 <text name="kickstarter" language="de">Dank auch an unsere äußerst großzügigen Kickstarter-Unterstützer, mit besonderem Dank an:</text>
 <text name="third_party" language="de">FTL nutzt die folgenden Drittanbieter-Bibliotheken</text>
 <text name="folder" language="de">(weitere Details im license-Ordner oder der readme-Datei)</text>
 <text name="freetype" language="de">The FreeType Project (c) 1996-2002, 2006 David Turner, Robert Wilhelm und Werner Lemberg</text>
 <text name="bass" language="de">BASS audio library (c) 1999-2012 Un4seen Developments Ltd</text>
 <text name="rapidxml" language="de">RapidXML (c) 2006, 2007 Marcin Kalicinski</text>
-<text name="font" language="de">"Half-Life 1 + 2"-Schriften mit freundlicher Genehmigung durch freakyfonts.de</text>
+<text name="font_halflife" language="de">"Half-Life 1 + 2"-Schriften mit freundlicher Genehmigung durch freakyfonts.de</text>
+<text name="font_dotgothic" language="de">'DotGothic' Font unter Lizenz von Fontworks Inc.</text>
 <text name="touch_skip" language="de">Gedrückt halten, um Abspann zu überspringen.</text>
 <text name="autofire_tooltip_on" language="de">Autofire an. Waffen feuern standardmäßig weiter auf ihr Ziel.\n\nWaffe beim Zielen doppelt antippen, um Einzelschuss zu aktivieren.</text>
 <text name="autofire_tooltip_off" language="de">Autofire aus. Waffen feuern nur einmal auf ihr Ziel.\n\nWaffe beim Zielen doppelt antippen, um Autofire zu aktivieren.</text>
@@ -7703,6 +7707,34 @@
 <text name="ce_event_NEBULA_TRADER_c2" language="de">Ignorieren.</text>
 <text name="ce_event_NEBULA_TRADER_c3_e_c4_e" language="de">Deine Crew hat in der Tat erwartet, dass du auf diese Weise mit der Situation umgehen würdest. Deine Mission ist schließlich von größter Bedeutung.</text>
 <text name="ce_event_NEBULA_TRADER_c3_e_c6_e" language="de">Harte Zeiten erfordern harte Maßnahmen, und Regeln werden doch gemacht, um gebrochen zu werden, richtig? Deine Crew stimmt zu, manchmal sind einzelne Leben bedeutungslos. Wir müssen um jeden Preis zur Föderationsbasis gelangen.</text>
+<text name="ce_event_NEBULA_AUTO_STORM_DELAY_c1" language="de">(Long Range Scanner) Deine Scanner erkennen eine Störung.</text>
+<text name="ce_event_NEBULA_AUTO_STORM_DELAY_c1_e" language="de">Eine riesige Sturmfront kommt auf dich zu. Sie wird diesen Teil des Nebels bald verschlingen und könnte deine Mission beeinträchtigen.</text>
+<text name="ce_event_BS_EVENT_PIRATE_BLACKMARKET_NEBULA_c1_e_c2_e" language="de">Die Kantine der Station wird oft von Schmugglern und Söldnern besucht. Der Barkeeper weist dich auf jemanden hin, den er für vertrauenswürdig hält, und du kommst zu einer Vereinbarung.</text>
+<text name="ce_event_BS_EVENT_PIRATE_BLACKMARKET_NEBULA_c1_e_c3" language="de">Bezahle den Besitzer der Station, um die Rebellenflotte abzulenken.</text>
+<text name="ce_event_BS_EVENT_PIRATE_BLACKMARKET_NEBULA_c1_e_c3_e" language="de">Die Station sendet ein paar FTL-fähige Drohnen aus, die so konfiguriert sind dass sie deine FTL-Signatur imitieren. Das sollte die Rebellenflotte etwas verwirren.</text>
+<text name="ce_event_BS_EVENT_PIRATE_BLACKMARKET_NEBULA_c1_e_c4" language="de">Eine detailierte Karte dieses Nebels kaufen.</text>
+<text name="ce_textList_BS_EVENT_PIRATE_BLACKMARKET_NEBULA_TEXT_1" language="de">In diesem Teil des Nebels befindet sich eine zwielichtige Schwarzmarkt-Station. Die besonderen Dienste, die dort angeboten werden, könnten sich als nützlich erweisen.</text>
+<text name="ce_textList_BS_EVENT_PIRATE_BLACKMARKET_NEBULA_TEXT_2" language="de">Du entdeckst an diesem Signalpunkt zunächst nichts Ungewöhnliches und deine Crew kann einige Zeit damit verbringen, einfach nur in die Nebelwolken zu starren, doch während du dich auf den nächsten FTL-Sprung vorbereitest, wird dein Schiff plötzlich von einer Schwarzmarkt-Handelszentrale gerufen. Diese Station war die ganze Zeit direkt vor dir in den Wolken versteckt und hat dich beobachtet. Die verschiedeen Dienstleistungen die sie anbieten sind genauso fragwürdig wie ihr Verhalten.</text>
+<text name="ce_textList_BS_EVENT_PIRATE_BLACKMARKET_NEBULA_TEXT_3" language="de">Der Kommandant dieser versteckten Station sagt, dass er "Dienstleistungen" erbringen kann, solange du den nötigen Schrott hast.</text>
+<text name="ce_textList_BS_EVENT_PIRATE_BLACKMARKET_NEBULA_TEXT_4" language="de">Deine Crew ist von all den Überraschungen in diesem vernebelten Teil der Galaxis angespannt. An diesem Signalpunkt entdeckst du eine illegale Handelsstation, die durch die Wolken treibt.</text>
+<text name="ce_textList_BS_EVENT_PIRATE_BLACKMARKET_NEBULA_TEXT_5" language="de">Dieser Bereich des Nebels scheint völlig leer zu sein, aber als du einen zweiten manuellen Scan durchführst, entdeckst du eine kleine Schwarzmarkt-Piratenstation. Sie antworten dir erst nach deiner fünften Nachricht, aber nach einem kurzen Gespräch bieten sie widerwillig einige recht interessante Dienste an.</text>
+<text name="ce_textList_BS_EVENT_AUTO_SUICIDE_NEBULA_TEXT_1" language="de">Die Rebellen müssen damit gerechnet haben, dass du versuchen würdest ihnen im Nebel zu entkommen. An diesem Signalpunkt wartet ein automatisiertes Geschütz auf dich.</text>
+<text name="ce_textList_BS_EVENT_AUTO_SUICIDE_NEBULA_TEXT_2" language="de">Nicht weit entfernt treibt ein KI-Geschütz der Rebellen mitten auf einer großen Lichtung im Nebel. Eine perfekte Arena für einen Kampf bis zum Tod.</text>
+<text name="ce_textList_BS_EVENT_AUTO_SUICIDE_NEBULA_TEXT_3" language="de">Einige Sekunden nach deiner Ankunft wirst du aus den Nebelwolken heraus beschossen. Ein Rebellengeschütz wurde hier zurückgelassen, um diesen Signalpunkt zu bewachen!</text>
+<text name="ce_textList_BS_EVENT_AUTO_SUICIDE_NEBULA_TEXT_4" language="de">Dieser Teil des Nebels scheint nicht so verlassen zu sein wie erwartet: Ein KI-gesteuertes Geschütz bewacht den Signalpunkt. Die Rebellen wussten, dass Schiffe in Waffenreichweite kommen würden, um ihr FTL aufzuladen. Ein Kampf ist unvermeidbar.</text>
+<text name="ce_textList_BS_EVENT_AUTO_SUICIDE_NEBULA_TEXT_5" language="de">Das Rebellengeschütz, das diesen abgelegenen Teil des Nebels bewacht, scheint technisch auf dem neuesten Stand zu sein. Es schaltet sofort seine Waffen ein, als du ankommst.</text>
+<text name="ce_textList_BS_EVENT_AUTO_NEBULA_TEXT_2" language="de">Nicht weit entfernt treibt ein KI-Geschütz der Rebellen mitten auf einer großen Lichtung im Nebel. Eine perfekte Arena für einen Kampf bis zum Tod..</text>
+<text name="ce_textList_BS_EVENT_AUTO_NEBULA_TEXT_4" language="de">Dieser Teil des Nebels scheint nicht so verlassen zu sein wie erwartet: Ein KI-gesteuertes Geschütz bewacht den Signalpunkt. Die Rebellen wussten, dass Schiffe in Waffenreichweite kommen würden, um ihr FTL aufzuladen. Ein Kampf ist unvermeidbar.</text>
+<text name="ce_textList_BS_EVENT_AUTO_NEBULA_TEXT_5" language="de">Das Rebellengeschütz, das diesen abgelegenen Teil des Nebels bewacht, scheint technisch auf dem neuesten Stand zu sein. Es schaltet sofort seine Waffen ein, als du ankommst.</text>
+<text name="ce_textList_BS_EVENT_PIRATE_NEBULA_TEXT_1" language="de">Während du durch den Nebel treibst, werden die Umrisse einer illegalen Station in den Wolken sichtbar. Sie aktivieren ihre Waffen.</text>
+<text name="ce_textList_BS_EVENT_PIRATE_NEBULA_TEXT_2" language="de">Eine Piratenstation treibt in der Nähe des Signalpunkts und ruft: "Wen haben wir denn da? Am Ende kommen sie immer zu uns. Unsere Scans zeigen feine Güter an Bord eures Schiffs an, ihr werdet uns nicht davonkommen." Ihre Waffen haben dich erfasst.</text>
+<text name="ce_textList_BS_EVENT_PIRATE_NEBULA_TEXT_3" language="de">Deine Versuche, die Station an diesem Signalpunkt zu identifizieren, sind erfolglos. Erst als du dich näherst erkennst du, dass es sich um eine bewaffnete Piratenstation handelt!</text>
+<text name="ce_textList_BS_EVENT_PIRATE_STORM_TEXT_1" language="de">An diesem Signalpunkt wurde eine illegale Station von einem heftigen Plasmasturm erfasst. Sie scheinen sich noch gut genug zu halten, um dich anzugreifen zu können.</text>
+<text name="ce_textList_BS_EVENT_PIRATE_STORM_TEXT_2" language="de">Eine Piratenstation treibt hier in einem Ionensturm. Sie senden dir eine Nachricht: "Ah, endlich! Unser Rettungsboot ist angekommen. Wir sitzen schon seit Wochen hier fest. Es ist nichts Persönliches, aber wir werden euer Schiff mit Gewalt übernehmen, wenn ihr es nicht sofort übergebt." Du entscheidest dich dagegen.</text>
+<text name="ce_textList_BS_EVENT_PIRATE_STORM_TEXT_3" language="de">Du springst mitten in das Auge eines Plasmasturm der hinein. Die Umgebung ist völlig dunkel. Ein massiver Ionenblitz beleuchtet plötzlich eine kleine Station mit Piratenmarkierungen direkt vor dir. Sie scheint voll funktionstüchtig und auf einen Kampf aus zu sein.</text>
+<text name="ce_textList_CE_CORPORATION_NEBULA_TEXT_1" language="de">Ein schneller Scan nach deiner Ankunft zeigt hohe Konzentrationen von Treibstoffresten in einer nahe gelegenen Gaswolke. Du bist gerade dabei, mit dem Extrahieren zu beginnen, als dein Bordcomputer eine Warnung zeigt. Ein Aufklärungsschiff eines großen Bergbaukonzerns hat scheinbar schon Anspruch auf diese Resourcen erhoben, und scheint keine Probleme damit zu haben, einen Kreuzer der Föderation anzugreifen.</text>
+<text name="ce_textList_CE_CORPORATION_NEBULA_TEXT_2" language="de">Ein Kampfschiff eines großen Konzerns ruft dich: "Dies ist eine private Gasmine der Waypoint-Junta Corporation. Auf Eindringlinge wird geschossen." Du versuchst, mit ihnen zu diskutieren, aber sie verweigern dir, dein FTL an ihrem Signalpunkt aufzuladen, und bestehen darauf, dass du sofort von hier verschwindest. Am Ende eröffnen sie tatsächlich das Feuer.</text>
+<text name="ce_textList_CE_CORPORATION_NEBULA_TEXT_3" language="de">"Dieser Signalpunkt ist Unternehmenseigentum. Durch einen Sprung hierher haben Sie unserer Lizenzvereinbarung zugestimmt. Es steht uns zu, einen Teil Ihrer Bewaffnung einzufordern. Bitte kooperieren Sie." Das ist ja lächerlich. Eine Abstimmung deiner Crew führt zur Entscheidung, diesen Leuten eine Lektion zu erteilen.</text>
 
 <!-- FILE: text_blueprints.xml.append -->
 

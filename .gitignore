@@ -1,9 +1,5 @@
 /.idea/*
-/ce_build/*
-/ce_relevant/*
-/dat_relevant/*
-/build_maingame/*
-/twist_mod/*
+/build_env/*
 /out/*
 /run/*
 !/run/text-de.xml
