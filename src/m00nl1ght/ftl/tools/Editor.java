@@ -4,6 +4,9 @@ import javafx.application.Application;
 import javafx.beans.value.ObservableValue;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
 import javafx.scene.control.*;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
@@ -11,8 +14,14 @@ import javafx.stage.Stage;
 import m00nl1ght.ftl.tools.Patcher.TagType;
 import m00nl1ght.ftl.tools.translation.TranslationHelper;
 
+import java.awt.*;
+import java.awt.Desktop.Action;
 import java.io.File;
 import java.io.IOException;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.net.URLEncoder;
+import java.util.List;
 import java.util.*;
 import java.util.function.Predicate;
 
@@ -113,10 +122,13 @@ public class Editor extends Application {
         btnSuggest.setOnAction(event -> this.suggest());
         btnSuggest.disableProperty().setValue(true);
 
+        Button btnLookup = new Button("Lookup");
+        btnLookup.setOnAction(event -> this.lookup());
+
         CheckBox chkMissinOnly = new CheckBox("Only show missing translations");
         chkMissinOnly.setOnAction(event -> this.changeMode(chkMissinOnly));
 
-        box.getChildren().addAll(btnSave, chkMissinOnly, btnSuggest);
+        box.getChildren().addAll(btnSave, chkMissinOnly, btnSuggest, btnLookup);
 
         tree = new TreeView<>();
         tree.setMinSize(-1, 700);
@@ -293,6 +305,18 @@ public class Editor extends Application {
         btnSuggest.textProperty().setValue("Suggest");
         btnSuggest.disableProperty().setValue(false);
         switchScene(mainScene);
+    }
+
+    private void lookup() {
+        String str = langA.getSelectedText();
+        if (str.isEmpty()) return;
+        if (Desktop.isDesktopSupported() && Desktop.getDesktop().isSupported(Action.BROWSE)) {
+            try {
+                Desktop.getDesktop().browse(new URI("https://www.dict.cc/?s=" + URLEncoder.encode(str, "UTF-8")));
+            } catch (IOException | URISyntaxException e) {
+                e.printStackTrace();
+            }
+        }
     }
 
     public static String stripAdds(String str) {
