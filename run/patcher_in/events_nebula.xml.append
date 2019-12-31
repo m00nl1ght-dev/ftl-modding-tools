@@ -3290,6 +3290,7 @@
 
 
 <!-- TE NEBULA EVENTS -->
+
 <event name="NEBULA_STORE">
 	<text load="NEBULA_STORE"/>
 	<environment type="nebula"/>
@@ -3325,8 +3326,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="TE_STORE_NEBULA_ACTUAL">
 	<event>
 		<text>You consider dealing with the trader. This might take some time.</text>
@@ -4169,14 +4168,12 @@
 	</event>
 </eventList>
 
-
 <textList name="STORE_NEBULA_BUY_TEXT">
 	<text>Random ion fields interfere with your magnetic clamps and you only manage to successfully dock after the fourth try. While your crew loads the cargo you have a look at the ship equipment the shop also offers.</text>
 	<text>You write a scrap transfer order. Processing it takes awhile. Loading the cargo takes even longer. You check the ship equipment catalog while waiting.</text>
 	<text>With no scanners you have to manually navigate your ship into a docking vector. You take extra care and extra time. The airlocks finally connect with a hissing sound and the crew starts to load the cargo. While waiting you get a chance to check the ship equipment they offer here.</text>
 	<text>The individuals here get little news about the home worlds and the war and ask a lot of questions. You would prefer to talk business immediately but remain patient. After you seal the deal they also offer you a look at the ship gear they offer.</text>
 </textList>
-
 <textList name="STORE_NEBULA_SELL_TEXT">
 	<text>It takes a while to negotiate a good price. After receiving some scrap as advance you are asked to unload the cargo at the shop to get the rest of your payment.</text>
 	<text>Negotiations lead to a good price, but magnetic interference start to disrupt the comms. You decide to wait and seal the deal. After some time the signal comes back you are asked to unload the cargo at the shop to get fully payed.</text>
@@ -5007,7 +5004,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="TE_STORE_CLEARING_ACTUAL">
 	<event>
 		<text>You consider dealing with the trader. This might take some time.</text>
@@ -5856,7 +5852,6 @@
 	<text>You hand over the crates with the scrap. Loading the cargo takes its time. The cargo drones are in much less of a hurry than you. While waiting you get a chance to check the ship equipment they offer here.</text>
 	<text>To seal the deal you have to give detailed explanations on your trade license and your (fake) ship registration. Everything is double checked. Why is this taking so long? Then the cargo is finally loaded. Slowly. At last you get a chance to look at the ship gear they also offer.</text>
 </textList>
-
 <textList name="STORE_CLEARING_SELL_TEXT">
 	<text>It takes a while to negotiate a good price. After receiving some scrap in advance you are asked to unload the cargo at the shop to get the rest of your payment.</text>
 	<text>You try to negotiate a good price. After receiving some scrap in advance you are asked to unload the cargo at the shop to get the rest of your payment. This all took really long.</text>
@@ -5864,8 +5859,6 @@
 	<text>After time-consuming negotiations you get an advance payment. "You get the rest after you unload the cargo at the shop." They don't seem to trust you much.</text>
 	<text>You pretend that the goods are really worth that much and the trader pretends he isn't really interested. An invitation for some synth tea leads to tough negotiations, but you remain patient. You have to transfer the cargo to the shop to seal the deal.</text>
 </textList>
-
-
 
 <eventList name="TE_STORE_CLEARING_LIST_BOOSTED">
 	<event>
@@ -6657,17 +6650,16 @@
 	</event>
 </eventList>
 
-
 <!-- END OF TE EVENTS -->
 
 
- <!-- SE HAZARD -->
+<!-- SE HAZARD -->
 
- <!-- 
+<!--
 
 IDEAS
 
--encounter with mid fight storm 
+-encounter with mid fight storm
 
 
 -->
@@ -6681,7 +6673,6 @@ IDEAS
 	<event load="PIRATE_NO_ESCAPE"/>
 	<event load="PIRATE_SLAVER"/>
 </eventList>
-
 <eventList name="HOSTILE_HAZARD_ASTEROID">
 	<event load="ROCK_FIGHT_ASTEROID"/>
 	<event load="ROCK_PIRATE_ASTEROID"/>
@@ -6696,7 +6687,6 @@ IDEAS
 	<event load="REBEL_AUTO_HAZARD_ASTEROID"/>
 	<event load="AUTO_WARNING_HAZARD_ASTEROID_INTENSE"/>
 </eventList>
-
 <eventList name="HOSTILE_HAZARD_SUN">
 	<event load="PIRATE_SUN"/>
 	<event load="ROCK_PIRATE_SUN"/>
@@ -6725,7 +6715,6 @@ IDEAS
 	<event load="GHOST_AI_SHIP"/>
 	<event load="BS_EVENT_PIRATE_BLACKMARKET_ASTEROID"/>
 </eventList>
-
 <eventList name="DISTRESS_BEACON_HAZARD">
 	<event load="CIVILIAN_ASTEROIDS_BEACON"/> 
 	<event load="ESCORT_BEACON"/>
@@ -6733,7 +6722,6 @@ IDEAS
 	<event load="TRAP_BEACON"/>
 	<event load="DISTRESS_TRAPPED_MINER"/>
 </eventList>
-
 <eventList name="NEBULA_HAZARD">
 	<event load="NEBULA_EMPTY"/>
 	<event load="NEBULA_LOST_SHIP"/> 
@@ -6756,12 +6744,10 @@ IDEAS
 	<event load="NEBULA_AUTO_CRUISER_CONSTRUCTION"/>
 	<event load="CE_NEBULA_AUTO_AI_BOARDERS"/>
 </eventList>
-
 <eventList name="QUESTS_HAZARD">
 	<event load="QUEST_ESCORT"/>
 	<event load="CE_QUEST_CURATOR_START"/>
 </eventList>
-
 <eventList name="BOARDERS_HAZARD">
 	<event load="BOARDERS"/>
 	<event load="BOARDERS_SUN"/>
@@ -6771,7 +6757,6 @@ IDEAS
 	<event load="CE_BOARDERS_BOUNTYHUNTER"/>
 	<event load="BOARDERS_ASTEROID_AI_GHOST"/>
 </eventList>
-
 <eventList name="ITEMS_HAZARD">
 	<event load="FUEL_FOR_DRONE_AUTO"/>
 	<event load="FIND_DRONE_HAZARD"/>
@@ -6779,7 +6764,6 @@ IDEAS
 	<event load="FREE_ITEMS_HAZARD"/>
 	<event load="FREE_ITEMS_HAZARD"/>
 </eventList>
-
 
 
 
@@ -7097,8 +7081,6 @@ IDEAS
 </textList>
 
 
-
-
 <event name="NOTHING_HAZARD">
 	<text load="NOTHING_HAZARD_TEXT"/>
 		<status type="clear" target="player" system="weapons" amount="100"/>
@@ -7202,6 +7184,7 @@ IDEAS
 	</choice>
 </event>
 
+
 <event name="FREE_ITEMS_HAZARD">
 	<text load="FREE_ITEMS_HAZARD_TEXT"/>
 	<autoReward level="MED">standard</autoReward>
@@ -7224,7 +7207,6 @@ IDEAS
 	<text planet="NONE">After all this, your jump leads to a remarkable binary star system. The view is beautiful, but you cannot help feeling lonely as you know that there must be no settlements within light years. A scan reveals a data cache magnetized onto the beacon. It is labeled "for whom is in need" and contains a drone schematic.</text>
 </textList>
 
-
 <event name="FIND_WEAPON_HAZARD">
 	<text load="FIND_WEAPON_HAZARD_TEXT"/>
 	<autoReward level="LOW">weapon</autoReward>
@@ -7235,6 +7217,7 @@ IDEAS
 	<text>The scorched wreck of a small civilian ship floats nearby. Black box logs indicate they jumped here from within the center of a plasma storm, but their life support failed before their FTL charge sequence was completed. One of their weapons remains usable.</text>
 	<text>Torn up ship hulls float nearby. Scans indicate they have lingered here a long time, the storm has long since moved on. One of the ships was carrying a weapon in a sealed cargo container. You can install it on your ship.</text>
 </textList>
+
 
 <event name="BS_EVENT_PIRATE_SUICIDE_ASTEROID">
 	<environment type="asteroid"/>
@@ -7555,8 +7538,6 @@ IDEAS
 </textList>
 
 
-
-
 <event name="STORM_PIRATE_INTENSE" unique = "true">
 	<text>Lightning strikes the hull and sparks fly out of your console. The ship experiences power distribution failure in all systems. You jumped right into the center of the sector-wide plasma anomaly! The perfect storm... A pirate ship was waiting here and moves in to attack. This outlaw crew must be completely nuts.</text>
 	<ship load="PIRATE_PERFECT_STORM" hostile="true"/>
@@ -7736,13 +7717,11 @@ IDEAS
 	<text planet="NONE" back="BG_WARNING_BLACKHOLE">By traveling here you earned yourself the rare opportunity to see a black hole up close.</text>
 	<text planet="NONE" back="BG_WARNING_BLACKHOLE">This jump node has been long forgotten and over time drifted dangerously close to one of the sector's black holes.</text>
 </textList>
-
 <textList name ="HAZARD_BLACKHOLE_NOTHING_WAIT_TEXT">
 	<text>Time is passing considerably more slowly in the bow of the ship, a fact the crew uses to play pranks on each other. You will need some extra fuel to escape the black hole's gravitational pull.</text>
 	<text>Unfortunately, its pull severely hinders FTL travel and you will need some extra fuel to get away from the the gravitational phenomena.</text>
 	<text>You will need some more fuel than usual to escape the strong gravitational field.</text>
 </textList>
-
 <event name="HAZARD_BLACKHOLE_ZOLTAN" unique="true">
 	<img planet="NONE" back="BG_WARNING_BLACKHOLE"/>
 	<text planet="NONE" back="BG_WARNING_BLACKHOLE">A Zoltan ship lingers dangerously close to this growing black hole. They message you, "Sorry, this is not for you. We will fire on you until you leave. Or kill us." They load weapons.</text>
@@ -7819,6 +7798,7 @@ IDEAS
 	</choice>
 </event>
 
+
 <event name="STORM_EMPTY">
 	<text load = "STORM_EMPTY_TEXT"/>
 	<environment type="storm"/>
@@ -7889,8 +7869,6 @@ IDEAS
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 </event>
-
-
 <event name="CRYSTAL_UNLOCK_HAZZARD" unique="true">
 	<text>The unknows ship sustained more damage than you though. It's crystaline hull is pierced in many places and oxygen leaks through the cracks. It has substantially altered it's appearance as well. You detect no livesigns aboard.</text>
 	<environment type="asteroid"/>
@@ -7906,9 +7884,6 @@ IDEAS
 		</event>
 	</choice>
 </event>
-
-
-			
 <eventList name="CRYSTAL_UNLOCK_HAZZARD_LIST">
 	<event>
 		<text>You send some crew aboard to explore. Nearly everything is either destroyed or unidentifiable, but one of the weapons appears salvageable and there's a strange stasis pod that catches your eye.</text>
@@ -7964,7 +7939,6 @@ IDEAS
 		</choice>
 	</event>
 </eventList>
-
 
 
 <event name="PIRATE_ASTEROID_HAZARD">
@@ -8411,7 +8385,6 @@ IDEAS
 	<text>A small Rebel scout is bombarded with asteroids at this beacon. Its AI immediately identifies you as a threat and it engages.</text>
 </textList>
 
-
 <event name="AUTO_WARNING_HAZARD_ASTEROID_INTENSE" unique = "true">
 	<img back="BG_WARNING_PROXIMITY_ASTEROID" planet="NONE"/>
 	<text>Multiple proximity warnings go off as you arrive in the center of the asteroid field that stretches through the entire sector. Huge rocks with noticeable gravitational pull circle each other close. They will form a new planet in a few million years time.</text>
@@ -8586,7 +8559,6 @@ IDEAS
 		</event>
 	</choice>  
 </event>
-
 
 <event name="GHOST_AI_SHIP" unique="true">
 	<img planet="NONE"/>
@@ -8878,9 +8850,6 @@ IDEAS
 		</choice>
 	</event>
 </eventList>
-
-
-
 <eventList name="TE_STORE_HAZARD_ACTUAL">
 	<event>
 		<text>You consider dealing with the trader. This might take some time.</text>
@@ -9667,13 +9636,11 @@ IDEAS
 	</event>
 </eventList>
 
-
 <textList name="STORE_HAZARD_BUY_TEXT">
 	<text>You write a scrap transfer order. Processing it takes awhile. Loading the cargo takes even longer. You check the ship equipment catalog while waiting.</text>
 	<text>You hand over the crates with the scrap. Loading the cargo takes its time, probably because half of the cargo drones just monitor the transaction with guns charged to ensure security. While waiting you get a chance to check the ship equipment they offer here.</text>
 	<text>Random ion fields interfere with your magnetic clamps and you only manage to successfully dock after the fourth try. While your crew loads the cargo you have a look at the ship equipment the shop also offers.</text>
 </textList>
-
 <textList name="STORE_HAZARD_SELL_TEXT">
 	<text>It takes a while to negotiate a good price. After receiving some scrap as advance you are asked to unload the cargo at the shop to get the rest of your payment.</text>
 	<text>You try to haggle but the trader does not seem to trust you much. It takes long to reach an agreement and you still have to unload the cargo at the shop to receive the rest of your payment.</text>
@@ -9681,7 +9648,6 @@ IDEAS
 	<text>After time-consuming haggling you reach an agreement. These backwater sector persons have no idea about current prices. You have to unload the cargo at the shop to receive the rest of your payment.</text>
 	<text>After time-consuming negotiations you get an advance payment. "You get the rest after you unload the cargo at the shop." They don't seem to trust you much.</text>
 </textList>
-
 
 <eventList name="TE_STORE_HAZARD_LIST_BOOSTED">
 	<event>
