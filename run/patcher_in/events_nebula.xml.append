@@ -10749,7 +10749,6 @@ IDEAS
 	</choice>
 </event>
 
-
 <event name="START_BEACON_INDUSTRIAL_ACTUAL">
 	<text load="START_BEACON_INDUSTRIAL_TEXT"/>
 	<environment type="PDS" target="enemy"/>
@@ -10847,6 +10846,7 @@ IDEAS
 </textList>
 
 
+
 <eventList name="CE_BOUNTY_LIST_INDUSTRIAL">
 	<event> <!-- Pirate Raider -->
 		<text>Its the usual deal: A small backwater colony is terrorized by a local raider. The farmers collected a meager amount of ship scrap as payment and put a bounty on the pirate's head, seemingly the only way they see to escape their peril. Target: Unknown Pirate Craft. Payment: Low.</text>
@@ -10877,8 +10877,6 @@ IDEAS
 		<quest event="CE_BOUNTY_CORPORATE"/>
 	</event>
 </eventList>
-
-
 
 <event name="NOTHING_INDUSTRIAL">
 	<text load="NOTHING_INDUSTRIAL_TEXT"/>
@@ -10970,6 +10968,8 @@ IDEAS
 	<text>You come across an automated shipyard, lying abandoned in space. You manage to reactivate the facility and have it perform some minor repairs on your ship before it breaks down entirely.</text>
 	<damage amount="5"/>
 </event>
+
+
 
 <event name="NEBULA_INDUSTRIAL_ACID_AUTO">
 	<text load="NEBULA_INDUSTRIAL_ACID_TEXT"/>
@@ -11088,7 +11088,6 @@ IDEAS
 	<text planet="NONE" back="BG_NEBULA_WARNING_ACID">You jumped to a far reaching fusion-residue dump yard. The acidic substances have reached such a high concentration that they will even damage ship plating.</text>
 </textList>
 
-
 <event name="NEBULA_INDUSTRIAL_ACID_AUTO_WARNING">
 	<text load="NEBULA_INDUSTRIAL_ACID_TEXT"/>
 	<status type="limit" target="player" system="sensors" amount="0"/>
@@ -11196,7 +11195,6 @@ IDEAS
 		</event>
 	</choice>
 </event>
-
 
 <event name="NEBULA_INDUSTRIAL_ACID_REBEL">
 	<text load="NEBULA_INDUSTRIAL_ACID_TEXT"/>
@@ -11704,7 +11702,6 @@ IDEAS
 	<text planet="NONE" back="BG_NEBULA_WARNING_RADIATION">This jump node has been marked as a dumping site for old ship reactors. The silence in the yellowish shimmer is almost unbearable, but you are not relieved when it is broken by the staccato tak-tak's emitted by your radiation counter. High radiation levels detected!</text>
 </textList>
 
-
 <event name="NEBULA_INDUSTRIAL_RADIATION_BOARDERS">
 	<text load="NEBULA_INDUSTRIAL_RADIATION_BOARDERS_TEXT"/>
 	<status type="limit" target="player" system="sensors" amount="0"/>
@@ -11782,8 +11779,6 @@ IDEAS
 	<text planet="NONE" back="BG_NEBULA_WARNING_RADIATION">You jump into a highly irradiated part of the smog cloud. The shielding will not provide enough protection against this hazard. It also does not protect you against the local mutants that target you with their teleporter.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_RADIATION">A pirate crew is mad enough to ambush people right within this radiation cloud. They try to beam aboard and want to finish you before the radiation does.</text>
 </textList>
-
-
 
 <event name="NEBULA_INDUSTRIAL_ACID_BOARDERS" unique="true">
 	<text load="NEBULA_INDUSTRIAL_ACID_TEXT"/>
@@ -11873,7 +11868,6 @@ IDEAS
 	<text planet="NONE" back="BG_NEBULA_WARNING_ACID">Acid eats away at you hull while you wait for the FTL to charge. A local pirate crew is mad enough to ambush people right within the acid cloud. They try to beam aboard and want to finish you before the acid does.</text>
 </textList>
 
-
 <event name="NEBULA_INDUSTRIAL_RADIATION_FREE_ITEMS">
 	<text load="NEBULA_INDUSTRIAL_RADIATION_FREE_ITEMS_TEXT"/>
 	<status type="limit" target="player" system="sensors" amount="0"/>
@@ -11907,6 +11901,8 @@ IDEAS
 	<text planet="NONE" back="BG_NEBULA_WARNING_RADIATION">It seems this jump node was built for a small scale salvage yard. Their heavily radiation shielded beam drones are busy cutting a squadron of outdated Federation bombers into recyclable hunks of scrap. You are allowed to pick through the excess that the company has no use for.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_RADIATION">Nothing greets you here but heavily irradiated yellow mist and a few lost cargo containers among derelict ship hulls. Scans show the crates hold some usable parts. You doubt anyone else will come to pick this stuff up anytime soon.</text>
 </textList>
+
+
 
 <event name="NEBULA_INDUSTRIAL_SMOG_LOW_REBEL">
 	<text load="NEBULA_INDUSTRIAL_SMOG_LOW_REBEL_TEXT"/>
@@ -12090,8 +12086,6 @@ IDEAS
 	<text planet="NONE" back="BG_NEBULA_WARNING_DUST">The space around this beacon is saturated with industrial dust. The node itself is flagged as "Private Property of Waypoint-Junta". Corporate security here shoots on sight.</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_DUST">A assault ship with corporate markings hails you, "This beacon lies within a restricted R and D area. Trespassers will be shot." You try to reason but they just open fire.</text>
 </textList>
-
-
 
 <event name="NEBULA_INDUSTRIAL_SMOG_MED_PIRATE">
 	<text load="NEBULA_INDUSTRIAL_SMOG_LOW_PIRATE_TEXT"/>
@@ -12457,6 +12451,7 @@ IDEAS
 </event>
 
 
+
 <event name="INDUSTRIAL_CORPORATION">
 	<text load="INDUSTRIAL_CORP_TEXT"/>
 	<ship load="CE_CORPORATION" hostile="true"/>
@@ -12580,7 +12575,6 @@ IDEAS
 	<text>An automated message from a station nearby arrives, "Greetings, worker/trader/manager. This sector is now under Rebel control. Business will continue as usual. Please..." The station was scanning you and immediately ceases communication upon identifying your ship.</text>
 </textList>
 
-
 <event name="BS_EVENT_CORP_AUGMENTED"> <!-- hostile -->
 	<text load="BS_EVENT_CORP_TEXT"/>
 	<ship load="BS_CORP_OUTPOST" hostile="true"/>
@@ -12589,6 +12583,8 @@ IDEAS
 		<event load="CE_ENEMY_COMBATAUG_RANDOM"/>
 	</choice>
 </event>
+
+
 
 <eventList name="CE_ACID_FIGHT_LIST">
 	<event>
@@ -12644,12 +12640,12 @@ IDEAS
 		<damage amount="0" system="random" effect="breach"/>  <!--DLC-->
 	</event>
 </eventList>
-
 <textList name="CE_ACID_FIGHT_TEXT">
 	<text>The fighting brought you into a much denser part of the acid cloud. The caustic substances took their toll on your plating and start causing considerable damage.</text>
 	<text>Blobs of fluid acid splash against your ship as you try to outmaneuver your opponent. This will leave a mark.</text>
 	<text>Sirens glare all over the ships. The acid has etched it's way through the outer walls.</text>
 </textList>
+
 
 <event name="STORE_INDUSTRIAL">
 	<text load="STORE_INDUSTRIAL_TEXT"/>
@@ -12683,7 +12679,6 @@ IDEAS
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="TE_STORE_INDUSTRIAL_ACTUAL">
 	<event>
 		<text>You consider dealing with the trader. This might take some time.</text>
@@ -13525,7 +13520,6 @@ IDEAS
 	<text>Who says machines are the better workers? Watching how slow the corroded cargo drones load your freight is almost painful. At least you can out check the ship equipment they offer here in the meantime.</text>
 	<text>To seal the deal you have to give detailed explanations on your trade license and your (fake) ship registration. Everything is double-checked. Why is this taking so long? Then the cargo is finally loaded, slowly. At least you get a chance to look at the ship gear they also offer.</text>
 </textList>
-
 <textList name="STORE_INDUSTRIAL_SELL_TEXT">
 	<text>It takes a while to negotiate a good price. After receiving some scrap in advance you are asked to unload the cargo at the shop to get the rest of your payment.</text>
 	<text>You try to negotiate a good price. After receiving some scrap in advance you are asked to unload the cargo at the shop to get the rest of your payment. This all took really long.</text>
@@ -13533,8 +13527,6 @@ IDEAS
 	<text>After time-consuming negotiations, you get an advance payment. "You get the rest after you unload the cargo at the shop." They don't seem to trust you much.</text>
 	<text>You pretend that the goods are really worth that much and the trader pretends he isn't really interested. An invitation for some synth tea leads to tough negotiations, but you remain patient. After taking your scrap advance you have to transfer the cargo to the shop to seal the deal.</text>
 </textList>
-
-
 
 <eventList name="TE_STORE_INDUSTRIAL_LIST_BOOSTED">
 	<event>
@@ -14353,8 +14345,8 @@ IDEAS
 	</event>
 </eventList>
 
-
 <!-- END OF SE INDUSTRIAL -->
+
 
 <mod:findLike>
 <mod:findLike>
