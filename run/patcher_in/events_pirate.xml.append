@@ -497,7 +497,6 @@
 		</choice>
 </event>
 
-
 <event name="CE_BOUNTY_ENGI_PIRATE">
 	<text>This is the rogue Engi vessel. You have no idea what they have done to deserve to die, but it is none of your business anyway. The local Engi hive-mind confirms your contract. You move in for the kill.</text>
 	<ship load="CE_SHIP_BOUNTY_ENGI_PIRATE" hostile="true"/> 
@@ -546,7 +545,6 @@
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 </event>
-
 
 <event name="CE_BOUNTY_ENGI_INFECTED">
 	<text>These are the deranged Engi you've been looking for. Time to purge their circuits for ever.</text>
@@ -597,7 +595,6 @@
 		</choice>
 </event>
 
-
 <event name="CE_BOUNTY_ZOLTAN_STATION">
 	<text>A station makes contact. "The nature of the day is rotational. The fever is emaciated. The reason is-" These must be the demented Zoltan you are payed to take care of.</text>
 	<ship load="BS_STATION_BOUNTY_ZOLTAN" hostile="true"/>
@@ -646,7 +643,6 @@
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 </event>
-
 
 <event name="CE_BOUNTY_ZOLTAN_AI">
 	<text>You tracked down the AIs gone rogue. Eliminate them before they can escape to collect your payment.</text>
@@ -1383,7 +1379,6 @@
 		<status type="clear" target="player" system="mind" amount="100"/>
 	</event>
 </eventList>
-
 <textList name="PIRATE_FIGHT_DESTROYED">  
 	<text>Your efforts successfully convict these pirates of their terrible crimes. Their destruction is their punishment; your payment is their remains.</text>
 	<text>No longer shall these pirates terrorize the people of this sector; your final volley confirms their demise. You pick what looks useful from the debris before moving on.</text>
@@ -1392,10 +1387,9 @@
 	<text>One last explosion marks their fate as their ship is torn apart.</text>
 </textList>
 
+
+
 <!-- CE MODIFIED VANILLA PIRATE EVENTS -->
-
-
-
 
 <event name="START_BEACON_PIRATE">
 	<!-- <text>You totally travel through hyperspace lol</text> -->
@@ -2023,7 +2017,6 @@
 	<text>The captain of this ship with pirate markings claims to be an official Rebel requisition officer. When you refuse to donate to the Rebellion, the ship cuts comms and moves in to attack.</text>
 </textList>
 
-
 <event name="PIRATE_NO_ESCAPE" unique="true">
 	<text>Once you arrive, your screen lights up with warnings. A nearby pirate seems to have advanced hacking tools and they have tried to shut down our engines. Your crew manages to keep them barely operational and you move in to attack.</text>
 	<status type="limit" target="player" system="engines" amount="1"/>
@@ -2140,7 +2133,6 @@
 	</choice>
 </event>
 
-
 <event name="PIRATE_BRIBER" unique="true">
 	<text load="PIRATE_BRIBER"/>
 	<ship load="PIRATE_BRIBER" hostile="false"/>
@@ -2204,8 +2196,6 @@
 	</choice>
 </event>
 
-
-		
 <event name="PIRATE_CHOICE" unique="false">
 	<img planet="NONE"/>
 	<text>Upon completing your jump, you receive a message from a nearby ship. "Greetings and welcome to our beacon! For a small fee, we'll let you continue on your way."</text>
@@ -2271,7 +2261,6 @@
 		</event>
 	</choice>
 </event>
-
 
 
 <event name="PIRATE_SLAVER">
@@ -2479,8 +2468,6 @@
 		<ship hostile="false"/>
 	</event>
 </eventList>
-
-
 <eventList name="CE_SLAVER_RELEASE_2">
 	<event>
 		<text>This individual has been saved from lifelong imprisonment and forced labor. After hearing about your mission, the former slave offers to join your cause anyway. They want to thank you for their rescue.</text>
@@ -2531,8 +2518,6 @@
 		<ship hostile="false"/>
 	</event>
 </eventList>
-
-
 <eventList name="CE_SLAVER_RELEASE_OLD">
 	<event>
 		<text>This individual has been saved from lifelong imprisonment and forced labor. After hearing about your mission, the former slave offers to join your cause anyway. They want to thank you for their rescue.</text>
@@ -2605,8 +2590,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="CE_SLAVERY_RESULTS">
 	<event>
 		<text>Several crew members file formal complaints on how you handled this. Was this the wrong course of action?</text>
@@ -2711,8 +2694,6 @@
 	</event>
 </eventList>
 
-
-
 <event name="FAMILY_RETURN_SLAVERY_REVENGE">
 	<img planet="PLANET_POPULATED_SMALL"/>
 	<text>You reach the system where the former slave's family lives and locate their home planet.</text>
@@ -2721,7 +2702,6 @@
 		<event load="FAMILY_RETURN_SLAVERY_REVENGE_LIST"/>
 	</choice>
 </event>
-
 <event name="FAMILY_RETURN_SLAVERY">
 	<img planet="PLANET_POPULATED_SMALL"/>
 	<text>You reach the system where the former slave's family lives and locate their home planet.</text>
@@ -2845,7 +2825,6 @@
 		<autoReward level="LOW">scrap_only</autoReward>
 	</event>	
 </eventList>
-
 <eventList name="FAMILY_RETURN_SLAVERY_LIST">
 	<event>
 		<text>The family apparently owns one of the more successful trading fleets here. The patron of the family offers you a substantial reward for the safe return of their relative.</text>
@@ -2860,6 +2839,7 @@
 		<damage amount="-10"/>
 	</event>
 </eventList>
+
 
 <event name="FRIENDLY_SLAVER" unique="true"> <!-- add an event if you kill the crew? -->
 	<ship load="PIRATE_SLAVER" hostile="false"/>
@@ -3087,6 +3067,7 @@
 	</event>
 </eventList>
 
+
 <event name="PIRATE_SUN" unique="true">
 	<img back="BG_DARK"/>
 	<text>This beacon has been placed too close to a super-giant class M star! The ship will gradually overheat until you get out of here... or die. A pirate, apparently oblivious to the danger of the sun, moves in to engage.</text>
@@ -3137,7 +3118,6 @@
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 </event>
-
 <event name="PIRATE_ASTEROID">
 	<img planet="NONE" back="BG_DARK"/>
 	<environment type="asteroid"/>
@@ -3279,7 +3259,6 @@
 		</event>
 	</choice>
 </event>
-
 <event name="BOARDERS_ASTEROID" unique="true">
 	<img back="BG_DARK" planet="NONE"/>
 	<text>You jump into a perilous asteroid field. Worse, sensors show a pirate stronghold has locked onto our ship and is activating a teleporter.</text>
@@ -3298,8 +3277,6 @@
 		</event>
 	</choice>
 </event>
-
-
 
 
 
@@ -3427,7 +3404,6 @@
 		</choice>
 	</event>
 </eventList>
-
 <eventList name="FLOATING_CARGO_SCAN_LIST">
 	<event>
 		<text>The crates appear to contain consumer goods. You can trade this stuff for scrap and also salvage some from the destroyed ship.</text>
@@ -3731,6 +3707,7 @@
 
 <!-- END OF CE MODIFIED VANILLA PIRATE EVENTS -->
 
+
 <event name="CE_BOARDERS_PIRATE_SC" unique="true">
 	<text load="BOARDERS_TEXT"/>
 	<choice req="AE_TELEPORTER_JAMMER" hidden="true">
@@ -3887,7 +3864,6 @@
 	<text>You receive hail from a small station, "Turn off your engines, this is a hold-up! Let's keep it nice and clean; no one has to get hurt here."</text>
 </textList>
 
-
 <event name="BS_EVENT_PIRATE_SUICIDE">
 	<text load="BS_EVENT_PIRATE_SUICIDE_TEXT"/>
 	<ship load="BS_PIRATE_SUICIDE" hostile="true"/>
@@ -3950,7 +3926,6 @@
 	<text>You get hailed by an FTL-core-powered stations: "Welcome to your own private hostile encounter, you are our thirty-sixth customer in this standard year. Prepare to receive your payload."</text>
 </textList>
 
-
 <event name="PIRATE_AUGMENTED" unique="true">
 	<text load="PIRATE"/>
 	<ship load="PIRATE" hostile="true"/>
@@ -3959,7 +3934,6 @@
 		<event load="CE_ENEMY_COMBATAUG_RADIATION_PROJECTOR_PIRATE"/>
 	</choice>
 </event>
-
 
 
 <!-- TE PIRATE EVENTS -->
@@ -3994,7 +3968,6 @@
 	<text planet="PLANET_POPULATED_REAL">An unlicensed zero gravity drug den orbits an illegally settled planet inhabited by outlaws. The perfect place for doing risk-free business.</text>
 	<text>An old cruiser that has been converted into a stationary base ship lingers at this beacon. They seem to be willing to trade with anyone.</text>
 </textList>
-
 <eventList name="TE_STORE_OUTLAW_LIST">
 	<event load="TE_STORE_OUTLAW_ACTUAL"/>
 	<event load="TE_STORE_OUTLAW_ACTUAL"/>
@@ -4008,8 +3981,6 @@
 	</event>
 </eventList>
 
-
-
 <event name="STORE_OUTLAW_TRAP">
 	<text load="STORE_OUTLAW_TEXT"/>
 	<choice hidden="true">
@@ -4018,7 +3989,6 @@
 	</choice>
 	<store/>
 </event>
-
 <eventList name="STORE_OUTLAW_TRAP_LIST">
 	<event>
 		<text load="STORE_OUTLAW_TRAP_TEXT_BOARDERS"/>
@@ -4157,6 +4127,7 @@
 		</choice>
 	</event>
 </eventList>
+
 <textList name="STORE_OUTLAW_TRAP_TEXT_BOARDERS">
 	<text>You don't like this place. Various mean looking types hang around in the docking bay, following you with their gaze. The trader is uncooperative and claims to only trade in ship equipment. Then your personal terminal beeps. "Sir we have a situation here, armed pirates approach the ship, better watch your back out there." You keep your hand on your blaster while browsing the shop.</text>
 	<text>There seems to be no one trading in goods here, only ship equipment is available. While looking at the gear, you see a bunch of pirate goons heading for your ship. What do these guys want?</text>
@@ -5028,20 +4999,17 @@
 	</event>
 </eventList>
 
-
 <textList name="STORE_OUTLAW_BUY_TEXT">
 	<text>You transfer the scrap and they transfer the cargo. While your freight is loaded you have your crew standby as security personnel. The trader brought his own guards as well. The situation is tense, but all goes well. The trader even offers some ship equipment as well.</text>
 	<text>You write a scrap transfer order. Processing it takes awhile. Loading the cargo takes even longer. You check the ship equipment catalog while waiting.</text>
 	<text>You hand over the crates with the scrap. Loading the cargo takes its time, probably because half of the cargo drones just monitor the transaction with guns charged to ensure security. While waiting you get a chance to check the ship equipment they offer here.</text>
 </textList>
-
 <textList name="STORE_OUTLAW_SELL_TEXT">
 	<text>It takes a while to negotiate a good price. After receiving some scrap as advance you are asked to unload the cargo at the shop to get the rest of your payment.</text>
 	<text>Security is tight and all the message encryption doesn't make price negotiation easier. After receiving some scrap as advance you are asked to unload the cargo at the shop to get the rest of your payment. This all took really long.</text>
 	<text>You try to haggle but the trader does not seem to trust you much. It takes long to reach an agreement and you still have to unload the cargo at the shop to receive the rest of your payment.</text>
 	<text>After time-consuming negotiations you get an advance payment. "You get the rest after you unload the cargo at the shop." They don't seem to trust you much.</text>
 </textList>
-
 
 <eventList name="TE_STORE_OUTLAW_LIST_BOOSTED">
 	<event>
@@ -5835,7 +5803,6 @@
 	</event>
 </eventList>
 
-
 <!-- END OF TE PIRATE EVENTS -->
 
 
@@ -6046,7 +6013,6 @@ IDEAS
 	<text planet="PLANET_POPULATED_SMALL">According to the logs, this planet has been taken over by local crime syndicates just recently. Only registered trade ships get permission to land.</text>
 </textList>
 
-
 <event name="CE_PIRATE_HOME_FIGHT">
 	<text load="PIRATE_HOME_FIGHT_TEXT"/>
 	<ship load="PIRATE" hostile="true"/>
@@ -6108,8 +6074,6 @@ IDEAS
 	<text planet="PLANET_POPULATED_SMALL">According to the logs, this planet is a major base for a local smuggler ring. You are hailed before you can even get anywhere near it: "What do you think your doing here, Fed scum? We gonna mess you up good!" They send a small ship against you.</text>
 	<text planet="PLANET_UNPOPULATED">This planet was listed as a save heaven for Federation forces, but obviously the mafias have taken over here as well. The local defenders don't react kindly to ships representing a centralized galactic government.</text>
 </textList>
-
-
 
 <event name="C_PIRATE_HOME_FIGHT_CRUISER">
 	<text load="CE_PIRATE_HOME_FIGHT_CRUISER_TEXT"/>
@@ -6217,8 +6181,6 @@ IDEAS
 	</event>
 </eventList>
 
-
-
 <eventList name="C_DEAD_CREW_PIRATE_CRUISER_DEFAULT">
 	<event>
 		<text>No more life signs are detected on the cruiser, the pirates are all dead. You dock and send in a salvage team.</text>
@@ -6254,6 +6216,7 @@ IDEAS
 		<autoReward level="LOW">weapon</autoReward>
 	</event>
 </eventList>
+
 
 <event name="C_QUEST_PIRATE_HOME_RIVALRY" unique="true">
 	<img back="BACKGROUND" planet="PLANET_POPULATED_REAL"/>
@@ -6327,7 +6290,6 @@ IDEAS
 			</event>
 		</choice>
 </event>
-
 
 <event name="C_QUEST_PIRATE_HOME_RIVALRY_LORD">
 	<img back="BACKGROUND" planet="PLANET_POPULATED_REAL"/>
@@ -6445,14 +6407,12 @@ IDEAS
 				</choice>
 </event>
 
-
 <event name="C_QUEST_PIRATE_HOME_RIVALRY_REWARD">
 	<img back="BG_DARK" planet="NONE"/>
 	<text>You arrive at the coordinates given to you by the Claret Skulls agent. The beacon is located in empty space far away from any populated systems. Regardless, you pick up an X shaped radiation signature. It leads to a small treasure cache, containing supplies and a weapon.</text>
 	<autoReward level="MED">stuff</autoReward>
 	<weapon name="RANDOM"/>
 </event>
-
 
 <event name="C_QUEST_PIRATE_HOME_RIVALRY_LORD_LADY_KILLED">
 	<img back="BACKGROUND" planet="PLANET_POPULATED_REAL"/>
@@ -6518,8 +6478,8 @@ IDEAS
 				</choice>
 </event>
 
-
  <!-- END OF SE PIRATE HOME -->
+
 <mod:findLike>
 <mod:findLike>
 	<mod:findLike type="choice">
