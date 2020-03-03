@@ -21,11 +21,12 @@ public class TranslationHelper {
     private static final Pattern FULL_SPLIT_PATTERN = Pattern.compile("[.?!:\"]");
     private static final double THRESHOLD_SECTIONS = 0.5D;
     private static final double THRESHOLD_COMPOUND = 0.6D;
+    private static final int SECTIONS_MAX = 8;
 
     private final Map<String, String> dictionary = new HashMap<>();
     private final List<VBox> boxes = new ArrayList<>(10);
     private final List<TextArea> textAreas = new ArrayList<>(10);
-    private final List<ComboBox<Suggestion>> comboBoxes = new ArrayList<>(10);
+    private final List<ComboBox<Suggestion>> comboBoxes = new ArrayList<>(SECTIONS_MAX);
     private final Consumer<String> callback;
     private final List<String> sections = new ArrayList<>();
     private final List<String> splits = new ArrayList<>();
@@ -45,7 +46,7 @@ public class TranslationHelper {
         pane.setSpacing(15);
 
         mainBox.setSpacing(15);
-        for (int i = 0; i < 8; i++) {
+        for (int i = 0; i <= SECTIONS_MAX; i++) {
             final VBox box = new VBox();
             box.setSpacing(5);
             boxes.add(box);
@@ -82,7 +83,7 @@ public class TranslationHelper {
                 GoogleTranslate.translate("en", "de", query));
 
         split(query, sections, splits);
-        for (int i = 0; i < sections.size() && i < 8; i++) {
+        for (int i = 0; i < sections.size() && i <= SECTIONS_MAX; i++) {
             final String str = sections.get(i);
             textAreas.get(i).setText(str);
             final ComboBox<Suggestion> comboBox = comboBoxes.get(i);
@@ -100,7 +101,7 @@ public class TranslationHelper {
             split(gtResult, gtSections, null);
             if (gtSections.size() == sections.size()) {
                 boolean quoted = false;
-                for (int i = 0; i < sections.size() && i < 8; i++) {
+                for (int i = 0; i < sections.size() && i <= SECTIONS_MAX; i++) {
                     if (splits.get(i).contains("\"")) quoted = !quoted;
                     final String str = GoogleTranslate.tuneSection(gtSections.get(i), quoted);
                     final ComboBox<Suggestion> comboBox = comboBoxes.get(i);
@@ -126,7 +127,7 @@ public class TranslationHelper {
     public String getResult() {
         final StringBuilder builder = new StringBuilder();
 
-        for (int i = 0; i < sections.size(); i++) {
+        for (int i = 0; i < sections.size() && i <= SECTIONS_MAX; i++) {
             builder.append(splits.get(i));
             ComboBox<Suggestion> comboBox = comboBoxes.get(i);
             int sel = comboBox.getSelectionModel().getSelectedIndex();
@@ -136,6 +137,7 @@ public class TranslationHelper {
         }
 
         if (splits.size() > sections.size()) builder.append(splits.get(sections.size()));
+        if (sections.size() > SECTIONS_MAX) builder.append(" <.!.>");
         return builder.toString().trim();
     }
 

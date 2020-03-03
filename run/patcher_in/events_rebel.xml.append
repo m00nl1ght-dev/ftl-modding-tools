@@ -104,7 +104,6 @@
 		<autoReward level="MED">standard</autoReward>
 	</event>
 </eventList>
-
 <textList name="REBEL_FIGHT_DESTROYED">  
 	<text>Your crew breathes a sigh of relief as you successfully repel and destroy this Rebel pursuer. You salvage its wreckage and prepare to move on.</text>
 	<text>Another group of Rebel officers meets their end by the hand of their prime target, their wreckage only further fueling your escape.</text>
@@ -145,7 +144,6 @@
 		<status type="clear" target="player" system="mind" amount="100"/>
 	</event>
 </eventList>
-
 <textList name="AUTO_FIGHT_DESTROYED">  
 	<text>Another automated ship is sent to the scrapyard as it breaks apart. You salvage what looks usable from its remains before pressing onwards.</text>
 	<text>The AI of the automated scout remains online for a brief moment after its host ship explodes before shutting down for good, unconscious as its remains are looted.</text>
@@ -153,6 +151,7 @@
 	<text>These sentient nuisances just keep on coming; with each one you destroy, there is sure to be many to replace it. You quickly scrap the ship and prepare to jump.</text>
 	<text>This AI wasn't smart enough to outwit your more natural instincts, its destruction a sign of that discovery. You collect what seems useful from its remains before leaving.</text>
 </textList>
+
 
 <!-- CE MODIFIED VANILLA REBEL EVENTS -->
 
@@ -239,8 +238,6 @@
 	<text planet="NONE">There are no other ships near this beacon, however you detect a small communications relay. You tap into it without a problem; there are no encryptions. Most of the chatter revolves around troop and fleet movements, nothing particularly interesting.</text>
 	<text planet="PLANET_POPULATED_SMALL">There is a small planet nearby with scattered settlements. A small Rebel fleet is in orbit with many ships ferrying back and forth. It must be a recently 'liberated' planet.</text>
 </textList>
-
-
 
 
 <event name="START_BEACON_REBEL">
@@ -460,7 +457,6 @@
 		</event>
 	</choice>
 </event>
-
 
 <event name="START_BEACON_REBEL_ACTUAL">
 	<text load="START_BEACON_REBEL"/>
@@ -909,7 +905,6 @@
 		</event>
 	</choice>
 </event>
-
 <event name="AUTO_REFUEL_STATION" unique="true">  
 	<img planet="PLANET_POPULATED_SMALL"/>
 	<text>You detect an automated Rebel scout attacking a small refueling outpost. </text>
@@ -1099,8 +1094,6 @@
 	</event>
 </eventList>
 
-
-
 <event name="AUTO_DEFENSE_ITEM" unique="true">
 	<text>An advanced Rebel automated ship remains stationed near a small Rebel space station. Sensors indicate it's a storage vessel for military goods.</text>
 	<ship load="REBEL_AUTO_ITEM" hostile="false"/>
@@ -1221,7 +1214,6 @@
 		</choice>
 	</event>
 </eventList>
-
 
 <event name="AUTO_DEFENSE_RADAR" unique="true">
 	<text>A Rebel automated ship sits dormant near a Rebel forward radar station.</text>
@@ -1503,8 +1495,6 @@
 	<text>You receive a message on a low-band channel. "You're surrounded, just like the last of your Federation friends. Just die already." The enemy has teleported onto our ship!</text>
 	<text>As you arrive, you become aware of a small Rebel outpost near the beacon. You are hardly able to bark an order before you detect a teleporter charging and a ship moving in. They must have been expecting you...</text>
 </textList>
-
-
 
 
 <event name="AUTO_HACKER" unique="true">
@@ -1899,8 +1889,6 @@
 		<boarders min="2" max="3" class="human"/>
 	</event>
 </eventList>
-
-
 <eventList name="CE_QUEST_REBEL_POW_MEETING">
 	<event>
 		<text>It looks like the Rebels do care little about their own. A military vessel waits for you in what is supposed to be the neutral zone and opens fire the moment you arrive.</text>
@@ -2084,9 +2072,6 @@
 	</event>
 </eventList>
 
-
-
-
 <event name="FLAGSHIP_CONSTRUCTION" unique="true">
 	<text>You arrive at the beacon to find yourself in a huge Rebel shipyard, scaffolding and construction drones filling the sector! The entire system looks devoted to ship construction, the nearby planets and moons ruthlessly mined to harvest resources for a ship of immense size...</text>
 	<choice>
@@ -2148,10 +2133,11 @@
 	</choice>
 </event>
 
-
 <!-- END OF CE MODIFIED VANILLA REBEL EVENTS -->
 
+
 <!-- BS REBEL EVENTS -->
+
 <event name="BS_EVENT_AUTO_SUICIDE">
 	<text load="BS_EVENT_AUTO_SUICIDE_TEXT"/>
 	<ship load="BS_AUTO_SUICIDE" hostile="true"/>
@@ -2489,7 +2475,6 @@
 	</choice>
 </event>
 
-
 <event name="CE_REBEL_AUTO_CRUISER">
 	<text load="CE_REBEL_AUTO_CRUISER_TEXT"/>
 	<ship load="C_AUTO_CRUISER" hostile="true"/>
@@ -2545,7 +2530,6 @@
 	<text>You arrive at what appears to be a garrison for the endless swarms of Rebel auto-ships. Thousands of them lie dormant in space, neatly arranged in parallel lines. While you still consider a bombing run, a guard-cruiser is awakened by your presence. You try to get away but the ship chases you without mercy.</text>
 	<text>A large Auto-cruiser in sleep mode is found at this beacon. You keep a low energy profile and take great care not to awake the mechanic giant. But suddenly you register in incoming FTL burst message, with Rebel encoding! The Rebels have tracked you here and remotely activate their robotic guardian. Looks like you will have to fight.</text>
 </textList>
-
 <textList name="CE_REBEL_AUTO_CRUISER_NAME_TEXT">
 	<text>You receive a final hail before the cruiser commences the attack: "This unit (CruiserNameTag:'Enemy Respawn Fail') has been victorious in more than a hundred engagements against sentient and non-sentient opponents. Statistically you are quite dead already."</text>
 	<text>You are hailed: "Greetings Captain. My name is 'No More Respawn' and I am very happy to meet you. Since my recent birth, I have trained and simulated military engagements. I'm very much violent by nature, one could even say "born to kill", and you are the first organic being I am allowed to engage. This is all very exciting. Defeating you will give me levels of joy you could not even possibly conceive."</text>
@@ -2708,7 +2692,6 @@
 	<text>You retract your weapons, lower the shields and hand over the ship's controls to the Rebel station. The commanding officer is put on the comms, "Interesting, we didn't except this..." ... "Anyway... I'm sorry to bring it to you, but this was a foolish decision." The station fires a full broadside into the mid section of your defenseless ship.</text>
 	<text>You lower your shields and transfer the ship's controls to the Rebels. A small shuttle docks and a marine detachment boards your ship. You hear the muffled sound of pulse-rifles on the lower decks. There is nothing left for you to do but wait for them to enter the bridge. No one comes, instead a sudden explosion that engulfs the whole ship kills you before you can even think about it.</text>
 </textList>
-
 
 <event name="BS_QUEST_REBEL_START" unique="true">
 	<text>A short while after arriving at the beacon you receive a message with multiple encryption layers from a ship that IDs as Federation. You cannot see it around anywhere. "Greetings, friendlies. This is Federation Infiltrator Solid-PXt005."</text>
@@ -3166,7 +3149,6 @@
 	</choice>
 </event>
 
-
 <event name="BS_EVENT_AUTO_AUGMENTED" unique="true">
 	<text load="BS_EVENT_AUTO_TEXT"/>
 	<ship load="BS_AUTO_TURRET" hostile="true"/>
@@ -3175,7 +3157,6 @@
 		<event load="CE_ENEMY_COMBATAUG_AUTO"/>
 	</choice>
 </event>
-
 
 <event name="BS_EVENT_AUTO_AI_BOARDERS" unique="true">
 	<text load="BS_EVENT_AUTO_TEXT"/>
@@ -3225,7 +3206,6 @@
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 </event>
-
 
 <event name="CE_REBEL_AUTO_AI_BOARDERS" unique="true">
 	<text load="REBEL_AUTO"/>
@@ -3277,7 +3257,6 @@
 </event>
 
 
-
 <!-- TE REBEL EVENTS -->
 
 <event name="STORE_REBEL">
@@ -3312,8 +3291,6 @@
 		</choice>
 	</event>
 </eventList>
-
-
 <eventList name="TE_STORE_REBEL_ACTUAL">
 	<event>
 		<text>You consider striking a deal here. This might take some time.</text>
@@ -4160,7 +4137,6 @@
 	<text>You hand over the crates with the scrap. Loading the cargo takes its time. The cargo drones are in much less of a hurry than you. While waiting you get a chance to check the ship equipment they offer here.</text>
 	<text>To seal the deal you have to give detailed explanations on your trade license and your (fake) ship registration. Everything is double checked. Why is this taking so long? Then, the cargo is finally loaded. Slowly. At last, you get a chance to look at the ship gear they also offer.</text>
 </textList>
-
 <textList name="STORE_REBEL_SELL_TEXT">
 	<text>Negotiations are interrupted when a Rebel inspector enters the shop. You are lucky that the trader lets you hide in an equipment closet. Later you take your advance. Better deliver the cargo to the shop and get out of here quick.</text>
 	<text>You have to make stuff up as you go when the trader asks you about your ship and employer. He seems suspicious, but he agrees to pay some scrap in advance. You better unload the cargo at the shop and leave soon.</text>
@@ -4168,8 +4144,6 @@
 	<text>After time-consuming negotiations you get an advance payment. "You get the rest after you unload the cargo at the shop." You hope they don't realize who you are.</text>
 	<text>You pretend that the goods are really worth that much and the trader pretends he isn't really interested. An invitation for some synth tea leads to tough negotiations, but you remain patient. After taking your scrap advance you have to transfer the cargo to the shop to seal the deal.</text>
 </textList>
-
-
 
 <eventList name="TE_STORE_REBEL_LIST_BOOSTED">
 	<event>
@@ -4962,12 +4936,7 @@
 <!-- END OF TE REBEL EVENTS -->
 
 
-
-
-
-
 <!-- SE AUTO EVENTS -->
-
 
 <eventList name="HOSTILE_CONSTRUCTION">
 	<event load="REBEL_AUTO"/>
