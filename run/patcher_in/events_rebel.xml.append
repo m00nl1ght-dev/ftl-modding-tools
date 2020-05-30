@@ -5035,6 +5035,7 @@
 	<event load="CE_FREE_STUFF_AUTO"/>
 </eventList>
 
+
 <event name="START_BEACON_AUTO">
 	<!-- <text>You totally travel through hyperspace lol</text> -->
 	<text load="HYPERSPACE_TEXT"/>
@@ -5253,7 +5254,6 @@
 	</choice>
 </event>
 
-
 <event name="START_BEACON_AUTO_ACTUAL">
 	<text load="START_BEACON_AUTO"/>
 	<environment type="PDS" target="enemy"/>
@@ -5357,7 +5357,6 @@
 	<text>The crew started to wonder where all these Rebel auto-ships come from. Now you know: They were built right here. The machines are in total control of this sector and manage their shipyards autonomously. There is no doubt that they are also instructed to look for you.</text>
 </textList>
 
-
 <eventList name="CE_BOUNTY_LIST_AUTO">
 	<event> <!-- Rebel Commissar -->
 		<text>The wealth of a small but prosperous colony government has become well known to the Rebel fleet. A requisition craft pays them regular visits. The local magistrate wants that ship to disappear. Target: Rebel Requisition Officers. Payment: High.</text>
@@ -5387,7 +5386,6 @@
 		<text>The automated units have shut down the bounty hunter network for this sector. You won't be able to get a contract this time.</text>
 	</event>
 </eventList>
-
 
 
 
