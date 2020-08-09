@@ -5748,8 +5748,6 @@
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
 </event>
-
-
 <event name="CE_REBEL_AUTO_CONSTRUCTION_ASTEROID" unique = "true">
 	<text>You arrive in a mostly depleted asteroid belt. A Rebel construction unit is busy dissembling an old mining base, but then detaches and moves towards you. Attacking you seems to rank high on the constructors priority list.</text>
 	<ship load="CE_REBEL_AUTO_CONSTRUCTION" hostile="true"/>
@@ -5897,7 +5895,6 @@
 	</choice>
 </event>
 
-
 <event name="BS_EVENT_AUTO_CONSTRUCTION">
 	<text load="BS_EVENT_AUTO_CONSTRUCTION_TEXT"/>
 	<ship load="BS_AUTO_TURRET_CONSTRUCTION" hostile="true"/>
@@ -5957,8 +5954,6 @@
 	<text>You receive a hail from a small AI run satellite, "This is an automated message. My data indicates that you are not supposed to be here, I'm forced to engage you."</text>
 	<text planet="PLANET_POPULATED_REAL">Scans show huge orbital factories all around this planet. Even on the surface, most work is done by automated constructs. It is your luck that the Rebels seem to care little about security here; the only thing capable of defending the beacon perimeter is an industrial grade satellite.</text>
 </textList>
-
-
 <eventList name="BS_STATION_AUTO_CONSTRUCTION_DESTROYED">
 	<event>
 		<text>The engineering station ceases functioning. You move in closer to salvage what remains of its construction supplies.</text>
@@ -6072,8 +6067,6 @@
 		</event>
 	</choice>
 </event>
-
-
 <eventList name="REBEL_AUTO_TRANSPORT_DESTROYED">
 	<event>
 		<text>You search the remains of the transporter and discover that it was transporting a batch of military-grade weaponry. One gun somehow remained undamaged in the fight and can easily be mounted on the ship.</text>
