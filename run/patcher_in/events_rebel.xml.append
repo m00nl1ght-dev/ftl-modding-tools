@@ -6512,8 +6512,6 @@
 	<text planet="PLANET_POPULATED_SMALL">You arrive near a planetoid covered with industrial facilities. A few settlers still live among the factories. A huge automated cruiser ascends from the surface and takes defensive position in the outer orbit. The ship is not attacking yet.</text>
 	<text>A tiny moon nearby has been turned into a quarry of galactic proportions. Entire mountain-ranges have been excavated. A small colony on the surface houses the only life forms in the entire system, but an automated cruiser is already mining the planet crust near the humble housing pods. If the machine continues its work apace, the settlers will soon be homeless.</text>
 </textList>
-
-
 <eventList name="C_AUTO_CRUISER_RESCUE_PLANET_LIST">   
 	<event>
 		<text>The settlements inhabitants are not exactly happy with your actions. They fear the Rebels punishment. One of the settlers is so disillusioned with living in this sector that they offer to join your crew.</text>
@@ -6551,7 +6549,6 @@
 		<environment type="PDS" target="player"/>
 	</event>
 </eventList>
-
 
 
 <event name="BS_EVENT_REBEL_AUTO_CONSTRUCTION_DEFENSE_SUPPLY" unique="true">
@@ -6617,9 +6614,6 @@
 		<event load="BS_EVENT_REBEL_AUTO_CONSTRUCTION_DEFENSE_SUPPLY_CLOAK"/> <!-- originally "BS_EVENT_AUTO_DEFENSE_SUPPLY" edited: m00nl1ght_dev -->
 	</choice>
 </event>
-
-
-
 <eventList name="BS_EVENT_REBEL_AUTO_CONSTRUCTION_DEFENSE_SUPPLY_CLOAK"> <!-- originally "BS_EVENT_AUTO_DEFENSE_SUPPLY" edited: m00nl1ght_dev - probably unintended override -->
 	<event>
 		<text>After an initial thrust you activate the ship's cloak and drift towards the station. The satellite seems to register that something is wrong, it broadens its scanning range, but isn't able to detect you.</text>
@@ -6706,6 +6700,8 @@
 		<augment name="TE_GOODS_GIRDERS"/>
 	</event>
 </eventList>
+
+
 <event name="BS_QUEST_REBEL_TRANSPORT_AUTO" unique="true">
 	<img planet="NONE"/>
 	<text>You successfully tracked down the automated transport that carries equipment from the supply depot.</text>
@@ -6830,8 +6826,6 @@
 </textList>
 
 
-
-
 <event name="NEBULA_INDUSTRIAL_SMOG_MED_AUTO_CONSTRUCTION_SHIPYARD">
 	<text load="NEBULA_INDUSTRIAL_SMOG_MED_AUTO_CONSTRUCTION_SHIPYARD_TEXT"/>
 	<status type="limit" target="player" system="engines" amount="3"/>
@@ -6888,8 +6882,6 @@
 	<text planet="NONE" back="BG_NEBULA_WARNING_DUST">The shields crackle as you jump into another deeply polluted part of the sector. A Rebel construction satellite is welding together an auto scout nearby. The unit immediately stops its work upon detecting you and sends a threatening text: "This is an automated message. Construction units in this sector are programmed to engage any non-Rebel crafts they encounter. Leave or be eradicated."</text>
 	<text planet="NONE" back="BG_NEBULA_WARNING_DUST">You jump into a thick dust cloud and discover an AI controlled construction satellite ahead. Most likely it is responsible for the pollution in this region, it must have constructed hundreds of ships here already. The unit is well armed and identifies you as hostile.</text>
 </textList>
-
-
 
 
 <event name="NEBULA_INDUSTRIAL_SMOG_MED_AUTO_CONSTRUCTION_SHIPYARD_OCCUPIED">
@@ -7326,6 +7318,7 @@
 
 
 <!-- END OF SE AUTO EVENTS -->
+
 <mod:findLike>
 <mod:findLike>
 	<mod:findLike type="choice">
