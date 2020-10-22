@@ -16,14 +16,18 @@ import m00nl1ght.ftl.tools.translation.TranslationHelper;
 
 import java.awt.*;
 import java.awt.Desktop.Action;
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URLEncoder;
+import java.nio.file.Files;
 import java.util.List;
 import java.util.*;
 import java.util.function.Predicate;
+import java.util.stream.Collectors;
 
 public class Editor extends Application {
 
@@ -128,7 +132,13 @@ public class Editor extends Application {
         CheckBox chkMissinOnly = new CheckBox("Only show missing translations");
         chkMissinOnly.setOnAction(event -> this.changeMode(chkMissinOnly));
 
-        box.getChildren().addAll(btnSave, chkMissinOnly, btnSuggest, btnLookup);
+        Button btnExport = new Button("Export Slice");
+        btnExport.setOnAction(event -> this.exportSlice());
+
+        Button btnImport = new Button("Import Slice");
+        btnImport.setOnAction(event -> this.importSlice());
+
+        box.getChildren().addAll(btnSave, chkMissinOnly, btnSuggest, btnLookup, btnExport, btnImport);
 
         tree = new TreeView<>();
         tree.setMinSize(-1, 700);
@@ -369,6 +379,49 @@ public class Editor extends Application {
         primaryStage.setWidth(w);
         primaryStage.setHeight(h);
         primaryStage.setMaximized(maximized);
+    }
+
+    private static final int SLICE_SIZE = 25;
+    private static final String SLICE_FILE = "slice.txt";
+
+    public void exportSlice() {
+
+        final List<LangEntry> missing = MAP.values().stream()
+                .filter(e -> e.translation.isEmpty() || e.translation.endsWith(") ")).collect(Collectors.toList());
+
+        try (final BufferedWriter writer = new BufferedWriter(new FileWriter(SLICE_FILE))) {
+            for (int i = 0; i < SLICE_SIZE && i < missing.size(); i++) {
+                final LangEntry entry = missing.get(i);
+                final String from = stripAdds(entry.value);
+                writer.append(from);
+                writer.newLine();
+                writer.newLine();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+    }
+
+    public void importSlice() {
+
+        final List<LangEntry> missing = MAP.values().stream()
+                .filter(e -> e.translation.isEmpty() || e.translation.endsWith(") ")).collect(Collectors.toList());
+
+        try {
+            final List<String> lines = Files.readAllLines(new File(SLICE_FILE).toPath());
+            int i = 0; for (final String line : lines) {
+                if (line.isEmpty()) continue;
+                if (i >= missing.size()) break;
+                final LangEntry entry = missing.get(i);
+                if (!entry.translation.isEmpty()) throw new IllegalStateException();
+                entry.translation = copyAdds(entry.value, line.trim());
+                i++;
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
     }
 
 }
