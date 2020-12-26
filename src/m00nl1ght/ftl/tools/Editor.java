@@ -48,6 +48,7 @@ public class Editor extends Application {
     private TreeView<LangEntry> tree;
     private TextArea langA, langB;
     private Button btnSuggest;
+    private CheckBox chkOnlineMode;
     private Scene mainScene;
     private Stage primaryStage;
 
@@ -132,13 +133,15 @@ public class Editor extends Application {
         CheckBox chkMissinOnly = new CheckBox("Only show missing translations");
         chkMissinOnly.setOnAction(event -> this.changeMode(chkMissinOnly));
 
+        chkOnlineMode = new CheckBox("Online mode");
+
         Button btnExport = new Button("Export Slice");
         btnExport.setOnAction(event -> this.exportSlice());
 
         Button btnImport = new Button("Import Slice");
         btnImport.setOnAction(event -> this.importSlice());
 
-        box.getChildren().addAll(btnSave, chkMissinOnly, btnSuggest, btnLookup, btnExport, btnImport);
+        box.getChildren().addAll(btnSave, btnSuggest, btnLookup, btnExport, btnImport, chkMissinOnly, chkOnlineMode);
 
         tree = new TreeView<>();
         tree.setMinSize(-1, 700);
@@ -296,7 +299,7 @@ public class Editor extends Application {
 
         final String sel = langA.getSelectedText();
         final String query = sel.isEmpty() ? langA.getText() : sel;
-        helper.setQuery(stripAdds(query));
+        helper.setQuery(stripAdds(query), chkOnlineMode.isSelected());
         switchScene(helper.getScene());
     }
 

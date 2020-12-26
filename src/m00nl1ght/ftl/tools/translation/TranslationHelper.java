@@ -75,12 +75,9 @@ public class TranslationHelper {
         return new Scene(pane);
     }
 
-    public void setQuery(String query) {
+    public void setQuery(final String query, boolean online) {
         mainBox.getChildren().clear();
         sections.clear(); splits.clear();
-
-        CompletableFuture<String> gtTask = CompletableFuture.supplyAsync(() ->
-                GoogleTranslate.translate("en", "de", query));
 
         split(query, sections, splits);
         for (int i = 0; i < sections.size() && i <= SECTIONS_MAX; i++) {
@@ -95,24 +92,31 @@ public class TranslationHelper {
 
         Suggestion fullSg = lookupBest(query, THRESHOLD_COMPOUND);
 
-        try {
-            String gtResult = gtTask.get();
-            List<String> gtSections = new ArrayList<>();
-            split(gtResult, gtSections, null);
-            if (gtSections.size() == sections.size()) {
-                boolean quoted = false;
-                for (int i = 0; i < sections.size() && i <= SECTIONS_MAX; i++) {
-                    if (splits.get(i).contains("\"")) quoted = !quoted;
-                    final String str = GoogleTranslate.tuneSection(gtSections.get(i), quoted);
-                    final ComboBox<Suggestion> comboBox = comboBoxes.get(i);
-                    comboBox.getItems().add(new Suggestion(sections.get(i), str.trim(), -1F));
-                    comboBox.getSelectionModel().select(0);
+        if (online) {
+
+            CompletableFuture<String> gtTask = CompletableFuture.supplyAsync(() ->
+                    GoogleTranslate.translate("en", "de", query));
+
+            try {
+                String gtResult = gtTask.get();
+                List<String> gtSections = new ArrayList<>();
+                split(gtResult, gtSections, null);
+                if (gtSections.size() == sections.size()) {
+                    boolean quoted = false;
+                    for (int i = 0; i < sections.size() && i <= SECTIONS_MAX; i++) {
+                        if (splits.get(i).contains("\"")) quoted = !quoted;
+                        final String str = GoogleTranslate.tuneSection(gtSections.get(i), quoted);
+                        final ComboBox<Suggestion> comboBox = comboBoxes.get(i);
+                        comboBox.getItems().add(new Suggestion(sections.get(i), str.trim(), -1F));
+                        comboBox.getSelectionModel().select(0);
+                    }
+                } else if (fullSg == null) {
+                    fullSg = new Suggestion("", GoogleTranslate.tune(gtResult), -1F);
                 }
-            } else if (fullSg == null) {
-                fullSg = new Suggestion("", GoogleTranslate.tune(gtResult), -1F);
+            } catch (InterruptedException | ExecutionException e) {
+                e.printStackTrace();
             }
-        } catch (InterruptedException | ExecutionException e) {
-            e.printStackTrace();
+
         }
 
         if (fullSg != null) {
