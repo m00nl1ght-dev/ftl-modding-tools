@@ -801,7 +801,7 @@
 <mod:findName type="weaponBlueprint" name="MISSILE_CHARGEGUN">
 	<mod-overwrite:title>Swarm Missiles Mark II</mod-overwrite:title>
 	<mod-overwrite:short>Swarm M. II</mod-overwrite:short>
-	<mod-overwrite:desc>If given time to prepare, the 'Swarm' launcher can replicate multiple warheads.</mod-overwrite:desc>
+	<!-- <mod-overwrite:desc>If given time to prepare, the 'Swarm' launcher can replicate multiple warheads.</mod-overwrite:desc> -->
 </mod:findName>
 <mod:findName type="droneBlueprint" name="COMBAT_BEAM_2">
 	<mod-overwrite:title>Beam Combat Drone Mark II</mod-overwrite:title>

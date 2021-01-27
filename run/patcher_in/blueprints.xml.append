@@ -16364,24 +16364,24 @@
 <mod:findName type="weaponBlueprint" name="BA_MISSILES_ONI">
 	<mod-overwrite:title>Oni Missile Launcher</mod-overwrite:title>
 	<mod-overwrite:short>Oni M.</mod-overwrite:short>
-	<mod-overwrite:desc>High-tech launcher that scrambles the targeting systems of basic defense drones.</mod-overwrite:desc>
+	<!-- <mod-overwrite:desc>High-tech launcher that scrambles the targeting systems of basic defense drones.</mod-overwrite:desc> -->
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_MISSILES_IFRIT">
 	<mod-overwrite:title>Ifrit Missile Launcher</mod-overwrite:title>
 	<mod-overwrite:short>Ifrit M.</mod-overwrite:short>
-	<mod-overwrite:desc>Brilliantly designed stealth launcher that fires four missiles for the cost of one.</mod-overwrite:desc>
+	<!-- <mod-overwrite:desc>Brilliantly designed stealth launcher that fires four missiles for the cost of one.</mod-overwrite:desc> -->
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_MISSILES_SWARM_1">
 	<mod-overwrite:short>Ogre M.</mod-overwrite:short>
-	<mod-overwrite:desc>Basic swarm battery that deals 2 damage to hull, but only half to systems and crew.</mod-overwrite:desc>
+	<!-- <mod-overwrite:desc>Basic swarm battery that deals 2 damage to hull, but only half to systems and crew.</mod-overwrite:desc> -->
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_MISSILES_SWARM_2">
 	<mod-overwrite:short>Leviathan M.</mod-overwrite:short>
-	<mod-overwrite:desc>Heavy swarm battery that deals 3 damage to hull, but much less to systems and crew.</mod-overwrite:desc>
+	<!-- <mod-overwrite:desc>Heavy swarm battery that deals 3 damage to hull, but much less to systems and crew.</mod-overwrite:desc> -->
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_MISSILES_SWARM_3">
 	<mod-overwrite:short>Titan M.</mod-overwrite:short>
-	<mod-overwrite:desc>Huge swarm battery that deals 4 damage to hull, but only half to systems and crew.</mod-overwrite:desc>
+	<!-- <mod-overwrite:desc>Huge swarm battery that deals 4 damage to hull, but only half to systems and crew.</mod-overwrite:desc> -->
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_ION_2_STUN">
 	<mod-overwrite:short>Heavy Stunner</mod-overwrite:short>
@@ -16400,7 +16400,7 @@
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_LASER_LIGHT_CHAINGUN">
 	<mod-overwrite:short>Light V.</mod-overwrite:short>
-	<mod-overwrite:desc>This light laser takes a while to spin up. But will eventually shred crew with constant fire.</mod-overwrite:desc>
+	<!-- <mod-overwrite:desc>This light laser takes a while to spin up. But will eventually shred crew with constant fire.</mod-overwrite:desc> -->
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BA_SHOTGUN_SMALL">
 	<mod-overwrite:short>Flak Gun I</mod-overwrite:short>
@@ -16435,7 +16435,7 @@
 <mod:findName type="weaponBlueprint" name="BA_MISSILE_CHARGEGUN_SMALL">
 	<mod-overwrite:title>Swarm Missiles Mark I</mod-overwrite:title>
 	<mod-overwrite:short>Swarm M. I</mod-overwrite:short>
-	<mod-overwrite:desc>If given time to prepare, the 'Swarm' launcher can replicate another warhead.</mod-overwrite:desc>
+	<!-- <mod-overwrite:desc>If given time to prepare, the 'Swarm' launcher can replicate another warhead.</mod-overwrite:desc> -->
 </mod:findName>
 <mod:findName type="weaponBlueprint" name="BEAM_2">
 	<mod-overwrite:short>Halberd Beam</mod-overwrite:short>
