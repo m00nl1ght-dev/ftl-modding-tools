@@ -384,7 +384,7 @@ public class Editor extends Application {
         primaryStage.setMaximized(maximized);
     }
 
-    private static final int SLICE_SIZE = 15;
+    private static final int SLICE_SIZE = 10;
     private static final String SLICE_FILE = "slice.txt";
 
     public void exportSlice() {
