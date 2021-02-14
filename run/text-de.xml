@@ -9868,6 +9868,70 @@
 <text name="ce_eventList_TE_STORE_AI_LIST_BOOSTED_1" language="de">Der Cargo-Teleporter wird den Transport der Waren beschleunigen.</text>
 <text name="ce_eventList_TE_STORE_AI_LIST_BOOSTED_1_c2" language="de">Ein paar seltsame KI-Kunstwerke kaufen.</text>
 <text name="ce_eventList_TE_STORE_AI_LIST_BOOSTED_1_c7" language="de">Einige Wissenschaftler, welche die KI-Expansion studieren, melden sich bei dir: "Zur Sache: Haben Sie Holo-Analysatoren? Sozialübersetzer? Nicht-autonome Software zur Verhaltensberechnung?" [Sell Research Eqipment for about 90 Scrap]</text>
+<text name="ce_eventList_CRYSTAL_SHIP_SURRENDER_7_c1_e" language="de">"Großartig!" Als es seine wenigen Besitztümer an Bord schafft, fragst du dich, wie ein Wesen aus Kristall sich so leichtfüßig und elegant bewegen kann.</text>
+<text name="ce_event_NOTHING_CRYSTAL_c7_e" language="de">Das FTL-Netzwerk hier scheint zu funktionieren, wie du es gewohnt bist, aber die Signalpunkte sind von einem Design, das du noch nie gesehen hast. Ihre kristalline Form verrät nichts über ihre Funktionalität, sie könnten genauso gut ausgefallene Asteroiden sein. Das Access-Kit ist hier nutzlos.</text>
+<text name="ce_event_NOTHING_CRYSTAL_c12_e" language="de">Du kannst ungestört einige Minen legen, während das FTL aufgeladen wird. Was werden die Kristallwesen darüber denken? Die Rebellen müssen entweder dieses Gebiet meiden, das Minenfeld räumen oder schweren Schaden erleiden. All diese Möglichkeiten werden ihre Flotte erheblich verlangsamen.</text>
+<text name="ce_event_CRYSTAL_CONVOY" language="de">Ein großer Konvoi aus riesigen Zivilschiffen zieht durch diese Region. Du zeigst zwar keine feindlichen Absichten, aber sie gehen kein Risiko ein und schicken sofort ihre Eskorte zum Angriff los!</text>
+<text name="ce_event_CRYSTAL_REBEL" language="de">Als du ankommst, springt direkt nach dir ein Rebellenschiff ins System. Sie müssen dir dicht auf den Fersen sein!</text>
+<text name="ce_event_CRYSTAL_REBEL_CRYSTAL" language="de">Als du ankommst, sind auf dem Bildschirm sofort Kristallsplitter zu sehen. Die Sensoren melden ein Kristall-Schiff, das gegen ein Rebellenschiff kämpft!</text>
+<text name="ce_event_CRYSTAL_REBEL_CRYSTAL2_c1_e" language="de">Bevor du eingreifen kannst, landet das Kristall-Schiff einen Volltreffer und zerstört das Rebellenschiff! Sie rufen: "Sie sind wie die anderen Aliens! Sie haben sie hierher geführt!" Dann richten sie ihre Waffen auf dich!</text>
+<text name="ce_event_CRYSTAL_FED_c1_e_c1_e" language="de">Du erklärst, dass du ein Gast in diesem Sektor bist und dass das Föderationsschiff zu deiner Fraktion gehört. Etwas überraschend stellen die Kristallwesen ihren Angriff ein. "Das wussten wir nicht, edle Wesen. Gäste haben ein Recht auf Durchreise. Aber ich werde meinen Gebieter über Ihre Anwesenheit hier informieren müssen."</text>
+<text name="ce_event_CRYSTAL_FED_DESERTER_c1_e" language="de">Du schickst ein paar Vorräte hinüber und als Dank laden sie ihre Flugdaten auf deinen Computer, sodass du eine Karte des Sektors erhältst! "Die Flotte der Föderation steht noch - begeben Sie sich dorthin, solange Sie noch können!"</text>
+<text name="ce_event_CRYSTAL_FED_DESERTER_c2_e" language="de">Deserteure können nicht toleriert werden und die Strafe für Desertation ist der Tod. Du eröffnest das Feuer auf die Feiglinge - auch wenn es sich nicht gut anfühlt. Die Föderation braucht jeden Soldaten, den sie bekommen kann.</text>
+<text name="ce_event_CRYSTAL_FED_DESERTER_c3_e" language="de">Du warnst sie vor der Rebellenflotte, die dich verfolgt, und machst dich dann auf den Weg, um deinen Vorsprung nicht zu verspielen.</text>
+<text name="ce_event_CRYSTAL_HUMAN_TESTS_c1_e" language="de">Die Wissenschaftler sind begeistert. "Was ist das? Genetische und Persönlichkeitsprofile in digitaler Form? Erstaunlich! Das wir unsere Forschung sehr voranbringen. Bitte, nehmen Sie das hier, als Dank für die Hilfe."</text>
+<text name="ce_eventList_CRYSTAL_CHATTY_LIST_1" language="de">"Wow, danke. Oh, da, noch ein Alien-Schiff! Ob die wohl auch so nett sind?" Du siehst die Rebellenmarkierungen - die werden wohl eher nicht freundlich sein. Als sie dich entdecken, greifen sie an, während das Kristall-Schiff davonspringt.</text>
+<text name="ce_eventList_CRYSTAL_CHATTY_LIST_2" language="de">"Wow, danke! Ich weiß nicht, ob Ihnen das etwas nützt, aber wir haben ein paar Vorräte, die wir Ihnen anbieten können. Vielleicht können Sie die auf der Reise gebrauchen!"</text>
+<text name="ce_eventList_CRYSTAL_CHATTY_LIST_3" language="de">"Wow, danke! Vielleicht können wir im Gegenzug Ihre Hülle etwas reparieren. Mit sowas kennen wir uns aus."</text>
+<text name="ce_eventList_CRYSTAL_REQUEST_LIST_1" language="de">Die Kristall-Kreaturen verstehen deine Daten nicht und nehmen einfach an, dass die Rebellen damit etwas anfangen könnten. Die Flotte wird also wohl einen kleinen Umweg fliegen, bevor sie die Verfolgung wieder aufnehmen kann.</text>
+<text name="ce_eventList_CRYSTAL_REQUEST_LIST_2" language="de">Sie werfen einen Blick auf deine gefälschten Daten und bemerken sofort, was du getan hast. Sie mögen Lügner anscheinend nicht besonders... sie greifen sofort an!</text>
+<text name="ce_eventList_CRYSTAL_REQUEST_LIST_2_c1" language="de">(Teleporter Disruptor) Lieber den Feldgenerator aktivieren, falls diese Dinger teleportieren können.</text>
+<text name="ce_eventList_CRYSTAL_REQUEST_LIST_2_c1_e" language="de">Du entdeckst tatsächlich die Zielerfassung eines möglichen Teleporters. Das Schiff greift an!</text>
+<text name="ce_eventList_CRYSTAL_REQUEST_LIST_2_c2_e" language="de">Sie greifen sofort an!</text>
+<text name="ce_event_CRYSTAL_HELP_DIG" language="de">Vor dir siehst du ein großes Kristall-Schiff. Es sendet eine Nachricht: "Aliens?! Interessant. Wir erbitten Ihre Hilfe. Auf einem Planeten in der Nähe wurden Leute von uns verschüttet. Wir müssen sie retten."</text>
+<text name="ce_event_CRYSTAL_HELP_DIG_c1" language="de">Ein Crewmitglied schicken, um zu helfen.</text>
+<text name="ce_event_CRYSTAL_HELP_DIG_c1_e" language="de">Wie gewünscht schickst du ein Crewmitglied auf die Planetenoberfläche. Es berichtet von einer riesigen Grabungsoperation der Kristallwesen. Dir wird klar, dass diese Angelegenheit mehrere Tage, und nicht nur einige Stunden in Anspruch nehmen wird.</text>
+<text name="ce_event_CRYSTAL_HELP_DIG_c1_e_c1" language="de">Dein Crewmitglied zurücklassen.</text>
+<text name="ce_event_CRYSTAL_HELP_DIG_c1_e_c1_e" language="de">Du willst die Föderation retten, aber auch die Prinzipien hochhalten, für die sie steht. Dein Crewmitglied wird zurückbleiben, um dein Versprechen einzuhalten - du hast eine Galaxie zu retten. Zum Dank erhältst du einige Vorräte.</text>
+<text name="ce_event_CRYSTAL_HELP_DIG_c1_e_c2_e" language="de">Der Kapitän des Kristall-Schiffs meldet sich: "Was hat das zu bedeuten?! Wenn Sie uns nicht helfen wollen, hätten Sie einfach ablehnen können, aber DAS... ist eine Beleidigung!" Er richtet sein riesiges Schiff auf deines aus und du machst dich bereit, um dein Leben zu kämpfen.</text>
+<text name="ce_event_CRYSTAL_HELP_DIG_c1_e_c3_e_c3_e" language="de">Ein weiterer Zyklus vergeht und die Rebellenflotte kommt immer näher. Du wirst erneut kontaktiert: "Captain, Ihr Wissen über unsere Gepflogenheiten hat uns beeindruckt. Ihr Crewmitglied ist auf dem Rückweg, zusammen mit einem Zeichen unseres Dankes."</text>
+<text name="ce_event_BOARDERS_CRYSTAL_c1_e" language="de">Du entdeckst tatsächlich die Zielerfassung eines möglichen Teleporters. Die Crew schlägt vor, von hier zu verschwinden, bevor sie ihre Kriegsschiffe herbeirufen.</text>
+<text name="ce_event_BOARDERS_CRYSTAL_c2_e" language="de">Plötzlich hörst du in deinem Schiff Laserschüsse. Du wurdest geentert!</text>
+<text name="ce_textList_BOARDERS_CRYSTAL_1" language="de">Du bemerkst ein schwer bewaffnetes Kristall-Schiff, das ein Gefangenenschiff eskortiert. Den Scans zufolge befinden sich mehrere nichtkristalline Lebensformen an Bord. Sie fangen scheinbar alle ein, die in ihr Gebiet eindringen! Bevor du reagieren kannst, hörst du das typische Geräusch eines Teleporters.</text>
+<text name="ce_textList_BOARDERS_CRYSTAL_2" language="de">Du erreichst eine kleine Siedlung und ein einzelnes Schiff nähert sich dir. Du versuchst, es zu rufen, aber ohne Erfolg.</text>
+<text name="ce_textList_BOARDERS_CRYSTAL_3" language="de">Du fängst den Funkspruch eines Schiffs in der Nähe ab: "Ja... hier sind einige interessante Exemplare. Versucht, sie diesmal lebend zu fangen. Aliens sind eine Menge Geld wert." Dann melden die Sensoren ein Teleportersignal.</text>
+<text name="ce_textList_CRYSTAL_FIGHT_DESTROYED_1" language="de">Die düstere Form des Kristallschiffs erliegt schließlich dem Beschuss und explodiert in einer Wolke aus Kristallpanzerung und Metall.</text>
+<text name="ce_textList_CRYSTAL_FIGHT_DESTROYED_2" language="de">Ein paar letzte Schüsse zerschmettern die Hülle des kristallüberzogenen Schiffs, sodass es in tausende von Teilen zerbricht, und sich brauchbarer Schrott und Metallteile mit den Trümmern vermischen.</text>
+<text name="ce_textList_CRYSTAL_FIGHT_DESTROYED_3" language="de">Das seltsame Schiff unterwirft sich der Stärke des Angriffs und zerbricht in Kristallsplitter und verschiedene Schrottteile.</text>
+<text name="ce_textList_CRYSTAL_FIGHT_DESTROYED_4" language="de">Die Kristallwesen im Inneren ihres Schiffes werden bald eins mit dem Weltraum, als ihr Schiff um sie herum auseinanderbricht, und die Komponenten im Inneren werden schon bald in deinen Laderäumen sein.</text>
+<text name="ce_textList_STORE_CRYSTAL_2" language="de">"Ah! Hallo, Aliens", sagt eine runde Kristall-Kreatur auf dem Bildschirm. "Ich hatte gehofft, auf einige von Ihnen zu treffen. Ich sammle Alien-Artefakte und hoffe, Sie haben vielleicht Ausrüstung, die Sie gerne verkaufen würden!"</text>
+<text name="ce_textList_STORE_CRYSTAL_4" language="de">Du empfängst eine Übertragung, doch sie scheint stark verzerrt zu sein. Irgendwann erkennst du, dass es sich um Werbung eines Ausrüstungsladens handelt. "Verzeihung" , sagt der Verkäufer, als du ihn endlich auf dem Bildschirm hast, "Lange Zeit seit Benutzen Universalübersetzer notwendig. Bitte, kaufen, kaufen!"</text>
+<text name="ce_eventList_TE_STORE_CRYSTAL_LIST_1_c1" language="de">Ein paar Kristallrelikte kaufen.</text>
+<text name="ce_eventList_TE_STORE_CRYSTAL_LIST_1_c2" language="de">[Sell Compressed Nebula Gas for about 50 Scrap]</text>
+<text name="ce_eventList_TE_STORE_CRYSTAL_LIST_1_c3" language="de">[Sell Raw Asteroid Ore for about 40 Scrap]</text>
+<text name="ce_eventList_TE_STORE_CRYSTAL_LIST_1_c4" language="de">[Sell Engine Parts for about 60 Scrap]</text>
+<text name="ce_eventList_TE_STORE_CRYSTAL_LIST_1_c5" language="de">[Sell Space Rations for about 50 Scrap]</text>
+<text name="ce_eventList_TE_STORE_CRYSTAL_LIST_1_c6" language="de">[Sell Consumer Goods for about 45 Scrap]</text>
+<text name="ce_eventList_TE_STORE_CRYSTAL_LIST_1_c7" language="de">[Sell Luxury Goods for about 70 Scrap]</text>
+<text name="ce_eventList_TE_STORE_CRYSTAL_LIST_1_c8" language="de">[Sell Pharmaceuticals for about 55 Scrap]</text>
+<text name="ce_eventList_TE_STORE_CRYSTAL_LIST_1_c9" language="de">[Sell Ship Hardware for about 50 Scrap]</text>
+<text name="ce_eventList_TE_STORE_CRYSTAL_LIST_1_c10" language="de">[Sell Industrial Machinery for about 40 Scrap]</text>
+<text name="ce_eventList_TE_STORE_CRYSTAL_LIST_1_c11" language="de">[Sell Beacon Parts for about 55 Scrap]</text>
+<text name="ce_eventList_TE_STORE_CRYSTAL_LIST_1_c12" language="de">[Sell the Zoltan Legal Codex for about 50 Scrap]</text>
+<text name="ce_eventList_TE_STORE_CRYSTAL_LIST_1_c13" language="de">[Sell Shield Components for about 65 Scrap]</text>
+<text name="ce_eventList_TE_STORE_CRYSTAL_LIST_1_c14" language="de">[Sell Religious Rock Literature for about 50 Scrap]</text>
+<text name="ce_eventList_TE_STORE_CRYSTAL_LIST_1_c14_e" language="de">Das Kristallwesen scheint von diesem Lesestoff ziemlich amüsiert zu sein. Ihre Art wird als eine Art göttliche Prophetenrasse bezeichnet.</text>
+<text name="ce_eventList_TE_STORE_CRYSTAL_LIST_1_c15" language="de">[Sell Ship Hull Panels for about 50 Scrap]</text>
+<text name="ce_eventList_TE_STORE_CRYSTAL_LIST_1_c16" language="de">[Sell Weapon Components for about 75 Scrap]</text>
+<text name="ce_eventList_TE_STORE_CRYSTAL_LIST_1_c17" language="de">[Sell Looted Bounty for about 50 Scrap]</text>
+<text name="ce_eventList_TE_STORE_CRYSTAL_LIST_1_c18" language="de">[Sell Slug Hallucinogens for about 70 Scrap]</text>
+<text name="ce_eventList_TE_STORE_CRYSTAL_LIST_1_c19" language="de">[Sell Eccentric Artwork for about 65 Scrap]</text>
+<text name="ce_eventList_TE_STORE_CRYSTAL_LIST_1_c20" language="de">[Sell Alien Livestock for about 55 Scrap]</text>
+<text name="ce_eventList_TE_STORE_CRYSTAL_LIST_1_c21" language="de">[Sell Small Arms for about 65 Scrap]</text>
+<text name="ce_textList_STORE_CRYSTAL_BUY_TEXT_1" language="de">Du übergibst den Schrott. Du bist dir nicht sicher, ob du gerade unbezahlbare Kunst oder einfach nur billigen Mist gekauft hast. Keiner weiß, welchem Zweck diese Artefakte dienen... Während deine Crew die Kisten in die Frachträume trägt, siehst du dir die Schiffsausrüstung an, die der Shop ebenfalls anbietet. Es vergeht viel Zeit.</text>
+<text name="ce_textList_STORE_CRYSTAL_BUY_TEXT_2" language="de">Du stimmst zu, den Schrott zu übertragen, aber der Abschluss des Deals dauert dennoch eine Weile. Der Tranfer der Ladung dauert noch länger. Während du wartest, schaust du dir den Schiffsausrüstungskatalog an. Zum Glück hast du den Universalübersetzer.</text>
+<text name="ce_textList_STORE_CRYSTAL_SELL_TEXT_1" language="de">Diese Wesen haben in ihrem ganzen Leben noch nie mit einem Fremden gehandelt und scheinen es für einen großen Spaß zu halten. Der Preis ist ihnen völlig egal, vielmehr betrachten sie das Feilschen als eine Art Spiel oder exotisches Vergnügen.</text>
+<text name="ce_eventList_TE_STORE_CRYSTAL_LIST_BOOSTED_1" language="de">Du überlegst, hier ein Geschäft zu machen.</text>
 
 <!-- FILE: text_blueprints.xml.append -->
 
