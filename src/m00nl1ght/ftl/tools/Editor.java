@@ -48,7 +48,7 @@ public class Editor extends Application {
     private TreeView<LangEntry> tree;
     private TextArea langA, langB;
     private Button btnSuggest;
-    private CheckBox chkOnlineMode;
+    private CheckBox chkOnlineMode, chkMissinOnly, chkSuspicious;
     private Scene mainScene;
     private Stage primaryStage;
 
@@ -130,8 +130,11 @@ public class Editor extends Application {
         Button btnLookup = new Button("Lookup");
         btnLookup.setOnAction(event -> this.lookup());
 
-        CheckBox chkMissinOnly = new CheckBox("Only show missing translations");
-        chkMissinOnly.setOnAction(event -> this.changeMode(chkMissinOnly));
+        chkMissinOnly = new CheckBox("Filter MT");
+        chkMissinOnly.setOnAction(event -> this.updateFilter());
+
+        chkSuspicious = new CheckBox("Filter SP");
+        chkSuspicious.setOnAction(event -> this.updateFilter());
 
         chkOnlineMode = new CheckBox("Online mode");
 
@@ -141,12 +144,12 @@ public class Editor extends Application {
         Button btnImport = new Button("Import Slice");
         btnImport.setOnAction(event -> this.importSlice());
 
-        box.getChildren().addAll(btnSave, btnSuggest, btnLookup, btnExport, btnImport, chkMissinOnly, chkOnlineMode);
+        box.getChildren().addAll(btnSave, btnSuggest, btnLookup, btnExport, btnImport, chkMissinOnly, chkSuspicious, chkOnlineMode);
 
         tree = new TreeView<>();
         tree.setMinSize(-1, 700);
         tree.setShowRoot(false);
-        this.changeMode(chkMissinOnly);
+        this.updateFilter();
         tree.getSelectionModel().selectedItemProperty().addListener(this::changeSel);
 
         pane.getChildren().addAll(tree, new Label("langA"), langA, new Label("langB"), langB, box);
@@ -156,18 +159,23 @@ public class Editor extends Application {
 
     }
 
+    private Predicate<LangEntry> getFilter() {
+        Predicate<LangEntry> filter = e -> true;
+        if (chkMissinOnly.isSelected()) filter = filter.and(e -> (e.translation.isEmpty() || e.value.isEmpty() || e.translation.endsWith(") ")));
+        if (chkSuspicious.isSelected()) filter = filter.or(e -> false); // TODO
+        return filter;
+    }
+
     @SuppressWarnings({"SimplifyStreamApiCallChains", "SimplifyForEach"})
-    private void changeMode(CheckBox box) {
+    private void updateFilter() {
         final TreeItem<LangEntry> root = new TreeItem<>();
         tree.setRoot(root);
         final LinkedHashMap<String, LinkedHashMap<String, List<LangEntry>>> data = new LinkedHashMap<>();
-        final Predicate<LangEntry> filter = box.isSelected()?e -> (e.translation.isEmpty() || e.value.isEmpty() || e.translation.endsWith(") ")):e -> true;
-        final int[] amount = {0};
+        final Predicate<LangEntry> filter = getFilter();
         MAP.values().stream().forEachOrdered(entry -> {
             if (filter.test(entry)) {
                 String prefix = getIDPrefix(entry);
                 data.computeIfAbsent(entry.src, k -> new LinkedHashMap<>()).computeIfAbsent(prefix, k -> new ArrayList<>(8)).add(entry);
-                amount[0]++;
             }
         });
         data.forEach((key, value) -> {
@@ -196,7 +204,6 @@ public class Editor extends Application {
             int total = node.getChildren().stream().mapToInt(list -> list.getChildren().isEmpty() ? 1 : list.getChildren().size()).sum();
             e.key = key + " ("+node.getChildren().size()+ '/' +total+ ')';
         });
-        box.setText("("+ amount[0] +" entries) Only show missing translations");
     }
 
     private String getIDPrefix(LangEntry e) {
