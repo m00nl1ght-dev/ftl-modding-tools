@@ -12,6 +12,7 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import m00nl1ght.ftl.tools.Patcher.TagType;
+import m00nl1ght.ftl.tools.translation.SearchUtils;
 import m00nl1ght.ftl.tools.translation.TranslationHelper;
 
 import java.awt.*;
@@ -27,11 +28,14 @@ import java.nio.file.Files;
 import java.util.List;
 import java.util.*;
 import java.util.function.Predicate;
+import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 public class Editor extends Application {
 
-    static final double SUG_TRESHOLD = 100;
+    static final double SUS_THRESHOLD = 0.7;
+    static final Pattern SQ_PATTERN = Pattern.compile("[^A-Za-z0-9]");
+
     static final File LANG_IN_DIR = new File("./lang_in/");
     static final File LANG_OUT_DIR = new File("./lang_out/");
     static final File PATCHER_IN_DIR = new File("./patcher_in/");
@@ -160,10 +164,14 @@ public class Editor extends Application {
     }
 
     private Predicate<LangEntry> getFilter() {
-        Predicate<LangEntry> filter = e -> true;
-        if (chkMissinOnly.isSelected()) filter = filter.and(e -> (e.translation.isEmpty() || e.value.isEmpty() || e.translation.endsWith(") ")));
-        if (chkSuspicious.isSelected()) filter = filter.or(e -> false); // TODO
-        return filter;
+        Predicate<LangEntry> filter = null;
+        Predicate<LangEntry> filterMT = e -> (e.translation.isEmpty() || e.value.isEmpty() || e.translation.endsWith(") "));
+        Predicate<LangEntry> filterSP = e -> e.sus;
+
+        if (chkMissinOnly.isSelected()) filter = filterMT;
+        if (chkSuspicious.isSelected()) filter = filter == null ? filterSP : filter.or(filterSP);
+
+        return filter == null ? e -> true : filter;
     }
 
     @SuppressWarnings({"SimplifyStreamApiCallChains", "SimplifyForEach"})
@@ -222,6 +230,7 @@ public class Editor extends Application {
             if (!old.getValue().translation.equals(langB.getText())) {
                 old.getValue().translation = langB.getText();
                 helper.put(old.getValue().value, langB.getText());
+                updateSus(old.getValue());
             }
         }
         if (val!=null && !val.getValue().src.isEmpty()) {
@@ -238,8 +247,31 @@ public class Editor extends Application {
     public static class LangEntry {
         public String key = "", value = "", translation = "", file = "", src = "";
         public int dupes = 0;
+        public boolean sus = false;
         public String toString() {
-            return key+(dupes>0?" ("+dupes+ ')' :"");
+            return key+( dupes>0 ? " ("+dupes+ ')' : "");
+        }
+    }
+
+    @SuppressWarnings("Convert2streamapi")
+    public void updateSus(LangEntry entry) {
+        entry.sus = false;
+
+        final String sqValue = SQ_PATTERN.matcher(entry.value).replaceAll("");
+        final String qTransl = entry.translation.trim();
+
+        if (sqValue.isEmpty() || qTransl.isEmpty()) return;
+
+        for (LangEntry other : MAP.values()) {
+            if (other.translation.trim().equals(qTransl)) {
+                final String osqValue = SQ_PATTERN.matcher(other.value).replaceAll("");
+                if (osqValue.isEmpty()) continue;
+                final double sim = SearchUtils.similarity(sqValue, osqValue);
+                if (sim < SUS_THRESHOLD) {
+                    entry.sus = true;
+                    return;
+                }
+            }
         }
     }
 
@@ -254,6 +286,8 @@ public class Editor extends Application {
             EVENT_PATCHER.patch(MAP);
             BLUEPRINT_PATCHER.patch(MAP);
             new LangReader(new File("text-de.xml"), "de").read(MAP);
+            System.out.println("Analyzing entries ...");
+            MAP.values().forEach(this::updateSus);
             this.info();
             for (LangEntry entry : MAP.values()) {
                 if (entry.file.startsWith("text_events")) {
@@ -271,15 +305,16 @@ public class Editor extends Application {
     }
 
     private void info() {
-        int no_eng = 0, no_de = 0;
+        int no_eng = 0, no_de = 0, sus = 0;
         for (LangEntry entry : MAP.values()) {
             if (entry.value.isEmpty()) {
                 no_eng++;
                 System.out.println("Entry missing value: "+entry.key);
             }
             if (entry.translation.isEmpty() || entry.translation.endsWith(") ")) no_de++;
+            if (entry.sus) sus++;
         }
-        System.out.println("Results: "+MAP.size()+" entries, "+no_eng+" missing values and "+no_de+" missing translations.");
+        System.out.println("Results: "+MAP.size()+" entries, "+no_eng+" missing values, "+no_de+" missing translations and " + sus + " sus entries.");
     }
 
     public void save(Button btnSave) {
@@ -426,6 +461,7 @@ public class Editor extends Application {
                 final LangEntry entry = missing.get(i);
                 if (!entry.translation.isEmpty()) throw new IllegalStateException();
                 entry.translation = copyAdds(entry.value, line.trim());
+                updateSus(entry);
                 i++;
             }
         } catch (IOException e) {
