@@ -10966,7 +10966,7 @@ IDEAS
 
 <event name="CE_INDUSTRIAL_REPAIRS"> 
 	<text>You come across an automated shipyard, lying abandoned in space. You manage to reactivate the facility and have it perform some minor repairs on your ship before it breaks down entirely.</text>
-	<damage amount="-5"/>
+	<damage amount="-5"/> <!-- fixed value (edited: m00nl1ght_dev) -->
 </event>
 
 

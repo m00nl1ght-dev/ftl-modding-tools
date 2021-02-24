@@ -23631,7 +23631,6 @@
 
 </eventList>
 
-<!-- temporary comment out (m00nl1ght patcher) TODO
 
 <eventList name="CE_CONVERSATION_HUMAN_GENERIC">
 	<event>
@@ -25979,8 +25978,6 @@
 	<text>The Crystal assumes that everything coming from outside its hidden home-world would have great value there. "My kind would surely buy all these silly and curious objects that the aliens trade at good prices."</text>
 	<text>Upon inquiring, the crewman explains that the retaliation crystals of its factions ships are actually using resonance energy from kinetic impacts to target and propel themselves. You consider that it just made this up.</text>
 </textList>
-
-CO END -->
 
 <!-- END OF CE SOCIAL -->
 
@@ -39630,7 +39627,7 @@ IDEAS
 	</choice>
 </event>
 
-<eventList name="CE_FLEET_PRE_FIGHT_ASB"> 
+<eventList name="CE_FLEET_PRE_FIGHT_ASB">
 	<event load="CE_FLEET_PRE_FIGHT_ASB_1"/>
 	<event load="CE_FLEET_PRE_FIGHT_ASB_1"/>
 	<event load="CE_FLEET_PRE_FIGHT_ASB_1"/>

@@ -193,8 +193,6 @@
 	<event load="CE_STRAY_FLEET"/>
 </eventList>
 
-<!-- TODO
-
 <textList name="TIPS_LIST">
 	<text>TIP: Death -   Remember, losing is part of the fun!  ...  No, I'm serious...</text>
 	<text>TIP: Grinding Sectors -  It can be beneficial to stay in a Sector for as long as possible to improve the ship since each Sector is increasingly difficult.</text>
@@ -527,8 +525,6 @@
 	<text>TIP: Rock Sectors - Extremely tough stations and many missile wielding enemies can be encountered in this sectors. The Black Hole hazard is also common here.</text>
 	<text>TIP: Mantis Sectors - The Mantis will often try to overwhelm you with boarders. Their brood stations and convoys can teleport almost infinite amounts of warriors to your ship.</text>
 </textList>
-
--->
 
 <event name="REFUGEE_DISTRESS">
 	<text>You have encountered a refugee ship drifting in space. It looks as if it was fleeing the Rebel advance and ran out of fuel. Its distress beacon is active, but you're not sure anyone is on board.</text>
