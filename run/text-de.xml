@@ -6488,6 +6488,7 @@
 <text name="ce_eventList_CE_SOCIAL_CIVILIAN_1_c6_e_c5" language="de">Deine Meinung ändern, und etwas an Bord produzieren.</text>
 <text name="ce_eventList_CE_SOCIAL_CIVILIAN_1_c6_e_c6" language="de">Die Reise fortsetzen.</text>
 <text name="ce_eventList_CE_SOCIAL_CIVILIAN_1_c6_e_c6_e" language="de">Du hast jetzt keine Zeit für Unterhaltungen.</text>
+<text name="ce_eventList_CE_SOCIAL_HUMAN_HOME_1_c1" language="de">Das Crewmitglied entlassen.</text>
 <text name="ce_event_FLEET_EASY" language="de">Die Rebellenflotte hat diesen Signalpunkt bereits übernommen!</text>
 <text name="ce_eventList_C_FLEET_LIST_1" language="de">Es sieht so aus, als würden die Rebellen kein Risiko mehr eingehen. Sie schicken eine automatische Aufklärungseinheit, um dein Schiff für einen Langstrecken-Artillerieschlag zu markieren. Die Flotte wird ihre volle kombinierte Feuerkraft auf dich loslassen, wenn du es nicht schaffst, rechtzeitig davonzuspringen.</text>
 <text name="ce_eventList_C_FLEET_LIST_6" language="de">Ein Aufklärer in der Nähe kommt auf dein Schiff zu. Du musst fliehen, bevor ihre Kreuzer das Feuer eröffnen!</text>
@@ -7043,7 +7044,6 @@
 <text name="ce_eventList_CE_CIVILIAN_THEFT_SLUG_3_c1_e" language="de">Das andere Crewmitglied gibt beschämt zu, dass es vorhatte deine Mission zu verlassen. Die fehlenden Vorräte werden in einem der Fluchtkapseln entdeckt.</text>
 <text name="ce_eventList_CE_CIVILIAN_THEFT_SLUG_3_c1_e_c1" language="de">Das Crewmitglied bestrafen.</text>
 <text name="ce_eventList_CE_CIVILIAN_THEFT_SLUG_3_c1_e_c1_e" language="de">Du sperrst die Freizeit-Privilegien des Crewmitglieds für einige Sprünge. Du hältst außerdem einen inspirierenden Vortrag über die Bedeutung der Mission, in der Hoffnung, deine Crew damit etwas zu motivieren.</text>
-<text name="ce_eventList_CE_CIVILIAN_THEFT_SLUG_3_c1_e_c2" language="de">Das Crewmitglied entlassen.</text>
 <text name="ce_eventList_CE_CIVILIAN_THEFT_SLUG_3_c1_e_c2_e" language="de">Ein Crewmitglied dem man nicht trauen kann ist wertlos. Du holst die gestohlenen Vorräte zurück, schickst aber das Crewmitglied mit dem Shuttle davon. Die verbleibende Crew stimmt zu, dass dies die richtige Entscheidung war.</text>
 <text name="ce_eventList_CE_CIVILIAN_THEFT_SLUG_3_c1_e_c2_e_clone" language="de">Du löschst die Daten des Crewmitglieds aus der Datenbank deiner Clonebay.</text>
 <text name="ce_eventList_CE_CIVILIAN_THEFT_SLUG_3_c1_e_c3" language="de">Das Crewmitglied exekutieren.</text>
