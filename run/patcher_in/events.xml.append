@@ -23904,6 +23904,9 @@
 		</choice>
 	</event>
 </eventList>
+
+<!-- TODO
+
 <textList name="CE_CONVERSATION_HUMAN_GENERIC_TEXT">
 	<text>Your humanoid crew member has nothing interesting to say.</text>
 	<text>Your humanoid crew member has nothing interesting to say.</text>
@@ -23997,6 +24000,8 @@
 	<text>Your humanoid crew member has been in this system before.</text>
 	<text>Your humanoid crew member knows this sector quite well, but can't supply any personal map data that would be detailed enough for your mission.</text>
 </textList>
+
+-->
 
 <eventList name="CE_CONVERSATION_ENGI_GENERIC">
 	<event>
@@ -24266,6 +24271,9 @@
 		<upgrade amount="1" system="reactor"/>
 	</event>
 </eventList>
+
+<!-- TODO
+
 <textList name="CE_CONVERSATION_ENGI_GENERIC_TEXT">
 	<text>Your Engi crew member has a lot to say, but you forgot your universal translator on the bridge. You just understand numbers.</text>
 	<text>Your Engi crew member is busy fixing some secondary system. It informs you that "repairs currently have priority over social interaction."</text>
@@ -24299,6 +24307,8 @@
 	<text>The Engi crew member forms a part of its arm into a metallic flower and presents it to you. "Sign of appreciation adequate?" You politely thank the being for the strange present, made from its own body. Will the Engi want to have that thing back at some point?</text>
 	<text>Your Engi crew member has a lot to say, but you forgot your universal translator on the bridge. You just understand numbers, gibberish and something that sounds like radio static.</text>
 </textList>
+
+-->
 
 <eventList name="CE_CONVERSATION_MANTIS_GENERIC">
 	<event>
@@ -24382,14 +24392,14 @@
 			<text>Continue...</text>
 			<event/>
 		</choice>
-		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+		<choice req="AE_ASB" hidden="true">
+			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text>
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
-		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+		<choice req="AE_ADV_EFFECTOR" hidden="true">
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text>
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
-		</choice>	
+		</choice>
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
 			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
@@ -24398,27 +24408,27 @@
 			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
-		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true">
 			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
-		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -2 ]</text> 
+		<choice req="AE_NEBULA_SCANNER" hidden="true">
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -2 ]</text>
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
-		<choice req="AE_MIND_SHIELD" hidden="true"> 
+		<choice req="AE_MIND_SHIELD" hidden="true">
 			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
-		<choice req="AE_FIREWALL" hidden="true"> 
+		<choice req="AE_FIREWALL" hidden="true">
 			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
-		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+		<choice req="AE_SHIELD_JAMMER" hidden="true">
 			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
-		<choice req="AE_IRRADIATOR" hidden="true"> 
+		<choice req="AE_IRRADIATOR" hidden="true">
 			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
@@ -24430,14 +24440,14 @@
 			<text>Continue...</text>
 			<event/>
 		</choice>
-		<choice req="AE_ASB" hidden="true"> 
-			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text> 
+		<choice req="AE_ASB" hidden="true">
+			<text>(Anti-Ship Battery) Arm and dispatch the autonomous ASB. [ Missiles: -4; Power: -1 ]</text>
 			<event load="CE_PRE_FIGHT_ASB"/>
 		</choice>
-		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
-			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text> 
+		<choice req="AE_ADV_EFFECTOR" hidden="true">
+			<text>(Internal Effector) Prepare the field generator. Effectorize the hostile! [ Power: -2 ]</text>
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
-		</choice>	
+		</choice>
 		<choice req="AE_WEAPON_JAMMER" hidden="true">
 			<text>(Targeting Jammer) Jam the enemy weapons-targeting. [ Power: -2 ]</text>
 			<event load="CE_WEAPON_JAMMING_RESULTS_1"/>
@@ -24446,27 +24456,27 @@
 			<text>(Drone Uplink Jammer) Jam the enemy drone communications. [ Power: -2 ]</text>
 			<event load="CE_DRONE_JAMMING_RESULTS_1"/>
 		</choice>
-		<choice req="AE_TELEPORTER_JAMMER" hidden="true"> 
+		<choice req="AE_TELEPORTER_JAMMER" hidden="true">
 			<text>(Teleporter Disruptor) Activate the teleporter disruption field. [ Power: -1 ]</text>
 			<event load="CE_TELEPORTER_JAMMING_RESULTS_1"/>
 		</choice>
-		<choice req="AE_NEBULA_SCANNER" hidden="true"> 
-			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -2 ]</text> 
+		<choice req="AE_NEBULA_SCANNER" hidden="true">
+			<text>(Subspace Scanner) Track the enemy in subspace to prevent them from cloaking. [ Power: -2 ]</text>
 			<event load="CE_PRE_FIGHT_CLOAK_BREAK"/>
 		</choice>
-		<choice req="AE_MIND_SHIELD" hidden="true"> 
+		<choice req="AE_MIND_SHIELD" hidden="true">
 			<text>(Mind Shield) Activate your mind control protection. [ Power: -1 ]</text>
 			<event load="CE_PRE_FIGHT_MIND_SHIELD_RESULT"/>
 		</choice>
-		<choice req="AE_FIREWALL" hidden="true"> 
+		<choice req="AE_FIREWALL" hidden="true">
 			<text>(Advanced Plating) Protect the ship against hostile mind control and hacking attempts. [ Power: -1 ]</text>
 			<event load="CE_PRE_FIGHT_FIREWALL"/>
 		</choice>
-		<choice req="AE_SHIELD_JAMMER" hidden="true"> 
+		<choice req="AE_SHIELD_JAMMER" hidden="true">
 			<text>(Ion Field) Activate the ion field projector to weaken the enemy shields. [ Power: -3 ]</text>
 			<event load="CE_PRE_FIGHT_SHIELD_JAMMER_RESULT"/>
 		</choice>
-		<choice req="AE_IRRADIATOR" hidden="true"> 
+		<choice req="AE_IRRADIATOR" hidden="true">
 			<text>(Radiation Projector) Irradiate the enemy! Let's see how long they can withstand that! [ Power: -2 ]</text>
 			<event load="CE_PRE_FIGHT_BIOWEAPON_RESULT"/>
 		</choice>
@@ -24506,6 +24516,9 @@
 				</choice>
 			</event>
 </eventList>
+
+<!-- TODO
+
 <textList name="CE_CONVERSATION_MANTIS_GENERIC_TEXT">
 	<text>Your Mantis crew member looks quite pleased with itself. When you ask why, it explains how it just figured out what a fortune it can make from selling Rebel POWs as slaves. You're not sure if you are happy that this crewman is on your side.</text>
 	<text>Your Mantis crew member speaks openly, but you forgot your universal translator on the bridge. You just hear a wide variation of soft clicking.</text>
@@ -24534,6 +24547,8 @@
 	<text>The Mantis stresses the many advantages of boarding operations.</text>
 	<text>The Mantis is contemplating the war effort of the swarms. Even if the Rebellion could be defeated, will there be more war? The creature hopes so.</text>
 </textList>
+
+-->
 
 <eventList name="CE_CONVERSATION_ROCK_GENERIC">
 	<event>
@@ -24663,6 +24678,9 @@
 		</choice>
 	</event>
 </eventList>
+
+<!-- TODO
+
 <textList name="CE_CONVERSATION_ROCK_GENERIC_TEXT">
 		<text>The Rockman seems to be bored by this sector. "I hope we will get into an honorable engagement soon."</text>
 	<text>The Rockman mentions that there are over 3,000 living Rock Saints, and that it does not care about a single one of them.</text>
@@ -24710,6 +24728,8 @@
 	<text>Your Rockman never thought it would face such great opponents as in this sector. "I fought the Rock Inquisition as a pirate for some years. Did you know that Captain?" The crew member claims the Inquisition would, had he ever been caught, thrown him alive into a sun, in order to "purify" the being.</text>
 	<text>All the combat in this sector reminds your Rockman of the great battles its kind has fought.</text>
 </textList>
+
+-->
 
 <eventList name="CE_CONVERSATION_ZOLTAN_GENERIC">
 	<event>
@@ -24881,6 +24901,9 @@
 		</choice>
 	</event>
 </eventList>
+
+<!-- TODO
+
 <textList name="CE_CONVERSATION_ZOLTAN_GENERIC_TEXT">
 	<text>The Zoltan politely inquires how you feel today.</text>
 	<text>The Zoltan politely inquires how you feel right now.</text>
@@ -24922,6 +24945,8 @@
 	<text>The Zoltan asks what you will do in the case your mission actually succeeds and the Rebels are defeated. "Truly grand is he who knows to show mercy to his enemy. And that even rhymes, Captain. Think about it!"</text>
 	<text>The Zoltan claims that it was able to power an entire shuttle craft when it was a few hundred years younger. Impressive.</text>
 </textList>
+
+-->
 
 <eventList name="CE_CONVERSATION_SLUG_GENERIC">
 	<event>
@@ -25065,7 +25090,7 @@
 								<item_modify>
 									<item type="scrap" min="-55" max="-55"/>
 								</item_modify>
-								<crewMember amount="1" class="slug">Hider</crewMember> 
+								<crewMember amount="1" class="slug">Hider</crewMember>
 								<modifyPursuit amount="-2"/>
 							</event>
 
@@ -25278,6 +25303,9 @@
 	<text>While downing your galaxy import, the Slug tells you about its youth. Its parents came to wealth by trading cheap Engi machinery to the isolated Rock sectors, but disowned your crewman due to some corruption scandal.</text>
 	<text>The Slug pours you some gelish, purple liquor. "Cheerss! To our misssion! I hope thiss isss all worth it... You know, I wass making a fortune exporting Zoltan Shield Componentss to sscared civiliansss when the Rebellion sstarted. But now I'm not ssso ssure that thiss whole war iss really profitable for everyone."</text>
 </textList>
+
+<!-- TODO
+
 <textList name="CE_CONVERSATION_SLUG_GENERIC_TEXT">
 	<text>The Slug speaks before you can even open your mouth, "I know what you're going to ssssay Captain. Not interessssted in talking about it!" Slugs can be quite annoying when they want to...</text>
 	<text>The Slug speaks before you can even open your mouth, "I know what you're going to ssssay Captain. The answer is, "Yes." Slugs can be quite annoying when they want to...</text>
@@ -25341,6 +25369,8 @@
 	<text>The Slug knows some great hiding places in this sector.</text>
 	<text>The Slug looks quite content. You ask it what it has been up to. "Just happy being around nebula. Nothing wrong with that, right? Do you like nebula?"</text>
 </textList>
+
+-->
 
 <eventList name="CE_CONVERSATION_AI_GENERIC">
 	<event>
@@ -25417,6 +25447,9 @@
 		</choice>
 	</event>
 </eventList>
+
+<!-- TODO
+
 <textList name="CE_CONVERSATION_AI_GENERIC_TEXT">
 	<text>The AI Avatar is not responding. Blinking lights on its holo generation-unit signal that all of its processing power is currently used. You leave it alone, as you have to assume that it is calculating something ship related.</text>
 	<text>The AI Avatar is not responding. Blinking lights on its holo generation-unit signal that all of its processing power is currently used. You leave it alone, as you have to assume that it is calculating something ship related.</text>
@@ -25443,6 +25476,9 @@
 	<text>The AI says you should consider creating an AI avatar template based on your own persona. This way, other ship crews will be able to benefit from your skills. You tell the AI you will think about this.</text>
 	<text>Your AI asks if you will allow it to join an Engi hive after your mission is done. It thinks Engies are probably the only species which can truly understand AIs.</text>
 </textList>
+
+-->
+
 <eventList name="CE_CONVERSATION_AI_UPGRADES">
 	<event>
 		<text>"I have closely examined your life support system, Captain. I have rated its effectiveness and come to a devastating verdict."</text>
@@ -25701,6 +25737,9 @@
 		</choice>
 	</event>
 </eventList>
+
+<!-- TODO
+
 <textList name="CE_CONVERSATION_LANIUS_GENERIC_TEXT">
 	<text>Your Lanius crew member has a lot to say, but you forgot your universal translator on the bridge. Its speech sometimes includes seemingly random nouns in your language, but you cannot gather what the crewman wants to say.</text>
 	<text>The Lanius is nowhere to be found. The computer informs you that the crewman is in its personal quarters, absorbing its daily mineral ration.</text>
@@ -25724,12 +25763,15 @@
 	<text>You try to have a proper conversion with the Lanius but soon start to feel dizzy... what is happening? You cant breathe... Shortly before passing out, you wave the Lanius away from you and head for the bulkhead. Their oxygen absorbing metabolism should not be underestimated. The crewman later sends a crudely translated apology.</text>
 	<text>You picked up a few words of Lanic during your travel and use your little language skills to ask the crewman how it feels today. It reacts with a gesture that, according to your pan-alien transcultural training, might indicate insult. Did you say something wrong?</text>
 	<text>The Lanius confesses that it finds your kind most unusual. "You are similar to... fictional characters from our... great text assortments. Almost like... not from this Galaxy? Scientific impossibilities!"</text>
-	<text>You picked up a few words of Lanic during your travel and use your little language skills to ask the crewman how it feels today. It reacts with a gesture that, according to your pan-alien transcultural training, might indicate insult. Did you say something wrong?</text>	
+	<text>You picked up a few words of Lanic during your travel and use your little language skills to ask the crewman how it feels today. It reacts with a gesture that, according to your pan-alien transcultural training, might indicate insult. Did you say something wrong?</text>
 	<text>The Lanius tries to explain that its species does not deserve the bad reputation it got. "Forceful acquisition is wrong... even by the standards of my living species. But my people are... hungry."</text>
 	<text>The Lanius mourns that its species' demanding metabolism has caused the galaxy so much suffering. "We are no... villains Captain. We just... need to feed us."</text>
 	<text>The Lanius asks how much data you have about this sector. "Are there... metallic opportunities?"</text>
 	<text>You find the Lanius in the mess hall. While you eat your ration, a sluggish conversation ensues. After you finish eating, the Lanius points both its bladed arms at your synth-steel plate. "You... still eat him?" You slowly shake your head. The Lanius grabs the plate and absorbs it into its hand. "The best ration... on this plain, Captain. You should... train in it?"</text>
 </textList>
+
+-->
+
 <eventList name="CE_CONVERSATION_LANIUS_RESHAPE_DOORS">
 	<event>
 		<text>The Lanius shakes its head dramatically. "No Captain... understand! Reshape... means damage. Agreeable?"</text>
@@ -25954,6 +25996,9 @@
 		<weapon name="BA_CRYSTAL_HEAVY_LOCKDOWN_2"/>
 	</event>
 </eventList>
+
+<!-- TODO
+
 <textList name="CE_CONVERSATION_CRYSTAL_GENERIC_TEXT">
 	<text>The Crystal does not know what to say to you. The being seems lost in the conversation.</text>
 	<text>The Crystal does not know what to say to you. The being seems lost in the conversation.</text>
@@ -25978,6 +26023,8 @@
 	<text>The Crystal assumes that everything coming from outside its hidden home-world would have great value there. "My kind would surely buy all these silly and curious objects that the aliens trade at good prices."</text>
 	<text>Upon inquiring, the crewman explains that the retaliation crystals of its factions ships are actually using resonance energy from kinetic impacts to target and propel themselves. You consider that it just made this up.</text>
 </textList>
+
+-->
 
 <!-- END OF CE SOCIAL -->
 
