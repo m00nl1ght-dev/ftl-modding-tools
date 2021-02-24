@@ -17,14 +17,12 @@ import m00nl1ght.ftl.tools.translation.TranslationHelper;
 
 import java.awt.*;
 import java.awt.Desktop.Action;
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URLEncoder;
 import java.nio.file.Files;
+import java.nio.file.StandardOpenOption;
 import java.util.List;
 import java.util.*;
 import java.util.function.Predicate;
@@ -33,7 +31,7 @@ import java.util.stream.Collectors;
 
 public class Editor extends Application {
 
-    static final double SUS_THRESHOLD = 0.7;
+    static final double SUS_THRESHOLD = 0.95;
     static final Pattern SQ_PATTERN = Pattern.compile("[^A-Za-z0-9]");
 
     static final File LANG_IN_DIR = new File("./lang_in/");
@@ -49,6 +47,8 @@ public class Editor extends Application {
     final List<LangReader> LANG_IN = new ArrayList<>();
     final Map<String, LangEntry> MAP = new LinkedHashMap<>();
     final TranslationHelper helper = new TranslationHelper(this::suggCallback);
+    final List<String> susOutput = new ArrayList<>();
+
     private TreeView<LangEntry> tree;
     private TextArea langA, langB;
     private Button btnSuggest;
@@ -253,7 +253,6 @@ public class Editor extends Application {
         }
     }
 
-    @SuppressWarnings("Convert2streamapi")
     public void updateSus(LangEntry entry) {
         entry.sus = false;
 
@@ -268,6 +267,11 @@ public class Editor extends Application {
                 if (osqValue.isEmpty()) continue;
                 final double sim = SearchUtils.similarity(sqValue, osqValue);
                 if (sim < SUS_THRESHOLD) {
+                    susOutput.add(entry.key + " / " + other.key);
+                    susOutput.add(entry.translation);
+                    susOutput.add(entry.value);
+                    susOutput.add(other.value);
+                    susOutput.add("\n");
                     entry.sus = true;
                     return;
                 }
@@ -277,18 +281,61 @@ public class Editor extends Application {
 
     public void setup() {
         try {
+
             for (File file : Objects.requireNonNull(LANG_IN_DIR.listFiles())) {
                 LANG_IN.add(new LangReader(file));
             }
+
             for (LangReader reader : LANG_IN) {
                 reader.read(MAP);
             }
+
             EVENT_PATCHER.patch(MAP);
             BLUEPRINT_PATCHER.patch(MAP);
             new LangReader(new File("text-de.xml"), "de").read(MAP);
+
+            final File importFile = new File("import.txt");
+            if (importFile.exists()) {
+                System.out.println("Importing entries ...");
+                final BufferedReader reader = Files.newBufferedReader(importFile.toPath());
+
+                while (true) {
+                    String hline = reader.readLine();
+                    while (hline != null && hline.isEmpty()) hline = reader.readLine();
+                    if (hline == null) break;
+
+                    String[] keyarr = hline.split("/");
+                    if (keyarr.length != 2) throw new RuntimeException("invalid line: " + hline);
+
+                    String key = keyarr[0].trim();
+                    LangEntry entry = MAP.get(key);
+                    if (entry == null) throw new RuntimeException("invalid entry key: " + key);
+
+                    String transl = reader.readLine().trim();
+                    entry.translation = transl;
+
+                    reader.readLine();
+                    reader.readLine();
+                }
+
+                reader.close();
+            }
+
             System.out.println("Analyzing entries ...");
+
+            susOutput.clear();
             MAP.values().forEach(this::updateSus);
+
+            final BufferedWriter writer = Files.newBufferedWriter(new File("susout.txt").toPath(), StandardOpenOption.CREATE);
+            for (String s : susOutput) {
+                writer.write(s);
+                writer.newLine();
+            }
+
+            writer.close();
+
             this.info();
+
             for (LangEntry entry : MAP.values()) {
                 if (entry.file.startsWith("text_events")) {
                     String val = stripAdds(entry.value);
@@ -298,7 +345,9 @@ public class Editor extends Application {
                     }
                 }
             }
+
             // helper.dump();
+
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
