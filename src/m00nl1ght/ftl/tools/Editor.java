@@ -12,27 +12,24 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 import m00nl1ght.ftl.tools.Patcher.TagType;
-import m00nl1ght.ftl.tools.translation.SearchUtils;
 import m00nl1ght.ftl.tools.translation.TranslationHelper;
 
 import java.awt.*;
 import java.awt.Desktop.Action;
-import java.io.*;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URLEncoder;
 import java.nio.file.Files;
-import java.nio.file.StandardOpenOption;
 import java.util.List;
 import java.util.*;
 import java.util.function.Predicate;
-import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 public class Editor extends Application {
-
-    static final double SUS_THRESHOLD = 0.95;
-    static final Pattern SQ_PATTERN = Pattern.compile("[^A-Za-z0-9]");
 
     static final File LANG_IN_DIR = new File("./lang_in/");
     static final File LANG_OUT_DIR = new File("./lang_out/");
@@ -47,12 +44,10 @@ public class Editor extends Application {
     final List<LangReader> LANG_IN = new ArrayList<>();
     final Map<String, LangEntry> MAP = new LinkedHashMap<>();
     final TranslationHelper helper = new TranslationHelper(this::suggCallback);
-    final List<String> susOutput = new ArrayList<>();
-
     private TreeView<LangEntry> tree;
     private TextArea langA, langB;
     private Button btnSuggest;
-    private CheckBox chkOnlineMode, chkMissinOnly, chkSuspicious;
+    private CheckBox chkOnlineMode;
     private Scene mainScene;
     private Stage primaryStage;
 
@@ -134,11 +129,8 @@ public class Editor extends Application {
         Button btnLookup = new Button("Lookup");
         btnLookup.setOnAction(event -> this.lookup());
 
-        chkMissinOnly = new CheckBox("Filter MT");
-        chkMissinOnly.setOnAction(event -> this.updateFilter());
-
-        chkSuspicious = new CheckBox("Filter SP");
-        chkSuspicious.setOnAction(event -> this.updateFilter());
+        CheckBox chkMissinOnly = new CheckBox("Only show missing translations");
+        chkMissinOnly.setOnAction(event -> this.changeMode(chkMissinOnly));
 
         chkOnlineMode = new CheckBox("Online mode");
 
@@ -148,12 +140,12 @@ public class Editor extends Application {
         Button btnImport = new Button("Import Slice");
         btnImport.setOnAction(event -> this.importSlice());
 
-        box.getChildren().addAll(btnSave, btnSuggest, btnLookup, btnExport, btnImport, chkMissinOnly, chkSuspicious, chkOnlineMode);
+        box.getChildren().addAll(btnSave, btnSuggest, btnLookup, btnExport, btnImport, chkMissinOnly, chkOnlineMode);
 
         tree = new TreeView<>();
         tree.setMinSize(-1, 700);
         tree.setShowRoot(false);
-        this.updateFilter();
+        this.changeMode(chkMissinOnly);
         tree.getSelectionModel().selectedItemProperty().addListener(this::changeSel);
 
         pane.getChildren().addAll(tree, new Label("langA"), langA, new Label("langB"), langB, box);
@@ -163,27 +155,18 @@ public class Editor extends Application {
 
     }
 
-    private Predicate<LangEntry> getFilter() {
-        Predicate<LangEntry> filter = null;
-        Predicate<LangEntry> filterMT = e -> (e.translation.isEmpty() || e.value.isEmpty() || e.translation.endsWith(") "));
-        Predicate<LangEntry> filterSP = e -> e.sus;
-
-        if (chkMissinOnly.isSelected()) filter = filterMT;
-        if (chkSuspicious.isSelected()) filter = filter == null ? filterSP : filter.or(filterSP);
-
-        return filter == null ? e -> true : filter;
-    }
-
     @SuppressWarnings({"SimplifyStreamApiCallChains", "SimplifyForEach"})
-    private void updateFilter() {
+    private void changeMode(CheckBox box) {
         final TreeItem<LangEntry> root = new TreeItem<>();
         tree.setRoot(root);
         final LinkedHashMap<String, LinkedHashMap<String, List<LangEntry>>> data = new LinkedHashMap<>();
-        final Predicate<LangEntry> filter = getFilter();
+        final Predicate<LangEntry> filter = box.isSelected()?e -> (e.translation.isEmpty() || e.value.isEmpty() || e.translation.endsWith(") ")):e -> true;
+        final int[] amount = {0};
         MAP.values().stream().forEachOrdered(entry -> {
             if (filter.test(entry)) {
                 String prefix = getIDPrefix(entry);
                 data.computeIfAbsent(entry.src, k -> new LinkedHashMap<>()).computeIfAbsent(prefix, k -> new ArrayList<>(8)).add(entry);
+                amount[0]++;
             }
         });
         data.forEach((key, value) -> {
@@ -212,6 +195,7 @@ public class Editor extends Application {
             int total = node.getChildren().stream().mapToInt(list -> list.getChildren().isEmpty() ? 1 : list.getChildren().size()).sum();
             e.key = key + " ("+node.getChildren().size()+ '/' +total+ ')';
         });
+        box.setText("("+ amount[0] +" entries) Only show missing translations");
     }
 
     private String getIDPrefix(LangEntry e) {
@@ -230,7 +214,6 @@ public class Editor extends Application {
             if (!old.getValue().translation.equals(langB.getText())) {
                 old.getValue().translation = langB.getText();
                 helper.put(old.getValue().value, langB.getText());
-                updateSus(old.getValue());
             }
         }
         if (val!=null && !val.getValue().src.isEmpty()) {
@@ -247,95 +230,23 @@ public class Editor extends Application {
     public static class LangEntry {
         public String key = "", value = "", translation = "", file = "", src = "";
         public int dupes = 0;
-        public boolean sus = false;
         public String toString() {
             return key+( dupes>0 ? " ("+dupes+ ')' : "");
         }
     }
 
-    public void updateSus(LangEntry entry) {
-        entry.sus = false;
-
-        final String sqValue = SQ_PATTERN.matcher(entry.value).replaceAll("");
-        final String qTransl = entry.translation.trim();
-
-        if (sqValue.isEmpty() || qTransl.isEmpty()) return;
-
-        for (LangEntry other : MAP.values()) {
-            if (other.translation.trim().equals(qTransl)) {
-                final String osqValue = SQ_PATTERN.matcher(other.value).replaceAll("");
-                if (osqValue.isEmpty()) continue;
-                final double sim = SearchUtils.similarity(sqValue, osqValue);
-                if (sim < SUS_THRESHOLD) {
-                    susOutput.add(entry.key + " / " + other.key);
-                    susOutput.add(entry.translation);
-                    susOutput.add(entry.value);
-                    susOutput.add(other.value);
-                    susOutput.add("\n");
-                    entry.sus = true;
-                    return;
-                }
-            }
-        }
-    }
-
     public void setup() {
         try {
-
             for (File file : Objects.requireNonNull(LANG_IN_DIR.listFiles())) {
                 LANG_IN.add(new LangReader(file));
             }
-
             for (LangReader reader : LANG_IN) {
                 reader.read(MAP);
             }
-
             EVENT_PATCHER.patch(MAP);
             BLUEPRINT_PATCHER.patch(MAP);
             new LangReader(new File("text-de.xml"), "de").read(MAP);
-
-            final File importFile = new File("import.txt");
-            if (importFile.exists()) {
-                System.out.println("Importing entries ...");
-                final BufferedReader reader = Files.newBufferedReader(importFile.toPath());
-
-                while (true) {
-                    String hline = reader.readLine();
-                    while (hline != null && hline.isEmpty()) hline = reader.readLine();
-                    if (hline == null) break;
-
-                    String[] keyarr = hline.split("/");
-                    if (keyarr.length != 2) throw new RuntimeException("invalid line: " + hline);
-
-                    String key = keyarr[0].trim();
-                    LangEntry entry = MAP.get(key);
-                    if (entry == null) throw new RuntimeException("invalid entry key: " + key);
-
-                    String transl = reader.readLine().trim();
-                    entry.translation = transl;
-
-                    reader.readLine();
-                    reader.readLine();
-                }
-
-                reader.close();
-            }
-
-            System.out.println("Analyzing entries ...");
-
-            susOutput.clear();
-            MAP.values().forEach(this::updateSus);
-
-            final BufferedWriter writer = Files.newBufferedWriter(new File("susout.txt").toPath(), StandardOpenOption.CREATE);
-            for (String s : susOutput) {
-                writer.write(s);
-                writer.newLine();
-            }
-
-            writer.close();
-
             this.info();
-
             for (LangEntry entry : MAP.values()) {
                 if (entry.file.startsWith("text_events")) {
                     String val = stripAdds(entry.value);
@@ -345,25 +256,22 @@ public class Editor extends Application {
                     }
                 }
             }
-
             // helper.dump();
-
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
     }
 
     private void info() {
-        int no_eng = 0, no_de = 0, sus = 0;
+        int no_eng = 0, no_de = 0;
         for (LangEntry entry : MAP.values()) {
             if (entry.value.isEmpty()) {
                 no_eng++;
                 System.out.println("Entry missing value: "+entry.key);
             }
             if (entry.translation.isEmpty() || entry.translation.endsWith(") ")) no_de++;
-            if (entry.sus) sus++;
         }
-        System.out.println("Results: "+MAP.size()+" entries, "+no_eng+" missing values, "+no_de+" missing translations and " + sus + " sus entries.");
+        System.out.println("Results: "+MAP.size()+" entries, "+no_eng+" missing values and "+no_de+" missing translations.");
     }
 
     public void save(Button btnSave) {
@@ -510,7 +418,6 @@ public class Editor extends Application {
                 final LangEntry entry = missing.get(i);
                 if (!entry.translation.isEmpty()) throw new IllegalStateException();
                 entry.translation = copyAdds(entry.value, line.trim());
-                updateSus(entry);
                 i++;
             }
         } catch (IOException e) {
