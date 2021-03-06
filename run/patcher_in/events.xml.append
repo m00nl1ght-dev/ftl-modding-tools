@@ -23905,7 +23905,7 @@
 	</event>
 </eventList>
 
-<!-- TODO
+
 
 <textList name="CE_CONVERSATION_HUMAN_GENERIC_TEXT">
 	<text>Your humanoid crew member has nothing interesting to say.</text>
@@ -24001,7 +24001,7 @@
 	<text>Your humanoid crew member knows this sector quite well, but can't supply any personal map data that would be detailed enough for your mission.</text>
 </textList>
 
--->
+
 
 <eventList name="CE_CONVERSATION_ENGI_GENERIC">
 	<event>
@@ -24272,7 +24272,7 @@
 	</event>
 </eventList>
 
-<!-- TODO
+
 
 <textList name="CE_CONVERSATION_ENGI_GENERIC_TEXT">
 	<text>Your Engi crew member has a lot to say, but you forgot your universal translator on the bridge. You just understand numbers.</text>
@@ -24308,7 +24308,7 @@
 	<text>Your Engi crew member has a lot to say, but you forgot your universal translator on the bridge. You just understand numbers, gibberish and something that sounds like radio static.</text>
 </textList>
 
--->
+
 
 <eventList name="CE_CONVERSATION_MANTIS_GENERIC">
 	<event>
@@ -24517,7 +24517,7 @@
 			</event>
 </eventList>
 
-<!-- TODO
+
 
 <textList name="CE_CONVERSATION_MANTIS_GENERIC_TEXT">
 	<text>Your Mantis crew member looks quite pleased with itself. When you ask why, it explains how it just figured out what a fortune it can make from selling Rebel POWs as slaves. You're not sure if you are happy that this crewman is on your side.</text>
@@ -24548,7 +24548,7 @@
 	<text>The Mantis is contemplating the war effort of the swarms. Even if the Rebellion could be defeated, will there be more war? The creature hopes so.</text>
 </textList>
 
--->
+
 
 <eventList name="CE_CONVERSATION_ROCK_GENERIC">
 	<event>
@@ -24679,7 +24679,7 @@
 	</event>
 </eventList>
 
-<!-- TODO
+
 
 <textList name="CE_CONVERSATION_ROCK_GENERIC_TEXT">
 		<text>The Rockman seems to be bored by this sector. "I hope we will get into an honorable engagement soon."</text>
@@ -24729,7 +24729,7 @@
 	<text>All the combat in this sector reminds your Rockman of the great battles its kind has fought.</text>
 </textList>
 
--->
+
 
 <eventList name="CE_CONVERSATION_ZOLTAN_GENERIC">
 	<event>
@@ -24902,7 +24902,7 @@
 	</event>
 </eventList>
 
-<!-- TODO
+
 
 <textList name="CE_CONVERSATION_ZOLTAN_GENERIC_TEXT">
 	<text>The Zoltan politely inquires how you feel today.</text>
@@ -24946,7 +24946,7 @@
 	<text>The Zoltan claims that it was able to power an entire shuttle craft when it was a few hundred years younger. Impressive.</text>
 </textList>
 
--->
+
 
 <eventList name="CE_CONVERSATION_SLUG_GENERIC">
 	<event>
@@ -25304,7 +25304,7 @@
 	<text>The Slug pours you some gelish, purple liquor. "Cheerss! To our misssion! I hope thiss isss all worth it... You know, I wass making a fortune exporting Zoltan Shield Componentss to sscared civiliansss when the Rebellion sstarted. But now I'm not ssso ssure that thiss whole war iss really profitable for everyone."</text>
 </textList>
 
-<!-- TODO
+
 
 <textList name="CE_CONVERSATION_SLUG_GENERIC_TEXT">
 	<text>The Slug speaks before you can even open your mouth, "I know what you're going to ssssay Captain. Not interessssted in talking about it!" Slugs can be quite annoying when they want to...</text>
@@ -25370,7 +25370,7 @@
 	<text>The Slug looks quite content. You ask it what it has been up to. "Just happy being around nebula. Nothing wrong with that, right? Do you like nebula?"</text>
 </textList>
 
--->
+
 
 <eventList name="CE_CONVERSATION_AI_GENERIC">
 	<event>
@@ -25448,7 +25448,7 @@
 	</event>
 </eventList>
 
-<!-- TODO
+
 
 <textList name="CE_CONVERSATION_AI_GENERIC_TEXT">
 	<text>The AI Avatar is not responding. Blinking lights on its holo generation-unit signal that all of its processing power is currently used. You leave it alone, as you have to assume that it is calculating something ship related.</text>
@@ -25477,7 +25477,7 @@
 	<text>Your AI asks if you will allow it to join an Engi hive after your mission is done. It thinks Engies are probably the only species which can truly understand AIs.</text>
 </textList>
 
--->
+
 
 <eventList name="CE_CONVERSATION_AI_UPGRADES">
 	<event>
@@ -25738,7 +25738,7 @@
 	</event>
 </eventList>
 
-<!-- TODO
+
 
 <textList name="CE_CONVERSATION_LANIUS_GENERIC_TEXT">
 	<text>Your Lanius crew member has a lot to say, but you forgot your universal translator on the bridge. Its speech sometimes includes seemingly random nouns in your language, but you cannot gather what the crewman wants to say.</text>
@@ -25770,7 +25770,7 @@
 	<text>You find the Lanius in the mess hall. While you eat your ration, a sluggish conversation ensues. After you finish eating, the Lanius points both its bladed arms at your synth-steel plate. "You... still eat him?" You slowly shake your head. The Lanius grabs the plate and absorbs it into its hand. "The best ration... on this plain, Captain. You should... train in it?"</text>
 </textList>
 
--->
+
 
 <eventList name="CE_CONVERSATION_LANIUS_RESHAPE_DOORS">
 	<event>
@@ -25997,7 +25997,7 @@
 	</event>
 </eventList>
 
-<!-- TODO
+
 
 <textList name="CE_CONVERSATION_CRYSTAL_GENERIC_TEXT">
 	<text>The Crystal does not know what to say to you. The being seems lost in the conversation.</text>
@@ -26024,7 +26024,7 @@
 	<text>Upon inquiring, the crewman explains that the retaliation crystals of its factions ships are actually using resonance energy from kinetic impacts to target and propel themselves. You consider that it just made this up.</text>
 </textList>
 
--->
+
 
 <!-- END OF CE SOCIAL -->
 
