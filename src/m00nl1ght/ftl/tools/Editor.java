@@ -38,7 +38,7 @@ public class Editor extends Application {
     static final List<String> PREFIX_LIST = Arrays.asList("ce", "event", "eventList", "textList", "text", "ship");
 
     static Patcher EVENT_PATCHER, BLUEPRINT_PATCHER;
-    static TagType TAG_EVENT, TAG_CHOICE, TAG_REMOVE_CREW, TAG_EVENT_LIST, TAG_TEXT_LIST, TAG_SHIP, TAG_SHIP_DESTROYED, TAG_SHIP_DEAD_CREW;
+    static TagType TAG_EVENT, TAG_CHOICE, TAG_REMOVE_CREW, TAG_EVENT_LIST, TAG_TEXT_LIST, TAG_SHIP, TAG_SHIP_DESTROYED, TAG_SHIP_DEAD_CREW, TAG_SHIP_GOTAWAY, TAG_SHIP_SURRENDER, TAG_SHIP_ESCAPE;
     static TagType TAG_BP_SYSTEM, TAG_BP_WEAPON, TAG_BP_CREW, TAG_BP_CREW_POWER, TAG_BP_AUG, TAG_BP_DRONE, TAG_BP_SHIP;
 
     final List<LangReader> LANG_IN = new ArrayList<>();
@@ -64,13 +64,19 @@ public class Editor extends Application {
         TAG_SHIP = new TagType("ship", (n, p, id, d, tag) -> "ce_ship_" + n);
         TAG_SHIP_DESTROYED = new TagType("destroyed", (n, p, id, d, tag) -> n + "_destroyed", "text");
         TAG_SHIP_DEAD_CREW = new TagType("deadCrew", (n, p, id, d, tag) -> n + "_deadCrew", "text");
+        TAG_SHIP_GOTAWAY = new TagType("gotaway", (n, p, id, d, tag) -> n + "_gotaway", "text");
+        TAG_SHIP_SURRENDER = new TagType("surrender", (n, p, id, d, tag) -> n + "_surrender", "text");
+        TAG_SHIP_ESCAPE = new TagType("escape", (n, p, id, d, tag) -> n + "_escape", "text");
 
         TAG_EVENT_LIST.sub(TAG_EVENT);
         TAG_EVENT.sub(TAG_CHOICE, TAG_REMOVE_CREW);
         TAG_CHOICE.sub(TAG_EVENT);
-        TAG_SHIP.sub(TAG_SHIP_DESTROYED, TAG_SHIP_DEAD_CREW);
+        TAG_SHIP.sub(TAG_SHIP_DESTROYED, TAG_SHIP_DEAD_CREW, TAG_SHIP_GOTAWAY, TAG_SHIP_SURRENDER, TAG_SHIP_ESCAPE);
         TAG_SHIP_DESTROYED.sub(TAG_CHOICE);
         TAG_SHIP_DEAD_CREW.sub(TAG_CHOICE);
+        TAG_SHIP_GOTAWAY.sub(TAG_CHOICE);
+        TAG_SHIP_SURRENDER.sub(TAG_CHOICE);
+        TAG_SHIP_ESCAPE.sub(TAG_CHOICE);
 
         List<String> event_files = Arrays.asList("events", "newEvents", "events_nebula", "events_pirate",
                 "events_rebel", "events_engi", "events_mantis", "events_rock", "events_slug", "events_zoltan",
