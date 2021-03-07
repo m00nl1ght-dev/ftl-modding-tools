@@ -358,11 +358,11 @@
 <text name="ship_PLAYER_SHIP_CIRCLE_unlock" language="de">Um dieses Engi-Schiff freizuschalten, musst du mit einer beliebigen Kestrel-Variante bis Sektor 5 gelangen.</text>
 <text name="ship_PLAYER_SHIP_CRYSTAL_name" language="de">Bravais</text>
 <text name="ship_PLAYER_SHIP_CRYSTAL_class" language="de">Crystal Cruiser</text>
-<text name="ship_PLAYER_SHIP_CRYSTAL_desc" language="de">Dieses bedrohliche Schiff wird durch die geheimen Technologien der vergessenen Crystal-Kreaturen angetrieben.</text>
+<text name="ship_PLAYER_SHIP_CRYSTAL_desc" language="de">Dieses bedrohliche Schiff wird durch die geheimen Technologien der vergessenen Kristallkreaturen angetrieben.</text>
 <text name="ship_PLAYER_SHIP_CRYSTAL_unlock" language="de">Reise in einen vergessenen Sektor der Galaxis, um dieses Schiff zu finden.</text>
 <text name="ship_PLAYER_SHIP_CRYSTAL_2_name" language="de">Carnelian</text>
 <text name="ship_PLAYER_SHIP_CRYSTAL_2_class" language="de">Crystal Cruiser</text>
-<text name="ship_PLAYER_SHIP_CRYSTAL_2_desc" language="de">Dank ihrer einzigartigen Fähigkeit sind die Crystal sehr geschickt im Entern von Schiffen. Dieses Schiff wurde speziell dafür entwickelt.</text>
+<text name="ship_PLAYER_SHIP_CRYSTAL_2_desc" language="de">Dank ihrer einzigartigen Fähigkeit sind die Kristallwesen sehr geschickt im Entern von Schiffen. Dieses Schiff wurde speziell dafür entwickelt.</text>
 <text name="ship_PLAYER_SHIP_CRYSTAL_2_unlock" language="de">Schließe 2 von 3 der Erfolge ab, um dieses Schiff freizuschalten.</text>
 <text name="ship_PLAYER_SHIP_ENERGY_name" language="de">The Adjudicator</text>
 <text name="ship_PLAYER_SHIP_ENERGY_class" language="de">Zoltan Cruiser</text>
@@ -441,7 +441,7 @@
 <text name="ship_PLAYER_SHIP_ROCK_2_unlock" language="de">Schließe 2 von 3 Rock Cruiser Erfolge ab, um dieses Schiff freizuschalten.</text>
 <text name="ship_PLAYER_SHIP_ROCK_3_name" language="de">Tektite</text>
 <text name="ship_PLAYER_SHIP_ROCK_3_class" language="de">Rock Cruiser</text>
-<text name="ship_PLAYER_SHIP_ROCK_3_desc" language="de">Als Kontakt zu den Crystal-Kreaturen aufgenommen wurde, war dieser Kreuzer Teil der diplomatischen Abmachungen.</text>
+<text name="ship_PLAYER_SHIP_ROCK_3_desc" language="de">Als Kontakt zu den Kristallkreaturen aufgenommen wurde, war dieser Kreuzer Teil der diplomatischen Abmachungen.</text>
 <text name="ship_PLAYER_SHIP_ROCK_3_unlock" language="de">Erreiche Sektor 8 mit dem Rock Cruiser Typ B im Erweiterten Modus, um dieses Schiff freizuschalten.</text>
 <text name="ship_PLAYER_SHIP_STEALTH_name" language="de">The Nesasio</text>
 <text name="ship_PLAYER_SHIP_STEALTH_class" language="de">Stealth Cruiser</text>
@@ -9169,7 +9169,7 @@
 <text name="ce_textList_ROCK_DIPLOMAT_DESTROYED_4" language="de">Das seltsame Schiff unterwirft sich der Stärke des Angriffs und zerbricht in Kristallsplitter und verschiedene Schrottteile.</text>
 <text name="ce_textList_ROCK_DIPLOMAT_DESTROYED_5" language="de">Das leuchtend blaue Schiff vor dir unterliegt dem Beschuss aus deinem Arsenal und zersplittert in Stücke, und die Überreste sind bereit, geplündert zu werden.</text>
 <text name="ce_event_ROCK_DIPLOMAT_SHIP_SURRENDER_c3" language="de">(Crystal Crew) Dein Crystal-Crewmitglied die Situation deeskalieren lassen.</text>
-<text name="ce_event_ROCK_DIPLOMAT_SHIP_SURRENDER_c3_e" language="de">Dein Crewmitglied bittet darum, mit dem Crystal-Gesandten an Bord des Diplomatenschiffes zu sprechen. Die fremden Wesen führen ein langes Gespräch in ihrer seltsamen Resonanzsprache. Danach informiert dich dein Crewmitglied, dass dieser Vorfall keine Auswirkungen auf die Beziehungen zwischen Föderation und den Crystal haben wird. Der Abgesandte entschuldigt sich, auch im Namen der Rock, und schickt eine Kiste mit Vorräten rüber.</text>
+<text name="ce_event_ROCK_DIPLOMAT_SHIP_SURRENDER_c3_e" language="de">Dein Crewmitglied bittet darum, mit dem Crystal-Gesandten an Bord des Diplomatenschiffes zu sprechen. Die fremden Wesen führen ein langes Gespräch in ihrer seltsamen Resonanzsprache. Danach informiert dich dein Crewmitglied, dass dieser Vorfall keine Auswirkungen auf die Beziehungen zwischen Föderation und den Kristallwesen haben wird. Der Abgesandte entschuldigt sich, auch im Namen der Rock, und schickt eine Kiste mit Vorräten rüber.</text>
 <text name="ce_event_NOTHING_ROCK_c12_e" language="de">Du legst schnell einige Minen, während das FTL aufgeladen wird. Die Rebellen müssen entweder dieses Gebiet meiden, das Minenfeld räumen oder schweren Schaden erleiden. All diese Möglichkeiten werden ihre Flotte erheblich verlangsamen.</text>
 <text name="ce_textList_NOTHING_ROCK_3" language="de">Bei deiner Ankunft entdeckst du Anzeichen eines Kampfs. In der Nähe einer kleinen Station verfolgen sich einige Schiffe gegenseitig. Du weißt nicht, ob es sich um etwas Territoriales, einen Wettkampf oder ein Ritual handelt und hältst dich lieber aus der Sache raus.</text>
 <text name="ce_textList_NOTHING_ROCK_6" language="de">Du siehst einen kleinen Handelsposten und bittest darum, auftanken zu dürfen, doch die Antwort lautet: "Verschwinden Sie! Ihresgleichen wird hier nicht bedient."</text>
@@ -9178,7 +9178,7 @@
 <text name="ce_textList_START_BEACON_ROCK_3" language="de">Die Rock patrouillieren eigentlich nicht an ihren Grenzen, aber die Reise durch den überwiegenden Teil ihres Territoriums ist für alle "Fremden" verboten. Du bist hier möglicherweise nicht willkommen.</text>
 <text name="ce_eventList_CE_BOUNTY_LIST_ROCK_5" language="de">In diesem Sektor gibt es keine Aufträge für dich. Die öffentliche Ordnung ist hier einfach zu gut erhalten, niemand braucht derzeit einen Kopfgeldjäger oder Söldner.</text>
 <text name="ce_event_START_BEACON_ROCK_HOME_ACTUAL_c1" language="de">(Crystal Crew) Deinen Crystal-Begleiter nach dem Weg zu ihrer Heimat fragen.</text>
-<text name="ce_event_START_BEACON_ROCK_HOME_ACTUAL_c1_e" language="de">Das Kristallwesen schaut eine Weile auf die Karte mit den Signalpunkten. Dann zeigt es auf einen der Knotenpunkte. "Es ist genau dort." Das ist nur ein paar Signalpunkte entfernt! Aufregung macht sich in der ganzen Crew breit. Werden sie die Heimatwelt der Crystal doch noch sehen?</text>
+<text name="ce_event_START_BEACON_ROCK_HOME_ACTUAL_c1_e" language="de">Das Kristallwesen schaut eine Weile auf die Karte mit den Signalpunkten. Dann zeigt es auf einen der Knotenpunkte. "Es ist genau dort." Das ist nur ein paar Signalpunkte entfernt! Aufregung macht sich in der ganzen Crew breit. Werden sie die Heimatwelt der Kristallwesen doch noch sehen?</text>
 <text name="ce_event_START_BEACON_ROCK_HOME_ACTUAL_c2" language="de">Auf den Sprung vorbereiten.</text>
 <text name="ce_event_START_BEACON_ROCK_HOME_ACTUAL_c2_e" language="de">Du musst den Ausgangs-Signalpunkt erreichen und von dort in den nächsten Sektor springen, bevor die Rebellen dich erwischen.</text>
 <text name="ce_event_START_BEACON_ROCK_HOME_ACTUAL_c2_e_c12" language="de">(Minelauncher) Ein Minenfeld legen, um die Rebellenflotte zu verlangsamen. [ Raketen: -4 ]</text>
