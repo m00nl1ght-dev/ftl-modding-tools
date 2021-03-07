@@ -6237,7 +6237,7 @@
 <text name="ce_eventList_BS_DEAD_CREW_DEFAULT_9_c1_e" language="de">Du programmierst die Drohne neu und sendest sie zu deinem Schiff. Deine Crew sammelt in der Zwischenzeit einige andere Materialien.</text>
 <text name="ce_event_C_CRUISER_ESCAPE" language="de">Das Schiff aktiviert seinen FTL-Antrieb. Wenn es entkommt, wird es der Flotte bestimmt deine Position mitteilen!</text>
 <text name="ce_event_START_BEACON_c1_e" language="de">Du bereitest das Schiff auf den FTL-Sprung vor.</text>
-<text name="ce_event_START_BEACON_c1_e_c1" language="de">Mit deiner Crew unterhalten, während das FTL aufgeladen wird. [ENG]</text>
+<text name="ce_event_START_BEACON_c1_e_c1" language="de">Mit deiner Crew unterhalten, während das FTL aufgeladen wird.</text>
 <text name="ce_event_START_BEACON_c1_e_c2" language="de">Verbesserungen für die Schiffsausrüstung erwägen.</text>
 <text name="ce_event_START_BEACON_c1_e_c3" language="de">Etwas an Bord des Schiffs produzieren.</text>
 <text name="ce_event_START_BEACON_c1_e_c4" language="de">(Bounty Hunter Database) Einen Auftrag für diesen Sektor annehmen.</text>
@@ -6663,7 +6663,7 @@
 <text name="ce_eventList_CE_AUGMENT_UPGRADE_CIVILIAN_1_c1_e_c20_e" language="de">Der Schiffscomputer enthält alle verfügbaren Daten zu den fortgeschrittenen Zoltan-Schilden. Auf diese Weise kannst du die Teleporter so aufrüsten, dass sie die Schilde umgehen können.</text>
 <text name="ce_eventList_CE_AUGMENT_UPGRADE_CIVILIAN_1_c1_e_c21" language="de">(Zoltan Ship) Einen externen Superschild-Projektor konstruieren. [ Schrott: -60; Treibstoff -10; Drohne: Shield Overcharger ]</text>
 <text name="ce_eventList_CE_AUGMENT_UPGRADE_CIVILIAN_1_c1_e_c21_e" language="de">Streng geheime Pläne dieser neuen Technologie wurden an alle Zoltan-Schiffe verteilt, als der Konflikt eskalierte. Du beschließt, das Gerät einem Testlauf zu unterziehen. Es ist eine separate Treibstoffreserve erforderlich um eine FTL-Reaktion zu zünden, die dann die undurchdringlichen Superschilde erzeugt. Der Prozess ist zu gefährlich, um in einem Raumschiff ausgeführt zu werden, daher musst du das Gerät über ein Drohnensystem fernsteuern.</text>
-<text name="ce_eventList_CE_AUGMENT_UPGRADE_CIVILIAN_1_c1_e_c22" language="de">Einfach nur eine kleine Unterhaltung mit der Crew führen, während das FTL aufgeladen wird. [ENG]</text>
+<text name="ce_eventList_CE_AUGMENT_UPGRADE_CIVILIAN_1_c1_e_c22" language="de">Einfach nur eine kleine Unterhaltung mit der Crew führen, während das FTL aufgeladen wird.</text>
 <text name="ce_textList_CE_AUGMENT_UPGRADE_TEXT_1" language="de">Tief im Bauch des Schiffes konsultierst du die Blaupausen und überlegst, welche Verbesserungen vorgenommen werden könnten. Das Anpassen des Schiffs auf diese Weise wird länger dauern als die üblichen standardisierten Upgrades.</text>
 <text name="ce_textList_CE_AUGMENT_UPGRADE_TEXT_2" language="de">Du organisierst ein Crewmeeting und sammelst Vorschläge, wie die Leistung des Schiffes verbessert werden könnte. Einige gute Ideen kommen auf, aber was auch immer du tust, die Umrüstung des Schiffes wird höchstwahrscheinlich zeitaufwändig sein.</text>
 <text name="ce_textList_CE_AUGMENT_UPGRADE_TEXT_3" language="de">Die Crew versammelt sich im Hauptraum und wird über den Fortschritt der Mission informiert. Du erkundigst dich nach dem Zustand des Schiffes und dein Ingenieur berichtet, dass einige Verbesserungen vorgenommen werden könnten.</text>
@@ -6677,7 +6677,7 @@
 <text name="ce_eventList_CE_PRODUCTION_1_c4" language="de">(FTL Fuel Recycler) Einige FTL-Treibstoffzellen recyclen.</text>
 <text name="ce_eventList_CE_PRODUCTION_1_c5" language="de">(AI Avatar Generator) Ein holographisches KI-Crewmitglied generieren. [ Schrott: -15 ]</text>
 <text name="ce_eventList_CE_PRODUCTION_1_c6" language="de">(On-Board Clone Lab) Eines deiner organischen Crewmitglieder klonen.</text>
-<text name="ce_eventList_CE_PRODUCTION_CIVILIAN_1_c7" language="de">Einfach nur eine kleine Unterhaltung mit der Crew führen, während das FTL aufgeladen wird. [ENG]</text>
+<text name="ce_eventList_CE_PRODUCTION_CIVILIAN_1_c7" language="de">Einfach nur eine kleine Unterhaltung mit der Crew führen, während das FTL aufgeladen wird.</text>
 <text name="ce_eventList_CE_ONBOARD_PRODUCTION_CIVILIAN_1_c1" language="de">Gewöhnliche Handelsgüter produzieren.</text>
 <text name="ce_eventList_CE_ONBOARD_PRODUCTION_CIVILIAN_1_c1_e_c4" language="de">Einige Stromleitungen produzieren. [ Schrott: -10; Erweiterung: Power Conduits ]</text>
 <text name="ce_eventList_CE_ONBOARD_PRODUCTION_CIVILIAN_1_c3_e" language="de">Schrott wird in stabile Hüllenplatten verwandelt. Die Ladearme können das Gewicht kaum bewältigen und du musst die künstliche Schwerkraft anpassen, um das Verpacken der Teile zu erleichtern. Zeit vergeht.</text>
@@ -9934,7 +9934,7 @@
 <text name="ce_eventList_TE_STORE_CRYSTAL_LIST_BOOSTED_1" language="de">Du überlegst, hier ein Geschäft zu machen.</text>
 <text name="ce_eventList_FUEL_OFF_ROCK_WRECK_LIST_4_c3" language="de">Sie zurück teleportieren.</text>
 <text name="ce_eventList_FUEL_OFF_ROCK_WRECK_LIST_4_c3_e" language="de">Du verbindest dich mit ihrem Transponder. Sofort wird deine Crew zu deinem Schiff zurückgeholt, mit einem Gast im Schlepptau.</text>
-<text name="ce_event_FUEL_NOTHING_c1" language="de">Mit deiner Crew unterhalten, während du wartest. [ENG]</text>
+<text name="ce_event_FUEL_NOTHING_c1" language="de">Mit deiner Crew unterhalten, während du wartest.</text>
 <text name="ce_event_FUEL_NOTHING_c5_e" language="de">Dir ist zwar der Treibstoff ausgegangen, aber du kannst immer noch versuchen, mit deinem Recycler etwas mehr aus den Kapseln herauszuholen.</text>
 <text name="ce_event_FUEL_NOTHING_c6" language="de">(Ammo Manufacturer) Einige Raketen produzieren, während du wartest. [ Schrott: -20 ]</text>
 <text name="ce_event_FUEL_NOTHING_c6_e" language="de">Es gibt nicht viel zu tun, während du hier draußen treibst. Du beschließt, dass es wichtig ist, die Crew zu beschäftigen und befiehlst ihr, etwas Munition zu produzieren. Der Munitionsfabrikator an Bord verwandelt etwas harmlosen Schrott in tödliche Sprengköpfe. Du fühlst dich besser vorbereitet für den nächsten Kampf.</text>
@@ -9967,7 +9967,7 @@
 <text name="ce_eventList_CE_ONBOARD_PRODUCTION_NO_FUEL_1_c1_e_c5" language="de">Industrielle Drohnen produzieren.</text>
 <text name="ce_eventList_CE_ONBOARD_PRODUCTION_NO_FUEL_1_c1_e_c6" language="de">Solarzellen produzieren.</text>
 <text name="ce_eventList_CE_ONBOARD_PRODUCTION_NO_FUEL_1_c6_e" language="de">Das Kristallwesen programmiert die Fertigungslinie neu und tritt dann auf das Förderband. Klare Kristalle wachsen aus seinem Körper und werden von den Roboterarmen zu kleinen Kugeln geformt. Ein seltsamer Anblick, den man sich nicht entgehen lassen sollte.</text>
-<text name="ce_event_FUEL_NOTHING_DISTRESS_c1" language="de">Mit deiner Crew unterhalten, während du auf Hilfe wartest. [ENG]</text>
+<text name="ce_event_FUEL_NOTHING_DISTRESS_c1" language="de">Mit deiner Crew unterhalten, während du auf Hilfe wartest.</text>
 <text name="ce_event_FUEL_NOTHING_DISTRESS_c6_e" language="de">Du bist hier ungestört und kannst die Zeit nutzen, um etwas Munition herzustellen. Die Munitionspresse an Bord verwandelt harmlosen Schrott in tödliche Sprengköpfe. Jeder an Bord fühlt sich nun besser auf den nächsten Kampf vorbereitet.</text>
 <text name="ce_event_FUEL_NOTHING_DISTRESS_c7_e" language="de">Es gibt nicht viel zu tun, während du hier draußen treibst. Du beschließt, dass es wichtig ist, die Crew zu beschäftigen und befiehlst ihr, einige Drohnen zu produzieren. Das Assembler-Gerät an Bord verwandelt etwas Schiffsschrott in funktionsfähige Roboter. Du fühlst dich besser vorbereitet für den nächsten Kampf.</text>
 <text name="ce_event_FUEL_NOTHING_DISTRESS_c9_e" language="de">In der endlosen Dunkelheit gibt es nichts zu tun, also schickst du das ganze Team auf Scanner-Dienst. Die Crew verbringt eine gute Zeit miteinander und zeichnet virtuelle Sternenkarten. Jeder hofft, dass ihr bald Treibstoff beschaffen könnt, um weiter durch den Sektor zu reisen. Deine Karte wurde aktualisiert.</text>
