@@ -4118,32 +4118,32 @@
 <text name="stretch_not_supported" language="de">Not supported on this system</text>
 <text name="restart_required" language="de">Restart required</text>
 <text name="restart_required_dialog" language="de">Du musst FTL neu starten, um die neuen Einstellungen zu übernehmen.</text>
-<text name="fullscreen" language="de">Vollbild: \1</text>
-<text name="fullscreen_0" language="de">Aus</text>
-<text name="fullscreen_1" language="de">An (Stretch)</text>
-<text name="fullscreen_2" language="de">An (Borders)</text>
-<text name="fullscreen_3" language="de">An (Native)</text>
+<text name="fullscreen" language="de">Fullscreen: \1</text>
+<text name="fullscreen_0" language="de">Off</text>
+<text name="fullscreen_1" language="de">On (Stretch)</text>
+<text name="fullscreen_2" language="de">On (Borders)</text>
+<text name="fullscreen_3" language="de">On (Native)</text>
 <text name="v_sync" language="de">Vertical Sync: \1</text>
 <text name="frame_limit" language="de">Frame Limit: \1</text>
-<text name="dynamic_back" language="de">Dynamische Hintergründe: \1</text>
-<text name="colorblind" language="de">Modus für Farbenblinde: \1</text>
-<text name="change_language" language="de">Sprache ändern</text>
-<text name="choose_language" language="de">Sprache wählen:</text>
+<text name="dynamic_back" language="de">Dynamic Backgrounds: \1</text>
+<text name="colorblind" language="de">Colorblind Mode: \1</text>
+<text name="change_language" language="de">Change Language</text>
+<text name="choose_language" language="de">Choose a language:</text>
 <text name="language_name" language="de">Deutsch</text>
-<text name="event_choice" language="de">Ereignisauswahl: \1</text>
-<text name="event_choice_disable_hotkeys" language="de">Hotkeys aus</text>
-<text name="event_choice_no_delay" language="de">Keine Verzögerung</text>
-<text name="event_choice_brief_delay" language="de">Kurze Verzögerung</text>
-<text name="show_paths" language="de">Signalwege anzeigen: \1</text>
-<text name="show_paths_ipad" language="de">Signalwege anzeigen: \1</text>
-<text name="achievement_popup" language="de">Erfolge einblenden: \1</text>
-<text name="window_focus" language="de">Fensterfokus-Autopause: \1</text>
-<text name="touch_autopause" language="de">Touch-Befehl-Autopause: \1</text>
-<text name="configure_controls" language="de">Tastatur-Hotkeys konfigurieren</text>
-<text name="sound_volume" language="de">Geräusche</text>
-<text name="music_volume" language="de">Musik</text>
-<text name="button_delete_profile" language="de">PROFIL\nLÖSCHEN</text>
-<text name="configure_controls_tab" language="de">STEUERUNG KONFIGURIEREN</text>
+<text name="event_choice" language="de">Event choice selection: \1</text>
+<text name="event_choice_disable_hotkeys" language="de">Disable hotkeys</text>
+<text name="event_choice_no_delay" language="de">No delay</text>
+<text name="event_choice_brief_delay" language="de">Brief delay</text>
+<text name="show_paths" language="de">Show beacon paths on hover: \1</text>
+<text name="show_paths_ipad" language="de">Show beacon paths on touch: \1</text>
+<text name="achievement_popup" language="de">Achievement Popups: \1</text>
+<text name="window_focus" language="de">Window Focus Auto-Pause: \1</text>
+<text name="touch_autopause" language="de">Touch Command Auto-Pause: \1</text>
+<text name="configure_controls" language="de">Configure Keyboard Hotkeys</text>
+<text name="sound_volume" language="de">Sound Volume</text>
+<text name="music_volume" language="de">Music Volume</text>
+<text name="button_delete_profile" language="de">DELETE\nPROFILE</text>
+<text name="configure_controls_tab" language="de">CONFIGURE CONTROLS</text>
 <text name="power_note" language="de">Hinweis: Umschalttaste + System aktivieren wird System deaktivieren</text>
 <text name="press_key" language="de">PRESS KEY</text>
 <text name="button_defaults" language="de">STANDARD</text>
