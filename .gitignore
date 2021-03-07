@@ -1,9 +1,9 @@
 /.idea/
 /build_env/
 /out/
-/run/
-!/run/text-de.xml
-!/run/patcher_in
-!/run/lang_in
-!/run/overrides
 *.iml
+
+/run/backup/
+/run/lang_out/
+/run/patcher_out/
+/run/api_key.txt
