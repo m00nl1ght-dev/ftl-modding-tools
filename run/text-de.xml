@@ -4044,7 +4044,7 @@
 
 <!-- FILE: text_misc.xml -->
 
-<text name="bullet" language="de">-\1</text>
+<text name="bullet" language="de">- \1</text>
 <text name="button_close" language="de">OK</text>
 <text name="continue" language="de">Weiter...</text>
 <text name="welcome" language="de">Willkommen bei FTL: Faster Than Light!\n\nWir empfehlen dir, zuerst das Tutorial zu spielen - wir haben es möglichst kompakt und einfach gehalten!\n\nWir wünschen dir viel Spaß mit dem Spiel.\n\n- Subset Games</text>
@@ -4056,7 +4056,7 @@
 <text name="mainmenu_tutorial" language="de">TUTORIAL</text>
 <text name="mainmenu_stats" language="de">STATISTIK</text>
 <text name="mainmenu_options" language="de">OPTIONEN</text>
-<text name="mainmenu_credits" language="de">MITWIRKENDE</text>
+<text name="mainmenu_credits" language="de">CREDITS</text>
 <text name="mainmenu_quit" language="de">BEENDEN</text>
 <text name="no_load" language="de">Kein Spielstand vorhanden</text>
 <text name="new_player" language="de">Ein neuer Spieler hat sich im Game Center angemeldet. Zurück zum Titelbildschirm.</text>
@@ -4106,23 +4106,23 @@
 <text name="help_tap_close" language="de">Zurück zum Spiel mit Antippen.</text>
 <text name="help_customize" language="de">Hinweis: Das hier ist eine Übersicht. Viele Hotkeys lassen sich im Optionsmenü anpassen.</text>
 <text name="no_save_tutorial" language="de">Speichern und Beenden im Tutorial nicht möglich.</text>
-<text name="options_tab" language="de">OPTIONEN</text>
-<text name="options_frame_video" language="de">GRAFIK</text>
+<text name="options_tab" language="de">OPTIONS</text>
+<text name="options_frame_video" language="de">VIDEO</text>
 <text name="options_frame_gameplay" language="de">GAMEPLAY</text>
 <text name="options_frame_audio" language="de">AUDIO</text>
-<text name="on" language="de">An</text>
-<text name="off" language="de">Aus</text>
-<text name="disabled" language="de">Deaktiviert</text>
-<text name="enabled" language="de">Aktiviert</text>
-<text name="manual_override" language="de">Eigene Einstellungen aktiv</text>
-<text name="stretch_not_supported" language="de">Auf diesem System nicht unterstützt</text>
-<text name="restart_required" language="de">Neustart erforderlich</text>
+<text name="on" language="de">On</text>
+<text name="off" language="de">Off</text>
+<text name="disabled" language="de">Disabled</text>
+<text name="enabled" language="de">Enabled</text>
+<text name="manual_override" language="de">Overridden by manual settings</text>
+<text name="stretch_not_supported" language="de">Not supported on this system</text>
+<text name="restart_required" language="de">Restart required</text>
 <text name="restart_required_dialog" language="de">Du musst FTL neu starten, um die neuen Einstellungen zu übernehmen.</text>
 <text name="fullscreen" language="de">Vollbild: \1</text>
 <text name="fullscreen_0" language="de">Aus</text>
-<text name="fullscreen_1" language="de">An (Strecken)</text>
-<text name="fullscreen_2" language="de">An (Rand)</text>
-<text name="fullscreen_3" language="de">An (Nativ)</text>
+<text name="fullscreen_1" language="de">An (Stretch)</text>
+<text name="fullscreen_2" language="de">An (Borders)</text>
+<text name="fullscreen_3" language="de">An (Native)</text>
 <text name="v_sync" language="de">Vertical Sync: \1</text>
 <text name="frame_limit" language="de">Frame Limit: \1</text>
 <text name="dynamic_back" language="de">Dynamische Hintergründe: \1</text>
@@ -4132,8 +4132,8 @@
 <text name="language_name" language="de">Deutsch</text>
 <text name="event_choice" language="de">Ereignisauswahl: \1</text>
 <text name="event_choice_disable_hotkeys" language="de">Hotkeys aus</text>
-<text name="event_choice_no_delay" language="de">Keine Verzög.</text>
-<text name="event_choice_brief_delay" language="de">Kurze Verzög.</text>
+<text name="event_choice_no_delay" language="de">Keine Verzögerung</text>
+<text name="event_choice_brief_delay" language="de">Kurze Verzögerung</text>
 <text name="show_paths" language="de">Signalwege anzeigen: \1</text>
 <text name="show_paths_ipad" language="de">Signalwege anzeigen: \1</text>
 <text name="achievement_popup" language="de">Erfolge einblenden: \1</text>
@@ -4299,21 +4299,21 @@
 <text name="keycap_up" language="de">HOCH</text>
 <text name="stats_shipbest" language="de">SHIP BEST</text>
 <text name="stats_topscores" language="de">TOP SCORES</text>
-<text name="stats_achievements" language="de">ERFOLGE</text>
-<text name="stats_stats" language="de">STATISTIK</text>
+<text name="stats_achievements" language="de">ARCHIEVEMENTS</text>
+<text name="stats_stats" language="de">STATS</text>
 <text name="stats_ranking" language="de">\1</text>
 <text name="defeated_stat" language="de">Besiegte Schiffe</text>
-<text name="beacons_stat" language="de">Erk. Signalpunkte</text>
+<text name="beacons_stat" language="de">Erkundete Signalpunkte</text>
 <text name="scrap_stat" language="de">Gesammelter Schrott</text>
 <text name="crew_stat" language="de">Angeheuerte Crew</text>
 <text name="most_defeated_stat" language="de">Meiste besiegte Schiffe</text>
-<text name="most_beacons_stat" language="de">Meiste erk. Signalpunkte</text>
+<text name="most_beacons_stat" language="de">Meiste erkundete Signalpunkte</text>
 <text name="most_scrap_stat" language="de">Meister gesammelter Schrott</text>
 <text name="most_crew_stat" language="de">Meiste angeheuerte Crew</text>
-<text name="total_defeated_stat" language="de">Besiegte Schiffe (gesamt)</text>
-<text name="total_beacons_stat" language="de">Erk. Signalpunkte (gesamt)</text>
-<text name="total_scrap_stat" language="de">Gesammelter Schrott (gesamt)</text>
-<text name="total_crew_stat" language="de">Angeheuerte Crew (gesamt)</text>
+<text name="total_defeated_stat" language="de">Besiegte Schiffe</text>
+<text name="total_beacons_stat" language="de">Erkundete Signalpunkte</text>
+<text name="total_scrap_stat" language="de">Gesammelter Schrott</text>
+<text name="total_crew_stat" language="de">Angeheuerte Crew</text>
 <text name="crew_evasions" language="de">Ausweichmanöver</text>
 <text name="crew_repairs" language="de">Reparaturen</text>
 <text name="crew_kills" language="de">Kills</text>
@@ -4323,23 +4323,23 @@
 <text name="most_crew_repairs" language="de">Meiste Reparaturen</text>
 <text name="most_crew_kills" language="de">Meiste Kills</text>
 <text name="most_crew_jumps" language="de">Meiste überlebte Sprünge</text>
-<text name="most_crew_masteries" language="de">Meiste gemeist. Fertigkeiten</text>
+<text name="most_crew_masteries" language="de">Meiste gemeisterte Skills</text>
 <text name="records_heading" language="de">Session Records:</text>
 <text name="crew_heading" language="de">Crew Records:</text>
 <text name="stats_heading" language="de">Session Stats:</text>
-<text name="total_heading" language="de">Gesamt:</text>
+<text name="total_heading" language="de">Overall Stats:</text>
 <text name="final_score" language="de">Gesamtpunkte</text>
-<text name="total_games" language="de">Spiele (gesamt)</text>
-<text name="total_victories" language="de">Siege (gesamt)</text>
-<text name="progression_heading" language="de">Allg. Fortschritt:</text>
-<text name="distance_heading" language="de">Geflogene Strecke:</text>
-<text name="skill_heading" language="de">Fertigkeiten und Ausrüstung:</text>
-<text name="new_crew" language="de">Neu!</text>
-<text name="new_achievement" language="de">Neu!</text>
-<text name="new_score" language="de">Neu!</text>
-<text name="type_a" language="de">Typ A</text>
-<text name="type_b" language="de">Typ B</text>
-<text name="type_c" language="de">Typ C</text>
+<text name="total_games" language="de">Spiele</text>
+<text name="total_victories" language="de">Siege</text>
+<text name="progression_heading" language="de">General Progression:</text>
+<text name="distance_heading" language="de">Going the Distance:</text>
+<text name="skill_heading" language="de">Skill and Equipment Feats:</text>
+<text name="new_crew" language="de">New!</text>
+<text name="new_achievement" language="de">New!</text>
+<text name="new_score" language="de">New!</text>
+<text name="type_a" language="de">Type A</text>
+<text name="type_b" language="de">Type B</text>
+<text name="type_c" language="de">Type C</text>
 <text name="shipselect_type_suffix" language="de"> \1</text>
 <text name="victory_ach_title" language="de">\1 Victory</text>
 <text name="victory_ach" language="de">Besiege das Flaggschiff mit einer Variante des \1.</text>
@@ -4357,9 +4357,9 @@
 <text name="scorelist_score" language="de">PUNKTE     \1</text>
 <text name="scorelist_sector" language="de">SEKTOR    \1</text>
 <text name="gameover_score" language="de">PUNKTE: \1</text>
-<text name="easy" language="de">Leicht</text>
+<text name="easy" language="de">Easy</text>
 <text name="normal" language="de">Normal</text>
-<text name="hard" language="de">Schwer</text>
+<text name="hard" language="de">Hard</text>
 <text name="new_high" language="de">Neuer Highscore!</text>
 <text name="welcome_hangar_pc" language="de">Willkommen im Föderationshangar!\n\nHier kannst du ein Schiff wählen sowie ihm und deiner Crew Namen geben. Derzeit ist nur die Kestrel verfügbar, aber während des Spiels schaltest du weitere Schiffe frei.\n\nDen Schwierigkeitsgrad änderst du oben rechts. Zum Einstieg solltest du es auf "Leicht" probieren.</text>
 <text name="welcome_hangar_ipad" language="de">Willkommen im Föderationshangar!\n\nHier kannst du ein Schiff wählen sowie ihm und deiner Crew Namen geben. Derzeit ist nur die Kestrel verfügbar, aber während des Spiels schaltest du weitere Schiffe frei.\n\nDen Schwierigkeitsgrad änderst du auf der rechten Seite. Zum Einstieg solltest du es auf "Leicht" probieren.</text>
@@ -4368,47 +4368,47 @@
 <text name="list_tutorial_2" language="de">Es gibt zwei Möglichkeiten, ein Schiff freizuschalten:\n\nDu musst einen bestimmten Auftrag im Spiel abschließen. Oft starten sie in den Heimatwelt-Sektoren.\n\nAlternativ kannst du auch das Spiel mit einem Schiff aus der Liste abschließen, um das darauffolgende freizuschalten.\n\nBewege die Maus über ein Schiff, um weitere Informationen zu erhalten!</text>
 <text name="list_tutorial_2_demo" language="de">Da dies nur die Demo von FTL ist, kannst du keine weiteren Schiffe freischalten. In der Vollversion gibt es 10 verschiedene Schiffe in unterschiedlichen Varianten.</text>
 <text name="list_tutorial_2_ipad" language="de">Es gibt zwei Möglichkeiten, ein Schiff freizuschalten:\n\nDu musst einen bestimmten Auftrag im Spiel abschließen. Oft starten sie in den Heimatwelt-Sektoren.\n\nAlternativ kannst du auch das Spiel mit einem Schiff aus der Liste abschließen, um das darauffolgende freizuschalten.\n\nTippe ein Schiff an, um weitere Informationen zu erhalten!</text>
-<text name="hangar_frame_ship" language="de">SCHIFF</text>
-<text name="hangar_frame_layout" language="de">VARIANTE</text>
+<text name="hangar_frame_ship" language="de">SHIP</text>
+<text name="hangar_frame_layout" language="de">LAYOUT</text>
 <text name="hangar_frame_crew" language="de">CREW</text>
 <text name="hangar_achievements_title" language="de">Complete 2 for Layout B</text>
 <text name="hangar_advanced_title" language="de">Advanced Edition Content</text>
 <text name="hangar_advanced_warning" language="de">ZUGRIFF NUR MIT INHALTEN DER ADVANCED EDITION</text>
 <text name="start_button" language="de">START</text>
-<text name="hangar_exit_button" language="de">HAUPTMENÜ</text>
-<text name="easy_button" language="de">LEICHT</text>
+<text name="hangar_exit_button" language="de">MAIN MENU</text>
+<text name="easy_button" language="de">EASY</text>
 <text name="easy_title" language="de">Easy Mode</text>
 <text name="easy_text" language="de">Höhere Belohnungen und leichtere Gegner.</text>
 <text name="normal_button" language="de">NORMAL</text>
 <text name="normal_title" language="de">Normal Mode</text>
 <text name="normal_text" language="de">Normale Belohnungen und Gegner.\n\nDu erhältst 25 % mehr Punkte.</text>
-<text name="hard_button" language="de">SCHWER</text>
+<text name="hard_button" language="de">HARD</text>
 <text name="hard_title" language="de">Hard Mode</text>
 <text name="hard_text" language="de">Geringe Belohnungen und schwere Gegner.\n\nDu erhältst 50 % mehr Punkte.</text>
-<text name="advanced_on_button" language="de">AKTIVIERT</text>
+<text name="advanced_on_button" language="de">ENABLED</text>
 <text name="advanced_on_title" language="de">Advanced Content</text>
 <text name="advanced_on_text" language="de">Neue Systeme, Waffen, Alien-Völker und mehr! Empfohlen für erfahrene Spieler.</text>
 <text name="advanced_on_demo_text" language="de">NICHT VERFÜGBAR IN DER DEMO</text>
-<text name="advanced_off_button" language="de">DEAKTIVIERT</text>
+<text name="advanced_off_button" language="de">DISABLED</text>
 <text name="advanced_off_title" language="de">Default Content</text>
 <text name="advanced_off_text" language="de">Die normalen Inhalte von Faster Than Light.</text>
 <text name="ship_rename_button" language="de">RENAME</text>
-<text name="ship_list_button" language="de">LISTE</text>
-<text name="ship_random_button" language="de">ZUFÄLLIGES SCHIFF</text>
+<text name="ship_list_button" language="de">LIST</text>
+<text name="ship_random_button" language="de">RANDOM SHIP</text>
 <text name="typebutton_a" language="de">A</text>
 <text name="typebutton_b" language="de">B</text>
 <text name="typebutton_c" language="de">C</text>
-<text name="ship_showrooms_button" language="de">RÄUME ZEIGEN</text>
-<text name="ship_hiderooms_button" language="de">RÄUME VERSTECKEN</text>
-<text name="crewbox_customize" language="de">ANPASSEN</text>
+<text name="ship_showrooms_button" language="de">SHOW ROOMS</text>
+<text name="ship_hiderooms_button" language="de">HIDE ROOMS</text>
+<text name="crewbox_customize" language="de">CUSTOMIZE</text>
 <text name="crewbox_rename" language="de">RENAME</text>
-<text name="crewbox_accept" language="de">ANNEHMEN</text>
+<text name="crewbox_accept" language="de">ACCEPT</text>
 <text name="shiplist_title" language="de">CHOOSE YOUR SHIP</text>
-<text name="typebutton_type_a" language="de">TYP A</text>
-<text name="typebutton_type_b" language="de">TYP B</text>
-<text name="typebutton_type_c" language="de">TYP C</text>
-<text name="no_type_c" language="de">Kein Typ C</text>
-<text name="shiplist_accept_button" language="de">ANNEHMEN</text>
+<text name="typebutton_type_a" language="de">TYPE A</text>
+<text name="typebutton_type_b" language="de">TYPE B</text>
+<text name="typebutton_type_c" language="de">TYPE C</text>
+<text name="no_type_c" language="de">No Type C</text>
+<text name="shiplist_accept_button" language="de">ACCEPT</text>
 <text name="ship_unlock_victory" language="de">Besiege das Flaggschiff mit einer Variante von \1, um \2 freizuschalten.</text>
 <text name="ship_unlock_sector5" language="de">Erreiche Sektor 5 mit einer Variante von \1, um \2 freizuschalten.</text>
 <text name="alt_unlock" language="de">Alternativ: \1</text>
@@ -4416,10 +4416,10 @@
 <text name="alt_unlock_victory_locked" language="de">Besiege das Flaggschiff mit einer Variante von \1 (gesperrt)</text>
 <text name="alt_unlock_crystal" language="de">Besiege das Flaggschiff mit Typ A und Typ B jedes anderen Schiffs (außer dem Lanius Cruiser).</text>
 <text name="unidentified" language="de">Unbekannter Kreuzer</text>
-<text name="status_hull" language="de">HÜLLE</text>
-<text name="status_shields" language="de">SCHILDE</text>
+<text name="status_hull" language="de">HULL</text>
+<text name="status_shields" language="de">SHIELDS</text>
 <text name="button_jump" language="de">FTL</text>
-<text name="ftl_drive" language="de">FTL-Antrieb</text>
+<text name="ftl_drive" language="de">FTL Drive</text>
 <text name="ftl_charging" language="de">CHARGING</text>
 <text name="ftl_ready" language="de">READY!</text>
 <text name="button_store" language="de">SHOP</text>
@@ -4428,9 +4428,9 @@
 <text name="button_autofire" language="de">AUTOFIRE</text>
 <text name="button_autofire_ipad" language="de">AUTO\nFIRE</text>
 <text name="button_lockdown" language="de">LOCKDOWN</text>
-<text name="weapons_label" language="de">WAFFEN</text>
-<text name="drones_label" language="de">DROHNEN</text>
-<text name="subsystems_label" language="de">SUBSYSTEME</text>
+<text name="weapons_label" language="de">WEAPONS</text>
+<text name="drones_label" language="de">DRONES</text>
+<text name="subsystems_label" language="de">SUBSYSTEMS</text>
 <text name="door_close_all" language="de">CLOSE\nALL</text>
 <text name="door_open_all" language="de">OPEN\nALL</text>
 <text name="miss" language="de">MISS</text>
@@ -4455,34 +4455,34 @@
 <text name="paused_teleport" language="de">TELEPORT</text>
 <text name="paused_teleport_text_in" language="de">Gegnerischen Raum antippen, um Crew zurückzuholen.</text>
 <text name="paused_teleport_text_out" language="de">Gegnerischen Raum antippen, um Enterteam loszuschicken.</text>
-<text name="warning_warning" language="de">WARNUNG!</text>
-<text name="warning_in_danger" language="de">IN GEFAHR</text>
-<text name="warning_environment_danger" language="de">GEFAHR!</text>
+<text name="warning_warning" language="de">WARNING!</text>
+<text name="warning_in_danger" language="de">IN DANGER</text>
+<text name="warning_environment_danger" language="de">DANGER!</text>
 <text name="warning_pds_allies" language="de"> </text>
 <text name="warning_solar_flare" language="de">SOLAR FLARE\nIMMINENT!</text>
 <text name="warning_ion_pulse" language="de">ION PULSE\nIMMINENT!</text>
 <text name="warning_pds_locked" language="de">ASB TARGET\nLOCKED!</text>
 <text name="warning_power_surge" language="de">POWER SURGE\nDETECTED</text>
 <text name="warning_oxygen" language="de">LIFE SUPPORT\nFAILING</text>
-<text name="warning_clone_off_1" language="de">CLONEBAY AUS</text>
+<text name="warning_clone_off_1" language="de">CLONEBAY OFF</text>
 <text name="warning_clone_off_2" language="de">CREW ARE DYING!</text>
-<text name="warning_engine" language="de">ANTRIEB KRITISCH</text>
-<text name="warning_hull_75" language="de">HÜLLE BEI 75 %</text>
-<text name="warning_hull_50" language="de">HÜLLE BEI 50 %</text>
-<text name="warning_hull_25" language="de">HÜLLE KRITISCH</text>
-<text name="warning_shields" language="de">SCHILDE KRITISCH</text>
+<text name="warning_engine" language="de">ENGINES CRITICAL</text>
+<text name="warning_hull_75" language="de">HULL AT 75%</text>
+<text name="warning_hull_50" language="de">HULL AT 50%</text>
+<text name="warning_hull_25" language="de">HULL CRITICAL</text>
+<text name="warning_shields" language="de">SHIELDS CRITICAL</text>
 <text name="warning_intruders" language="de">INTRUDERS\nDETECTED</text>
-<text name="warning_no_missiles" language="de">KEINE RAKETEN</text>
-<text name="warning_no_drones" language="de">KEINE DROHNEN</text>
-<text name="warning_no_enemy_ship" language="de">KEIN FEINDLICHES SCHIFF</text>
-<text name="warning_no_power" language="de">NICHT GENUG ENERGIE</text>
-<text name="warning_no_power_ipad" language="de">ZU WENIG ENERGIE</text>
-<text name="warning_system_broken" language="de">SYSTEM\nBESCHÄDIGT</text>
-<text name="warning_needs_upgrade" language="de">VERBESSERUNG\nNÖTIG</text>
-<text name="warning_no_system_power" language="de">NICHT GENUG\nSYSTEMENERGIE</text>
-<text name="warning_super_shield_mind" language="de">SUPER\nSCHILDE\nBLOCKEN MIND\nCONTROL</text>
-<text name="warning_super_shield_hacking" language="de">SUPER\nSCHILDE\nBLOCKEN\nHACKING</text>
-<text name="warning_super_shield_teleporter" language="de">SUPER\nSCHILDE\nBLOCKEN\nTELEPORT</text>
+<text name="warning_no_missiles" language="de">NO MISSILES</text>
+<text name="warning_no_drones" language="de">NO DRONES</text>
+<text name="warning_no_enemy_ship" language="de">NO\nENEMY\nSHIP</text>
+<text name="warning_no_power" language="de">NOT\nENOUGH\nPOWER</text>
+<text name="warning_no_power_ipad" language="de">POWER\nTOO\nLOW</text>
+<text name="warning_system_broken" language="de">SYSTEM\nBROKEN</text>
+<text name="warning_needs_upgrade" language="de">REQUIRES\nSYSTEM\nUPGRADE</text>
+<text name="warning_no_system_power" language="de">NOT ENOUGH\nSYSTEM POWER</text>
+<text name="warning_super_shield_mind" language="de">SUPER\nSHIELDS\nBLOCK MIND\nCONTROL</text>
+<text name="warning_super_shield_hacking" language="de">SUPER\nSHIELDS\nPREVENT\nHACKING</text>
+<text name="warning_super_shield_teleporter" language="de">SUPER\nSHIELDS\nPREVENT\nTELEPORTING</text>
 <text name="warning_ftl_charging" language="de">ENEMY FTL CHARGING</text>
 <text name="warning_ftl_charging_ipad" language="de">FTL\nCHARGING</text>
 <text name="warning_ftl_delayed" language="de">ENEMY FTL DELAYED</text>
@@ -4490,22 +4490,22 @@
 <text name="warning_ftl_imminent" language="de">JUMP IMMINENT</text>
 <text name="warning_ftl_imminent_ipad" language="de">FTL\nJUMP\nIMMINENT</text>
 <text name="warning_boss_jump" language="de">FLAGSHIP\nJUMPING</text>
-<text name="target_window" language="de">ZIEL</text>
+<text name="target_window" language="de">TARGET</text>
 <text name="combat_class" language="de">Class: \1</text>
-<text name="combat_relationship" language="de">Beziehung: \1</text>
+<text name="combat_relationship" language="de">Relationship: \1</text>
 <text name="neutral" language="de">Neutral</text>
-<text name="hostile" language="de">Feindlich</text>
-<text name="engines_hacked" language="de">Engines gehackt</text>
-<text name="pilot_hacked" language="de">Pilot gehackt</text>
-<text name="current_evasion" language="de">Ausweichen: \1</text>
-<text name="oxygen_hacked" language="de">Life Support gehackt</text>
-<text name="current_oxygen" language="de">Sauerstoff: \1</text>
+<text name="hostile" language="de">Hostile</text>
+<text name="engines_hacked" language="de">Engines Hacked</text>
+<text name="pilot_hacked" language="de">Pilot Hacked</text>
+<text name="current_evasion" language="de">Current Evasion: \1</text>
+<text name="oxygen_hacked" language="de">Life Support Hacked</text>
+<text name="current_oxygen" language="de">Current Oxygen: \1</text>
 <text name="ion_intruder" language="de">Ion Intruder</text>
 <text name="crew_repair_drone" language="de">Repair Drone</text>
 <text name="anti_person_drone" language="de">Anti-Personnel Drone</text>
 <text name="boarder_drone" language="de">Boarder Drone</text>
-<text name="hacking_tooltip" language="de">Ungültiges Ziel. Hacking-Drohne.</text>
-<text name="repair_tooltip" language="de">Ungültiges Ziel. Schiffsreparaturdrohne.</text>
+<text name="hacking_tooltip" language="de">Ungültiges Ziel. Hacking drone.</text>
+<text name="repair_tooltip" language="de">Ungültiges Ziel. Repair drone.</text>
 <text name="boarding_tooltip" language="de">Ungültiges Ziel. Boarding drone.</text>
 <text name="shield_tooltip" language="de">Ungültiges Ziel. Shield overcharger.</text>
 <text name="combat_friendly" language="de">Deine Combat Drone:\nGreift feindliche Schiffe an, bis sie zerstört wird oder du wegspringst.</text>
@@ -4517,20 +4517,20 @@
 <text name="anti_combat_friendly" language="de">Deine Anti-Combat Drone:\nSchießt auf feindliche Kampfdrohnen, um sie zu betäuben oder zu zerstören. Arbeitet, bis sie zerstört wird oder du wegspringst.</text>
 <text name="anti_combat_enemy" language="de">Feindliche Anti-Combat Drone:\nSchießt auf deine Kampfdrohnen, um sie zu betäuben oder zu zerstören. Kann deaktiviert werden, indem du das gegnerische Drohnensystem beschädigst.</text>
 <text name="map_title" language="de">BEACON MAP</text>
-<text name="map_sector" language="de">SEKTOR</text>
+<text name="map_sector" language="de">SECTOR</text>
 <text name="map_icon_base" language="de">BASE</text>
 <text name="map_icon_distress" language="de">DISTRESS</text>
 <text name="map_icon_exit" language="de">EXIT</text>
 <text name="map_icon_quest" language="de">QUEST</text>
 <text name="map_icon_repair" language="de">REPAIR</text>
 <text name="map_icon_store" language="de">SHOP</text>
-<text name="button_nextsector" language="de">NÄCHSTER SEKTOR</text>
-<text name="button_wait" language="de">WARTEN</text>
+<text name="button_nextsector" language="de">NEXT SECTOR</text>
+<text name="button_wait" language="de">WAIT</text>
 <text name="map_distress_beacon" language="de">DISTRESS\nBEACON</text>
-<text name="button_distress_off" language="de">AUS</text>
-<text name="button_distress_on" language="de">AN</text>
+<text name="button_distress_off" language="de">OFF</text>
+<text name="button_distress_on" language="de">ON</text>
 <text name="map_nofuel" language="de">NO FUEL</text>
-<text name="map_waiting" language="de">Warten...</text>
+<text name="map_waiting" language="de">Waiting...</text>
 <text name="sector_title" language="de">SECTOR MAP</text>
 <text name="sector_legend_civilian" language="de">Neutral</text>
 <text name="sector_legend_hostile" language="de">Feindlich</text>
@@ -4566,21 +4566,21 @@
 <text name="map_pulsar_loc" language="de">Ein Pulsar sorgt in diesem Gebiet für gefährliche elektromagnetische Strahlung.</text>
 <text name="map_pds_fleet" language="de">An dieser Position werden dich die ASB der Flotte beschießen.</text>
 <text name="map_pds_loc" language="de">In diesem System gibt es planetare Schiffsabwehrgeschütze.</text>
-<text name="upgrade_frame_systems" language="de">SYSTEME</text>
-<text name="upgrade_frame_subsystems" language="de">SUBSYSTEME</text>
-<text name="upgrade_frame_reactor" language="de">REAKTOR</text>
-<text name="button_accept" language="de">ANNEHMEN</text>
+<text name="upgrade_frame_systems" language="de">SYSTEMS</text>
+<text name="upgrade_frame_subsystems" language="de">SUBSYSTEMS</text>
+<text name="upgrade_frame_reactor" language="de">REACTOR</text>
+<text name="button_accept" language="de">ACCEPT</text>
 <text name="button_undo" language="de">UNDO</text>
-<text name="button_upgrade" language="de">VERBESSERN</text>
+<text name="button_upgrade" language="de">UPGRADE</text>
 <text name="upgrade_max" language="de">MAX</text>
-<text name="upgrade_reactor_power" language="de">\1 ENERGIEBALKEN</text>
-<text name="crewbox_dismiss" language="de">ENTLASSEN</text>
+<text name="upgrade_reactor_power" language="de">\1 POWER BARS</text>
+<text name="crewbox_dismiss" language="de">DISMISS</text>
 <text name="rename_note" language="de">Hinweis: Klick ein Crewmitglied an, um seinen Namen zu ändern.</text>
-<text name="equipment_frame_weapons" language="de">WAFFEN</text>
-<text name="equipment_frame_drones" language="de">DROHNEN</text>
-<text name="equipment_frame_cargo" language="de">FRACHT</text>
-<text name="equipment_frame_augments" language="de">ERWEITERUNGEN</text>
-<text name="equipment_no_system" language="de">SYSTEM NICHT INSTALLIERT</text>
+<text name="equipment_frame_weapons" language="de">WEAPONS</text>
+<text name="equipment_frame_drones" language="de">DRONES</text>
+<text name="equipment_frame_cargo" language="de">CARGO</text>
+<text name="equipment_frame_augments" language="de">AUGMENTATIONS</text>
+<text name="equipment_no_system" language="de">SYSTEM NOT INSTALLED</text>
 <text name="dismiss_box_title" language="de">DISMISSAL</text>
 <text name="dismiss_box_text" language="de">Ziehe Crewmitglieder\nin diese Box,\num sie zu entlassen.</text>
 <text name="overcapacity_crew_title" language="de">OVER\nCAPACITY</text>
@@ -4591,20 +4591,20 @@
 <text name="overcapacity_aug_title" language="de">OVER\nCAPACITY</text>
 <text name="overcapacity_aug_text1" language="de">Diese Erweiterung wird\nbeim Sprung\nzurückgelassen.</text>
 <text name="overcapacity_aug_text2" language="de">Ziehen und loslassen,\num Erweiterungen auszutauschen.</text>
-<text name="store_tab_buy" language="de">KAUFEN</text>
-<text name="store_tab_sell" language="de">VERKAUFEN</text>
-<text name="store_tab_page1" language="de">SEITE 1</text>
-<text name="store_tab_page2" language="de">SEITE 2</text>
+<text name="store_tab_buy" language="de">BUY</text>
+<text name="store_tab_sell" language="de">SELL</text>
+<text name="store_tab_page1" language="de">PAGE 1</text>
+<text name="store_tab_page2" language="de">PAGE 2</text>
 <text name="store_title_items" language="de">ITEMS</text>
-<text name="store_title_repair" language="de">REPARATUR</text>
-<text name="store_title_augments" language="de">ERWEITERUNGEN</text>
+<text name="store_title_repair" language="de">REPAIR</text>
+<text name="store_title_augments" language="de">AUGMENTATIONS</text>
 <text name="store_title_crew" language="de">CREW</text>
-<text name="store_title_drones" language="de">DROHNEN</text>
-<text name="store_title_systems" language="de">SYSTEME</text>
-<text name="store_title_weapons" language="de">WAFFEN</text>
-<text name="store_current_hull" language="de">HÜLLE\nAKTUELL</text>
-<text name="button_buy" language="de">KAUFEN</text>
-<text name="button_sell" language="de">VERKAUFEN</text>
+<text name="store_title_drones" language="de">DRONES</text>
+<text name="store_title_systems" language="de">SYSTEMS</text>
+<text name="store_title_weapons" language="de">WEAPONS</text>
+<text name="store_current_hull" language="de">CURRENT\nHULL</text>
+<text name="button_buy" language="de">BUY</text>
+<text name="button_sell" language="de">SELL</text>
 <text name="repair_all_button" language="de">FIX ALL</text>
 <text name="repair_all_title" language="de">Repair Entire Hull</text>
 <text name="repair_all_desc" language="de">Erteile einen Reparaturauftrag, um deine Hülle komplett reparieren zu lassen.</text>
@@ -4614,7 +4614,7 @@
 <text name="repair_max" language="de">MAX</text>
 <text name="sell_box_title" language="de">SELL ITEM</text>
 <text name="sell_box_text" language="de">Ausrüstung oder\nErweiterungen in diese\nBox ziehen,\num sie zu verkaufen.</text>
-<text name="sell_value" language="de">VERKAUFSWERT</text>
+<text name="sell_value" language="de">SELL VALUE</text>
 <text name="max_augments" language="de">Dein Schiff kann 3 Erweiterungen aufnehmen.</text>
 <text name="have_augment" language="de">Du besitzt diese Erweiterung bereits und sie kann nicht mehrfach verwendet werden.</text>
 <text name="max_crew" language="de">Dein Schiff ist voll, es ist kein Platz für weitere Crewmitglieder!</text>
@@ -4655,7 +4655,7 @@
 <text name="battery_power" language="de">Zusätzlich \1 Energie</text>
 <text name="clone" language="de">\1 Sek. Klondauer</text>
 <text name="clone_full" language="de">\1 Sek. Klondauer + \2 HP/Sprung</text>
-<text name="upgrade_reactor" language="de">Reaktor</text>
+<text name="upgrade_reactor" language="de">Reactor</text>
 <text name="reactor_desc" language="de">Versorgt alle Schiffssysteme mit Energie. Pro Energiebalken kannst du eine Einheit Energie für die Systeme verwenden. Subsysteme benötigen keine Energie vom Reaktor.</text>
 <text name="reactor_desc_short" language="de">Versorgt alle Systeme mit Energie.</text>
 <text name="weak_warning" language="de">Veraltetes System - zusätzlicher Schrott nötig für erste Verbesserungen</text>
@@ -4863,7 +4863,7 @@
 <text name="clonebay" language="de">Clonebay</text>
 <text name="mind" language="de">Mind Control</text>
 <text name="hacking" language="de">Hacking-System</text>
-<text name="reactor" language="de">Reaktor</text>
+<text name="reactor" language="de">Reactor</text>
 <text name="oxygen_installed" language="de">Life Support installiert</text>
 <text name="doors_installed" language="de">Doors-Subsystem installiert</text>
 <text name="shields_installed" language="de">Shields installiert</text>
@@ -4901,11 +4901,11 @@
 <text name="fleet_speed_1" language="de">Flottenfortschritt verdoppelt für 1 Sprung.</text>
 <text name="gameover_title_gameover" language="de">GAME OVER</text>
 <text name="gameover_title_victory" language="de">VICTORY!</text>
-<text name="gameover_button_stats" language="de">STATISTIK</text>
-<text name="gameover_button_restart" language="de">NEUSTART</text>
+<text name="gameover_button_stats" language="de">STATS</text>
+<text name="gameover_button_restart" language="de">RESTART</text>
 <text name="gameover_button_hangar" language="de">HANGAR</text>
-<text name="gameover_button_mainmenu" language="de">HAUPTMENÜ</text>
-<text name="gameover_button_quit" language="de">BEENDEN</text>
+<text name="gameover_button_mainmenu" language="de">MAIN MENU</text>
+<text name="gameover_button_quit" language="de">QUIT</text>
 <text name="gameover_win" language="de">Glückwunsch! Du hast das Rebellen-Flaggschiff besiegt und so der Föderation den Sieg beschert!</text>
 <text name="gameover_win_demo" language="de">Glückwunsch! Du hast den "Unbesiegbaren Piraten" bezwungen und die Demo abgeschlossen!</text>
 <text name="gameover_crew" language="de">Alle Crewmitglieder sind tot. Dein Schiff wird ewig durchs All treiben. Oder bis Plünderer es zerstören.</text>
@@ -5003,8 +5003,8 @@
 <text name="confirm_new_game" language="de">WARNUNG:\nWillst du wirklich ein neues Spiel starten? Dein bisheriger Fortschritt geht dadurch verloren.</text>
 <text name="confirm_reset_keys" language="de">Tastenbelegung zurücksetzen?</text>
 <text name="confirm_wipe_profile" language="de">Bist du sicher?\nDadurch gehen alle freigeschalteten Schiffe, Erfolge und Statistiken verloren.</text>
-<text name="button_cancel" language="de">ABBRECHEN</text>
-<text name="button_confirm" language="de">BESTÄTIGEN</text>
+<text name="button_cancel" language="de">CANCEL</text>
+<text name="button_confirm" language="de">CONFIRM</text>
 <text name="tutorial_continue" language="de">WEITER</text>
 <text name="window_title" language="de">FTL: Captain's Edition</text>
 <text name="error_resolution" language="de">Hinweis: FTL benötigt eine Mindestauflösung von 1280x720 - scheinbar unterstützt dein Computer diese Auflösung nicht. Bitte wende dich unter devteam@ftlgame.com an Subset Games, wenn du glaubst, dass diese Nachricht nicht zutrifft.</text>
