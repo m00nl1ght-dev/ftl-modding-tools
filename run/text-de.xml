@@ -6704,6 +6704,8 @@
 <text name="ce_eventList_CE_SOCIAL_CIVILIAN_1_c6_e_c6" language="de">Die Reise fortsetzen.</text>
 <text name="ce_eventList_CE_SOCIAL_CIVILIAN_1_c6_e_c6_e" language="de">Du hast jetzt keine Zeit für Unterhaltungen.</text>
 <text name="ce_eventList_CE_SOCIAL_HUMAN_HOME_1_c1" language="de">Das Crewmitglied entlassen.</text>
+<text name="ce_eventList_CE_CONVERSATION_MANTIS_CLAN_3_c1" language="de">Das Angebot annehmen, dem Sklaven die Freiheit schenken und ihn an der nächsten Station absetzen.</text>
+<text name="ce_eventList_CE_CONVERSATION_MANTIS_CLAN_3_c2" language="de">Das Angebot annehmen und den Sklaven zwingen, an Bord deines Schiffes zu dienen.</text>
 <text name="ce_event_FLEET_EASY" language="de">Die Rebellenflotte hat diesen Signalpunkt bereits übernommen!</text>
 <text name="ce_eventList_C_FLEET_LIST_1" language="de">Es sieht so aus, als würden die Rebellen kein Risiko mehr eingehen. Sie schicken eine automatische Aufklärungseinheit, um dein Schiff für einen Langstrecken-Artillerieschlag zu markieren. Die Flotte wird ihre volle kombinierte Feuerkraft auf dich loslassen, wenn du es nicht schaffst, rechtzeitig davonzuspringen.</text>
 <text name="ce_eventList_C_FLEET_LIST_6" language="de">Ein Aufklärer in der Nähe kommt auf dein Schiff zu. Du musst fliehen, bevor ihre Kreuzer das Feuer eröffnen!</text>
